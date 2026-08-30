@@ -1,0 +1,579 @@
+<!-- ==========================================================
+     EDIT MEDICINE MODAL
+========================================================== -->
+
+<div
+
+    class="modal"
+
+    id="editMedicineModal"
+
+>
+
+    <div class="modal-content">
+
+        <!-- =====================================
+             HEADER
+        ====================================== -->
+
+        <div class="modal-header">
+
+            <div>
+
+                <h2>
+
+                    Edit Medicine
+
+                </h2>
+
+                <p>
+
+                    Update medicine information
+
+                </p>
+
+            </div>
+
+            <button
+
+                type="button"
+
+                class="modal-close"
+
+                id="closeEditMedicineModal"
+
+            >
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+        <!-- =====================================
+             FORM
+        ====================================== -->
+
+        <form
+
+            method="POST"
+
+            id="editMedicineForm"
+
+        >
+
+            <input
+
+                type="hidden"
+
+                id="editMedicineId"
+
+                name="medicine_id"
+
+            >
+
+            <div class="modal-body">
+
+                <!-- =====================================
+                     BASIC INFORMATION
+                ====================================== -->
+
+                <h3 class="section-title">
+
+                    Basic Information
+
+                </h3>
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Medicine Code
+
+                        </label>
+
+                        <input
+
+                            type="text"
+
+                            id="editMedicineCode"
+
+                            name="medicine_code"
+
+                            readonly
+
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Barcode
+
+                        </label>
+
+                        <input
+
+                            type="text"
+
+                            id="editBarcode"
+
+                            name="barcode"
+
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Medicine Name
+
+                        </label>
+
+                        <input
+
+                            type="text"
+
+                            id="editMedicineName"
+
+                            name="medicine_name"
+
+                            required
+
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Generic Name
+
+                        </label>
+
+                        <input
+
+                            type="text"
+
+                            id="editGenericName"
+
+                            name="generic_name"
+
+                            required
+
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Category
+
+                        </label>
+
+                        <input
+
+                            type="text"
+
+                            id="editCategory"
+
+                            name="category"
+
+                            required
+
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Manufacturer
+
+                        </label>
+
+                        <input
+
+                            type="text"
+
+                            id="editManufacturer"
+
+                            name="manufacturer"
+
+                            required
+
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Supplier
+
+                        </label>
+
+                        <input
+
+                            type="text"
+
+                            id="editSupplier"
+
+                            name="supplier"
+
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Batch Number
+
+                        </label>
+
+                        <input
+
+                            type="text"
+
+                            id="editBatchNumber"
+
+                            name="batch_number"
+
+                        >
+
+                    </div>
+
+                </div>
+
+                                <!-- =====================================
+                     PRICING & STOCK
+                ====================================== -->
+
+                <h3 class="section-title">
+
+                    Pricing & Stock
+
+                </h3>
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Purchase Price
+
+                        </label>
+
+                        <input
+
+                            type="number"
+
+                            step="0.01"
+
+                            id="editPurchasePrice"
+
+                            name="purchase_price"
+
+                            required
+
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Selling Price
+
+                        </label>
+
+                        <input
+
+                            type="number"
+
+                            step="0.01"
+
+                            id="editSellingPrice"
+
+                            name="selling_price"
+
+                            required
+
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Quantity
+
+                        </label>
+
+                        <input
+
+                            type="number"
+
+                            id="editQuantity"
+
+                            name="quantity"
+
+                            required
+
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Reorder Level
+
+                        </label>
+
+                        <input
+
+                            type="number"
+
+                            id="editReorderLevel"
+
+                            name="reorder_level"
+
+                            required
+
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Unit
+
+                        </label>
+
+                        <select
+
+                            id="editUnit"
+
+                            name="unit"
+
+                            required
+
+                        >
+
+                            <option value="Tablets">Tablets</option>
+                            <option value="Capsules">Capsules</option>
+                            <option value="Strips">Strips</option>
+                            <option value="Boxes">Boxes</option>
+                            <option value="Bottles">Bottles</option>
+                            <option value="Vials">Vials</option>
+                            <option value="Pieces">Pieces</option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <!-- =====================================
+                     DATES
+                ====================================== -->
+
+                <h3 class="section-title">
+
+                    Manufacturing Details
+
+                </h3>
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Manufacture Date
+
+                        </label>
+
+                        <input
+
+                            type="date"
+
+                            id="editManufactureDate"
+
+                            name="manufacture_date"
+
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Expiry Date
+
+                        </label>
+
+                        <input
+
+                            type="date"
+
+                            id="editExpiryDate"
+
+                            name="expiry_date"
+
+                            required
+
+                        >
+
+                    </div>
+
+                </div>
+
+                <!-- =====================================
+                     IMAGE
+                ====================================== -->
+
+                <h3 class="section-title">
+
+                    Medicine Image
+
+                </h3>
+
+                <div class="form-grid">
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Change Image
+
+                        </label>
+
+                        <input
+
+                            type="file"
+
+                            id="editMedicineImage"
+
+                            name="medicine_image"
+
+                            accept="image/*"
+
+                        >
+
+                    </div>
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Preview
+
+                        </label>
+
+                        <div class="image-preview">
+
+                            <img
+
+                                id="editImagePreview"
+
+                                src="{{ url_for('static', filename='images/default_medicine.png') }}"
+
+                                alt="Medicine Preview"
+
+                            >
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- =====================================
+                     DESCRIPTION
+                ====================================== -->
+
+                <h3 class="section-title">
+
+                    Description
+
+                </h3>
+
+                <div class="form-group full">
+
+                    <textarea
+
+                        id="editDescription"
+
+                        name="description"
+
+                        placeholder="Medicine description..."
+
+                    ></textarea>
+
+                </div>
+
+            </div>
+
+            <!-- =====================================
+                 FOOTER
+            ====================================== -->
+
+            <div class="modal-footer">
+
+                <button
+
+                    type="button"
+
+                    class="cancel-btn"
+
+                    id="cancelEditMedicine"
+
+                >
+
+                    Cancel
+
+                </button>
+
+                <button
+
+                    type="submit"
+
+                    class="save-btn"
+
+                >
+
+                    <i class="fa-solid fa-pen-to-square"></i>
+
+                    Update Medicine
+
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

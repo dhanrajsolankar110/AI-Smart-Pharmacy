@@ -1,0 +1,1928 @@
+/* =========================================================
+   AI SMART PHARMACY
+   MODULE 5 — REPORTS & ANALYTICS
+   COMPACT PROFESSIONAL UI
+   ========================================================= */
+
+:root {
+    --primary: #5525d9;
+    --primary-dark: #451bb8;
+    --primary-light: #eee9ff;
+
+    --green: #16b978;
+    --green-light: #e5f8ef;
+
+    --orange: #ff9417;
+    --orange-light: #fff0dc;
+
+    --red: #f04444;
+    --red-light: #ffe7e7;
+
+    --blue: #2384e8;
+    --blue-light: #e7f2ff;
+
+    --yellow: #eab308;
+    --yellow-light: #fff8dc;
+
+    --text: #111827;
+    --text-secondary: #667085;
+    --text-light: #8b95a5;
+
+    --border: #e5e8ee;
+    --background: #f7f8fb;
+    --white: #ffffff;
+
+    --radius: 12px;
+
+    --shadow: 0 2px 8px rgba(17, 24, 39, 0.045);
+}
+
+
+/* =========================================================
+   MAIN PAGE
+   ========================================================= */
+
+.reports-page {
+    width: 100%;
+
+    min-height: calc(100vh - 72px);
+
+    padding: 10px;
+
+    box-sizing: border-box;
+
+    background: var(--background);
+
+    font-family: "Inter", sans-serif;
+
+}
+
+
+/* =========================================================
+   PAGE HEADER
+   ========================================================= */
+
+.reports-header {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.reports-title h1 {
+    margin: 0;
+
+    color: var(--text);
+
+    font-size: 27px;
+
+    line-height: 1.2;
+
+    font-weight: 700;
+
+    letter-spacing: -0.4px;
+}
+
+.reports-title p {
+    margin: 5px 0 0;
+
+    color: var(--text-secondary);
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   DATE FILTER
+   ========================================================= */
+
+.report-date-filter {
+    height: 38px;
+
+    min-width: 155px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 0 10px;
+
+    box-sizing: border-box;
+
+    border: 1px solid var(--border);
+
+    border-radius: 7px;
+
+    background: var(--white);
+
+    color: #687386;
+}
+
+.report-date-filter i:first-child {
+    font-size: 13px;
+
+    color: #697386;
+}
+
+.report-date-filter select {
+    flex: 1;
+
+    height: 100%;
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    color: #4b5563;
+
+    font-size: 11px;
+
+    cursor: pointer;
+
+    appearance: none;
+}
+
+.report-date-filter i:last-child {
+    font-size: 9px;
+
+    color: #8791a1;
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   SUMMARY CARDS
+   ========================================================= */
+
+.reports-summary-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 14px;
+
+    margin-bottom: 16px;
+}
+
+.report-summary-card {
+    height: 112px;
+
+    min-height: 112px;
+
+    max-height: 112px;
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    padding: 18px;
+
+    background: var(--white);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    box-shadow: var(--shadow);
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   SUMMARY ICON
+   ========================================================= */
+
+.summary-card-icon {
+    width: 48px;
+
+    height: 48px;
+
+    min-width: 48px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 11px;
+
+    font-size: 19px;
+}
+
+
+/* SALES */
+
+.sales-icon {
+    background: var(--green-light);
+
+    color: var(--green);
+}
+
+
+/* MEDICINES */
+
+.medicine-icon {
+    background: var(--primary-light);
+
+    color: var(--primary);
+}
+
+
+/* PATIENTS */
+
+.patient-icon {
+    background: var(--blue-light);
+
+    color: var(--blue);
+}
+
+
+/* STOCK */
+
+.stock-alert-icon {
+    background: var(--orange-light);
+
+    color: var(--orange);
+}
+
+
+/* =========================================================
+   SUMMARY CONTENT
+   ========================================================= */
+
+.summary-card-content {
+    min-width: 0;
+}
+
+.summary-card-content h4 {
+    margin: 0 0 4px;
+
+    color: var(--text);
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    white-space: nowrap;
+}
+
+.summary-card-content h2 {
+    margin: 0 0 5px;
+
+    color: var(--text);
+
+    font-size: 24px;
+
+    line-height: 1;
+
+    font-weight: 700;
+
+    letter-spacing: -0.3px;
+
+    white-space: nowrap;
+}
+
+.summary-card-content p {
+    margin: 0;
+
+    font-size: 10px;
+
+    white-space: nowrap;
+}
+
+.positive-change {
+    color: var(--green);
+}
+
+.negative-change {
+    color: var(--green);
+}
+
+.summary-card-content p i {
+    margin-right: 3px;
+
+    font-size: 8px;
+}
+
+.summary-card-content p strong {
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   MAIN CHARTS
+   ========================================================= */
+
+.reports-main-grid {
+    display: grid;
+
+    grid-template-columns:
+        minmax(0, 1.15fr)
+        minmax(0, 1fr)
+        minmax(0, 1fr);
+
+    gap: 14px;
+
+    margin-bottom: 16px;
+}
+
+
+/* =========================================================
+   GENERIC REPORT CARD
+   ========================================================= */
+
+.report-card {
+    background: var(--white);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    box-shadow: var(--shadow);
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   CARD HEADER
+   ========================================================= */
+
+.report-card-header {
+    min-height: 48px;
+
+    box-sizing: border-box;
+
+    padding: 14px 16px 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+}
+
+.report-card-header h3 {
+    margin: 0;
+
+    color: var(--text);
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   SALES TREND
+   ========================================================= */
+
+.sales-trend-card {
+    height: 198px;
+
+    min-height: 198px;
+}
+
+.chart-legend {
+    display: flex;
+
+    align-items: center;
+
+    gap: 6px;
+
+    color: #697386;
+
+    font-size: 9px;
+}
+
+.legend-line {
+    width: 16px;
+
+    height: 2px;
+
+    display: inline-block;
+
+    background: var(--primary);
+
+    position: relative;
+}
+
+.legend-line::after {
+    content: "";
+
+    width: 5px;
+
+    height: 5px;
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    border-radius: 50%;
+
+    background: var(--primary);
+}
+
+.chart-wrapper {
+    height: 140px;
+
+    padding: 0 12px 10px;
+
+    box-sizing: border-box;
+}
+
+.chart-wrapper canvas {
+    width: 100% !important;
+
+    height: 100% !important;
+}
+
+
+/* =========================================================
+   CATEGORY SALES
+   ========================================================= */
+
+.category-sales-card {
+    height: 198px;
+
+    min-height: 198px;
+}
+
+.category-chart-area {
+    height: 145px;
+
+    padding: 0 12px 10px;
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.donut-chart-wrapper {
+    width: 125px;
+
+    height: 125px;
+
+    min-width: 125px;
+
+    position: relative;
+}
+
+.donut-chart-wrapper canvas {
+    width: 100% !important;
+
+    height: 100% !important;
+}
+
+.donut-center {
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    pointer-events: none;
+}
+
+.donut-center strong {
+    color: var(--text);
+
+    font-size: 12px;
+
+    font-weight: 700;
+}
+
+.donut-center span {
+    margin-top: 2px;
+
+    color: #8a94a4;
+
+    font-size: 8px;
+}
+
+
+/* =========================================================
+   CATEGORY LEGEND
+   ========================================================= */
+
+.category-legend {
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 8px;
+
+    min-width: 0;
+}
+
+.category-item {
+    display: grid;
+
+    grid-template-columns: 8px 1fr auto;
+
+    align-items: center;
+
+    gap: 6px;
+
+    color: #657084;
+
+    font-size: 9px;
+}
+
+.category-item strong {
+    color: #4b5563;
+
+    font-size: 9px;
+
+    font-weight: 600;
+}
+
+.category-dot {
+    width: 8px;
+
+    height: 8px;
+
+    border-radius: 2px;
+}
+
+.category-dot.antibiotics {
+    background: #5530dd;
+}
+
+.category-dot.pain-relief {
+    background: #2587e8;
+}
+
+.category-dot.multivitamins {
+    background: #16b978;
+}
+
+.category-dot.antacids {
+    background: #ff9417;
+}
+
+.category-dot.others {
+    background: #aeb7c2;
+}
+
+
+/* =========================================================
+   STOCK STATUS
+   ========================================================= */
+
+.stock-status-card {
+    height: 198px;
+
+    min-height: 198px;
+}
+
+.stock-chart-area {
+    height: 145px;
+
+    padding: 0 12px 10px;
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.stock-donut-wrapper {
+    width: 125px;
+
+    height: 125px;
+
+    min-width: 125px;
+
+    position: relative;
+}
+
+.stock-donut-wrapper canvas {
+    width: 100% !important;
+
+    height: 100% !important;
+}
+
+.stock-donut-center {
+    position: absolute;
+
+    inset: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    pointer-events: none;
+}
+
+.stock-donut-center strong {
+    color: var(--text);
+
+    font-size: 16px;
+
+    font-weight: 700;
+}
+
+.stock-donut-center span {
+    margin-top: 2px;
+
+    color: #8a94a4;
+
+    font-size: 8px;
+}
+
+
+/* =========================================================
+   STOCK LEGEND
+   ========================================================= */
+
+.stock-legend {
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    min-width: 0;
+}
+
+.stock-legend-item {
+    display: grid;
+
+    grid-template-columns: 8px 1fr auto;
+
+    align-items: center;
+
+    gap: 6px;
+
+    color: #657084;
+
+    font-size: 9px;
+}
+
+.stock-legend-item strong {
+    color: #4b5563;
+
+    font-size: 9px;
+
+    font-weight: 600;
+}
+
+.stock-dot {
+    width: 8px;
+
+    height: 8px;
+
+    border-radius: 2px;
+}
+
+.stock-dot.in-stock {
+    background: var(--green);
+}
+
+.stock-dot.low-stock {
+    background: var(--orange);
+}
+
+.stock-dot.out-stock {
+    background: var(--red);
+}
+
+
+/* =========================================================
+   LOWER GRID
+   ========================================================= */
+
+.reports-lower-grid {
+    display: grid;
+
+    grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+
+    gap: 14px;
+}
+
+
+/* =========================================================
+   LOWER CARD HEIGHT
+   ========================================================= */
+
+.top-selling-card,
+.recent-activities-card {
+    min-height: 235px;
+}
+
+
+/* =========================================================
+   TABLE
+   ========================================================= */
+
+.reports-table-wrapper {
+    width: 100%;
+
+    overflow-x: auto;
+}
+
+.reports-table {
+    width: 100%;
+
+    border-collapse: collapse;
+
+    table-layout: auto;
+}
+
+.reports-table thead {
+    background: #fbfcfe;
+}
+
+.reports-table th {
+    height: 36px;
+
+    padding: 0 10px;
+
+    border-top: 1px solid var(--border);
+
+    border-bottom: 1px solid var(--border);
+
+    color: #687386;
+
+    font-size: 9px;
+
+    font-weight: 600;
+
+    text-align: left;
+
+    white-space: nowrap;
+}
+
+.reports-table td {
+    height: 37px;
+
+    padding: 0 10px;
+
+    border-bottom: 1px solid #edf0f4;
+
+    color: #596577;
+
+    font-size: 9px;
+
+    white-space: nowrap;
+}
+
+.reports-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.reports-table tbody tr:hover {
+    background: #faf9ff;
+}
+
+
+/* =========================================================
+   RANK BADGES
+   ========================================================= */
+
+.rank-badge {
+    width: 19px;
+
+    height: 19px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    font-size: 8px;
+
+    font-weight: 700;
+}
+
+.rank-one {
+    background: #fff1c9;
+
+    color: #d99000;
+}
+
+.rank-two {
+    background: #edf0f4;
+
+    color: #7a8492;
+}
+
+.rank-three {
+    background: #f9e5d5;
+
+    color: #bd7140;
+}
+
+.rank-number {
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 19px;
+
+    height: 19px;
+
+    color: #697386;
+
+    font-size: 9px;
+}
+
+
+/* =========================================================
+   CARD FOOTER LINK
+   ========================================================= */
+
+.card-footer-link {
+    height: 38px;
+
+    padding: 0 14px;
+
+    display: flex;
+
+    align-items: center;
+
+    border-top: 1px solid var(--border);
+}
+
+.card-footer-link a {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 5px;
+
+    color: var(--primary);
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+.card-footer-link a:hover {
+    color: var(--primary-dark);
+}
+
+.card-footer-link i {
+    font-size: 8px;
+}
+
+
+/* =========================================================
+   RECENT ACTIVITIES
+   ========================================================= */
+
+.activities-list {
+    width: 100%;
+}
+
+.activity-item {
+    min-height: 38px;
+
+    padding: 6px 12px;
+
+    box-sizing: border-box;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    border-top: 1px solid #edf0f4;
+}
+
+.activity-icon {
+    width: 28px;
+
+    height: 28px;
+
+    min-width: 28px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 7px;
+
+    font-size: 11px;
+}
+
+
+/* ACTIVITY COLORS */
+
+.sale-activity {
+    background: var(--green-light);
+
+    color: var(--green);
+}
+
+.patient-activity {
+    background: var(--blue-light);
+
+    color: var(--blue);
+}
+
+.stock-activity {
+    background: var(--orange-light);
+
+    color: var(--orange);
+}
+
+.prescription-activity {
+    background: var(--primary-light);
+
+    color: var(--primary);
+}
+
+.expiry-activity {
+    background: var(--red-light);
+
+    color: var(--red);
+}
+
+
+/* =========================================================
+   ACTIVITY CONTENT
+   ========================================================= */
+
+.activity-content {
+    flex: 1;
+
+    min-width: 0;
+}
+
+.activity-content h4 {
+    margin: 0 0 1px;
+
+    color: #4d5869;
+
+    font-size: 9px;
+
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+.activity-content p {
+    margin: 0;
+
+    color: #8b95a5;
+
+    font-size: 8px;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+.activity-time {
+    color: #8b95a5;
+
+    font-size: 8px;
+
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   CHART.JS CANVAS
+   ========================================================= */
+
+canvas {
+    display: block;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1250px) {
+
+    .reports-main-grid {
+        grid-template-columns:
+            minmax(0, 1fr)
+            minmax(0, 1fr);
+    }
+
+    .sales-trend-card {
+        grid-column: 1 / -1;
+    }
+}
+
+
+@media (max-width: 1050px) {
+
+    .reports-summary-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .reports-lower-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 750px) {
+
+    .reports-page {
+        padding: 18px;
+    }
+
+    .reports-header {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 10px;
+    }
+
+    .report-date-filter {
+        width: 100%;
+    }
+
+    .reports-main-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .sales-trend-card {
+        grid-column: auto;
+    }
+}
+
+
+@media (max-width: 550px) {
+
+    .reports-summary-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .report-summary-card {
+        height: 100px;
+
+        min-height: 100px;
+
+        max-height: 100px;
+    }
+
+    .category-chart-area,
+    .stock-chart-area {
+        gap: 4px;
+    }
+
+    .donut-chart-wrapper,
+    .stock-donut-wrapper {
+        width: 105px;
+
+        height: 105px;
+
+        min-width: 105px;
+    }
+
+    .category-legend,
+    .stock-legend {
+        gap: 7px;
+    }
+
+    .activity-time {
+        display: none;
+    }
+}
+
+/* =========================================================
+   FINAL REPORTS CARD SIZE FIX
+   ========================================================= */
+
+/* Main 3-card chart row */
+.reports-main-grid {
+    display: grid !important;
+
+    grid-template-columns:
+        minmax(0, 1.15fr)
+        minmax(0, 1fr)
+        minmax(0, 1fr) !important;
+
+    gap: 14px !important;
+
+    align-items: start !important;
+
+    margin-bottom: 16px !important;
+}
+
+
+/* Force all three chart cards to exactly the same compact height */
+.reports-main-grid > .report-card {
+    height: 250px !important;
+
+    min-height: 250px !important;
+
+    max-height: 250px !important;
+
+    align-self: start !important;
+
+    box-sizing: border-box !important;
+
+    overflow: hidden !important;
+}
+
+
+/* Sales chart */
+.sales-trend-card {
+    height: 250px !important;
+
+    min-height: 250px !important;
+
+    max-height: 250px !important;
+}
+
+
+/* Category chart */
+.category-sales-card {
+    height: 250px !important;
+
+    min-height: 250px !important;
+
+    max-height: 250px !important;
+}
+
+
+/* Stock chart — MOST IMPORTANT FIX */
+.stock-status-card {
+    height: 250px !important;
+
+    min-height: 250px !important;
+
+    max-height: 250px !important;
+
+    align-self: start !important;
+}
+
+
+/* Chart content */
+.chart-wrapper {
+    height: 190px !important;
+
+    max-height: 190px !important;
+}
+
+
+/* Category content */
+.category-chart-area {
+    height: 190px !important;
+
+    max-height: 190px !important;
+}
+
+
+/* Stock content */
+.stock-chart-area {
+    height: 190px !important;
+
+    max-height: 190px !important;
+}
+
+
+/* =========================================================
+   DONUT SIZE
+   ========================================================= */
+
+.donut-chart-wrapper {
+    width: 145px !important;
+
+    height: 145px !important;
+
+    min-width: 145px !important;
+
+    flex-shrink: 0;
+}
+
+.stock-donut-wrapper {
+    width: 145px !important;
+
+    height: 145px !important;
+
+    min-width: 145px !important;
+
+    flex-shrink: 0;
+}
+
+
+/* =========================================================
+   LOWER CARDS
+   ========================================================= */
+
+.reports-lower-grid {
+    display: grid !important;
+
+    grid-template-columns:
+        minmax(0, 1.45fr)
+        minmax(0, 1fr) !important;
+
+    gap: 14px !important;
+
+    align-items: start !important;
+
+    margin-top: 0 !important;
+}
+
+
+.top-selling-card,
+.recent-activities-card {
+    height: auto !important;
+
+    min-height: 235px !important;
+
+    max-height: none !important;
+
+    align-self: start !important;
+}
+
+
+/* =========================================================
+   REMOVE UNWANTED EXTRA HEIGHT
+   ========================================================= */
+
+.report-card {
+    align-self: start;
+}
+
+
+/* Prevent grid children from forcing row height */
+.reports-main-grid > *,
+.reports-lower-grid > * {
+    min-height: 0;
+}
+
+
+/* =========================================================
+   COMPACT TABLE
+   ========================================================= */
+
+.reports-table th {
+    height: 34px !important;
+
+    padding-top: 0 !important;
+
+    padding-bottom: 0 !important;
+}
+
+.reports-table td {
+    height: 37px !important;
+
+    padding-top: 0 !important;
+
+    padding-bottom: 0 !important;
+}
+
+
+/* =========================================================
+   COMPACT ACTIVITIES
+   ========================================================= */
+
+.activity-item {
+    min-height: 39px !important;
+
+    height: 39px !important;
+
+    padding: 5px 12px !important;
+
+    box-sizing: border-box !important;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1250px) {
+
+    .reports-main-grid {
+        grid-template-columns:
+            minmax(0, 1fr)
+            minmax(0, 1fr) !important;
+    }
+
+    .sales-trend-card {
+        grid-column: 1 / -1;
+    }
+
+    .reports-main-grid > .report-card {
+        height: 250px !important;
+
+        min-height: 250px !important;
+
+        max-height: 250px !important;
+    }
+}
+
+
+@media (max-width: 750px) {
+
+    .reports-main-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .sales-trend-card {
+        grid-column: auto;
+    }
+
+    .reports-main-grid > .report-card {
+        height: 250px !important;
+
+        min-height: 250px !important;
+
+        max-height: 250px !important;
+    }
+}
+
+/* =========================================================
+   REPORTS — STOCK STATUS FINAL FIX
+   ONLY STOCK STATUS IS AFFECTED
+   ========================================================= */
+
+/*
+   Scope everything to .reports-page so the Dashboard
+   module's .stock-* rules cannot affect Reports.
+*/
+
+
+.reports-page .stock-status-card {
+
+    height: 250px !important;
+
+    min-height: 250px !important;
+
+    max-height: 250px !important;
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    align-self: start !important;
+
+    overflow: hidden !important;
+
+    box-sizing: border-box !important;
+}
+
+
+/* =========================================================
+   CATEGORY SALES CHART AREA
+========================================================= */
+
+.reports-page .category-chart-area {
+
+    height: 190px !important;
+
+    min-height: 190px !important;
+
+    max-height: 190px !important;
+
+    padding: 0 12px 10px !important;
+
+    box-sizing: border-box !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    gap: 18px !important;
+
+    overflow: visible !important;
+
+}
+
+/* =========================================================
+   MEDICINE CATEGORY SALES — MATCH STOCK STATUS SIZE
+========================================================= */
+
+.reports-page .donut-chart-wrapper {
+
+    width: 165px !important;
+
+    height: 165px !important;
+
+    min-width: 165px !important;
+
+    min-height: 165px !important;
+
+    max-width: 165px !important;
+
+    max-height: 165px !important;
+
+    flex: 0 0 165px !important;
+
+    position: relative !important;
+
+    box-sizing: border-box !important;
+
+}
+
+
+/* =========================================================
+   CATEGORY CHART CANVAS
+========================================================= */
+
+.reports-page .donut-chart-wrapper canvas {
+
+    width: 165px !important;
+
+    height: 165px !important;
+
+    min-width: 165px !important;
+
+    min-height: 165px !important;
+
+    max-width: 165px !important;
+
+    max-height: 165px !important;
+
+    display: block !important;
+
+}
+
+
+/* =========================================================
+   CATEGORY CENTER TEXT
+========================================================= */
+
+.reports-page .donut-center {
+
+    position: absolute !important;
+
+    top: 50% !important;
+
+    left: 50% !important;
+
+    width: 100% !important;
+
+    height: 100% !important;
+
+    transform:
+        translate(
+            -50%,
+            -50%
+        ) !important;
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    align-items: center !important;
+
+    justify-content: center !important;
+
+    text-align: center !important;
+
+    pointer-events: none !important;
+
+    z-index: 2 !important;
+
+}
+
+
+.reports-page .donut-center strong {
+
+    margin: 0 !important;
+
+    padding: 0 !important;
+
+    color: var(--text) !important;
+
+    font-size: 13px !important;
+
+    line-height: 1.1 !important;
+
+    font-weight: 700 !important;
+
+}
+
+
+.reports-page .donut-center span {
+
+    margin-top: 3px !important;
+
+    color: #8a94a4 !important;
+
+    font-size: 8px !important;
+
+}
+
+
+/* =========================================================
+   SIDE LEGEND
+========================================================= */
+
+.reports-page .stock-legend {
+
+    flex: 1 1 auto !important;
+
+    min-width: 0 !important;
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    justify-content: center !important;
+
+    gap: 14px !important;
+
+    overflow: visible !important;
+}
+
+
+.reports-page .stock-legend-item {
+
+    display: grid !important;
+
+    grid-template-columns:
+        9px
+        minmax(70px, 1fr)
+        auto !important;
+
+    align-items: center !important;
+
+    column-gap: 7px !important;
+
+    color: #657084 !important;
+
+    font-size: 10px !important;
+
+    line-height: 1.2 !important;
+}
+
+
+.reports-page .stock-legend-item strong {
+
+    color: #4b5563 !important;
+
+    font-size: 10px !important;
+
+    font-weight: 600 !important;
+
+    white-space: nowrap !important;
+}
+
+
+.reports-page .stock-dot {
+
+    width: 9px !important;
+
+    height: 9px !important;
+
+    border-radius: 2px !important;
+
+    display: block !important;
+}
+
+
+.reports-page .stock-dot.in-stock {
+
+    background: var(--green) !important;
+}
+
+
+.reports-page .stock-dot.low-stock {
+
+    background: var(--orange) !important;
+}
+
+
+.reports-page .stock-dot.out-stock {
+
+    background: var(--red) !important;
+}
+
+
+/* =========================================================
+   DESKTOP — KEEP LARGE DONUT
+========================================================= */
+
+@media (min-width: 751px) {
+
+    .reports-page .stock-status-card {
+
+        height: 250px !important;
+
+        min-height: 250px !important;
+
+        max-height: 250px !important;
+    }
+
+
+    .reports-page .stock-chart-area {
+
+        height: 190px !important;
+
+        min-height: 190px !important;
+
+        max-height: 190px !important;
+    }
+
+
+    .reports-page .stock-donut-wrapper {
+
+        width: 165px !important;
+
+        height: 165px !important;
+
+        flex: 0 0 165px !important;
+    }
+
+
+    .reports-page .stock-donut-wrapper canvas {
+
+        width: 165px !important;
+
+        height: 165px !important;
+    }
+
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 550px) {
+
+    .reports-page .stock-status-card {
+
+        height: 250px !important;
+
+        min-height: 250px !important;
+
+        max-height: 250px !important;
+    }
+
+
+    .reports-page .stock-chart-area {
+
+        height: 190px !important;
+
+        min-height: 190px !important;
+
+        max-height: 190px !important;
+
+        gap: 8px !important;
+
+        padding-left: 10px !important;
+
+        padding-right: 10px !important;
+    }
+
+
+    .reports-page .stock-donut-wrapper {
+
+        width: 105px !important;
+
+        height: 105px !important;
+
+        min-width: 105px !important;
+
+        max-width: 105px !important;
+
+        flex: 0 0 105px !important;
+    }
+
+
+    .reports-page .stock-donut-wrapper canvas {
+
+        width: 105px !important;
+
+        height: 105px !important;
+    }
+
+
+    .reports-page .stock-legend {
+
+        gap: 7px !important;
+    }
+
+}
+
+/* =========================================================
+   STOCK STATUS — FIX CIRCLE SHAPE
+========================================================= */
+
+.reports-page .stock-status-card {
+    height: 250px !important;
+    min-height: 250px !important;
+    max-height: 250px !important;
+
+    box-sizing: border-box !important;
+}
+
+
+.reports-page .stock-chart-area {
+    height: 190px !important;
+    min-height: 190px !important;
+    max-height: 190px !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 22px !important;
+
+    padding: 0 16px 10px !important;
+
+    box-sizing: border-box !important;
+
+    overflow: visible !important;
+}
+
+
+.reports-page .stock-donut-wrapper {
+    position: relative !important;
+
+    width: 165px !important;
+    height: 165px !important;
+
+    min-width: 165px !important;
+    min-height: 165px !important;
+
+    max-width: 165px !important;
+    max-height: 165px !important;
+
+    flex: 0 0 165px !important;
+
+    aspect-ratio: 1 / 1 !important;
+
+    box-sizing: border-box !important;
+
+    display: block !important;
+
+    overflow: visible !important;
+}
+
+
+/* Force the canvas to be exactly square */
+
+.reports-page .stock-donut-wrapper canvas {
+    display: block !important;
+
+    width: 165px !important;
+    height: 165px !important;
+
+    min-width: 165px !important;
+    min-height: 165px !important;
+
+    max-width: 165px !important;
+    max-height: 165px !important;
+
+    aspect-ratio: 1 / 1 !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+/* Center text */
+
+.reports-page .stock-donut-center {
+    position: absolute !important;
+
+    top: 0 !important;
+    left: 0 !important;
+
+    width: 165px !important;
+    height: 165px !important;
+
+    display: flex !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    flex-direction: column !important;
+
+    transform: none !important;
+
+    pointer-events: none !important;
+
+    z-index: 5 !important;
+}
+
+
+.reports-page .stock-donut-center strong {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    font-size: 17px !important;
+    line-height: 1 !important;
+
+    color: #111827 !important;
+}
+
+
+.reports-page .stock-donut-center span {
+    margin-top: 4px !important;
+    padding: 0 !important;
+
+    font-size: 8px !important;
+    line-height: 1.2 !important;
+
+    color: #8a94a4 !important;
+}
+
+
+/* Legend */
+
+.reports-page .stock-legend {
+    flex: 1 1 auto !important;
+
+    min-width: 0 !important;
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    justify-content: center !important;
+
+    gap: 14px !important;
+}
+
+
+.reports-page .stock-legend-item {
+    display: grid !important;
+
+    grid-template-columns:
+        9px
+        minmax(70px, 1fr)
+        auto !important;
+
+    align-items: center !important;
+
+    gap: 7px !important;
+}
+
+
+.reports-page .stock-dot {
+    width: 9px !important;
+    height: 9px !important;
+
+    flex: 0 0 9px !important;
+
+    border-radius: 2px !important;
+}

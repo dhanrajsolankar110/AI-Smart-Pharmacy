@@ -1,0 +1,222 @@
+/* =====================================================
+   MODAL OVERLAY
+===================================================== */
+
+.modal{
+
+    position:fixed;
+
+    inset:0;
+
+    display:none;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:25px;
+
+    background:rgba(15,23,42,.55);
+
+    backdrop-filter:blur(5px);
+
+    z-index:9999;
+
+    font-family: "Inter", sans-serif;
+
+
+}
+
+.modal.show{
+
+    display:flex;
+
+    animation:fadeIn .25s ease;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+    }
+
+    to{
+
+        opacity:1;
+
+    }
+
+}
+
+/* =====================================================
+   MODAL BOX
+===================================================== */
+
+.modal-content{
+
+    width:100%;
+
+    max-width:1000px;
+
+    height:90vh;
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    overflow:hidden;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.20);
+
+}
+
+/* =====================================================
+   HEADER
+===================================================== */
+
+.modal-header{
+
+    flex-shrink:0;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:24px 30px;
+
+    border-bottom:1px solid #e5e7eb;
+
+}
+
+.modal-header h2{
+
+    font-size:28px;
+
+    color:#111827;
+
+}
+
+/* =====================================================
+   BODY
+===================================================== */
+
+.modal-body{
+
+    flex:1;
+
+    overflow-y:auto;
+
+    overflow-x:hidden;
+
+    padding:30px;
+
+}
+
+/* =====================================================
+   SCROLLBAR
+===================================================== */
+
+.modal-body::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+.modal-body::-webkit-scrollbar-thumb{
+
+    background:#7c3aed;
+
+    border-radius:20px;
+
+}
+
+.modal-body::-webkit-scrollbar-track{
+
+    background:#f3f4f6;
+
+}
+
+/* =====================================================
+   FOOTER
+===================================================== */
+
+.modal-footer{
+
+    flex-shrink:0;
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:15px;
+
+    padding:22px 30px;
+
+    border-top:1px solid #e5e7eb;
+
+    background:#ffffff;
+
+}
+
+/* =====================================================
+   CLOSE BUTTON
+===================================================== */
+
+.modal-close{
+
+    width:42px;
+
+    height:42px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#f3f4f6;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.modal-close:hover{
+
+    background:#ef4444;
+
+    color:#ffffff;
+
+}
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media(max-width:768px){
+
+    .modal{
+
+        padding:15px;
+
+        align-items:flex-start;
+
+    }
+
+    .modal-content{
+
+        height:calc(100vh - 30px);
+
+        margin:15px 0;
+
+    }
+
+}

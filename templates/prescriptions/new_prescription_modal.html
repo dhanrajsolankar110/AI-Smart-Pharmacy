@@ -1,0 +1,423 @@
+<!-- =========================================================
+     NEW PRESCRIPTION MODAL
+========================================================= -->
+
+<div
+    id="newPrescriptionModal"
+    class="prescription-modal"
+    style="display: none;"
+>
+
+    <div class="prescription-modal-overlay"></div>
+
+    <div class="prescription-modal-container">
+
+        <!-- Header -->
+        <div class="prescription-modal-header">
+
+            <div>
+                <h2>New Prescription</h2>
+                <p>Create a new patient prescription</p>
+            </div>
+
+            <button
+                type="button"
+                class="prescription-modal-close"
+                id="closePrescriptionModal"
+            >
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+
+        <!-- Body -->
+        <div class="prescription-modal-body">
+
+            <!-- Patient & Doctor -->
+            <div class="prescription-form-section">
+
+                <div class="prescription-section-title">
+                    <i class="fa-solid fa-user-doctor"></i>
+                    <span>Prescription Information</span>
+                </div>
+
+
+                <div class="prescription-form-grid">
+
+                    <!-- Patient -->
+                    <div class="prescription-form-group">
+
+                        <label for="prescriptionPatient">
+                            Patient
+                            <span>*</span>
+                        </label>
+
+                        <select
+                            id="prescriptionPatient"
+                            name="patient"
+                        >
+
+                            <option value="">
+                                Select patient
+                            </option>
+
+                            <option value="P1001">
+                                Rahul Sharma — P1001
+                            </option>
+
+                            <option value="P1002">
+                                Priya Mehta — P1002
+                            </option>
+
+                            <option value="P1003">
+                                Amit Verma — P1003
+                            </option>
+
+                            <option value="P1004">
+                                Sneha Patil — P1004
+                            </option>
+
+                            <option value="P1005">
+                                Vikram Singh — P1005
+                            </option>
+
+                            <option value="P1006">
+                                Neha Gupta — P1006
+                            </option>
+
+                            <option value="P1007">
+                                Sanjay Kumar — P1007
+                            </option>
+
+                            <option value="P1008">
+                                Anjali Desai — P1008
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- Doctor -->
+                    <div class="prescription-form-group">
+
+                        <label for="prescriptionDoctor">
+                            Doctor
+                            <span>*</span>
+                        </label>
+
+                        <select
+                            id="prescriptionDoctor"
+                            name="doctor"
+                        >
+
+                            <option value="">
+                                Select doctor
+                            </option>
+
+                            <option value="Dr. Amit Kumar">
+                                Dr. Amit Kumar — Cardiologist
+                            </option>
+
+                            <option value="Dr. Neha Singh">
+                                Dr. Neha Singh — Dermatologist
+                            </option>
+
+                            <option value="Dr. Rajesh Patel">
+                                Dr. Rajesh Patel — General Physician
+                            </option>
+
+                            <option value="Dr. Priya Nair">
+                                Dr. Priya Nair — Gynaecologist
+                            </option>
+
+                            <option value="Dr. Sunil Joshi">
+                                Dr. Sunil Joshi — Orthopedic
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- Date -->
+                    <div class="prescription-form-group">
+
+                        <label for="prescriptionDate">
+                            Prescription Date
+                            <span>*</span>
+                        </label>
+
+                        <div class="prescription-input-icon">
+
+                            <i class="fa-regular fa-calendar"></i>
+
+                            <input
+                                type="date"
+                                id="prescriptionDate"
+                                name="date"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Priority -->
+                    <div class="prescription-form-group">
+
+                        <label for="prescriptionPriority">
+                            Priority
+                        </label>
+
+                        <select
+                            id="prescriptionPriority"
+                            name="priority"
+                        >
+
+                            <option value="normal">
+                                Normal
+                            </option>
+
+                            <option value="urgent">
+                                Urgent
+                            </option>
+
+                            <option value="emergency">
+                                Emergency
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Medicines -->
+            <div class="prescription-form-section">
+
+                <div class="prescription-section-heading">
+
+                    <div class="prescription-section-title">
+                        <i class="fa-solid fa-pills"></i>
+                        <span>Medicines</span>
+                    </div>
+
+                    <button
+                        type="button"
+                        id="addPrescriptionMedicine"
+                        class="add-medicine-btn"
+                    >
+                        <i class="fa-solid fa-plus"></i>
+                        Add Medicine
+                    </button>
+
+                </div>
+
+
+                <div
+                    id="prescriptionMedicineList"
+                    class="prescription-medicine-list"
+                >
+
+                    <!-- Medicine Row -->
+                    <div
+                        class="prescription-medicine-row"
+                        data-medicine-row
+                    >
+
+                        <div class="prescription-form-group medicine-name-group">
+
+                            <label>
+                                Medicine
+                                <span>*</span>
+                            </label>
+
+                            <select
+                                class="prescription-medicine-select"
+                                name="medicine[]"
+                            >
+
+                                <option value="">
+                                    Select medicine
+                                </option>
+
+                                <option value="Paracetamol 500mg">
+                                    Paracetamol 500mg
+                                </option>
+
+                                <option value="Amoxicillin 250mg">
+                                    Amoxicillin 250mg
+                                </option>
+
+                                <option value="Cetirizine 10mg">
+                                    Cetirizine 10mg
+                                </option>
+
+                                <option value="Ibuprofen 400mg">
+                                    Ibuprofen 400mg
+                                </option>
+
+                                <option value="Omeprazole 20mg">
+                                    Omeprazole 20mg
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="prescription-form-group">
+
+                            <label>
+                                Dosage
+                                <span>*</span>
+                            </label>
+
+                            <input
+                                type="text"
+                                name="dosage[]"
+                                placeholder="e.g. 1 tablet"
+                            >
+
+                        </div>
+
+
+                        <div class="prescription-form-group">
+
+                            <label>
+                                Frequency
+                                <span>*</span>
+                            </label>
+
+                            <select name="frequency[]">
+
+                                <option value="">
+                                    Select
+                                </option>
+
+                                <option value="Once daily">
+                                    Once daily
+                                </option>
+
+                                <option value="Twice daily">
+                                    Twice daily
+                                </option>
+
+                                <option value="Three times daily">
+                                    Three times daily
+                                </option>
+
+                                <option value="As needed">
+                                    As needed
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="prescription-form-group duration-group">
+
+                            <label>
+                                Duration
+                            </label>
+
+                            <div class="duration-input">
+
+                                <input
+                                    type="number"
+                                    name="duration[]"
+                                    min="1"
+                                    placeholder="7"
+                                >
+
+                                <span>days</span>
+
+                            </div>
+
+                        </div>
+
+
+                        <button
+                            type="button"
+                            class="remove-medicine-btn"
+                            title="Remove medicine"
+                        >
+
+                            <i class="fa-solid fa-trash"></i>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Instructions -->
+            <div class="prescription-form-section">
+
+                <div class="prescription-section-title">
+
+                    <i class="fa-solid fa-note-sticky"></i>
+
+                    <span>Additional Instructions</span>
+
+                </div>
+
+
+                <div class="prescription-form-group">
+
+                    <label for="prescriptionNotes">
+                        Notes / Instructions
+                    </label>
+
+                    <textarea
+                        id="prescriptionNotes"
+                        name="notes"
+                        rows="4"
+                        placeholder="Enter any additional instructions for the patient..."
+                    ></textarea>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Footer -->
+        <div class="prescription-modal-footer">
+
+            <button
+                type="button"
+                class="prescription-cancel-btn"
+                id="cancelPrescriptionModal"
+            >
+                Cancel
+            </button>
+
+            <button
+                type="button"
+                class="prescription-save-btn"
+                id="savePrescription"
+                data-url="{{ url_for('prescriptions.create_prescription') }}"
+            >
+
+                <i class="fa-solid fa-check"></i>
+
+                Save Prescription
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>

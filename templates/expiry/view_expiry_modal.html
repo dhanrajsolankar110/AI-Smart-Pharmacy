@@ -1,0 +1,338 @@
+<!-- ==========================================================
+     VIEW EXPIRY MODAL
+========================================================== -->
+
+<div
+    class="modal"
+    id="viewExpiryModal">
+
+    <div class="modal-content">
+
+        <!-- ==========================================
+             HEADER
+        =========================================== -->
+
+        <div class="modal-header">
+
+            <div>
+
+                <h2>
+
+                    Medicine Expiry Details
+
+                </h2>
+
+                <p>
+
+                    Complete expiry information for the selected medicine.
+
+                </p>
+
+            </div>
+
+            <button
+                class="modal-close"
+                id="closeViewExpiryModal">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+        <!-- ==========================================
+             BODY
+        =========================================== -->
+
+        <div class="modal-body">
+
+            <!-- ======================================
+                 TOP PROFILE
+            ======================================= -->
+
+            <div class="view-stock-header">
+
+                <div class="view-stock-image">
+
+                    <img
+                        id="viewExpiryImage"
+                        src="{{ url_for('static', filename='images/default-medicine.png') }}"
+                        alt="Medicine">
+
+                </div>
+
+                <div class="view-stock-info">
+
+                    <h2 id="viewExpiryMedicine">
+
+                        Paracetamol 500mg
+
+                    </h2>
+
+                    <p id="viewExpiryGeneric">
+
+                        Generic Name
+
+                    </p>
+
+                    <span
+                        class="status warning"
+                        id="viewExpiryStatus">
+
+                        Expiring Soon
+
+                    </span>
+
+                </div>
+
+            </div>
+
+            <!-- ======================================
+                 BASIC INFORMATION
+            ======================================= -->
+
+            <h3 class="section-title">
+
+                Basic Information
+
+            </h3>
+
+            <div class="form-grid">
+
+                <div class="form-group">
+
+                    <label>
+
+                        Medicine Code
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="viewMedicineCode"
+                        readonly>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+
+                        Batch Number
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="viewBatchNumber"
+                        readonly>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+
+                        Category
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="viewCategory"
+                        readonly>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+
+                        Manufacturer
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="viewManufacturer"
+                        readonly>
+
+                </div>
+
+                                <div class="form-group">
+
+                    <label>
+
+                        Expiry Date
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="viewExpiryDate"
+                        readonly>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+
+                        Days Remaining
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="viewDaysRemaining"
+                        readonly>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+
+                        Current Stock
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="viewCurrentStock"
+                        readonly>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+
+                        Reorder Level
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="viewReorderLevel"
+                        readonly>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+
+                        Purchase Price
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="viewPurchasePrice"
+                        readonly>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label>
+
+                        Selling Price
+
+                    </label>
+
+                    <input
+                        type="text"
+                        id="viewSellingPrice"
+                        readonly>
+
+                </div>
+
+                <div class="form-group full">
+
+                    <label>
+
+                        Description
+
+                    </label>
+
+                    <textarea
+                        id="viewDescription"
+                        rows="5"
+                        readonly></textarea>
+
+                </div>
+
+            </div>
+
+            <!-- ======================================
+                 ALERT HISTORY
+            ======================================= -->
+
+            <h3 class="section-title">
+
+                Alert History
+
+            </h3>
+
+            <div class="table-responsive">
+
+                <table class="expiry-table">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Date</th>
+
+                            <th>Alert Type</th>
+
+                            <th>Status</th>
+
+                            <th>Sent To</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="alertHistoryTable">
+
+                        <tr>
+
+                            <td colspan="4" class="text-center">
+
+                                No alert history available.
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+        <!-- ======================================
+             FOOTER
+        ======================================= -->
+
+        <div class="modal-footer">
+
+            <button
+                type="button"
+                class="cancel-btn"
+                id="closeViewExpiry">
+
+                Close
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>

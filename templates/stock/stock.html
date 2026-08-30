@@ -1,0 +1,616 @@
+{% extends "components/dashboard_layout.html" %}
+
+{% block title %}
+Stock Management
+{% endblock %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+{% block extra_css %}
+
+<link rel="stylesheet"
+      href="{{ url_for('static', filename='css/stock.css') }}">
+
+{% endblock %}
+
+{% block content %}
+
+<div class="stock-page">
+
+    <!-- =====================================================
+         PAGE HEADER
+    ====================================================== -->
+
+    <div class="page-header">
+
+        <div class="page-title">
+
+            <h1>Stock Management</h1>
+
+            <p>
+                Track and manage medicine stock levels
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- =====================================================
+         SUMMARY CARDS
+    ====================================================== -->
+
+    <div class="summary-grid">
+
+        <!-- Total Stock -->
+
+        <div class="summary-card">
+
+            <div class="summary-icon purple">
+
+                <i class="fa-solid fa-box-open"></i>
+
+            </div>
+
+            <div class="summary-content">
+
+                <h5>Total Stock Items</h5>
+
+                <h2>{{ total_stock }}</h2>
+
+                <span>All medicines</span>
+
+            </div>
+
+        </div>
+
+        <!-- Low Stock -->
+
+        <div class="summary-card">
+
+            <div class="summary-icon orange">
+
+                <i class="fa-solid fa-triangle-exclamation"></i>
+
+            </div>
+
+            <div class="summary-content">
+
+                <h5>Low Stock Items</h5>
+
+                <h2>{{ low_stock }}</h2>
+
+                <span>Needs reorder</span>
+
+            </div>
+
+        </div>
+
+        <!-- Out Of Stock -->
+
+        <div class="summary-card">
+
+            <div class="summary-icon red">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+            </div>
+
+            <div class="summary-content">
+
+                <h5>Out of Stock</h5>
+
+                <h2>{{ out_of_stock }}</h2>
+
+                <span>Unavailable</span>
+
+            </div>
+
+        </div>
+
+        <!-- Stock Value -->
+
+        <div class="summary-card">
+
+            <div class="summary-icon green">
+
+                <i class="fa-solid fa-wallet"></i>
+
+            </div>
+
+            <div class="summary-content">
+
+                <h5>Stock Value</h5>
+
+                <h2>₹{{ stock_value }}</h2>
+
+                <span>Total inventory value</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+        <!-- =====================================================
+         STOCK PANEL
+    ====================================================== -->
+
+    <div class="stock-card">
+
+        <!-- =====================================================
+             TABS
+        ====================================================== -->
+
+        <div class="stock-tabs">
+
+            <button class="tab-btn active">
+
+                Current Stock
+
+            </button>
+
+            <button class="tab-btn">
+
+                Stock In
+
+            </button>
+
+            <button class="tab-btn">
+
+                Stock Out
+
+            </button>
+
+            <button class="tab-btn">
+
+                Adjustments
+
+            </button>
+
+            <button class="tab-btn">
+
+                Stock History
+
+            </button>
+
+        </div>
+
+        <!-- =====================================================
+             TOOLBAR
+        ====================================================== -->
+
+        <div class="stock-toolbar">
+
+            <div class="toolbar-left">
+
+                <!-- Search -->
+
+                <div class="search-box">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input
+                        type="text"
+                        id="searchStock"
+                        placeholder="Search medicines...">
+
+                </div>
+
+                <!-- Category -->
+
+                <select id="categoryFilter">
+
+                    <option value="">
+                        All Categories
+                    </option>
+
+                    {% for category in categories %}
+
+                    <option value="{{ category[0] }}">
+
+                        {{ category[0] }}
+
+                    </option>
+
+                    {% endfor %}
+
+                </select>
+
+                <!-- Status -->
+
+                <select id="statusFilter">
+
+                    <option value="">
+                        All Status
+                    </option>
+
+                    <option value="In Stock">
+                        In Stock
+                    </option>
+
+                    <option value="Low Stock">
+                        Low Stock
+                    </option>
+
+                    <option value="Out of Stock">
+                        Out of Stock
+                    </option>
+
+                </select>
+
+            </div>
+
+            <div class="toolbar-right">
+
+                <button
+                    class="add-stock-btn"
+                    id="addStockBtn">
+
+                    <i class="fa-solid fa-plus"></i>
+
+                    Add Stock
+
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- =====================================================
+             TABLE
+        ====================================================== -->
+
+        <div class="table-responsive">
+
+            <table class="stock-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Medicine Name</th>
+
+                        <th>Batch No.</th>
+
+                        <th>Category</th>
+
+                        <th>Stock</th>
+
+                        <th>Unit</th>
+
+                        <th>Reorder Level</th>
+
+                        <th>Status</th>
+
+                        <th>Action</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                                    {% for stock in stocks %}
+
+                <tr>
+
+                    <!-- ======================================
+                         MEDICINE
+                    ======================================= -->
+
+                    <td>
+
+                        <div class="medicine-info">
+
+                            <div class="medicine-image">
+
+                                {% if stock.image %}
+
+                                <img
+                                    src="{{ url_for('static', filename='uploads/medicines/' ~ stock.image) }}"
+                                    alt="{{ stock.medicine_name }}">
+
+                                {% else %}
+
+                                <img
+                                    src="{{ url_for('static', filename='images/default-medicine.png') }}"
+                                    alt="Medicine">
+
+                                {% endif %}
+
+                            </div>
+
+                            <div class="medicine-details">
+
+                                <h4>
+
+                                    {{ stock.medicine_name }}
+
+                                </h4>
+
+                            </div>
+
+                        </div>
+
+                    </td>
+
+                    <!-- ======================================
+                         BATCH NUMBER
+                    ======================================= -->
+
+                    <td>
+
+                        {{ stock.batch_number }}
+
+                    </td>
+
+                    <!-- ======================================
+                         CATEGORY
+                    ======================================= -->
+
+                    <td>
+
+                        {{ stock.category }}
+
+                    </td>
+
+                    <!-- ======================================
+                         STOCK
+                    ======================================= -->
+
+                    <td>
+
+                        {{ stock.quantity }}
+
+                    </td>
+
+                    <!-- ======================================
+                         UNIT
+                    ======================================= -->
+
+                    <td>
+
+                        {{ stock.unit }}
+
+                    </td>
+
+                    <!-- ======================================
+                         REORDER LEVEL
+                    ======================================= -->
+
+                    <td>
+
+                        {{ stock.reorder_level }}
+
+                    </td>
+
+                    <!-- ======================================
+                         STATUS
+                    ======================================= -->
+
+                    <td>
+
+                        {% if stock.status == "In Stock" %}
+
+                        <span class="status success">
+
+                            In Stock
+
+                        </span>
+
+                        {% elif stock.status == "Low Stock" %}
+
+                        <span class="status warning">
+
+                            Low Stock
+
+                        </span>
+
+                        {% else %}
+
+                        <span class="status danger">
+
+                            Out of Stock
+
+                        </span>
+
+                        {% endif %}
+
+                    </td>
+
+                    <!-- ======================================
+                         ACTIONS
+                    ======================================= -->
+
+                    <td>
+
+                        <div class="table-actions">
+
+                            <button
+                                class="action-btn edit editStockBtn"
+                                data-id="{{ stock.id }}">
+
+                                <i class="fa-regular fa-pen-to-square"></i>
+
+                            </button>
+
+                            <button
+                                class="action-btn more">
+
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                            </button>
+
+                        </div>
+
+                    </td>
+
+                </tr>
+
+                {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <!-- =====================================================
+     TABLE FOOTER
+====================================================== -->
+
+<div class="table-footer">
+
+    <div class="table-info">
+
+        Showing
+
+        <strong>
+            {{ pagination.first or 0 }}
+        </strong>
+
+        to
+
+        <strong>
+            {{ pagination.last or 0 }}
+        </strong>
+
+        of
+
+        <strong>
+            {{ pagination.total }}
+        </strong>
+
+        results
+
+    </div>
+
+
+    <div class="pagination">
+
+        <!-- PREVIOUS -->
+
+        {% if pagination.has_prev %}
+
+        <a
+            href="{{ url_for(
+                'stock.stock',
+                page=pagination.prev_num
+            ) }}"
+            class="pagination-btn"
+        >
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </a>
+
+        {% else %}
+
+        <span class="pagination-btn disabled">
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </span>
+
+        {% endif %}
+
+
+
+        <!-- PAGE NUMBERS -->
+
+        {% for page_num in pagination.iter_pages(
+            left_edge=1,
+            left_current=1,
+            right_current=1,
+            right_edge=1
+        ) %}
+
+            {% if page_num %}
+
+                {% if page_num == pagination.page %}
+
+                <span class="pagination-btn active">
+                    {{ page_num }}
+                </span>
+
+                {% else %}
+
+                <a
+                    href="{{ url_for(
+                        'stock.stock',
+                        page=page_num
+                    ) }}"
+                    class="pagination-btn"
+                >
+                    {{ page_num }}
+                </a>
+
+                {% endif %}
+
+            {% else %}
+
+                <span class="pagination-dots">
+                    ...
+                </span>
+
+            {% endif %}
+
+        {% endfor %}
+
+
+
+        <!-- NEXT -->
+
+        {% if pagination.has_next %}
+
+        <a
+            href="{{ url_for(
+                'stock.stock',
+                page=pagination.next_num
+            ) }}"
+            class="pagination-btn"
+        >
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </a>
+
+        {% else %}
+
+        <span class="pagination-btn disabled">
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </span>
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+    </div>
+
+</div>
+
+<!-- =====================================================
+     MODALS
+===================================================== -->
+
+{% include "stock/add_stock_modal.html" %}
+
+{% include "stock/edit_stock_modal.html" %}
+
+{% include "stock/view_stock_modal.html" %}
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+<script src="{{ url_for('static',filename='js/stock.js') }}"></script>
+
+{% endblock %}

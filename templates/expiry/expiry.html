@@ -1,0 +1,905 @@
+{% extends "components/dashboard_layout.html" %}
+
+{% block title %}
+
+Expiry Intelligence
+
+{% endblock %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+{% block extra_css %}
+
+<link
+rel="stylesheet"
+href="{{ url_for('static', filename='css/expiry.css') }}">
+
+{% endblock %}
+
+{% block content %}
+
+<div class="expiry-page">
+
+    <!-- ==========================================
+         PAGE HEADER
+    =========================================== -->
+
+    <div class="page-header">
+
+        <div>
+
+            <h1>
+
+                Expiry Intelligence
+
+            </h1>
+
+            <p>
+
+                Monitor and manage medicine expiry to reduce waste and prevent risks.
+
+            </p>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================================
+         SUMMARY CARDS
+    =========================================== -->
+
+    <div class="summary-grid">
+
+        <!-- Expired -->
+
+        <div class="summary-card expired">
+
+            <div class="summary-icon">
+
+                <i class="fa-solid fa-calendar-xmark"></i>
+
+            </div>
+
+            <div>
+
+                <span>
+
+                    Expired Items
+
+                </span>
+
+                <h2>
+
+                    {{ expired_count }}
+
+                </h2>
+
+                <small>
+
+                    Already expired
+
+                </small>
+
+            </div>
+
+        </div>
+
+        <!-- 0-30 Days -->
+
+        <div class="summary-card warning">
+
+            <div class="summary-icon">
+
+                <i class="fa-solid fa-calendar-days"></i>
+
+            </div>
+
+            <div>
+
+                <span>
+
+                    Expiring in 0–30 Days
+
+                </span>
+
+                <h2>
+
+                    {{ expiring_30 }}
+
+                </h2>
+
+                <small>
+
+                    Requires urgent action
+
+                </small>
+
+            </div>
+
+        </div>
+
+        <!-- 31-60 Days -->
+
+        <div class="summary-card moderate">
+
+            <div class="summary-icon">
+
+                <i class="fa-solid fa-calendar-week"></i>
+
+            </div>
+
+            <div>
+
+                <span>
+
+                    Expiring in 31–60 Days
+
+                </span>
+
+                <h2>
+
+                    {{ expiring_60 }}
+
+                </h2>
+
+                <small>
+
+                    Plan to use soon
+
+                </small>
+
+            </div>
+
+        </div>
+
+        <!-- Safe -->
+
+        <div class="summary-card safe">
+
+            <div class="summary-icon">
+
+                <i class="fa-solid fa-shield-heart"></i>
+
+            </div>
+
+            <div>
+
+                <span>
+
+                    Safe (60+ Days)
+
+                </span>
+
+                <h2>
+
+                    {{ safe_count }}
+
+                </h2>
+
+                <small>
+
+                    Well in time
+
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+        <!-- ==========================================
+         MAIN CONTENT
+    =========================================== -->
+
+    <div class="expiry-layout">
+
+        <!-- ======================================
+             LEFT PANEL
+        ======================================= -->
+
+        <div class="expiry-content">
+
+            <!-- Tabs -->
+
+            <div class="expiry-tabs">
+
+                <button class="tab-btn active">
+
+                    Expiring Soon
+
+                </button>
+
+                <button class="tab-btn">
+
+                    Expired Items
+
+                </button>
+
+                <button class="tab-btn">
+
+                    All Items
+
+                </button>
+
+                <button class="tab-btn">
+
+                    Expiry History
+
+                </button>
+
+            </div>
+
+            <!-- Toolbar -->
+
+            <div class="expiry-toolbar">
+
+                <div class="toolbar-left">
+
+                    <div class="search-box">
+
+                        <i class="fa-solid fa-magnifying-glass"></i>
+
+                        <input
+                            type="text"
+                            id="searchExpiry"
+                            placeholder="Search medicines, batch...">
+
+                    </div>
+
+                    <select id="categoryFilter">
+
+                        <option value="">
+
+                            All Categories
+
+                        </option>
+
+                        {% for category in categories %}
+
+                        <option value="{{ category[0] }}">
+
+                            {{ category[0] }}
+
+                        </option>
+
+                        {% endfor %}
+
+                    </select>
+
+                    <select id="statusFilter">
+
+                        <option value="">
+
+                            All Status
+
+                        </option>
+
+                        <option value="Critical">
+
+                            Critical
+
+                        </option>
+
+                        <option value="Warning">
+
+                            Warning
+
+                        </option>
+
+                        <option value="Moderate">
+
+                            Moderate
+
+                        </option>
+
+                        <option value="Safe">
+
+                            Safe
+
+                        </option>
+
+                    </select>
+
+                    <input
+                        type="date"
+                        id="expiryDate">
+
+                </div>
+
+                <div class="toolbar-right">
+
+                    <button
+                        class="add-alert-btn"
+                        id="addAlertBtn">
+
+                        <i class="fa-solid fa-plus"></i>
+
+                        Add Alert
+
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- ======================================
+                 TABLE START
+            ======================================= -->
+
+            <div class="table-responsive">
+
+                <table class="expiry-table">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Medicine</th>
+
+                            <th>Batch No.</th>
+
+                            <th>Category</th>
+
+                            <th>Expiry Date</th>
+
+                            <th>Days Left</th>
+
+                            <th>Status</th>
+
+                            <th>Action</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {% for item in expiry_medicines %}
+
+                            {% set medicine = item.medicine %}
+
+                        <tr
+
+                            data-name="{{ medicine.medicine_name }}"
+                            data-category="{{ medicine.category }}"
+                            data-status="{{ item.expiry_status }}"
+                            data-days="{{ item.days_left }}">
+
+                            <!-- Medicine -->
+
+                            <td>
+
+                                <div class="medicine-info">
+
+                                    <div class="medicine-image">
+
+                                        {% if medicine.image %}
+
+                                        <img
+                                        src="{{ url_for('static', filename='uploads/medicines/' ~ medicine.image) }}">
+
+                                        {% else %}
+
+                                        <img
+                                        src="{{ url_for('static', filename='images/default-medicine.png') }}">
+
+                                        {% endif %}
+
+                                    </div>
+
+                                    <div class="medicine-details">
+
+                                        <h4>
+
+                                            {{ medicine.medicine_name }}
+
+                                        </h4>
+
+                                        <p>
+
+                                            {{ medicine.generic_name }}
+
+                                        </p>
+
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+                            <!-- Batch -->
+
+                            <td>
+
+                                {{ medicine.batch_number }}
+
+                            </td>
+
+                            <!-- Category -->
+
+                            <td>
+
+                                {{ medicine.category }}
+
+                            </td>
+
+                            <!-- Expiry -->
+
+                            <td>
+
+                                {{ medicine.expiry_date.strftime("%d %b %Y") }}
+
+                            </td>
+
+                            <!-- Days Left -->
+
+                            <td>
+
+                                {% if item.days_left < 0 %}
+
+                                <span class="days expired">
+
+                                    Expired
+
+                                </span>
+
+                                {% elif item.days_left <= 30 %}
+
+                                <span class="days critical">
+
+                                    {{ item.days_left }} Days
+
+                                </span>
+
+                                {% elif item.days_left <= 60 %}
+
+                                <span class="days warning">
+
+                                    {{ item.days_left }} Days
+
+                                </span>
+
+                                {% else %}
+
+                                <span class="days safe">
+
+                                    {{ item.days_left }} Days
+
+                                </span>
+
+                                {% endif %}
+
+                            </td>
+
+                            <!-- Status -->
+
+                            <td>
+
+                                {% if item.expiry_status=="Critical" %}
+
+                                <span class="status danger">
+
+                                    Critical
+
+                                </span>
+
+                                {% elif item.expiry_status=="Warning" %}
+
+                                <span class="status warning">
+
+                                    Warning
+
+                                </span>
+
+                                {% elif item.expiry_status=="Moderate" %}
+
+                                <span class="status moderate">
+
+                                    Moderate
+
+                                </span>
+
+                                {% else %}
+
+                                <span class="status success">
+
+                                    Safe
+
+                                </span>
+
+                                {% endif %}
+
+                            </td>
+
+                            <!-- Action -->
+
+                            <td>
+
+                                <div class="table-actions">
+
+                                    <button
+
+                                        class="action-btn viewExpiryBtn"
+
+                                        data-id="{{ medicine.id }}">
+
+                                        <i class="fa-regular fa-eye"></i>
+
+                                    </button>
+
+                                    <button
+
+                                        class="action-btn more">
+
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                                    </button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <!-- ======================================
+     TABLE FOOTER
+====================================== -->
+
+<div class="table-footer">
+
+    <div class="table-info">
+
+        Showing
+
+        <strong>
+            {{ pagination.first or 0 }}
+        </strong>
+
+        to
+
+        <strong>
+            {{ pagination.last or 0 }}
+        </strong>
+
+        of
+
+        <strong>
+            {{ pagination.total }}
+        </strong>
+
+        items
+
+    </div>
+
+
+    <div class="pagination">
+
+        <!-- PREVIOUS -->
+
+        {% if pagination.has_prev %}
+
+        <a
+            href="{{ url_for(
+                'expiry.expiry',
+                page=pagination.prev_num
+            ) }}"
+            class="pagination-btn"
+        >
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </a>
+
+        {% else %}
+
+        <span class="pagination-btn disabled">
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </span>
+
+        {% endif %}
+
+
+
+        <!-- PAGE NUMBERS -->
+
+        {% for page_num in pagination.iter_pages(
+            left_edge=1,
+            left_current=1,
+            right_current=1,
+            right_edge=1
+        ) %}
+
+            {% if page_num %}
+
+                {% if page_num == pagination.page %}
+
+                <span class="pagination-btn active">
+                    {{ page_num }}
+                </span>
+
+                {% else %}
+
+                <a
+                    href="{{ url_for(
+                        'expiry.expiry',
+                        page=page_num
+                    ) }}"
+                    class="pagination-btn"
+                >
+                    {{ page_num }}
+                </a>
+
+                {% endif %}
+
+            {% else %}
+
+                <span class="pagination-dots">
+                    ...
+                </span>
+
+            {% endif %}
+
+        {% endfor %}
+
+
+
+        <!-- NEXT -->
+
+        {% if pagination.has_next %}
+
+        <a
+            href="{{ url_for(
+                'expiry.expiry',
+                page=pagination.next_num
+            ) }}"
+            class="pagination-btn"
+        >
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </a>
+
+        {% else %}
+
+        <span class="pagination-btn disabled">
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </span>
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+        </div>
+
+                <!-- ======================================
+             RIGHT SIDEBAR
+        ======================================= -->
+
+        <div class="expiry-sidebar">
+
+            <!-- ==================================
+                 EXPIRY OVERVIEW
+            =================================== -->
+
+            <div class="sidebar-card">
+
+                <div class="card-header">
+
+                    <h3>
+
+                        Expiry Overview
+
+                    </h3>
+
+                </div>
+
+                <div class="chart-container">
+
+                    <canvas
+                        id="expiryChart"
+                        data-expired="{{ expired_count }}"
+                        data-critical="{{ expiring_30 }}"
+                        data-warning="{{ expiring_60 }}"
+                        data-safe="{{ safe_count }}">
+                    </canvas>
+
+                </div>
+
+                <div class="overview-list">
+
+                    <div class="overview-item">
+
+                        <span class="dot expired"></span>
+
+                        <span>
+
+                            Expired
+
+                        </span>
+
+                        <strong>
+
+                            {{ expired_count }}
+
+                        </strong>
+
+                    </div>
+
+                    <div class="overview-item">
+
+                        <span class="dot critical"></span>
+
+                        <span>
+
+                            0 - 30 Days
+
+                        </span>
+
+                        <strong>
+
+                            {{ expiring_30 }}
+
+                        </strong>
+
+                    </div>
+
+                    <div class="overview-item">
+
+                        <span class="dot warning"></span>
+
+                        <span>
+
+                            31 - 60 Days
+
+                        </span>
+
+                        <strong>
+
+                            {{ expiring_60 }}
+
+                        </strong>
+
+                    </div>
+
+                    <div class="overview-item">
+
+                        <span class="dot safe"></span>
+
+                        <span>
+
+                            60+ Days
+
+                        </span>
+
+                        <strong>
+
+                            {{ safe_count }}
+
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ==================================
+                 ALERT SETTINGS
+            =================================== -->
+
+            <div class="sidebar-card">
+
+                <div class="card-header">
+
+                    <h3>
+
+                        Custom Alerts
+
+                    </h3>
+
+                </div>
+
+                <div class="alert-setting">
+
+                    <label>
+
+                        Alert Before
+
+                    </label>
+
+                    <select id="alertBefore">
+
+                        <option>7 Days</option>
+
+                        <option>15 Days</option>
+
+                        <option selected>30 Days</option>
+
+                        <option>45 Days</option>
+
+                        <option>60 Days</option>
+
+                    </select>
+
+                </div>
+
+                <div class="alert-setting">
+
+                    <label>
+
+                        Stock Less Than
+
+                    </label>
+
+                    <select id="alertStock">
+
+                        <option>10 Units</option>
+
+                        <option>20 Units</option>
+
+                        <option selected>50 Units</option>
+
+                        <option>100 Units</option>
+
+                    </select>
+
+                </div>
+
+                <button
+                    class="save-alert-btn"
+                    id="saveAlertSettings">
+
+                    <i class="fa-solid fa-bell"></i>
+
+                    Save Alert Settings
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ==========================================
+     MODALS
+========================================== -->
+
+{% include "expiry/add_alert_modal.html" %}
+
+{% include "expiry/view_expiry_modal.html" %}
+
+{% include "expiry/alert_settings_modal.html" %}
+
+{% endblock %}
+
+{% block extra_js %}
+
+<script
+src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script
+src="{{ url_for('static', filename='js/expiry.js') }}">
+</script>
+
+{% endblock %}

@@ -1,0 +1,85 @@
+<header class="top-header">
+
+    <!-- ==================================================
+         LEFT / SEARCH
+    =================================================== -->
+
+    <div class="header-search">
+
+        <i class="fa-solid fa-magnifying-glass"></i>
+
+        <input
+            type="text"
+            id="globalSearchInput"
+            autocomplete="off"
+            placeholder="Search medicines, patients, prescriptions..."
+        >
+
+        <div
+          id="globalSearchResults"
+          class="global-search-results">
+        </div>
+
+    </div>
+
+
+    <!-- ==================================================
+         RIGHT HEADER
+    =================================================== -->
+
+    <div class="header-right">
+
+        <!-- Notifications -->
+
+        <a
+            href="{{ url_for('notifications.notifications') }}"
+            class="header-icon-button notification-button"
+            title="Notifications">
+
+            <i class="fa-regular fa-bell"></i>
+
+            <span class="header-notification-badge">
+                6
+            </span>
+
+        </a>
+
+
+        <!-- Profile -->
+
+        <div class="header-profile">
+
+            <div class="header-profile-avatar">
+
+                <img
+                    src="{{ url_for('static', filename='images/profile.png') }}"
+                    alt="Pharmacist"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                >
+
+                <span class="profile-fallback">
+                    {{ session.get("user_name", "P")[0]|upper }}
+                </span>
+
+            </div>
+
+
+            <div class="header-profile-info">
+
+                <strong>
+                    {{ session.get("user_name", "Pharmacist") }}
+                </strong>
+
+                <span>
+                    Pharmacist
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+<script src="{{ url_for('static', filename='js/header.js') }}"></script>

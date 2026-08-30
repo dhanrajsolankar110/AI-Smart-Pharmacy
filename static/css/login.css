@@ -1,0 +1,901 @@
+/* ======================================================
+   AI SMART PHARMACY LOGIN PAGE
+====================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f4f6fb;
+    color:#1f2937;
+    overflow-x:hidden;
+    font-family: "Inter", sans-serif;
+
+}
+
+/* ==============================
+   MAIN CONTAINER
+============================== */
+
+.login-container{
+
+    display:flex;
+    min-height:100vh;
+    width:100%;
+
+}
+
+/* ==============================
+   LEFT SIDE
+============================== */
+
+.left-section{
+
+    width:46%;
+    position:relative;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    background:url("../images/pharmacy-bg.jpg") center center/cover no-repeat;
+
+    overflow:hidden;
+
+}
+
+.left-section::before{
+
+    content:"";
+
+    position:absolute;
+    inset:0;
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(255,255,255,.90),
+        rgba(255,255,255,.72)
+    );
+
+}
+
+.overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    radial-gradient(circle at top left,
+    rgba(107,70,255,.10),
+    transparent 45%);
+
+}
+
+.left-content{
+
+    position:relative;
+
+    z-index:5;
+
+    width:82%;
+
+}
+
+/* ==============================
+   BRAND
+============================== */
+
+.brand{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:16px;
+
+    margin-bottom:70px;
+
+}
+
+.brand-icon{
+
+    width:72px;
+
+    height:72px;
+
+    border-radius:18px;
+
+    background:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#5b31ff;
+
+    font-size:34px;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+}
+
+.brand h2{
+
+    font-size:42px;
+
+    font-weight:700;
+
+    color:#222;
+
+}
+
+.brand h2::first-letter{
+
+    color:#5b31ff;
+
+}
+
+.brand p{
+
+    font-size:18px;
+
+    color:#5f6472;
+
+}
+
+/* ==============================
+   HERO TEXT
+============================== */
+
+.hero-text h1{
+
+    font-size:58px;
+
+    line-height:1.15;
+
+    font-weight:700;
+
+    color:#1b1b1b;
+
+}
+
+.hero-text span{
+
+    color:#5b31ff;
+
+}
+
+.hero-text p{
+
+    margin-top:24px;
+
+    color:#5c6473;
+
+    line-height:1.9;
+
+    font-size:22px;
+
+    max-width:540px;
+
+}
+
+/* ==============================
+   FEATURE GRID
+============================== */
+
+.feature-grid{
+
+    margin-top:60px;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:18px;
+
+}
+
+.feature-card{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:24px 18px;
+
+    text-align:center;
+
+    box-shadow:0 12px 35px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.feature-card i{
+
+    font-size:34px;
+
+    color:#5b31ff;
+
+    margin-bottom:16px;
+
+}
+
+.feature-card span{
+
+    display:block;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    color:#222;
+
+    line-height:1.5;
+
+}
+
+/* ==============================
+   FOOTER
+============================== */
+
+.left-footer{
+
+    margin-top:80px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.left-footer i{
+
+    width:62px;
+
+    height:62px;
+
+    border-radius:18px;
+
+    background:#5b31ff;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:26px;
+
+}
+
+.left-footer h4{
+
+    font-size:22px;
+
+}
+
+.left-footer p{
+
+    color:#5d6472;
+
+    margin-top:4px;
+
+}
+
+/* ======================================================
+   RIGHT SECTION
+====================================================== */
+
+.right-section{
+
+    width:54%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#f7f8fc;
+
+    padding:40px;
+
+}
+
+/* ==========================
+   LOGIN CARD
+========================== */
+
+.login-card{
+
+    width:100%;
+    max-width:560px;
+
+    background:rgba(255,255,255,.95);
+
+    backdrop-filter:blur(18px);
+
+    border-radius:30px;
+
+    padding:45px 50px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.10);
+
+    animation:fadeUp .7s ease;
+
+}
+
+.login-icon{
+
+    width:90px;
+    height:90px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    border-radius:50%;
+
+    background:linear-gradient(
+        135deg,
+        #ece8ff,
+        #d9d1ff
+    );
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:#5b31ff;
+
+    font-size:38px;
+
+}
+
+.login-card h1{
+
+    text-align:center;
+
+    font-size:46px;
+
+    color:#111827;
+
+    margin-bottom:8px;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#6b7280;
+
+    font-size:18px;
+
+    margin-bottom:35px;
+
+}
+
+/* ==========================
+   FORM
+========================== */
+
+.input-group{
+
+    margin-bottom:22px;
+
+}
+
+.input-group label{
+
+    display:block;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    color:#374151;
+
+    margin-bottom:10px;
+
+}
+
+.input-box{
+
+    display:flex;
+
+    align-items:center;
+
+    border:2px solid #e6e8ef;
+
+    border-radius:14px;
+
+    overflow:hidden;
+
+    background:#fff;
+
+    transition:.3s;
+
+}
+
+.input-box:focus-within{
+
+    border-color:#5b31ff;
+
+    box-shadow:0 0 0 4px rgba(91,49,255,.10);
+
+}
+
+.input-box i:first-child{
+
+    width:56px;
+
+    text-align:center;
+
+    color:#9ca3af;
+
+    font-size:18px;
+
+}
+
+.input-box input{
+
+    flex:1;
+
+    border:none;
+
+    outline:none;
+
+    height:54px;
+
+    font-size:16px;
+
+    font-family:Poppins,sans-serif;
+
+    background:none;
+
+    color:#111827;
+
+}
+
+.input-box input::placeholder{
+
+    color:#9ca3af;
+
+}
+
+/* Password Eye */
+
+.eye-btn{
+
+    width:56px;
+
+    border:none;
+
+    background:none;
+
+    cursor:pointer;
+
+    color:#8b8b8b;
+
+    font-size:18px;
+
+}
+
+.eye-btn:hover{
+
+    color:#5b31ff;
+
+}
+
+/* Forgot */
+
+.forgot{
+
+    text-align:right;
+
+    margin-top:-5px;
+
+    margin-bottom:25px;
+
+}
+
+.forgot a{
+
+    text-decoration:none;
+
+    color:#5b31ff;
+
+    font-size:15px;
+
+    font-weight:600;
+
+}
+
+.forgot a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* ==========================
+   LOGIN BUTTON
+========================== */
+
+.login-btn{
+
+    width:100%;
+
+    height:56px;
+
+    border:none;
+
+    border-radius:14px;
+
+    background:linear-gradient(
+        90deg,
+        #4f2dff,
+        #6d3eff
+    );
+
+    color:white;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.login-btn i{
+
+    margin-right:10px;
+
+}
+
+.login-btn:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 12px 28px rgba(91,49,255,.30);
+
+}
+
+/* Divider */
+
+.divider{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    margin:30px 0;
+
+}
+
+.divider::before,
+.divider::after{
+
+    content:"";
+
+    flex:1;
+
+    height:1px;
+
+    background:#e5e7eb;
+
+}
+
+.divider span{
+
+    color:#6b7280;
+
+    font-size:15px;
+
+}
+
+/* Social */
+
+.social-login{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:15px;
+
+}
+
+.social-login button{
+
+    height:54px;
+
+    border:2px solid #e5e7eb;
+
+    border-radius:14px;
+
+    background:#fff;
+
+    font-size:15px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.social-login button:hover{
+
+    border-color:#5b31ff;
+
+    transform:translateY(-2px);
+
+}
+
+.fa-google{
+
+    color:#ea4335;
+
+    margin-right:10px;
+
+}
+
+.fa-microsoft{
+
+    color:#2563eb;
+
+    margin-right:10px;
+
+}
+
+/* Register */
+
+.register{
+
+    text-align:center;
+
+    margin-top:35px;
+
+    font-size:16px;
+
+}
+
+.register a{
+
+    text-decoration:none;
+
+    color:#5b31ff;
+
+    font-weight:700;
+
+}
+
+.register a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* Flash */
+
+.flash{
+
+    padding:14px;
+
+    border-radius:12px;
+
+    margin-bottom:25px;
+
+    text-align:center;
+
+    font-size:15px;
+
+}
+
+.flash.success{
+
+    background:#dcfce7;
+
+    color:#166534;
+
+}
+
+.flash.error{
+
+    background:#fee2e2;
+
+    color:#991b1b;
+
+}
+
+/* Footer */
+
+.login-footer{
+
+    position:relative;
+
+    bottom:18px;
+
+    left:91%;
+
+    transform:translateX(-50%);
+
+    color:#6b7280;
+
+    font-size:14px;
+
+}
+
+/* Animation */
+
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ======================================================
+   RESPONSIVE
+====================================================== */
+
+@media (max-width:1200px){
+
+    .left-section{
+
+        width:45%;
+
+    }
+
+    .right-section{
+
+        width:55%;
+
+    }
+
+    .hero-text h1{
+
+        font-size:46px;
+
+    }
+
+    .feature-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media (max-width:992px){
+
+    .left-section{
+
+        display:none;
+
+    }
+
+    .right-section{
+
+        width:100%;
+
+        padding:25px;
+
+    }
+
+    .login-card{
+
+        max-width:500px;
+
+    }
+
+}
+
+@media (max-width:576px){
+
+    .login-card{
+
+        padding:30px 25px;
+
+        border-radius:20px;
+
+    }
+
+    .login-card h1{
+
+        font-size:34px;
+
+    }
+
+    .social-login{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/* ==============================
+   ACTIVE INPUT
+============================== */
+
+.input-box.active{
+
+    border-color:#5b31ff;
+
+    box-shadow:0 0 0 5px rgba(91,49,255,.12);
+
+}
+
+/* ==============================
+   LOADING BUTTON
+============================== */
+
+.login-btn:disabled{
+
+    cursor:not-allowed;
+
+    opacity:.85;
+
+}
+
+.login-btn .fa-spinner{
+
+    margin-right:10px;
+
+}
+
+/* ==============================
+   INPUT TRANSITION
+============================== */
+
+.input-box{
+
+    transition:.30s;
+
+}
+
+.input-box input{
+
+    transition:.30s;
+
+}

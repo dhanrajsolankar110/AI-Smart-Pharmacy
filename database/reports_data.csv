@@ -1,0 +1,501 @@
+Report_ID,Report_Date,Report_Type,Period,Total_Sales_INR,Medicines_Sold,Patients_Handled,Prescriptions_Processed,Stock_Alerts,Expired_Items,Fraud_Risk_Alerts,Generated_By,Report_Status
+REP00001,2025-08-26,Expiry,Daily,26848,208,111,108,9,11,7,Dr. Anil Verma,Generated
+REP00002,2025-12-08,Sales,Monthly,34331,152,32,48,19,2,2,Dr. Priya Nair,Generated
+REP00003,2025-12-20,Sales,Monthly,47077,128,97,81,23,0,7,Dr. Rajesh Patel,Reviewed
+REP00004,2026-06-10,Patient,Monthly,66648,407,37,126,30,12,7,Dr. Priya Nair,Generated
+REP00005,2026-01-14,Inventory,Weekly,32501,254,108,51,18,13,6,System,Generated
+REP00006,2026-02-04,Patient,Monthly,18525,163,87,32,15,11,5,Dr. Meera Shah,Pending Review
+REP00007,2025-06-05,Sales,Monthly,67190,89,92,39,8,15,3,Dr. Amit Kumar,Generated
+REP00008,2026-02-27,Patient,Daily,59510,246,93,33,27,4,4,Dr. Sunil Joshi,Reviewed
+REP00009,2025-08-20,Fraud,Weekly,19564,183,63,32,10,12,8,Dr. Neha Singh,Reviewed
+REP00010,2025-06-14,Sales,Weekly,28291,385,120,61,0,5,5,Dr. Rajesh Patel,Pending Review
+REP00011,2025-11-14,Patient,Monthly,74597,55,72,93,25,13,0,Dr. Sunil Joshi,Reviewed
+REP00012,2026-03-21,Financial,Monthly,30198,359,113,112,28,11,7,Dr. Meera Shah,Pending Review
+REP00013,2025-03-21,Expiry,Daily,38440,267,78,107,24,2,2,Dr. Amit Kumar,Reviewed
+REP00014,2025-04-02,Financial,Monthly,48795,151,75,114,29,13,0,Dr. Kavita Rao,Reviewed
+REP00015,2026-07-11,Sales,Weekly,75325,237,16,123,23,8,6,Dr. Meera Shah,Pending Review
+REP00016,2026-03-02,Fraud,Daily,86139,186,32,47,22,13,0,Dr. Kavita Rao,Reviewed
+REP00017,2026-03-01,Financial,Daily,29638,232,103,14,34,12,3,Dr. Rajesh Patel,Generated
+REP00018,2025-10-31,Sales,Daily,33958,374,73,65,17,11,7,Admin,Generated
+REP00019,2025-04-17,Fraud,Monthly,83623,341,68,15,4,10,5,Dr. Amit Kumar,Generated
+REP00020,2025-09-23,Financial,Monthly,28254,245,75,102,5,10,4,Dr. Anil Verma,Reviewed
+REP00021,2026-07-20,Inventory,Monthly,48666,419,93,105,5,13,1,Dr. Priya Nair,Pending Review
+REP00022,2026-03-20,Expiry,Monthly,82376,326,119,111,15,1,5,Admin,Reviewed
+REP00023,2026-04-12,Fraud,Weekly,51016,432,98,109,11,8,8,Pharmacist,Generated
+REP00024,2025-09-25,Patient,Daily,52344,189,10,62,13,0,6,Pharmacist,Generated
+REP00025,2026-03-13,Expiry,Weekly,56701,99,38,38,1,10,3,Dr. Neha Singh,Pending Review
+REP00026,2026-03-06,Financial,Monthly,75377,351,63,91,21,12,7,System,Generated
+REP00027,2026-02-06,Expiry,Weekly,60398,277,29,69,31,6,8,Dr. Rajesh Patel,Pending Review
+REP00028,2026-01-13,Expiry,Weekly,19229,388,119,83,5,15,8,Dr. Meera Shah,Generated
+REP00029,2026-04-16,Financial,Monthly,63390,205,47,106,20,14,7,Dr. Amit Kumar,Generated
+REP00030,2025-09-15,Prescription,Daily,61088,339,65,63,1,9,8,Dr. Kavita Rao,Generated
+REP00031,2026-01-20,Prescription,Daily,64601,360,118,25,6,12,3,Dr. Priya Nair,Generated
+REP00032,2025-10-12,Expiry,Daily,35855,442,109,104,25,13,5,Dr. Priya Nair,Reviewed
+REP00033,2025-04-26,Prescription,Weekly,56864,444,56,90,6,10,8,System,Pending Review
+REP00034,2026-01-12,Inventory,Weekly,79858,437,69,46,28,5,2,Dr. Anil Verma,Reviewed
+REP00035,2026-07-30,Prescription,Weekly,75820,385,32,97,6,12,6,Dr. Anil Verma,Reviewed
+REP00036,2026-04-26,Financial,Daily,44385,120,88,89,32,2,6,Dr. Amit Kumar,Reviewed
+REP00037,2025-09-22,Inventory,Daily,89620,370,70,97,5,11,0,Admin,Pending Review
+REP00038,2026-01-13,Prescription,Monthly,40301,132,68,57,15,5,7,Dr. Priya Nair,Reviewed
+REP00039,2026-05-25,Expiry,Daily,19048,155,83,69,29,7,7,Dr. Priya Nair,Generated
+REP00040,2025-03-20,Patient,Monthly,29569,359,117,52,10,7,7,Dr. Neha Singh,Generated
+REP00041,2025-07-13,Sales,Monthly,68260,316,70,120,24,2,6,Dr. Sunil Joshi,Pending Review
+REP00042,2025-10-29,Sales,Monthly,85014,415,13,66,30,1,4,Dr. Anil Verma,Pending Review
+REP00043,2025-07-03,Sales,Weekly,67354,416,75,90,28,13,1,Dr. Neha Singh,Generated
+REP00044,2025-05-24,Expiry,Monthly,29651,419,31,56,26,10,2,Dr. Priya Nair,Reviewed
+REP00045,2026-04-15,Expiry,Daily,58257,378,98,19,29,15,3,Dr. Sunil Joshi,Reviewed
+REP00046,2026-03-02,Financial,Weekly,58340,280,99,43,17,1,2,Dr. Rajesh Patel,Pending Review
+REP00047,2026-03-06,Sales,Daily,63608,338,56,101,18,9,2,Admin,Pending Review
+REP00048,2026-02-25,Patient,Monthly,72653,394,47,29,8,4,4,Dr. Anil Verma,Reviewed
+REP00049,2025-09-08,Inventory,Daily,42742,348,48,28,0,8,5,System,Pending Review
+REP00050,2025-05-12,Prescription,Weekly,77517,366,31,54,9,10,8,Dr. Meera Shah,Reviewed
+REP00051,2025-05-14,Patient,Monthly,37167,318,71,32,30,12,0,Pharmacist,Generated
+REP00052,2026-02-06,Inventory,Weekly,42057,164,29,45,7,6,5,Dr. Kavita Rao,Reviewed
+REP00053,2025-10-13,Financial,Daily,83697,166,104,35,23,1,6,Pharmacist,Generated
+REP00054,2025-03-31,Expiry,Monthly,23807,188,80,78,34,2,0,Dr. Kavita Rao,Pending Review
+REP00055,2025-11-06,Inventory,Daily,48563,428,33,98,15,7,7,Dr. Rajesh Patel,Generated
+REP00056,2025-09-23,Expiry,Monthly,51369,96,105,34,4,4,8,Dr. Sunil Joshi,Generated
+REP00057,2026-04-16,Inventory,Daily,77558,287,22,78,3,10,1,Dr. Priya Nair,Reviewed
+REP00058,2026-06-02,Patient,Daily,77394,151,22,79,13,15,4,Admin,Generated
+REP00059,2025-10-07,Patient,Daily,73017,448,92,34,29,0,4,Dr. Anil Verma,Pending Review
+REP00060,2026-03-15,Patient,Monthly,38138,218,74,71,32,9,4,Dr. Sunil Joshi,Pending Review
+REP00061,2026-03-26,Expiry,Weekly,88566,307,49,90,28,3,2,Dr. Kavita Rao,Generated
+REP00062,2026-02-18,Prescription,Weekly,79983,133,32,18,27,9,1,Dr. Kavita Rao,Reviewed
+REP00063,2025-09-08,Financial,Monthly,38941,149,109,23,14,6,4,System,Reviewed
+REP00064,2026-02-18,Fraud,Monthly,76849,102,97,48,13,4,5,Dr. Rajesh Patel,Generated
+REP00065,2025-07-04,Patient,Daily,35701,362,94,30,20,15,6,Dr. Sunil Joshi,Generated
+REP00066,2025-04-10,Expiry,Weekly,54795,239,28,49,21,11,5,Dr. Kavita Rao,Reviewed
+REP00067,2025-12-26,Prescription,Weekly,69673,52,107,130,25,1,6,Dr. Meera Shah,Pending Review
+REP00068,2025-06-14,Inventory,Weekly,50940,59,114,100,12,6,4,Dr. Sunil Joshi,Reviewed
+REP00069,2026-07-19,Expiry,Weekly,65122,216,81,81,12,6,8,Dr. Kavita Rao,Reviewed
+REP00070,2026-06-07,Sales,Daily,36026,216,102,71,30,1,6,Dr. Kavita Rao,Generated
+REP00071,2026-03-10,Prescription,Monthly,64154,80,22,17,21,8,8,Dr. Meera Shah,Reviewed
+REP00072,2025-04-15,Expiry,Daily,76845,118,105,19,20,13,2,Dr. Rajesh Patel,Pending Review
+REP00073,2026-02-28,Prescription,Daily,88641,95,66,41,20,8,8,System,Reviewed
+REP00074,2025-08-12,Sales,Daily,23913,408,101,104,20,11,7,Dr. Priya Nair,Generated
+REP00075,2026-02-17,Patient,Daily,75398,235,52,35,16,8,0,Dr. Rajesh Patel,Generated
+REP00076,2025-09-06,Patient,Weekly,66944,299,112,16,33,1,8,Dr. Meera Shah,Generated
+REP00077,2025-10-15,Patient,Daily,81088,217,111,78,31,9,5,Pharmacist,Generated
+REP00078,2025-07-20,Sales,Monthly,27077,335,109,24,34,5,8,Dr. Neha Singh,Pending Review
+REP00079,2025-04-15,Patient,Monthly,40020,434,19,108,27,8,7,Dr. Kavita Rao,Pending Review
+REP00080,2026-05-15,Financial,Weekly,24571,143,92,83,21,14,8,Dr. Anil Verma,Generated
+REP00081,2026-01-07,Prescription,Weekly,15832,369,116,59,1,0,3,Dr. Meera Shah,Reviewed
+REP00082,2026-05-15,Expiry,Daily,57810,322,68,93,12,11,2,Dr. Priya Nair,Generated
+REP00083,2026-04-17,Expiry,Daily,28224,63,78,87,2,4,8,Dr. Meera Shah,Generated
+REP00084,2026-02-14,Fraud,Weekly,45160,386,36,35,19,5,6,Dr. Sunil Joshi,Generated
+REP00085,2025-04-08,Inventory,Weekly,18577,120,66,25,24,0,7,Dr. Priya Nair,Reviewed
+REP00086,2026-07-06,Patient,Weekly,67321,151,36,108,24,3,1,Dr. Rajesh Patel,Pending Review
+REP00087,2025-04-20,Prescription,Monthly,82698,112,30,106,13,3,7,Admin,Reviewed
+REP00088,2025-07-13,Expiry,Weekly,40032,157,21,112,32,11,7,Dr. Sunil Joshi,Pending Review
+REP00089,2026-06-04,Patient,Daily,15951,244,112,63,25,3,5,Dr. Meera Shah,Reviewed
+REP00090,2025-05-29,Sales,Weekly,54412,167,99,20,24,15,0,Dr. Sunil Joshi,Pending Review
+REP00091,2025-09-03,Expiry,Daily,33446,177,32,82,0,4,8,Dr. Rajesh Patel,Generated
+REP00092,2025-08-10,Patient,Daily,23019,355,112,36,18,11,6,Dr. Rajesh Patel,Reviewed
+REP00093,2026-05-04,Inventory,Monthly,34841,429,113,113,11,11,1,Dr. Rajesh Patel,Generated
+REP00094,2025-11-19,Inventory,Weekly,67907,370,57,126,16,10,0,Dr. Amit Kumar,Reviewed
+REP00095,2026-07-17,Patient,Daily,33919,258,15,79,24,5,2,Dr. Neha Singh,Generated
+REP00096,2026-02-03,Inventory,Daily,70034,83,24,70,29,13,8,Dr. Kavita Rao,Generated
+REP00097,2025-05-19,Prescription,Monthly,15094,209,70,70,16,4,5,Pharmacist,Pending Review
+REP00098,2026-01-25,Prescription,Monthly,27635,294,73,105,12,4,3,System,Generated
+REP00099,2025-06-14,Inventory,Daily,25772,430,22,101,25,9,1,Dr. Priya Nair,Generated
+REP00100,2026-03-25,Inventory,Monthly,54466,218,100,69,33,8,2,Dr. Meera Shah,Reviewed
+REP00101,2026-01-21,Financial,Daily,19485,432,112,59,3,6,2,Dr. Amit Kumar,Generated
+REP00102,2025-09-10,Sales,Daily,36218,253,51,11,30,15,5,Dr. Priya Nair,Pending Review
+REP00103,2025-05-12,Fraud,Monthly,68170,281,37,68,16,14,1,Dr. Sunil Joshi,Pending Review
+REP00104,2025-07-03,Prescription,Weekly,59204,145,42,53,31,14,1,Pharmacist,Reviewed
+REP00105,2025-07-06,Prescription,Weekly,23272,450,56,64,1,4,1,Dr. Priya Nair,Reviewed
+REP00106,2025-06-02,Sales,Daily,87150,414,47,26,22,9,7,Dr. Anil Verma,Pending Review
+REP00107,2025-04-06,Sales,Monthly,38935,253,114,130,32,6,2,Pharmacist,Generated
+REP00108,2025-06-29,Sales,Daily,61391,319,86,109,9,1,8,Dr. Meera Shah,Pending Review
+REP00109,2026-04-05,Financial,Monthly,36856,241,30,22,10,7,2,System,Pending Review
+REP00110,2025-12-26,Fraud,Daily,51493,75,61,47,24,13,7,Dr. Kavita Rao,Reviewed
+REP00111,2026-05-23,Financial,Weekly,15046,88,42,100,35,9,3,Admin,Pending Review
+REP00112,2025-03-27,Sales,Daily,68788,121,28,71,10,7,6,Dr. Rajesh Patel,Pending Review
+REP00113,2025-12-29,Patient,Monthly,40345,177,116,54,4,7,4,Dr. Rajesh Patel,Reviewed
+REP00114,2026-05-29,Financial,Monthly,34902,155,66,28,17,10,0,Pharmacist,Generated
+REP00115,2025-11-07,Expiry,Monthly,28449,445,90,86,30,7,7,Dr. Sunil Joshi,Generated
+REP00116,2025-10-27,Financial,Monthly,74554,128,19,122,21,8,0,Dr. Anil Verma,Reviewed
+REP00117,2026-06-04,Financial,Weekly,70824,349,31,122,31,9,3,System,Generated
+REP00118,2026-06-16,Financial,Monthly,62520,173,118,95,31,13,6,Dr. Amit Kumar,Pending Review
+REP00119,2026-06-08,Fraud,Weekly,51158,178,91,75,21,13,4,Dr. Meera Shah,Generated
+REP00120,2026-07-25,Sales,Monthly,78641,174,84,73,14,13,4,Dr. Neha Singh,Pending Review
+REP00121,2025-11-24,Prescription,Monthly,89136,242,87,76,24,1,1,Admin,Pending Review
+REP00122,2025-03-30,Sales,Monthly,27440,110,107,40,23,13,6,Dr. Amit Kumar,Reviewed
+REP00123,2025-09-03,Fraud,Weekly,75390,343,120,76,2,12,6,Pharmacist,Generated
+REP00124,2026-04-12,Prescription,Daily,18164,372,52,22,18,13,0,Dr. Kavita Rao,Reviewed
+REP00125,2026-01-29,Fraud,Monthly,60095,230,41,45,28,1,5,Dr. Kavita Rao,Pending Review
+REP00126,2025-09-09,Expiry,Daily,42443,335,108,120,35,10,6,Dr. Meera Shah,Generated
+REP00127,2025-05-25,Patient,Daily,58747,230,88,78,14,10,4,Dr. Neha Singh,Pending Review
+REP00128,2026-06-15,Financial,Weekly,56015,368,73,91,11,12,3,Dr. Sunil Joshi,Pending Review
+REP00129,2025-11-25,Expiry,Weekly,72379,235,106,30,10,10,0,Dr. Neha Singh,Generated
+REP00130,2025-10-07,Expiry,Monthly,88463,201,106,81,34,5,6,Admin,Pending Review
+REP00131,2026-06-23,Inventory,Daily,26867,414,86,127,25,8,2,Dr. Meera Shah,Pending Review
+REP00132,2026-01-31,Patient,Daily,65494,103,118,104,18,2,5,Dr. Priya Nair,Reviewed
+REP00133,2025-06-04,Sales,Daily,86825,129,95,45,1,15,3,Dr. Priya Nair,Generated
+REP00134,2025-05-09,Inventory,Weekly,43307,124,11,47,15,0,7,Dr. Kavita Rao,Reviewed
+REP00135,2025-10-20,Prescription,Monthly,40197,261,33,118,33,12,6,Dr. Sunil Joshi,Pending Review
+REP00136,2025-06-19,Expiry,Weekly,71533,239,56,125,15,10,8,Dr. Meera Shah,Generated
+REP00137,2025-03-28,Financial,Daily,57160,409,41,111,34,4,1,System,Pending Review
+REP00138,2025-11-30,Prescription,Weekly,28737,359,39,102,22,7,7,Dr. Sunil Joshi,Pending Review
+REP00139,2025-05-29,Sales,Weekly,72392,304,85,65,4,5,0,System,Reviewed
+REP00140,2025-10-18,Financial,Daily,60561,294,100,28,4,11,1,Dr. Sunil Joshi,Pending Review
+REP00141,2026-03-24,Financial,Daily,79331,270,100,107,8,12,3,Pharmacist,Reviewed
+REP00142,2026-02-23,Prescription,Monthly,54932,219,39,82,32,13,2,System,Pending Review
+REP00143,2025-10-04,Expiry,Daily,21943,414,106,55,7,2,1,System,Reviewed
+REP00144,2025-07-23,Inventory,Monthly,40509,177,86,109,11,5,0,Pharmacist,Reviewed
+REP00145,2025-07-23,Sales,Weekly,26679,98,61,83,24,13,6,Dr. Kavita Rao,Generated
+REP00146,2025-05-24,Expiry,Daily,27564,209,55,32,27,8,7,Dr. Neha Singh,Generated
+REP00147,2026-03-20,Patient,Daily,44706,229,92,91,5,10,7,Dr. Neha Singh,Pending Review
+REP00148,2026-03-22,Sales,Monthly,22982,335,17,97,23,3,2,Dr. Amit Kumar,Pending Review
+REP00149,2026-07-25,Sales,Weekly,65430,206,13,112,23,2,2,Dr. Priya Nair,Pending Review
+REP00150,2025-09-17,Patient,Daily,85151,161,54,22,9,11,2,Dr. Kavita Rao,Pending Review
+REP00151,2025-05-24,Fraud,Daily,81496,126,114,114,28,0,0,System,Generated
+REP00152,2025-06-13,Expiry,Weekly,29126,228,97,33,33,5,1,Dr. Kavita Rao,Generated
+REP00153,2025-09-26,Inventory,Monthly,59223,282,94,80,24,14,1,Pharmacist,Pending Review
+REP00154,2026-06-28,Expiry,Daily,62932,122,40,114,31,6,6,Dr. Amit Kumar,Reviewed
+REP00155,2026-07-01,Patient,Monthly,27947,316,21,94,20,12,8,Pharmacist,Generated
+REP00156,2026-03-09,Expiry,Daily,73707,440,35,47,27,12,6,Dr. Anil Verma,Generated
+REP00157,2025-11-22,Sales,Weekly,28673,214,81,71,24,9,7,Dr. Sunil Joshi,Pending Review
+REP00158,2025-08-08,Sales,Monthly,20456,146,21,49,34,5,5,Dr. Amit Kumar,Pending Review
+REP00159,2026-07-17,Sales,Weekly,65449,146,55,78,3,13,8,System,Generated
+REP00160,2025-11-13,Expiry,Monthly,20861,159,22,68,11,7,5,Dr. Neha Singh,Pending Review
+REP00161,2026-04-18,Patient,Daily,89861,377,88,11,2,12,3,Dr. Neha Singh,Reviewed
+REP00162,2026-07-29,Inventory,Monthly,58352,140,59,115,14,11,6,Dr. Amit Kumar,Generated
+REP00163,2026-05-20,Prescription,Daily,48840,266,97,83,19,6,4,Dr. Anil Verma,Pending Review
+REP00164,2026-07-26,Patient,Weekly,64431,192,117,125,12,15,4,Admin,Generated
+REP00165,2025-09-14,Financial,Weekly,20478,406,108,67,8,7,1,Pharmacist,Generated
+REP00166,2026-06-02,Inventory,Weekly,23716,143,78,51,10,8,6,Dr. Sunil Joshi,Pending Review
+REP00167,2026-03-07,Expiry,Monthly,49275,105,107,25,25,6,1,System,Reviewed
+REP00168,2026-04-20,Inventory,Monthly,19678,290,71,23,7,7,0,Dr. Anil Verma,Generated
+REP00169,2026-06-19,Fraud,Monthly,23834,173,65,88,23,14,2,Dr. Kavita Rao,Pending Review
+REP00170,2025-07-03,Sales,Monthly,81010,442,34,108,13,10,0,Admin,Generated
+REP00171,2025-04-02,Inventory,Weekly,47873,139,54,69,12,1,6,Dr. Anil Verma,Generated
+REP00172,2025-04-03,Expiry,Monthly,23342,165,33,90,12,10,7,Dr. Amit Kumar,Reviewed
+REP00173,2026-06-26,Fraud,Daily,84278,197,81,30,9,10,0,Dr. Neha Singh,Pending Review
+REP00174,2026-06-28,Patient,Monthly,85028,58,89,102,10,10,5,Dr. Amit Kumar,Generated
+REP00175,2025-04-26,Sales,Monthly,45626,53,58,10,3,12,1,Dr. Priya Nair,Pending Review
+REP00176,2026-07-13,Prescription,Monthly,24689,60,93,115,30,12,4,Pharmacist,Pending Review
+REP00177,2026-01-14,Patient,Monthly,46151,399,72,88,16,11,7,Dr. Kavita Rao,Generated
+REP00178,2025-12-11,Prescription,Weekly,44339,123,46,91,11,12,4,Dr. Rajesh Patel,Reviewed
+REP00179,2025-07-18,Sales,Weekly,54302,123,15,68,26,7,6,Dr. Rajesh Patel,Pending Review
+REP00180,2026-02-01,Inventory,Weekly,70199,263,68,103,28,14,6,Dr. Kavita Rao,Reviewed
+REP00181,2026-02-09,Expiry,Monthly,67282,118,102,77,13,7,3,Dr. Priya Nair,Pending Review
+REP00182,2026-04-23,Fraud,Monthly,62633,287,80,120,26,11,4,Dr. Priya Nair,Reviewed
+REP00183,2026-05-20,Patient,Daily,86149,383,67,48,26,1,3,Dr. Priya Nair,Reviewed
+REP00184,2025-10-22,Inventory,Monthly,65369,314,65,33,28,0,3,Dr. Anil Verma,Pending Review
+REP00185,2025-08-24,Inventory,Weekly,88841,443,29,92,25,6,2,Dr. Anil Verma,Reviewed
+REP00186,2025-12-04,Inventory,Monthly,32112,440,72,50,33,1,1,Dr. Neha Singh,Generated
+REP00187,2026-07-21,Sales,Daily,58451,96,50,129,22,6,2,Dr. Priya Nair,Reviewed
+REP00188,2025-05-27,Sales,Weekly,56353,348,116,67,30,10,2,Dr. Sunil Joshi,Reviewed
+REP00189,2026-06-10,Fraud,Monthly,35946,127,30,63,7,13,2,System,Pending Review
+REP00190,2025-09-13,Patient,Monthly,51861,403,118,125,15,3,2,Dr. Kavita Rao,Generated
+REP00191,2025-07-10,Sales,Daily,64931,292,58,71,10,0,5,Dr. Kavita Rao,Pending Review
+REP00192,2025-10-12,Inventory,Weekly,17602,301,95,82,22,10,1,Dr. Meera Shah,Generated
+REP00193,2026-05-02,Inventory,Monthly,54335,396,60,127,9,3,3,Pharmacist,Reviewed
+REP00194,2026-03-04,Financial,Daily,61492,358,112,73,1,13,2,Dr. Meera Shah,Reviewed
+REP00195,2026-04-24,Prescription,Weekly,83214,62,72,50,10,1,3,Dr. Sunil Joshi,Reviewed
+REP00196,2025-12-14,Patient,Weekly,20302,189,105,107,29,2,5,System,Generated
+REP00197,2026-05-26,Fraud,Monthly,16399,426,83,12,19,12,3,Dr. Kavita Rao,Reviewed
+REP00198,2026-01-14,Sales,Monthly,50426,406,58,52,23,13,6,Dr. Meera Shah,Generated
+REP00199,2025-04-05,Expiry,Monthly,49286,332,34,72,18,8,1,Dr. Kavita Rao,Pending Review
+REP00200,2026-06-18,Fraud,Monthly,56761,310,24,12,8,3,3,Dr. Neha Singh,Generated
+REP00201,2026-01-21,Sales,Daily,89961,171,109,21,4,0,0,Dr. Meera Shah,Pending Review
+REP00202,2026-06-25,Inventory,Monthly,75393,373,52,110,6,3,0,Dr. Rajesh Patel,Generated
+REP00203,2025-04-17,Financial,Daily,39323,96,101,21,0,13,3,Dr. Priya Nair,Generated
+REP00204,2025-07-29,Sales,Weekly,56996,370,77,34,30,6,7,Admin,Pending Review
+REP00205,2026-04-27,Patient,Weekly,23030,276,33,74,0,2,2,Dr. Priya Nair,Reviewed
+REP00206,2026-05-19,Prescription,Monthly,39817,408,25,99,4,6,2,Dr. Meera Shah,Generated
+REP00207,2026-05-09,Patient,Monthly,53891,357,62,74,18,6,6,Dr. Sunil Joshi,Reviewed
+REP00208,2025-07-20,Inventory,Monthly,15915,385,97,42,18,5,1,Dr. Amit Kumar,Generated
+REP00209,2025-11-21,Expiry,Monthly,22917,367,106,114,27,2,7,Dr. Amit Kumar,Pending Review
+REP00210,2025-08-20,Sales,Weekly,62379,407,97,87,4,8,5,Dr. Kavita Rao,Reviewed
+REP00211,2025-07-16,Fraud,Weekly,63554,305,48,107,31,10,8,Dr. Priya Nair,Generated
+REP00212,2025-10-04,Inventory,Daily,61254,259,69,122,29,10,6,Dr. Kavita Rao,Reviewed
+REP00213,2025-12-12,Inventory,Daily,65536,264,13,121,8,10,6,Pharmacist,Generated
+REP00214,2026-01-08,Expiry,Daily,71935,388,32,29,11,6,1,Dr. Amit Kumar,Reviewed
+REP00215,2025-12-02,Inventory,Weekly,59212,151,12,73,25,5,4,System,Reviewed
+REP00216,2026-04-06,Inventory,Weekly,80422,271,65,119,10,15,0,Dr. Meera Shah,Generated
+REP00217,2026-06-27,Expiry,Monthly,77482,361,47,28,15,15,3,Dr. Anil Verma,Reviewed
+REP00218,2026-07-25,Expiry,Monthly,35788,223,90,49,27,3,2,System,Reviewed
+REP00219,2026-02-07,Financial,Weekly,31794,239,82,70,4,0,7,Dr. Meera Shah,Reviewed
+REP00220,2026-03-27,Inventory,Weekly,45597,210,91,127,30,8,8,Dr. Meera Shah,Pending Review
+REP00221,2025-06-20,Expiry,Monthly,40477,115,51,110,14,7,3,Dr. Kavita Rao,Pending Review
+REP00222,2025-12-03,Sales,Weekly,81972,98,59,106,9,10,1,System,Reviewed
+REP00223,2025-12-07,Prescription,Monthly,49866,84,67,59,12,8,2,Dr. Meera Shah,Generated
+REP00224,2025-12-01,Inventory,Daily,15400,217,55,115,30,4,4,Dr. Meera Shah,Reviewed
+REP00225,2026-02-21,Prescription,Monthly,41222,380,34,128,7,9,0,Dr. Priya Nair,Pending Review
+REP00226,2025-06-17,Prescription,Weekly,47535,242,64,99,0,9,4,Dr. Priya Nair,Generated
+REP00227,2026-03-02,Sales,Daily,70236,90,57,69,9,14,6,System,Generated
+REP00228,2025-09-30,Patient,Weekly,29122,190,68,45,12,14,4,Dr. Rajesh Patel,Pending Review
+REP00229,2026-05-27,Expiry,Daily,31241,76,51,80,30,11,2,Dr. Meera Shah,Pending Review
+REP00230,2026-01-20,Prescription,Daily,71919,380,51,60,11,10,0,Pharmacist,Reviewed
+REP00231,2026-02-16,Prescription,Monthly,20161,311,17,102,8,15,1,Dr. Neha Singh,Generated
+REP00232,2026-05-15,Sales,Monthly,36414,415,40,21,23,11,5,Dr. Neha Singh,Reviewed
+REP00233,2026-02-06,Fraud,Daily,79547,255,79,17,33,13,6,Dr. Rajesh Patel,Pending Review
+REP00234,2025-06-05,Sales,Daily,73785,131,24,107,16,7,3,Dr. Amit Kumar,Pending Review
+REP00235,2025-08-16,Prescription,Daily,21879,379,117,99,14,15,0,Dr. Amit Kumar,Generated
+REP00236,2025-07-08,Inventory,Daily,33045,306,50,51,24,12,0,System,Reviewed
+REP00237,2025-11-21,Sales,Monthly,69386,331,18,15,12,1,3,Dr. Priya Nair,Pending Review
+REP00238,2025-11-22,Sales,Weekly,25567,347,57,75,10,12,3,Dr. Rajesh Patel,Pending Review
+REP00239,2026-07-28,Financial,Monthly,51885,186,81,57,32,12,2,Dr. Priya Nair,Pending Review
+REP00240,2026-03-22,Expiry,Daily,57868,183,60,25,18,14,0,Dr. Kavita Rao,Pending Review
+REP00241,2025-03-23,Financial,Monthly,82083,444,61,36,11,3,0,Dr. Anil Verma,Generated
+REP00242,2025-07-16,Fraud,Daily,41233,438,82,104,19,6,4,Dr. Meera Shah,Reviewed
+REP00243,2026-07-04,Financial,Monthly,45121,340,117,42,13,0,4,Dr. Amit Kumar,Generated
+REP00244,2025-06-02,Inventory,Weekly,42047,305,102,59,20,14,6,Admin,Generated
+REP00245,2025-04-16,Patient,Weekly,88509,355,46,111,15,2,1,Dr. Amit Kumar,Generated
+REP00246,2025-09-17,Sales,Daily,50944,50,48,66,24,5,1,Dr. Amit Kumar,Reviewed
+REP00247,2026-04-12,Financial,Daily,70465,429,57,19,17,13,0,Dr. Sunil Joshi,Generated
+REP00248,2025-04-27,Sales,Weekly,33591,184,68,129,13,3,0,Dr. Kavita Rao,Generated
+REP00249,2026-07-24,Sales,Daily,45776,283,84,98,35,8,4,Dr. Amit Kumar,Pending Review
+REP00250,2025-10-16,Patient,Daily,35092,160,18,60,24,0,0,Dr. Kavita Rao,Reviewed
+REP00251,2025-06-01,Patient,Weekly,37940,56,83,124,2,2,4,Dr. Sunil Joshi,Pending Review
+REP00252,2025-11-28,Inventory,Weekly,18199,393,44,121,12,7,7,Dr. Amit Kumar,Pending Review
+REP00253,2026-07-09,Fraud,Monthly,72061,336,99,72,14,1,4,Dr. Meera Shah,Generated
+REP00254,2025-09-28,Expiry,Weekly,76928,328,30,57,23,4,5,Pharmacist,Reviewed
+REP00255,2026-01-04,Inventory,Monthly,67662,240,69,54,18,4,7,Pharmacist,Pending Review
+REP00256,2026-01-04,Expiry,Weekly,26330,358,42,123,8,10,5,Pharmacist,Reviewed
+REP00257,2025-12-13,Fraud,Monthly,36532,71,53,74,9,10,8,Pharmacist,Pending Review
+REP00258,2026-05-11,Fraud,Monthly,33287,155,115,98,25,2,6,Dr. Neha Singh,Pending Review
+REP00259,2025-10-26,Sales,Monthly,28607,344,10,42,35,5,3,Pharmacist,Pending Review
+REP00260,2025-06-23,Expiry,Weekly,30325,216,103,117,23,12,8,Pharmacist,Reviewed
+REP00261,2026-04-10,Prescription,Weekly,68477,402,106,23,14,14,2,Dr. Priya Nair,Pending Review
+REP00262,2026-07-31,Fraud,Monthly,29129,303,28,127,4,9,3,Dr. Anil Verma,Reviewed
+REP00263,2025-06-04,Inventory,Monthly,27659,147,13,12,1,9,1,Dr. Priya Nair,Generated
+REP00264,2025-06-03,Fraud,Monthly,24350,84,42,67,7,13,5,Pharmacist,Reviewed
+REP00265,2026-07-26,Financial,Monthly,54349,225,59,57,13,9,6,Admin,Pending Review
+REP00266,2025-04-17,Patient,Monthly,20488,397,72,14,31,10,5,Dr. Amit Kumar,Reviewed
+REP00267,2025-08-07,Patient,Weekly,85650,444,22,64,22,15,0,Dr. Anil Verma,Generated
+REP00268,2025-03-26,Patient,Daily,77242,179,79,21,5,7,1,Dr. Kavita Rao,Reviewed
+REP00269,2025-07-13,Expiry,Daily,76509,67,51,49,35,14,3,Admin,Reviewed
+REP00270,2026-06-13,Sales,Monthly,31827,353,120,96,1,14,1,System,Generated
+REP00271,2025-12-06,Expiry,Monthly,89062,248,112,128,34,1,4,Admin,Generated
+REP00272,2025-08-08,Prescription,Weekly,37795,281,47,119,10,1,4,Admin,Reviewed
+REP00273,2025-12-25,Sales,Monthly,35289,89,35,71,31,7,0,Dr. Anil Verma,Pending Review
+REP00274,2025-06-13,Financial,Daily,64377,72,48,33,14,10,7,Dr. Priya Nair,Pending Review
+REP00275,2025-12-16,Fraud,Monthly,30216,101,31,27,8,0,7,Dr. Kavita Rao,Reviewed
+REP00276,2025-06-20,Financial,Weekly,17691,412,77,124,23,3,6,Dr. Kavita Rao,Generated
+REP00277,2026-03-11,Patient,Monthly,70345,84,18,21,16,11,7,Dr. Anil Verma,Pending Review
+REP00278,2025-04-17,Inventory,Daily,30861,62,30,21,11,6,7,Pharmacist,Pending Review
+REP00279,2026-01-21,Prescription,Weekly,77636,84,111,94,11,13,1,System,Generated
+REP00280,2026-04-04,Inventory,Daily,54366,118,105,99,25,0,5,Dr. Amit Kumar,Pending Review
+REP00281,2025-06-23,Sales,Daily,83755,390,44,84,33,0,4,Dr. Rajesh Patel,Reviewed
+REP00282,2025-04-16,Inventory,Weekly,42991,146,94,70,30,15,3,Dr. Neha Singh,Generated
+REP00283,2026-01-14,Prescription,Monthly,85962,86,28,95,8,4,1,Dr. Kavita Rao,Pending Review
+REP00284,2026-06-24,Prescription,Daily,47383,370,106,62,23,7,4,Dr. Anil Verma,Generated
+REP00285,2025-07-11,Patient,Daily,57006,449,60,13,12,11,6,Dr. Kavita Rao,Pending Review
+REP00286,2025-05-29,Fraud,Daily,31688,295,88,111,32,13,2,Dr. Priya Nair,Pending Review
+REP00287,2025-11-07,Expiry,Weekly,24837,271,86,13,26,2,8,Dr. Neha Singh,Pending Review
+REP00288,2025-05-01,Fraud,Daily,20236,239,45,60,17,14,5,Dr. Sunil Joshi,Pending Review
+REP00289,2025-09-25,Expiry,Weekly,76592,311,72,59,35,4,7,Dr. Meera Shah,Generated
+REP00290,2025-08-11,Patient,Weekly,84827,314,88,90,4,8,4,Dr. Sunil Joshi,Reviewed
+REP00291,2025-09-30,Prescription,Daily,56032,215,40,82,12,11,4,Dr. Priya Nair,Reviewed
+REP00292,2025-11-08,Financial,Weekly,51506,185,86,64,12,4,4,Dr. Priya Nair,Pending Review
+REP00293,2025-08-14,Expiry,Monthly,86142,333,51,36,29,5,1,Dr. Sunil Joshi,Pending Review
+REP00294,2026-03-27,Inventory,Monthly,59220,143,92,113,31,11,3,Dr. Anil Verma,Reviewed
+REP00295,2025-07-29,Expiry,Monthly,75172,325,53,28,16,2,4,Dr. Neha Singh,Reviewed
+REP00296,2025-06-10,Prescription,Weekly,15428,84,34,113,16,15,7,System,Pending Review
+REP00297,2025-06-06,Expiry,Monthly,89377,265,35,44,3,13,7,Admin,Generated
+REP00298,2025-11-30,Patient,Weekly,56044,111,27,33,7,11,0,Dr. Amit Kumar,Generated
+REP00299,2026-03-11,Sales,Monthly,85152,187,26,110,6,13,3,Dr. Amit Kumar,Pending Review
+REP00300,2025-10-14,Sales,Daily,29605,222,89,102,17,9,6,Dr. Priya Nair,Generated
+REP00301,2026-04-10,Prescription,Monthly,89791,434,44,128,35,11,3,Dr. Rajesh Patel,Generated
+REP00302,2025-10-21,Prescription,Weekly,43819,137,113,115,24,6,8,Admin,Generated
+REP00303,2025-03-30,Inventory,Daily,89873,429,88,44,31,3,1,Dr. Priya Nair,Reviewed
+REP00304,2026-04-09,Inventory,Weekly,36711,138,38,45,6,0,3,Pharmacist,Reviewed
+REP00305,2025-12-21,Prescription,Monthly,65685,278,37,39,6,2,6,Dr. Kavita Rao,Reviewed
+REP00306,2026-05-16,Financial,Weekly,64828,61,79,107,17,6,7,Dr. Anil Verma,Pending Review
+REP00307,2026-02-06,Expiry,Daily,80409,309,88,59,28,6,5,Dr. Rajesh Patel,Pending Review
+REP00308,2026-06-22,Prescription,Monthly,64501,136,110,61,13,6,5,Dr. Meera Shah,Reviewed
+REP00309,2026-03-13,Inventory,Monthly,53099,168,58,86,30,0,3,Pharmacist,Pending Review
+REP00310,2026-06-28,Patient,Monthly,17867,249,83,54,23,12,0,Dr. Kavita Rao,Reviewed
+REP00311,2025-07-26,Patient,Weekly,26725,273,42,54,14,8,5,Dr. Sunil Joshi,Reviewed
+REP00312,2026-05-12,Inventory,Daily,82786,356,77,113,12,1,6,Dr. Meera Shah,Generated
+REP00313,2025-07-07,Inventory,Daily,35808,97,88,99,35,1,4,Dr. Neha Singh,Pending Review
+REP00314,2025-04-10,Expiry,Weekly,34533,200,28,119,27,8,2,Dr. Priya Nair,Reviewed
+REP00315,2026-02-22,Inventory,Monthly,23752,168,21,89,3,5,4,System,Reviewed
+REP00316,2025-04-05,Patient,Daily,45965,58,113,35,4,2,1,Dr. Sunil Joshi,Generated
+REP00317,2025-10-31,Sales,Weekly,87540,439,57,102,11,4,8,Dr. Rajesh Patel,Generated
+REP00318,2025-06-24,Sales,Weekly,37517,442,44,75,1,1,6,Dr. Rajesh Patel,Generated
+REP00319,2026-07-07,Patient,Daily,32339,173,120,87,23,8,7,Dr. Priya Nair,Reviewed
+REP00320,2026-05-03,Financial,Daily,47534,132,91,87,2,2,6,Dr. Rajesh Patel,Generated
+REP00321,2026-03-06,Patient,Monthly,79219,396,106,60,35,12,8,Dr. Kavita Rao,Pending Review
+REP00322,2025-04-05,Prescription,Weekly,68110,434,42,77,26,5,8,Dr. Kavita Rao,Generated
+REP00323,2025-06-14,Sales,Daily,24622,357,57,117,19,3,6,Dr. Anil Verma,Reviewed
+REP00324,2026-02-28,Expiry,Daily,56228,299,35,106,1,6,6,Pharmacist,Generated
+REP00325,2025-12-13,Fraud,Monthly,33329,382,111,48,25,7,2,Dr. Amit Kumar,Generated
+REP00326,2025-04-25,Patient,Weekly,78802,254,69,101,29,11,3,Dr. Kavita Rao,Generated
+REP00327,2025-12-31,Sales,Daily,34075,377,22,47,23,1,5,Dr. Kavita Rao,Reviewed
+REP00328,2025-05-03,Financial,Weekly,25239,356,47,55,32,15,0,Dr. Kavita Rao,Generated
+REP00329,2026-02-01,Expiry,Daily,55677,309,31,11,6,4,8,Dr. Sunil Joshi,Generated
+REP00330,2026-07-19,Prescription,Daily,83300,240,13,67,25,10,7,Dr. Meera Shah,Pending Review
+REP00331,2026-02-14,Expiry,Weekly,21673,314,84,25,28,15,6,System,Generated
+REP00332,2025-08-24,Fraud,Monthly,89232,309,18,29,24,10,7,Pharmacist,Reviewed
+REP00333,2026-05-19,Inventory,Daily,27214,365,59,45,25,7,0,Dr. Amit Kumar,Reviewed
+REP00334,2026-07-25,Inventory,Daily,69837,341,34,63,9,13,8,Admin,Reviewed
+REP00335,2025-04-18,Inventory,Daily,23680,133,119,14,16,15,1,Dr. Priya Nair,Reviewed
+REP00336,2025-04-19,Inventory,Monthly,79681,108,20,95,29,10,5,Dr. Kavita Rao,Reviewed
+REP00337,2025-10-09,Prescription,Monthly,58332,373,95,51,33,4,8,Pharmacist,Reviewed
+REP00338,2025-06-14,Prescription,Daily,44648,61,65,71,17,10,8,Dr. Sunil Joshi,Reviewed
+REP00339,2025-03-20,Financial,Weekly,21722,352,48,112,16,3,2,System,Generated
+REP00340,2025-05-25,Fraud,Daily,47602,287,29,128,6,11,6,Dr. Anil Verma,Reviewed
+REP00341,2025-10-14,Expiry,Weekly,25633,174,30,89,30,2,5,Dr. Amit Kumar,Reviewed
+REP00342,2026-01-05,Fraud,Weekly,35191,262,70,13,21,11,1,Dr. Sunil Joshi,Generated
+REP00343,2025-11-24,Patient,Weekly,43053,257,65,118,15,9,3,Admin,Generated
+REP00344,2026-02-09,Inventory,Monthly,57879,353,58,119,5,3,1,Dr. Neha Singh,Pending Review
+REP00345,2026-07-27,Inventory,Monthly,71169,302,21,129,9,1,0,Dr. Kavita Rao,Generated
+REP00346,2026-07-15,Inventory,Weekly,63072,397,97,127,22,2,0,Dr. Rajesh Patel,Reviewed
+REP00347,2026-02-12,Sales,Daily,25793,70,88,10,12,5,6,Dr. Kavita Rao,Generated
+REP00348,2026-03-17,Prescription,Weekly,83955,86,116,88,18,4,1,Dr. Kavita Rao,Pending Review
+REP00349,2025-05-21,Expiry,Daily,82487,99,73,87,14,9,0,Dr. Anil Verma,Reviewed
+REP00350,2025-08-25,Inventory,Monthly,76952,281,55,75,19,9,6,Dr. Anil Verma,Generated
+REP00351,2025-06-20,Fraud,Weekly,57809,157,40,69,9,4,0,Dr. Neha Singh,Generated
+REP00352,2025-10-04,Sales,Daily,29113,279,26,29,4,9,5,Dr. Meera Shah,Pending Review
+REP00353,2026-03-31,Financial,Weekly,72060,259,25,129,35,9,3,Dr. Kavita Rao,Pending Review
+REP00354,2026-07-14,Expiry,Daily,66222,148,54,18,3,1,4,Dr. Anil Verma,Generated
+REP00355,2025-06-10,Patient,Weekly,67099,413,120,51,28,4,5,Dr. Anil Verma,Pending Review
+REP00356,2026-02-20,Fraud,Monthly,39112,53,110,31,16,13,1,Dr. Kavita Rao,Reviewed
+REP00357,2026-05-17,Sales,Daily,46460,312,87,73,17,6,2,Dr. Anil Verma,Generated
+REP00358,2025-07-02,Sales,Monthly,62281,414,53,112,23,10,0,Dr. Neha Singh,Reviewed
+REP00359,2025-07-01,Fraud,Monthly,41438,158,28,52,32,8,8,Dr. Anil Verma,Pending Review
+REP00360,2025-10-02,Prescription,Monthly,40776,272,108,103,2,14,8,Dr. Sunil Joshi,Pending Review
+REP00361,2025-07-10,Patient,Daily,52288,220,12,62,4,15,6,Dr. Kavita Rao,Pending Review
+REP00362,2025-10-12,Inventory,Weekly,44215,280,43,48,2,7,4,Dr. Anil Verma,Reviewed
+REP00363,2026-07-29,Prescription,Daily,20314,163,115,67,15,12,0,Dr. Anil Verma,Generated
+REP00364,2025-03-28,Sales,Weekly,85157,329,63,12,32,9,0,Dr. Kavita Rao,Pending Review
+REP00365,2026-04-13,Prescription,Monthly,87398,197,109,24,15,12,8,Dr. Meera Shah,Generated
+REP00366,2025-10-25,Financial,Daily,16862,400,64,20,21,7,7,Dr. Amit Kumar,Generated
+REP00367,2026-05-26,Financial,Monthly,48841,136,94,47,16,13,2,Dr. Anil Verma,Generated
+REP00368,2025-07-23,Inventory,Weekly,27793,441,46,49,34,2,1,Dr. Rajesh Patel,Generated
+REP00369,2025-05-21,Sales,Daily,23648,448,108,111,17,5,1,Dr. Kavita Rao,Reviewed
+REP00370,2026-05-30,Prescription,Monthly,75987,311,25,71,17,2,5,Dr. Neha Singh,Reviewed
+REP00371,2026-05-02,Patient,Daily,86474,178,102,12,5,2,2,Dr. Rajesh Patel,Reviewed
+REP00372,2026-05-10,Prescription,Monthly,85098,149,71,128,22,0,5,Dr. Anil Verma,Reviewed
+REP00373,2026-06-08,Fraud,Monthly,67751,158,31,34,30,2,3,Pharmacist,Reviewed
+REP00374,2025-10-19,Fraud,Weekly,65760,214,92,57,12,1,0,Dr. Kavita Rao,Generated
+REP00375,2026-07-30,Prescription,Weekly,17244,390,57,93,21,13,0,Dr. Meera Shah,Reviewed
+REP00376,2026-06-18,Inventory,Daily,83224,337,108,24,8,15,7,System,Pending Review
+REP00377,2025-07-25,Fraud,Weekly,30696,369,113,14,20,7,4,System,Reviewed
+REP00378,2026-03-03,Sales,Daily,22197,203,95,27,16,12,2,Dr. Sunil Joshi,Reviewed
+REP00379,2025-05-22,Patient,Daily,84594,236,19,73,19,9,6,Dr. Amit Kumar,Generated
+REP00380,2026-03-08,Expiry,Daily,27199,120,77,87,6,11,1,Dr. Neha Singh,Reviewed
+REP00381,2025-07-03,Expiry,Weekly,31217,143,83,37,5,7,0,Dr. Sunil Joshi,Reviewed
+REP00382,2025-05-27,Fraud,Monthly,85950,90,113,101,35,9,8,Pharmacist,Reviewed
+REP00383,2026-06-10,Patient,Daily,55880,265,21,94,21,8,0,Dr. Rajesh Patel,Generated
+REP00384,2026-06-13,Prescription,Daily,29002,294,15,70,23,12,8,Dr. Neha Singh,Reviewed
+REP00385,2026-05-11,Prescription,Monthly,47450,91,52,31,11,3,0,Dr. Kavita Rao,Generated
+REP00386,2025-07-23,Financial,Daily,37199,427,115,120,32,7,6,Dr. Amit Kumar,Pending Review
+REP00387,2025-11-06,Expiry,Monthly,39582,302,80,40,3,13,3,Admin,Pending Review
+REP00388,2026-01-14,Inventory,Monthly,53365,226,27,61,26,9,4,Dr. Priya Nair,Pending Review
+REP00389,2025-05-19,Sales,Monthly,70079,180,92,87,31,0,1,Dr. Anil Verma,Pending Review
+REP00390,2026-04-25,Financial,Weekly,31802,345,33,114,7,7,2,Dr. Amit Kumar,Generated
+REP00391,2026-03-26,Financial,Daily,24463,400,60,27,13,8,1,Admin,Generated
+REP00392,2025-09-01,Inventory,Monthly,29519,406,11,62,6,10,3,Dr. Kavita Rao,Generated
+REP00393,2026-05-17,Financial,Monthly,31153,238,51,62,24,8,7,Pharmacist,Generated
+REP00394,2025-05-18,Financial,Daily,42103,249,55,34,15,15,7,Dr. Sunil Joshi,Reviewed
+REP00395,2026-07-06,Expiry,Daily,71792,287,30,17,3,14,8,Dr. Sunil Joshi,Generated
+REP00396,2026-01-01,Sales,Weekly,33441,195,45,32,27,0,7,System,Generated
+REP00397,2025-10-04,Patient,Weekly,54740,379,38,67,12,8,7,Dr. Anil Verma,Reviewed
+REP00398,2026-05-10,Patient,Daily,72426,118,12,109,15,15,6,Dr. Priya Nair,Pending Review
+REP00399,2025-11-13,Financial,Daily,29394,187,102,57,33,8,1,Dr. Sunil Joshi,Pending Review
+REP00400,2025-11-09,Fraud,Weekly,67915,60,18,82,6,7,4,Dr. Sunil Joshi,Generated
+REP00401,2025-07-09,Financial,Monthly,84457,143,90,73,33,0,2,Dr. Amit Kumar,Reviewed
+REP00402,2025-07-03,Financial,Monthly,70014,340,53,10,30,6,2,Dr. Neha Singh,Pending Review
+REP00403,2026-02-25,Financial,Weekly,47921,406,112,44,12,12,5,Dr. Neha Singh,Reviewed
+REP00404,2025-12-02,Prescription,Daily,47097,216,15,119,21,11,7,Dr. Priya Nair,Pending Review
+REP00405,2026-02-11,Patient,Daily,71468,337,12,98,4,3,2,Dr. Priya Nair,Reviewed
+REP00406,2025-05-14,Sales,Daily,76221,261,78,104,4,3,8,Dr. Kavita Rao,Pending Review
+REP00407,2026-05-23,Inventory,Monthly,43119,161,57,22,2,8,0,Admin,Reviewed
+REP00408,2026-05-31,Expiry,Monthly,73961,157,21,53,15,3,1,Dr. Sunil Joshi,Pending Review
+REP00409,2025-10-30,Financial,Monthly,46615,72,70,98,17,5,0,Dr. Kavita Rao,Generated
+REP00410,2025-06-19,Patient,Weekly,28119,95,74,84,14,8,0,Dr. Anil Verma,Pending Review
+REP00411,2026-02-03,Expiry,Weekly,87913,406,31,13,6,0,4,Dr. Priya Nair,Generated
+REP00412,2025-06-05,Inventory,Daily,20925,425,32,35,13,6,2,Dr. Sunil Joshi,Reviewed
+REP00413,2026-06-30,Financial,Weekly,44573,366,27,14,7,6,5,Pharmacist,Reviewed
+REP00414,2025-05-30,Financial,Weekly,35175,402,18,116,10,15,6,Dr. Amit Kumar,Generated
+REP00415,2026-01-21,Sales,Monthly,37950,400,117,124,26,3,1,Dr. Rajesh Patel,Generated
+REP00416,2026-06-24,Inventory,Weekly,29213,272,39,99,10,8,8,System,Pending Review
+REP00417,2025-11-02,Prescription,Monthly,58260,281,30,116,34,6,7,Dr. Anil Verma,Generated
+REP00418,2025-09-22,Fraud,Weekly,51592,211,43,87,13,0,3,Dr. Anil Verma,Reviewed
+REP00419,2026-01-20,Fraud,Monthly,75931,96,84,24,8,1,3,System,Generated
+REP00420,2025-10-18,Patient,Weekly,32723,77,76,33,34,7,2,Dr. Priya Nair,Generated
+REP00421,2025-11-13,Fraud,Monthly,86259,87,40,78,35,2,5,System,Pending Review
+REP00422,2026-06-14,Expiry,Weekly,58525,331,27,115,11,1,6,Dr. Kavita Rao,Generated
+REP00423,2026-05-21,Fraud,Daily,26715,315,28,89,28,2,6,Pharmacist,Pending Review
+REP00424,2026-06-20,Financial,Weekly,75410,134,97,45,21,0,0,Dr. Amit Kumar,Generated
+REP00425,2025-06-30,Financial,Monthly,18172,420,13,20,20,5,1,Dr. Neha Singh,Pending Review
+REP00426,2026-04-25,Patient,Daily,72537,325,92,57,3,0,2,Dr. Meera Shah,Reviewed
+REP00427,2026-01-18,Financial,Daily,81062,380,47,106,18,8,2,Dr. Neha Singh,Pending Review
+REP00428,2025-06-10,Inventory,Monthly,85780,294,46,72,33,2,2,Dr. Rajesh Patel,Reviewed
+REP00429,2025-11-17,Prescription,Daily,56171,244,70,15,32,13,7,Dr. Amit Kumar,Generated
+REP00430,2025-09-28,Sales,Daily,49247,175,58,54,21,2,5,System,Reviewed
+REP00431,2025-11-02,Inventory,Weekly,64508,338,25,40,26,4,4,System,Generated
+REP00432,2026-02-17,Expiry,Monthly,21422,237,49,115,10,12,0,System,Pending Review
+REP00433,2026-07-11,Financial,Weekly,21951,258,36,40,26,14,5,Dr. Amit Kumar,Pending Review
+REP00434,2025-06-28,Financial,Monthly,39217,114,18,17,17,1,1,Dr. Anil Verma,Reviewed
+REP00435,2025-05-30,Prescription,Daily,87848,320,104,10,16,8,2,System,Reviewed
+REP00436,2025-11-18,Inventory,Monthly,40409,243,101,107,12,2,6,Dr. Sunil Joshi,Generated
+REP00437,2026-05-13,Financial,Daily,33546,406,61,89,18,5,8,Admin,Pending Review
+REP00438,2025-08-23,Financial,Monthly,55304,258,48,30,1,7,6,Dr. Rajesh Patel,Reviewed
+REP00439,2025-07-27,Financial,Monthly,71477,159,23,49,16,2,7,Dr. Amit Kumar,Reviewed
+REP00440,2026-03-04,Financial,Weekly,35535,231,106,57,18,1,2,Dr. Anil Verma,Generated
+REP00441,2025-07-27,Financial,Weekly,59555,328,97,33,18,6,0,Pharmacist,Generated
+REP00442,2025-12-03,Patient,Weekly,68895,193,120,47,32,0,3,Dr. Neha Singh,Reviewed
+REP00443,2026-03-30,Prescription,Monthly,80663,315,32,116,17,10,2,Dr. Kavita Rao,Pending Review
+REP00444,2025-06-01,Financial,Daily,59555,69,47,97,3,9,3,Dr. Priya Nair,Generated
+REP00445,2026-04-16,Fraud,Weekly,40471,319,42,85,20,3,6,Dr. Priya Nair,Generated
+REP00446,2025-06-14,Sales,Daily,27396,414,86,68,33,14,1,System,Generated
+REP00447,2025-09-24,Inventory,Daily,26982,373,96,35,31,6,2,Dr. Anil Verma,Pending Review
+REP00448,2026-02-16,Inventory,Daily,68300,67,102,19,5,15,5,Dr. Anil Verma,Generated
+REP00449,2025-12-07,Prescription,Weekly,87423,418,120,77,0,0,2,Dr. Priya Nair,Generated
+REP00450,2025-06-11,Sales,Monthly,28991,221,109,63,7,4,8,Dr. Amit Kumar,Generated
+REP00451,2025-08-13,Patient,Weekly,76901,376,99,73,16,9,1,Dr. Anil Verma,Generated
+REP00452,2025-05-06,Prescription,Monthly,43010,250,57,88,22,4,0,Dr. Neha Singh,Reviewed
+REP00453,2025-09-25,Sales,Daily,83938,377,108,83,18,3,8,Dr. Sunil Joshi,Generated
+REP00454,2026-04-04,Patient,Monthly,77566,225,117,13,8,13,3,Dr. Rajesh Patel,Pending Review
+REP00455,2026-05-12,Inventory,Monthly,81303,125,19,40,28,8,5,Dr. Meera Shah,Reviewed
+REP00456,2026-06-22,Sales,Weekly,19781,406,105,119,18,4,8,System,Reviewed
+REP00457,2025-04-06,Financial,Daily,63081,372,12,109,21,7,7,Dr. Anil Verma,Reviewed
+REP00458,2025-12-21,Fraud,Monthly,21076,315,98,22,7,4,6,Dr. Amit Kumar,Generated
+REP00459,2025-04-04,Inventory,Daily,83191,154,56,59,25,2,0,Dr. Anil Verma,Generated
+REP00460,2025-08-15,Patient,Daily,56992,431,37,22,11,6,4,Dr. Meera Shah,Reviewed
+REP00461,2026-07-05,Fraud,Weekly,81725,331,33,65,6,15,7,Dr. Anil Verma,Pending Review
+REP00462,2025-09-05,Inventory,Monthly,42637,318,116,43,18,1,1,Dr. Priya Nair,Reviewed
+REP00463,2025-04-29,Prescription,Daily,84181,279,109,34,21,9,3,Dr. Kavita Rao,Pending Review
+REP00464,2025-04-20,Prescription,Monthly,84285,119,62,15,13,7,5,Admin,Pending Review
+REP00465,2026-05-29,Sales,Daily,63570,281,98,98,1,1,8,Dr. Meera Shah,Pending Review
+REP00466,2025-10-07,Financial,Daily,52925,196,83,33,1,14,4,Admin,Generated
+REP00467,2026-01-06,Fraud,Monthly,70146,442,89,83,24,9,8,Pharmacist,Pending Review
+REP00468,2025-07-08,Prescription,Monthly,74795,95,76,47,9,11,6,Pharmacist,Pending Review
+REP00469,2026-03-26,Inventory,Weekly,89100,102,47,12,32,9,3,Dr. Rajesh Patel,Generated
+REP00470,2026-06-06,Inventory,Daily,53591,449,28,109,27,12,8,Dr. Amit Kumar,Reviewed
+REP00471,2025-09-16,Financial,Daily,88126,292,29,60,7,14,6,Dr. Amit Kumar,Pending Review
+REP00472,2025-12-17,Inventory,Monthly,43299,208,81,130,14,7,5,Pharmacist,Pending Review
+REP00473,2025-09-26,Expiry,Monthly,46976,316,27,94,35,0,4,Dr. Amit Kumar,Reviewed
+REP00474,2025-03-27,Patient,Monthly,30440,122,98,82,27,10,0,System,Generated
+REP00475,2026-01-05,Prescription,Weekly,86368,396,28,65,17,2,8,Dr. Anil Verma,Pending Review
+REP00476,2026-01-19,Expiry,Weekly,24542,160,11,81,30,13,1,Pharmacist,Pending Review
+REP00477,2025-05-06,Inventory,Daily,84272,210,83,53,7,8,3,Dr. Sunil Joshi,Reviewed
+REP00478,2025-10-27,Inventory,Daily,55729,310,44,90,2,0,2,Dr. Kavita Rao,Generated
+REP00479,2026-07-31,Sales,Monthly,82357,272,86,60,24,2,0,Dr. Neha Singh,Reviewed
+REP00480,2025-11-16,Inventory,Daily,25644,392,34,114,21,0,0,Dr. Neha Singh,Reviewed
+REP00481,2025-11-03,Sales,Monthly,51601,91,47,90,4,10,0,Dr. Kavita Rao,Reviewed
+REP00482,2025-06-30,Inventory,Monthly,83394,150,84,66,26,4,0,Dr. Meera Shah,Generated
+REP00483,2025-09-08,Expiry,Weekly,17204,303,66,66,18,12,2,Dr. Amit Kumar,Pending Review
+REP00484,2025-04-05,Patient,Daily,67850,440,120,62,8,4,5,Dr. Amit Kumar,Pending Review
+REP00485,2025-06-18,Sales,Monthly,79499,421,90,115,30,12,0,Dr. Rajesh Patel,Pending Review
+REP00486,2025-08-07,Prescription,Daily,49543,61,60,129,33,8,1,Dr. Priya Nair,Generated
+REP00487,2026-04-19,Patient,Daily,26689,117,50,55,10,6,5,Dr. Anil Verma,Generated
+REP00488,2025-12-04,Prescription,Daily,75850,55,36,118,10,3,1,Admin,Generated
+REP00489,2026-07-31,Patient,Daily,43687,434,64,40,32,10,2,Dr. Kavita Rao,Reviewed
+REP00490,2025-10-25,Prescription,Weekly,64280,112,34,37,28,2,8,Dr. Sunil Joshi,Reviewed
+REP00491,2026-03-18,Prescription,Daily,37111,346,51,16,9,12,4,System,Generated
+REP00492,2025-03-20,Fraud,Daily,71512,191,46,16,15,14,3,Pharmacist,Reviewed
+REP00493,2025-06-01,Sales,Weekly,76656,323,23,128,9,14,7,Pharmacist,Pending Review
+REP00494,2026-05-05,Inventory,Daily,16836,132,91,21,31,5,1,Pharmacist,Generated
+REP00495,2026-03-20,Prescription,Weekly,37494,343,79,53,31,14,3,Dr. Anil Verma,Generated
+REP00496,2025-05-10,Fraud,Monthly,46854,108,118,75,11,10,6,Dr. Amit Kumar,Reviewed
+REP00497,2026-04-05,Prescription,Weekly,18003,302,110,99,34,13,6,Pharmacist,Generated
+REP00498,2025-12-11,Patient,Monthly,23007,256,120,130,31,7,6,System,Generated
+REP00499,2025-05-17,Fraud,Daily,62852,441,10,58,34,4,1,Pharmacist,Generated
+REP00500,2026-04-30,Inventory,Monthly,60783,217,96,30,5,12,5,Dr. Amit Kumar,Reviewed

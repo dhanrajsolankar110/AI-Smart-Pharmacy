@@ -1,0 +1,988 @@
+{% extends "components/dashboard_layout.html" %}
+
+{% block title %}
+Patient Care
+{% endblock %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+{% block content %}
+
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/patients.css') }}"
+>
+
+<!-- ==========================================================
+     PATIENT CARE PAGE
+========================================================== -->
+
+<div class="patients-page">
+
+    <!-- ======================================================
+         PAGE HEADER
+    ======================================================= -->
+
+    <div class="patients-header">
+
+        <div class="patients-title">
+
+            <h1>
+                Patient Care
+            </h1>
+
+            <p>
+                Manage patient information, history and care
+            </p>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="btn-primary add-patient-btn"
+            id="openAddPatient">
+
+            <i class="fa-solid fa-plus"></i>
+
+            Add New Patient
+
+        </button>
+
+    </div>
+
+
+    <!-- ======================================================
+         SUMMARY CARDS
+    ======================================================= -->
+
+    <div class="patients-summary-grid">
+
+
+        <!-- TOTAL PATIENTS -->
+
+        <div class="patient-summary-card">
+
+            <div class="patient-summary-icon total-patients-icon">
+
+                <i class="fa-solid fa-users"></i>
+
+            </div>
+
+            <div class="patient-summary-content">
+
+                <h4>
+                    Total Patients
+                </h4>
+
+                <h2 id="totalPatients">
+                    {{ total_patients }}
+                </h2>
+
+                <p>
+                    Registered Patients
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- ACTIVE PATIENTS -->
+
+        <div class="patient-summary-card">
+
+            <div class="patient-summary-icon active-patients-icon">
+
+                <i class="fa-solid fa-user-check"></i>
+
+            </div>
+
+            <div class="patient-summary-content">
+
+                <h4>
+                    Active Patients
+                </h4>
+
+                <h2 id="activePatients">
+                    {{ active_patients }}
+                </h2>
+
+                <p>
+                    Currently receiving care
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- TODAY'S APPOINTMENTS -->
+
+        <div class="patient-summary-card">
+
+            <div class="patient-summary-icon appointment-icon">
+
+                <i class="fa-regular fa-calendar-plus"></i>
+
+            </div>
+
+            <div class="patient-summary-content">
+
+                <h4>
+                    Today's Appointments
+                </h4>
+
+                <h2 id="todayAppointments">
+                    {{ today_appointments }}
+                </h2>
+
+                <p>
+                    Scheduled for today
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- TOTAL CONSULTATIONS -->
+
+        <div class="patient-summary-card">
+
+            <div class="patient-summary-icon consultation-icon">
+
+                <i class="fa-solid fa-clipboard-medical"></i>
+
+            </div>
+
+            <div class="patient-summary-content">
+
+                <h4>
+                    Total Consultations
+                </h4>
+
+                <h2 id="totalConsultations">
+                    {{ "{:,}".format(total_consultations) }}
+                </h2>
+
+                <p>
+                    All time consultations
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ======================================================
+         MAIN CONTENT
+    ======================================================= -->
+
+    <div class="patients-main-grid">
+
+
+        <!-- ==================================================
+             PATIENT LIST
+        =================================================== -->
+
+        <div class="patient-list-card">
+
+
+            <!-- FILTER BAR -->
+
+            <div class="patient-filter-bar">
+
+                <!-- SEARCH -->
+
+                <div class="patient-search">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input
+                        type="text"
+                        id="patientSearch"
+                        placeholder="Search patients by name, mobile or ID..."
+                        autocomplete="off"
+                    >
+
+                </div>
+
+
+                <!-- STATUS -->
+
+                <div class="patient-filter">
+
+                    <select
+                        id="patientStatus">
+
+                        <option value="">
+                            All Status
+                        </option>
+
+                        <option value="Active">
+                            Active
+                        </option>
+
+                        <option value="Inactive">
+                            Inactive
+                        </option>
+
+                    </select>
+
+                    <i class="fa-solid fa-chevron-down"></i>
+
+                </div>
+
+
+                <!-- AGE GROUP -->
+
+                <div class="patient-filter">
+
+                    <select
+                        id="patientAgeGroup">
+
+                        <option value="">
+                            All Age Groups
+                        </option>
+
+                        <option value="Child">
+                            Child
+                        </option>
+
+                        <option value="Adult">
+                            Adult
+                        </option>
+
+                        <option value="Senior">
+                            Senior
+                        </option>
+
+                    </select>
+
+                    <i class="fa-solid fa-chevron-down"></i>
+
+                </div>
+
+
+                <!-- EXPORT -->
+
+                <button
+                    type="button"
+                    class="export-patients-btn"
+                    id="exportPatients">
+
+                    <i class="fa-solid fa-download"></i>
+
+                    Export
+
+                </button>
+
+            </div>
+
+
+            <!-- ==================================================
+                 PATIENT TABLE
+            =================================================== -->
+
+            <div class="patients-table-wrapper">
+
+                <table class="patients-table">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>
+                                Patient ID
+                            </th>
+
+                            <th>
+                                Patient Name
+                            </th>
+
+                            <th>
+                                Age / Gender
+                            </th>
+
+                            <th>
+                                Contact
+                            </th>
+
+                            <th>
+                                Last Visit
+                            </th>
+
+                            <th>
+                                Status
+                            </th>
+
+                            <th>
+                                Action
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody id="patientsTableBody">
+
+    {% for patient in patients %}
+
+    <tr
+        class="patient-row"
+        data-name="{{ patient.name }}"
+        data-id="{{ patient.id }}"
+        data-phone="{{ patient.phone }}"
+        data-status="{{ patient.status }}"
+        data-age="{{ patient.age if patient.age is defined else '' }}"
+    >
+
+        <!-- ==================================================
+             PATIENT ID
+        =================================================== -->
+
+        <td>
+
+            <div class="patient-id-cell">
+
+                <div class="patient-avatar
+                    {% if patient.gender == 'Female' %}
+                        avatar-pink
+                    {% else %}
+                        avatar-blue
+                    {% endif %}
+                ">
+
+                    <i class="fa-solid fa-user"></i>
+
+                </div>
+
+                <span>
+                    {{ patient.id }}
+                </span>
+
+            </div>
+
+        </td>
+
+
+        <!-- ==================================================
+             PATIENT NAME
+        =================================================== -->
+
+        <td>
+
+            <strong>
+                {{ patient.name }}
+            </strong>
+
+        </td>
+
+
+        <!-- ==================================================
+             AGE / GENDER
+        =================================================== -->
+
+        <td>
+
+            {{ patient.age }} / {{ patient.gender }}
+
+        </td>
+
+
+        <!-- ==================================================
+             CONTACT
+        =================================================== -->
+
+        <td>
+
+            {{ patient.phone }}
+
+        </td>
+
+
+        <!-- ==================================================
+             LAST VISIT
+        =================================================== -->
+
+        <td>
+
+            --
+
+        </td>
+
+
+        <!-- ==================================================
+             STATUS
+        =================================================== -->
+
+        <td>
+
+            <span
+                class="patient-status
+                {% if patient.status == 'Active' %}
+                    active
+                {% else %}
+                    inactive
+                {% endif %}
+            ">
+
+                {{ patient.status }}
+
+            </span>
+
+        </td>
+
+
+        <!-- ==================================================
+             ACTIONS
+        =================================================== -->
+
+        <td>
+
+            <div class="patient-actions">
+
+                <button
+                    type="button"
+                    class="patient-action-btn view-patient"
+                    data-patient-id="{{ patient.id }}"
+                    title="View Patient">
+
+                    <i class="fa-regular fa-file-lines"></i>
+
+                </button>
+
+
+                <button
+                    type="button"
+                    class="patient-action-btn patient-menu"
+                    data-patient-id="{{ patient.id }}"
+                    title="More">
+
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                </button>
+
+            </div>
+
+        </td>
+
+    </tr>
+
+    {% endfor %}
+
+</tbody>
+
+                </table>
+
+            </div>
+
+
+            <!-- ==================================================
+     PAGINATION
+=================================================== -->
+
+<div class="patients-pagination">
+
+    <div class="patients-result-count">
+
+        Showing
+
+        <strong>
+            {{ start_index }}
+        </strong>
+
+        to
+
+        <strong>
+            {{ end_index }}
+        </strong>
+
+        of
+
+        <strong>
+            {{ total_patient_results }}
+        </strong>
+
+        patients
+
+    </div>
+
+
+    <div class="pagination-buttons">
+
+        <!-- PREVIOUS -->
+
+        {% if current_page > 1 %}
+
+        <a
+            href="{{ url_for(
+                'patients.patients',
+                page=current_page - 1
+            ) }}"
+            class="pagination-btn"
+        >
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </a>
+
+        {% else %}
+
+        <span class="pagination-btn disabled">
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </span>
+
+        {% endif %}
+
+
+
+        <!-- PAGE NUMBERS -->
+
+        {% for page_num in range(1, total_pages + 1) %}
+
+            {% if
+                page_num == 1
+                or
+                page_num == total_pages
+                or
+                (
+                    page_num >= current_page - 1
+                    and
+                    page_num <= current_page + 1
+                )
+            %}
+
+                {% if page_num == current_page %}
+
+                <span
+                    class="pagination-btn active"
+                >
+                    {{ page_num }}
+                </span>
+
+                {% else %}
+
+                <a
+                    href="{{ url_for(
+                        'patients.patients',
+                        page=page_num
+                    ) }}"
+                    class="pagination-btn"
+                >
+                    {{ page_num }}
+                </a>
+
+                {% endif %}
+
+
+            {% elif
+                page_num == current_page - 2
+                or
+                page_num == current_page + 2
+            %}
+
+                <span class="pagination-dots">
+                    ...
+                </span>
+
+            {% endif %}
+
+        {% endfor %}
+
+
+
+        <!-- NEXT -->
+
+        {% if current_page < total_pages %}
+
+        <a
+            href="{{ url_for(
+                'patients.patients',
+                page=current_page + 1
+            ) }}"
+            class="pagination-btn"
+        >
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </a>
+
+        {% else %}
+
+        <span class="pagination-btn disabled">
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </span>
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+        </div>
+
+
+        <!-- ==================================================
+             RIGHT SIDEBAR
+        =================================================== -->
+
+        <div class="patient-side-column">
+
+
+            <!-- ==================================================
+                 PATIENT PROFILE
+            =================================================== -->
+
+<div class="patient-profile-card">
+
+    <div class="side-card-header">
+
+        <h3>
+            Patient Profile
+        </h3>
+
+        <a
+            href="#"
+            id="viewFullProfile">
+
+            View Full Profile
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+
+    <div class="patient-profile-content">
+
+        <!-- PROFILE HEADER -->
+
+        <div class="patient-profile-top">
+
+            <div
+                class="patient-profile-avatar avatar-blue"
+                id="profileAvatar">
+
+                <i class="fa-solid fa-user"></i>
+
+            </div>
+
+            <div class="patient-profile-name">
+
+                <h3 id="profileName">
+                    Rahul Sharma
+                </h3>
+
+                <p id="profileId">
+                    P1001
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- PROFILE DETAILS -->
+
+        <div class="patient-profile-details">
+
+
+            <!-- DOB -->
+
+            <div class="profile-detail">
+
+                <i class="fa-regular fa-calendar"></i>
+
+                <span id="profileDob">
+                    12 May 1992 (34 Years)
+                </span>
+
+            </div>
+
+
+            <!-- GENDER -->
+
+            <div class="profile-detail">
+
+                <i class="fa-solid fa-venus-mars"></i>
+
+                <span id="profileGender">
+                    Male
+                </span>
+
+            </div>
+
+
+            <!-- PHONE -->
+
+            <div class="profile-detail">
+
+                <i class="fa-solid fa-phone"></i>
+
+                <span id="profilePhone">
+                    9876543210
+                </span>
+
+            </div>
+
+
+            <!-- EMAIL -->
+
+            <div class="profile-detail">
+
+                <i class="fa-regular fa-envelope"></i>
+
+                <span id="profileEmail">
+                    rahulsharma@email.com
+                </span>
+
+            </div>
+
+
+            <!-- ADDRESS -->
+
+            <div class="profile-detail">
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                <span id="profileAddress">
+
+                    123, Green Park, Sector 12
+                    <br>
+                    New Delhi - 110016
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ==========================================================
+     RECENT CONSULTATIONS
+========================================================== -->
+
+<div class="recent-consultations-card">
+
+    <div class="side-card-header">
+
+        <h3>
+            Recent Consultations
+        </h3>
+
+        <a
+            href="#"
+            id="viewAllConsultations">
+
+            View All
+
+            <i class="fa-solid fa-arrow-right"></i>
+
+        </a>
+
+    </div>
+
+
+    <div class="consultations-list">
+
+
+        <!-- ==================================================
+             CONSULTATION 1
+        =================================================== -->
+
+        <div class="consultation-item">
+
+            <div class="consultation-icon">
+
+                <i class="fa-solid fa-stethoscope"></i>
+
+            </div>
+
+            <div class="consultation-content">
+
+                <div class="consultation-date">
+                    30 Jul 2026
+                </div>
+
+                <h4>
+                    Dr. Amit Kumar
+                </h4>
+
+                <p>
+                    Consultation
+                </p>
+
+            </div>
+
+            <span class="consultation-status completed">
+                Completed
+            </span>
+
+        </div>
+
+
+        <!-- ==================================================
+             CONSULTATION 2
+        =================================================== -->
+
+        <div class="consultation-item">
+
+            <div class="consultation-icon">
+
+                <i class="fa-solid fa-stethoscope"></i>
+
+            </div>
+
+            <div class="consultation-content">
+
+                <div class="consultation-date">
+                    15 Jul 2026
+                </div>
+
+                <h4>
+                    Dr. Neha Singh
+                </h4>
+
+                <p>
+                    Follow-up
+                </p>
+
+            </div>
+
+            <span class="consultation-status completed">
+                Completed
+            </span>
+
+        </div>
+
+
+        <!-- ==================================================
+             CONSULTATION 3
+        =================================================== -->
+
+        <div class="consultation-item">
+
+            <div class="consultation-icon">
+
+                <i class="fa-solid fa-stethoscope"></i>
+
+            </div>
+
+            <div class="consultation-content">
+
+                <div class="consultation-date">
+                    02 Jul 2026
+                </div>
+
+                <h4>
+                    Dr. Amit Kumar
+                </h4>
+
+                <p>
+                    Consultation
+                </p>
+
+            </div>
+
+            <span class="consultation-status completed">
+                Completed
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- ======================================================
+         VIEW HISTORY
+    ======================================================= -->
+
+    <button
+        type="button"
+        class="view-history-btn"
+        id="viewHistory">
+
+        View All History
+
+    </button>
+
+</div>
+
+
+            <!-- ==================================================
+                 RECENT CONSULTATIONS
+            =================================================== -->
+
+            <div class="recent-consultations-card">
+
+                <div class="side-card-header">
+
+                    <h3>
+                        Recent Consultations
+                    </h3>
+
+                    <a href="#">
+                        View All
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="consultations-list">
+
+                    <!-- Consultation items will be added
+                         in the next part -->
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="view-history-btn">
+
+                    View All History
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- ==========================================================
+     MODAL CONTAINERS
+========================================================== -->
+
+{% include "patients/add_patient_modal.html" %}
+
+{% include "patients/view_patient_modal.html" %}
+
+<script>
+    window.patientData = {{ patients | tojson }};
+</script>
+
+<script src="{{ url_for('static', filename='js/patients.js') }}"></script>
+
+{% endblock %}

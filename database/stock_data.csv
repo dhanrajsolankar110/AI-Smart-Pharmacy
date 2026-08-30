@@ -1,0 +1,501 @@
+Stock_ID,Medicine_ID,Medicine_Name,Batch_Number,Quantity,Reorder_Level,Stock_Status,Expiry_Date,Supplier,Purchase_Price_INR,Storage_Location,Last_Updated
+STK00001,MED00001,Paracetamol 500mg,BAT257720,451,60,In Stock,2027-06-24,Apollo Distributors,491.05,Rack-7 / Shelf-8,2026-01-02
+STK00002,MED00002,Amoxicillin 250mg,BAT244072,390,55,In Stock,2027-09-11,Apollo Distributors,530.73,Rack-17 / Shelf-6,2026-01-03
+STK00003,MED00003,Cetirizine 10mg,BAT248382,230,30,In Stock,2027-03-30,City Medical Supply,38.89,Rack-1 / Shelf-2,2025-09-07
+STK00004,MED00004,Ibuprofen 400mg,BAT255235,355,63,In Stock,2027-09-24,HealthKart Pharma,524.2,Rack-7 / Shelf-7,2026-07-12
+STK00005,MED00005,Omeprazole 20mg,BAT243857,5,36,Low Stock,2028-08-25,MedPlus Wholesale,234.36,Rack-15 / Shelf-8,2025-12-07
+STK00006,MED00006,Metformin 500mg,BAT258070,34,25,In Stock,2028-07-02,MedPlus Wholesale,501.8,Rack-15 / Shelf-3,2025-12-02
+STK00007,MED00007,Azithromycin 500mg,BAT245387,420,37,In Stock,2027-02-20,Apollo Distributors,428.04,Rack-6 / Shelf-5,2026-05-29
+STK00008,MED00008,Pantoprazole 40mg,BAT252907,273,67,In Stock,2027-02-18,Apollo Distributors,472.6,Rack-1 / Shelf-5,2026-05-14
+STK00009,MED00009,Amlodipine 5mg,BAT245930,225,42,In Stock,2027-04-08,Apollo Distributors,625.74,Rack-18 / Shelf-4,2025-12-17
+STK00010,MED00010,Atorvastatin 10mg,BAT260900,356,23,In Stock,2028-12-07,City Medical Supply,451.58,Rack-4 / Shelf-7,2025-08-12
+STK00011,MED00011,Montelukast 10mg,BAT241817,157,48,In Stock,2028-05-03,Apollo Distributors,41.68,Rack-13 / Shelf-4,2025-04-12
+STK00012,MED00012,Levocetirizine 5mg,BAT247916,127,43,In Stock,2027-03-22,Apollo Distributors,19.1,Rack-1 / Shelf-1,2026-02-09
+STK00013,MED00013,Vitamin D3 60000IU,BAT242170,420,32,In Stock,2027-04-12,Apollo Distributors,559.47,Rack-6 / Shelf-3,2026-07-09
+STK00014,MED00014,ORS Sachet,BAT243628,212,52,In Stock,2028-12-12,HealthKart Pharma,231.29,Rack-7 / Shelf-4,2025-04-09
+STK00015,MED00015,Dolo 650mg,BAT254120,277,45,In Stock,2026-12-31,MedPlus Wholesale,155.94,Rack-12 / Shelf-6,2026-05-04
+STK00016,MED00016,Cough Syrup 100ml,BAT250462,7,45,Low Stock,2026-09-11,Wellness Distributors,155.24,Rack-8 / Shelf-2,2025-08-29
+STK00017,MED00017,Calcium 500mg,BAT260544,417,37,In Stock,2027-09-11,Apollo Distributors,54.59,Rack-7 / Shelf-7,2026-02-27
+STK00018,MED00018,Losartan 50mg,BAT256470,392,58,In Stock,2026-12-12,City Medical Supply,555.55,Rack-19 / Shelf-3,2026-03-25
+STK00019,MED00019,Rabeprazole 20mg,BAT259756,491,26,In Stock,2027-07-28,Wellness Distributors,477.11,Rack-5 / Shelf-6,2026-05-03
+STK00020,MED00020,Salbutamol 4mg,BAT250519,325,68,In Stock,2028-07-12,Wellness Distributors,54.72,Rack-1 / Shelf-8,2026-01-17
+STK00021,MED00021,Paracetamol 500mg,BAT247716,261,60,In Stock,2028-01-27,City Medical Supply,495.6,Rack-1 / Shelf-4,2026-07-21
+STK00022,MED00022,Amoxicillin 250mg,BAT244165,315,68,In Stock,2027-07-12,MedPlus Wholesale,518.64,Rack-8 / Shelf-2,2026-07-01
+STK00023,MED00023,Cetirizine 10mg,BAT256442,70,43,In Stock,2027-06-29,MedPlus Wholesale,112.96,Rack-7 / Shelf-1,2026-04-01
+STK00024,MED00024,Ibuprofen 400mg,BAT259697,472,66,In Stock,2027-11-27,HealthKart Pharma,100.91,Rack-11 / Shelf-1,2025-11-07
+STK00025,MED00025,Omeprazole 20mg,BAT249552,405,46,In Stock,2028-10-06,Apollo Distributors,166.47,Rack-11 / Shelf-6,2026-03-29
+STK00026,MED00026,Metformin 500mg,BAT241871,105,54,In Stock,2028-07-10,MedPlus Wholesale,562.6,Rack-8 / Shelf-7,2025-11-07
+STK00027,MED00027,Azithromycin 500mg,BAT254595,164,31,In Stock,2028-06-04,Apollo Distributors,52.71,Rack-16 / Shelf-2,2025-03-30
+STK00028,MED00028,Pantoprazole 40mg,BAT260886,98,23,In Stock,2027-01-21,MedPlus Wholesale,94.89,Rack-6 / Shelf-4,2026-04-02
+STK00029,MED00029,Amlodipine 5mg,BAT254067,259,25,In Stock,2028-09-10,Wellness Distributors,223.53,Rack-7 / Shelf-4,2025-12-26
+STK00030,MED00030,Atorvastatin 10mg,BAT248258,90,58,In Stock,2027-07-06,HealthKart Pharma,406.88,Rack-7 / Shelf-5,2025-05-16
+STK00031,MED00031,Montelukast 10mg,BAT242721,400,50,In Stock,2027-09-02,Wellness Distributors,269.38,Rack-16 / Shelf-8,2025-12-27
+STK00032,MED00032,Levocetirizine 5mg,BAT254302,258,59,In Stock,2028-10-16,MedPlus Wholesale,575.17,Rack-16 / Shelf-1,2025-07-06
+STK00033,MED00033,Vitamin D3 60000IU,BAT242827,195,47,In Stock,2028-10-15,HealthKart Pharma,419.87,Rack-5 / Shelf-3,2026-03-22
+STK00034,MED00034,ORS Sachet,BAT250122,194,49,In Stock,2027-12-07,HealthKart Pharma,267.6,Rack-20 / Shelf-8,2026-06-25
+STK00035,MED00035,Dolo 650mg,BAT255476,170,28,In Stock,2027-03-18,MedPlus Wholesale,641.96,Rack-1 / Shelf-1,2025-05-16
+STK00036,MED00036,Cough Syrup 100ml,BAT252363,256,66,In Stock,2028-01-15,Wellness Distributors,648.58,Rack-13 / Shelf-6,2026-01-16
+STK00037,MED00037,Calcium 500mg,BAT259377,250,39,In Stock,2026-11-10,Wellness Distributors,620.42,Rack-4 / Shelf-7,2025-04-10
+STK00038,MED00038,Losartan 50mg,BAT246464,289,30,In Stock,2028-10-19,Wellness Distributors,670.31,Rack-12 / Shelf-8,2025-09-09
+STK00039,MED00039,Rabeprazole 20mg,BAT241990,352,43,In Stock,2028-06-26,Wellness Distributors,649.15,Rack-8 / Shelf-4,2025-11-29
+STK00040,MED00040,Salbutamol 4mg,BAT251942,17,78,Low Stock,2028-06-06,Apollo Distributors,490.65,Rack-5 / Shelf-5,2025-09-25
+STK00041,MED00041,Paracetamol 500mg,BAT244928,233,80,In Stock,2027-05-17,MedPlus Wholesale,424.69,Rack-6 / Shelf-1,2026-06-02
+STK00042,MED00042,Amoxicillin 250mg,BAT252694,394,25,In Stock,2027-10-11,City Medical Supply,682.11,Rack-3 / Shelf-4,2025-05-09
+STK00043,MED00043,Cetirizine 10mg,BAT254087,216,30,In Stock,2027-05-15,HealthKart Pharma,354.45,Rack-18 / Shelf-7,2025-10-04
+STK00044,MED00044,Ibuprofen 400mg,BAT253587,157,66,In Stock,2028-10-08,Apollo Distributors,83.62,Rack-19 / Shelf-6,2025-06-10
+STK00045,MED00045,Omeprazole 20mg,BAT246965,73,37,In Stock,2028-10-04,Wellness Distributors,491.71,Rack-1 / Shelf-3,2025-06-09
+STK00046,MED00046,Metformin 500mg,BAT243274,251,20,In Stock,2026-11-09,Wellness Distributors,371.27,Rack-10 / Shelf-7,2026-05-05
+STK00047,MED00047,Azithromycin 500mg,BAT246207,90,43,In Stock,2028-08-19,MedPlus Wholesale,145.03,Rack-6 / Shelf-2,2025-12-13
+STK00048,MED00048,Pantoprazole 40mg,BAT247065,290,72,In Stock,2027-03-08,MedPlus Wholesale,48.82,Rack-6 / Shelf-4,2026-03-21
+STK00049,MED00049,Amlodipine 5mg,BAT253495,461,75,In Stock,2027-11-24,City Medical Supply,83.56,Rack-6 / Shelf-2,2026-03-03
+STK00050,MED00050,Atorvastatin 10mg,BAT244185,43,44,Low Stock,2027-06-09,Apollo Distributors,244.77,Rack-19 / Shelf-4,2025-11-29
+STK00051,MED00051,Montelukast 10mg,BAT243403,248,63,In Stock,2026-09-08,Apollo Distributors,192.13,Rack-1 / Shelf-1,2026-06-12
+STK00052,MED00052,Levocetirizine 5mg,BAT240337,108,53,In Stock,2027-09-18,City Medical Supply,367.89,Rack-9 / Shelf-8,2025-12-01
+STK00053,MED00053,Vitamin D3 60000IU,BAT259904,387,41,In Stock,2027-11-12,HealthKart Pharma,264.58,Rack-11 / Shelf-6,2025-06-08
+STK00054,MED00054,ORS Sachet,BAT251936,122,80,In Stock,2028-07-11,Wellness Distributors,269.88,Rack-2 / Shelf-6,2025-05-10
+STK00055,MED00055,Dolo 650mg,BAT243382,169,71,In Stock,2026-09-02,Wellness Distributors,610.41,Rack-13 / Shelf-3,2026-07-18
+STK00056,MED00056,Cough Syrup 100ml,BAT257487,308,27,In Stock,2027-06-12,MedPlus Wholesale,262.95,Rack-20 / Shelf-8,2025-11-10
+STK00057,MED00057,Calcium 500mg,BAT246258,211,62,In Stock,2026-09-02,HealthKart Pharma,19.51,Rack-12 / Shelf-1,2025-03-22
+STK00058,MED00058,Losartan 50mg,BAT250766,413,67,In Stock,2028-07-24,Wellness Distributors,169.62,Rack-16 / Shelf-7,2025-07-18
+STK00059,MED00059,Rabeprazole 20mg,BAT242766,313,70,In Stock,2027-08-21,Wellness Distributors,657.85,Rack-16 / Shelf-2,2025-07-21
+STK00060,MED00060,Salbutamol 4mg,BAT259995,197,38,In Stock,2027-03-17,MedPlus Wholesale,609.94,Rack-19 / Shelf-1,2026-05-27
+STK00061,MED00061,Paracetamol 500mg,BAT242953,254,70,In Stock,2027-07-04,City Medical Supply,691.16,Rack-15 / Shelf-3,2025-04-29
+STK00062,MED00062,Amoxicillin 250mg,BAT255899,228,27,In Stock,2028-07-08,City Medical Supply,174.7,Rack-7 / Shelf-3,2025-07-11
+STK00063,MED00063,Cetirizine 10mg,BAT243030,483,62,In Stock,2026-12-16,Wellness Distributors,695.41,Rack-1 / Shelf-3,2025-04-12
+STK00064,MED00064,Ibuprofen 400mg,BAT252666,475,40,In Stock,2028-10-22,HealthKart Pharma,160.5,Rack-9 / Shelf-8,2025-03-31
+STK00065,MED00065,Omeprazole 20mg,BAT244133,459,62,In Stock,2028-07-11,MedPlus Wholesale,646.53,Rack-16 / Shelf-2,2025-06-19
+STK00066,MED00066,Metformin 500mg,BAT247433,354,41,In Stock,2028-04-10,City Medical Supply,52.75,Rack-11 / Shelf-7,2025-04-21
+STK00067,MED00067,Azithromycin 500mg,BAT252605,367,67,In Stock,2028-06-29,City Medical Supply,676.64,Rack-14 / Shelf-4,2026-04-08
+STK00068,MED00068,Pantoprazole 40mg,BAT249634,132,27,In Stock,2026-11-27,Apollo Distributors,69.68,Rack-19 / Shelf-4,2025-07-15
+STK00069,MED00069,Amlodipine 5mg,BAT258870,482,27,In Stock,2027-09-10,MedPlus Wholesale,598.5,Rack-13 / Shelf-1,2026-02-22
+STK00070,MED00070,Atorvastatin 10mg,BAT257650,31,57,Low Stock,2027-03-12,Wellness Distributors,686.06,Rack-11 / Shelf-6,2025-06-18
+STK00071,MED00071,Montelukast 10mg,BAT244238,347,79,In Stock,2028-02-13,City Medical Supply,416.82,Rack-4 / Shelf-7,2026-07-27
+STK00072,MED00072,Levocetirizine 5mg,BAT255193,275,74,In Stock,2027-07-19,MedPlus Wholesale,572.77,Rack-10 / Shelf-4,2025-11-18
+STK00073,MED00073,Vitamin D3 60000IU,BAT244930,348,49,In Stock,2028-05-06,HealthKart Pharma,108.94,Rack-2 / Shelf-6,2026-02-23
+STK00074,MED00074,ORS Sachet,BAT244145,257,64,In Stock,2027-06-06,City Medical Supply,338.97,Rack-7 / Shelf-8,2026-03-04
+STK00075,MED00075,Dolo 650mg,BAT242027,360,44,In Stock,2028-12-06,HealthKart Pharma,113.67,Rack-7 / Shelf-4,2025-08-07
+STK00076,MED00076,Cough Syrup 100ml,BAT245966,376,23,In Stock,2028-01-11,Wellness Distributors,214.98,Rack-6 / Shelf-1,2025-10-24
+STK00077,MED00077,Calcium 500mg,BAT253942,200,41,In Stock,2028-07-24,Wellness Distributors,693.3,Rack-13 / Shelf-7,2026-06-25
+STK00078,MED00078,Losartan 50mg,BAT249374,270,66,In Stock,2027-06-15,MedPlus Wholesale,493.17,Rack-18 / Shelf-7,2026-06-12
+STK00079,MED00079,Rabeprazole 20mg,BAT259118,67,40,In Stock,2028-12-01,Apollo Distributors,596.07,Rack-10 / Shelf-8,2025-08-30
+STK00080,MED00080,Salbutamol 4mg,BAT244607,83,56,In Stock,2027-11-25,Wellness Distributors,209.43,Rack-5 / Shelf-4,2026-04-11
+STK00081,MED00081,Paracetamol 500mg,BAT246511,411,67,In Stock,2028-09-20,Apollo Distributors,258.66,Rack-19 / Shelf-2,2025-08-18
+STK00082,MED00082,Amoxicillin 250mg,BAT244936,402,74,In Stock,2027-09-19,Wellness Distributors,478.18,Rack-6 / Shelf-1,2026-06-12
+STK00083,MED00083,Cetirizine 10mg,BAT245986,182,50,In Stock,2026-10-22,Apollo Distributors,686.35,Rack-11 / Shelf-7,2025-03-22
+STK00084,MED00084,Ibuprofen 400mg,BAT253338,76,60,In Stock,2027-05-07,Apollo Distributors,90.21,Rack-13 / Shelf-8,2026-02-27
+STK00085,MED00085,Omeprazole 20mg,BAT245752,352,58,In Stock,2028-06-28,Wellness Distributors,544.89,Rack-3 / Shelf-8,2025-05-15
+STK00086,MED00086,Metformin 500mg,BAT252620,418,61,In Stock,2027-06-07,Wellness Distributors,262.19,Rack-4 / Shelf-2,2026-06-19
+STK00087,MED00087,Azithromycin 500mg,BAT256803,62,51,In Stock,2027-04-17,Apollo Distributors,414.1,Rack-19 / Shelf-8,2026-03-13
+STK00088,MED00088,Pantoprazole 40mg,BAT243198,355,67,In Stock,2028-11-20,City Medical Supply,133.32,Rack-16 / Shelf-7,2026-03-01
+STK00089,MED00089,Amlodipine 5mg,BAT243358,292,28,In Stock,2027-07-29,Apollo Distributors,501.93,Rack-18 / Shelf-3,2026-01-05
+STK00090,MED00090,Atorvastatin 10mg,BAT240747,416,64,In Stock,2027-10-07,City Medical Supply,573.68,Rack-17 / Shelf-8,2026-06-29
+STK00091,MED00091,Montelukast 10mg,BAT259260,265,73,In Stock,2028-03-03,Apollo Distributors,529.43,Rack-7 / Shelf-2,2026-04-30
+STK00092,MED00092,Levocetirizine 5mg,BAT245996,441,58,In Stock,2026-09-04,City Medical Supply,317.49,Rack-11 / Shelf-2,2026-07-11
+STK00093,MED00093,Vitamin D3 60000IU,BAT246857,65,56,In Stock,2028-06-28,MedPlus Wholesale,68.77,Rack-9 / Shelf-1,2026-06-18
+STK00094,MED00094,ORS Sachet,BAT249883,63,52,In Stock,2027-09-06,City Medical Supply,126.75,Rack-1 / Shelf-4,2026-02-28
+STK00095,MED00095,Dolo 650mg,BAT257121,23,80,Low Stock,2028-11-08,HealthKart Pharma,464.14,Rack-15 / Shelf-3,2025-10-09
+STK00096,MED00096,Cough Syrup 100ml,BAT250354,251,64,In Stock,2028-02-16,HealthKart Pharma,427.47,Rack-17 / Shelf-4,2025-08-13
+STK00097,MED00097,Calcium 500mg,BAT241565,50,62,Low Stock,2027-04-29,Apollo Distributors,138.15,Rack-10 / Shelf-4,2025-03-28
+STK00098,MED00098,Losartan 50mg,BAT258190,68,58,In Stock,2027-04-08,City Medical Supply,256.47,Rack-5 / Shelf-7,2026-06-23
+STK00099,MED00099,Rabeprazole 20mg,BAT248641,281,36,In Stock,2027-09-24,MedPlus Wholesale,284.84,Rack-3 / Shelf-5,2025-08-19
+STK00100,MED00100,Salbutamol 4mg,BAT244793,217,80,In Stock,2028-02-29,MedPlus Wholesale,56.83,Rack-9 / Shelf-4,2025-07-31
+STK00101,MED00101,Paracetamol 500mg,BAT256858,190,56,In Stock,2028-05-10,MedPlus Wholesale,298.42,Rack-5 / Shelf-6,2025-06-23
+STK00102,MED00102,Amoxicillin 250mg,BAT240949,222,44,In Stock,2028-05-09,MedPlus Wholesale,61.65,Rack-4 / Shelf-2,2025-08-15
+STK00103,MED00103,Cetirizine 10mg,BAT242261,280,46,In Stock,2027-08-02,Apollo Distributors,259.07,Rack-11 / Shelf-5,2026-05-18
+STK00104,MED00104,Ibuprofen 400mg,BAT247497,444,71,In Stock,2027-06-06,Apollo Distributors,75.78,Rack-8 / Shelf-7,2025-03-31
+STK00105,MED00105,Omeprazole 20mg,BAT244146,53,70,Low Stock,2027-02-25,City Medical Supply,512.0,Rack-10 / Shelf-8,2026-06-13
+STK00106,MED00106,Metformin 500mg,BAT258848,270,42,In Stock,2027-06-14,City Medical Supply,195.57,Rack-4 / Shelf-1,2026-05-05
+STK00107,MED00107,Azithromycin 500mg,BAT252865,162,80,In Stock,2027-03-03,HealthKart Pharma,565.81,Rack-18 / Shelf-7,2025-11-29
+STK00108,MED00108,Pantoprazole 40mg,BAT248588,303,28,In Stock,2026-09-08,City Medical Supply,501.55,Rack-5 / Shelf-3,2026-01-19
+STK00109,MED00109,Amlodipine 5mg,BAT248861,290,67,In Stock,2026-10-23,HealthKart Pharma,497.59,Rack-8 / Shelf-7,2025-08-04
+STK00110,MED00110,Atorvastatin 10mg,BAT254483,234,31,In Stock,2027-08-27,Wellness Distributors,355.54,Rack-9 / Shelf-7,2025-11-07
+STK00111,MED00111,Montelukast 10mg,BAT247596,482,65,In Stock,2027-07-08,Apollo Distributors,663.64,Rack-14 / Shelf-6,2025-05-25
+STK00112,MED00112,Levocetirizine 5mg,BAT242704,46,60,Low Stock,2026-11-16,MedPlus Wholesale,661.85,Rack-6 / Shelf-1,2026-06-18
+STK00113,MED00113,Vitamin D3 60000IU,BAT258258,380,38,In Stock,2028-01-16,Apollo Distributors,673.82,Rack-14 / Shelf-3,2025-11-28
+STK00114,MED00114,ORS Sachet,BAT257545,254,52,In Stock,2028-08-13,Apollo Distributors,288.59,Rack-20 / Shelf-4,2025-04-21
+STK00115,MED00115,Dolo 650mg,BAT240338,425,67,In Stock,2028-08-30,Wellness Distributors,494.19,Rack-12 / Shelf-4,2025-07-18
+STK00116,MED00116,Cough Syrup 100ml,BAT257405,338,80,In Stock,2028-07-30,City Medical Supply,37.31,Rack-15 / Shelf-3,2025-08-20
+STK00117,MED00117,Calcium 500mg,BAT257254,476,76,In Stock,2027-04-17,MedPlus Wholesale,59.98,Rack-5 / Shelf-6,2025-03-31
+STK00118,MED00118,Losartan 50mg,BAT256336,26,47,Low Stock,2027-09-22,MedPlus Wholesale,266.31,Rack-4 / Shelf-6,2025-04-20
+STK00119,MED00119,Rabeprazole 20mg,BAT257765,347,35,In Stock,2028-10-22,Apollo Distributors,208.72,Rack-16 / Shelf-5,2026-03-18
+STK00120,MED00120,Salbutamol 4mg,BAT260782,109,20,In Stock,2028-04-03,Wellness Distributors,158.48,Rack-10 / Shelf-1,2025-04-09
+STK00121,MED00121,Paracetamol 500mg,BAT260342,237,77,In Stock,2029-01-14,Wellness Distributors,47.79,Rack-1 / Shelf-8,2026-02-13
+STK00122,MED00122,Amoxicillin 250mg,BAT243611,152,42,In Stock,2026-09-04,HealthKart Pharma,624.02,Rack-6 / Shelf-7,2026-01-31
+STK00123,MED00123,Cetirizine 10mg,BAT254216,4,26,Low Stock,2028-01-15,MedPlus Wholesale,66.64,Rack-17 / Shelf-3,2026-01-02
+STK00124,MED00124,Ibuprofen 400mg,BAT256071,63,78,Low Stock,2026-09-06,MedPlus Wholesale,540.46,Rack-9 / Shelf-4,2025-12-03
+STK00125,MED00125,Omeprazole 20mg,BAT249906,202,43,In Stock,2027-09-07,Wellness Distributors,625.4,Rack-18 / Shelf-5,2026-06-06
+STK00126,MED00126,Metformin 500mg,BAT254496,224,62,In Stock,2027-02-11,MedPlus Wholesale,252.79,Rack-14 / Shelf-1,2026-01-29
+STK00127,MED00127,Azithromycin 500mg,BAT246603,452,75,In Stock,2026-12-21,MedPlus Wholesale,205.15,Rack-5 / Shelf-7,2025-12-28
+STK00128,MED00128,Pantoprazole 40mg,BAT241135,380,41,In Stock,2027-02-10,MedPlus Wholesale,664.28,Rack-9 / Shelf-2,2025-12-28
+STK00129,MED00129,Amlodipine 5mg,BAT256338,250,55,In Stock,2028-11-26,MedPlus Wholesale,232.82,Rack-13 / Shelf-7,2026-05-25
+STK00130,MED00130,Atorvastatin 10mg,BAT240793,56,26,In Stock,2027-01-06,MedPlus Wholesale,246.13,Rack-1 / Shelf-4,2026-07-05
+STK00131,MED00131,Montelukast 10mg,BAT251311,347,73,In Stock,2027-11-12,City Medical Supply,518.3,Rack-14 / Shelf-8,2026-03-05
+STK00132,MED00132,Levocetirizine 5mg,BAT242807,144,51,In Stock,2028-10-17,Wellness Distributors,179.44,Rack-5 / Shelf-3,2026-03-26
+STK00133,MED00133,Vitamin D3 60000IU,BAT243868,143,69,In Stock,2027-05-26,MedPlus Wholesale,469.1,Rack-14 / Shelf-4,2025-12-01
+STK00134,MED00134,ORS Sachet,BAT243477,361,70,In Stock,2028-08-16,City Medical Supply,430.88,Rack-7 / Shelf-3,2026-04-05
+STK00135,MED00135,Dolo 650mg,BAT253249,61,28,In Stock,2026-10-08,HealthKart Pharma,693.36,Rack-5 / Shelf-7,2026-07-22
+STK00136,MED00136,Cough Syrup 100ml,BAT243079,315,32,In Stock,2026-10-21,Wellness Distributors,289.85,Rack-10 / Shelf-4,2026-04-09
+STK00137,MED00137,Calcium 500mg,BAT255802,172,47,In Stock,2026-10-31,City Medical Supply,303.53,Rack-2 / Shelf-5,2026-06-05
+STK00138,MED00138,Losartan 50mg,BAT249293,137,43,In Stock,2027-08-24,Wellness Distributors,178.9,Rack-2 / Shelf-3,2026-07-11
+STK00139,MED00139,Rabeprazole 20mg,BAT250639,0,23,Out of Stock,2027-04-04,HealthKart Pharma,334.66,Rack-20 / Shelf-2,2025-12-23
+STK00140,MED00140,Salbutamol 4mg,BAT256198,94,36,In Stock,2027-09-06,HealthKart Pharma,218.61,Rack-4 / Shelf-1,2025-08-16
+STK00141,MED00141,Paracetamol 500mg,BAT244369,282,69,In Stock,2027-08-04,HealthKart Pharma,520.97,Rack-12 / Shelf-6,2026-04-01
+STK00142,MED00142,Amoxicillin 250mg,BAT246982,332,37,In Stock,2028-04-19,Wellness Distributors,68.36,Rack-4 / Shelf-3,2025-09-12
+STK00143,MED00143,Cetirizine 10mg,BAT244043,380,58,In Stock,2026-10-11,City Medical Supply,678.08,Rack-7 / Shelf-4,2025-08-05
+STK00144,MED00144,Ibuprofen 400mg,BAT243332,228,79,In Stock,2026-11-14,City Medical Supply,436.36,Rack-10 / Shelf-8,2025-07-07
+STK00145,MED00145,Omeprazole 20mg,BAT245135,103,54,In Stock,2026-10-13,MedPlus Wholesale,140.66,Rack-18 / Shelf-5,2025-05-01
+STK00146,MED00146,Metformin 500mg,BAT258461,449,68,In Stock,2027-08-20,HealthKart Pharma,318.35,Rack-4 / Shelf-7,2026-06-27
+STK00147,MED00147,Azithromycin 500mg,BAT257262,247,46,In Stock,2028-01-27,Apollo Distributors,123.52,Rack-9 / Shelf-3,2026-03-05
+STK00148,MED00148,Pantoprazole 40mg,BAT242092,23,56,Low Stock,2028-11-20,MedPlus Wholesale,520.57,Rack-13 / Shelf-8,2025-08-15
+STK00149,MED00149,Amlodipine 5mg,BAT256925,272,75,In Stock,2026-11-14,MedPlus Wholesale,310.92,Rack-17 / Shelf-7,2025-10-17
+STK00150,MED00150,Atorvastatin 10mg,BAT253235,399,44,In Stock,2028-05-12,HealthKart Pharma,151.19,Rack-1 / Shelf-3,2025-10-12
+STK00151,MED00151,Montelukast 10mg,BAT240390,111,57,In Stock,2028-11-16,City Medical Supply,323.17,Rack-17 / Shelf-5,2026-02-26
+STK00152,MED00152,Levocetirizine 5mg,BAT249811,436,34,In Stock,2028-08-24,HealthKart Pharma,390.09,Rack-6 / Shelf-4,2026-07-08
+STK00153,MED00153,Vitamin D3 60000IU,BAT249663,273,35,In Stock,2026-10-09,MedPlus Wholesale,659.9,Rack-9 / Shelf-3,2026-03-15
+STK00154,MED00154,ORS Sachet,BAT241788,447,70,In Stock,2028-06-17,MedPlus Wholesale,692.76,Rack-7 / Shelf-2,2026-07-31
+STK00155,MED00155,Dolo 650mg,BAT260831,332,42,In Stock,2028-05-10,HealthKart Pharma,232.6,Rack-18 / Shelf-5,2025-07-27
+STK00156,MED00156,Cough Syrup 100ml,BAT260137,68,46,In Stock,2027-06-27,HealthKart Pharma,689.8,Rack-1 / Shelf-6,2026-04-10
+STK00157,MED00157,Calcium 500mg,BAT245891,374,37,In Stock,2027-05-19,Apollo Distributors,379.87,Rack-19 / Shelf-2,2025-07-27
+STK00158,MED00158,Losartan 50mg,BAT252616,381,64,In Stock,2028-06-29,HealthKart Pharma,610.06,Rack-20 / Shelf-4,2025-06-08
+STK00159,MED00159,Rabeprazole 20mg,BAT250725,226,34,In Stock,2027-06-01,MedPlus Wholesale,410.51,Rack-13 / Shelf-3,2025-12-15
+STK00160,MED00160,Salbutamol 4mg,BAT254318,118,66,In Stock,2027-09-11,MedPlus Wholesale,632.3,Rack-3 / Shelf-8,2026-04-30
+STK00161,MED00161,Paracetamol 500mg,BAT245870,235,31,In Stock,2027-03-11,City Medical Supply,347.44,Rack-6 / Shelf-5,2026-07-21
+STK00162,MED00162,Amoxicillin 250mg,BAT245923,158,30,In Stock,2028-12-14,Wellness Distributors,483.66,Rack-7 / Shelf-2,2026-05-19
+STK00163,MED00163,Cetirizine 10mg,BAT248136,36,47,Low Stock,2027-12-08,Wellness Distributors,77.36,Rack-17 / Shelf-3,2025-07-24
+STK00164,MED00164,Ibuprofen 400mg,BAT240486,384,71,In Stock,2028-05-08,Apollo Distributors,269.49,Rack-1 / Shelf-2,2025-06-03
+STK00165,MED00165,Omeprazole 20mg,BAT241533,6,68,Low Stock,2027-01-12,MedPlus Wholesale,540.92,Rack-9 / Shelf-3,2025-04-07
+STK00166,MED00166,Metformin 500mg,BAT240542,321,58,In Stock,2028-11-18,Apollo Distributors,670.67,Rack-4 / Shelf-6,2025-05-21
+STK00167,MED00167,Azithromycin 500mg,BAT246729,362,25,In Stock,2027-01-19,Wellness Distributors,533.69,Rack-15 / Shelf-3,2026-02-24
+STK00168,MED00168,Pantoprazole 40mg,BAT245163,169,50,In Stock,2027-05-06,Apollo Distributors,384.12,Rack-9 / Shelf-2,2026-07-21
+STK00169,MED00169,Amlodipine 5mg,BAT243469,422,22,In Stock,2028-03-09,HealthKart Pharma,78.98,Rack-14 / Shelf-3,2026-07-31
+STK00170,MED00170,Atorvastatin 10mg,BAT240886,467,34,In Stock,2027-04-19,Wellness Distributors,274.69,Rack-12 / Shelf-5,2026-04-07
+STK00171,MED00171,Montelukast 10mg,BAT252707,471,76,In Stock,2028-08-02,Apollo Distributors,348.34,Rack-4 / Shelf-4,2026-06-09
+STK00172,MED00172,Levocetirizine 5mg,BAT251808,489,38,In Stock,2026-11-16,City Medical Supply,238.94,Rack-12 / Shelf-2,2025-04-29
+STK00173,MED00173,Vitamin D3 60000IU,BAT245051,22,58,Low Stock,2027-02-28,Wellness Distributors,375.09,Rack-20 / Shelf-3,2025-08-18
+STK00174,MED00174,ORS Sachet,BAT249981,217,29,In Stock,2028-05-30,HealthKart Pharma,249.08,Rack-4 / Shelf-5,2025-04-18
+STK00175,MED00175,Dolo 650mg,BAT252195,255,62,In Stock,2027-05-28,Apollo Distributors,553.89,Rack-5 / Shelf-3,2026-02-18
+STK00176,MED00176,Cough Syrup 100ml,BAT254737,75,44,In Stock,2028-09-06,Wellness Distributors,571.74,Rack-4 / Shelf-7,2025-03-27
+STK00177,MED00177,Calcium 500mg,BAT244840,372,37,In Stock,2026-11-30,HealthKart Pharma,696.38,Rack-6 / Shelf-7,2026-02-01
+STK00178,MED00178,Losartan 50mg,BAT253988,163,51,In Stock,2028-01-04,Wellness Distributors,424.41,Rack-11 / Shelf-3,2025-06-16
+STK00179,MED00179,Rabeprazole 20mg,BAT248157,483,61,In Stock,2027-09-26,Wellness Distributors,388.14,Rack-18 / Shelf-8,2025-11-01
+STK00180,MED00180,Salbutamol 4mg,BAT247640,274,72,In Stock,2027-09-27,Apollo Distributors,410.03,Rack-14 / Shelf-4,2025-08-06
+STK00181,MED00181,Paracetamol 500mg,BAT251952,44,35,In Stock,2026-09-01,MedPlus Wholesale,695.78,Rack-1 / Shelf-6,2025-10-19
+STK00182,MED00182,Amoxicillin 250mg,BAT243709,242,28,In Stock,2026-10-30,HealthKart Pharma,257.71,Rack-5 / Shelf-5,2025-12-08
+STK00183,MED00183,Cetirizine 10mg,BAT258171,73,73,Low Stock,2027-11-04,MedPlus Wholesale,153.83,Rack-8 / Shelf-1,2025-07-14
+STK00184,MED00184,Ibuprofen 400mg,BAT244788,70,27,In Stock,2027-09-20,Apollo Distributors,489.72,Rack-14 / Shelf-6,2026-07-04
+STK00185,MED00185,Omeprazole 20mg,BAT259158,359,26,In Stock,2026-11-13,Wellness Distributors,587.51,Rack-6 / Shelf-1,2026-05-17
+STK00186,MED00186,Metformin 500mg,BAT242688,187,29,In Stock,2027-05-07,Apollo Distributors,16.63,Rack-14 / Shelf-3,2025-07-05
+STK00187,MED00187,Azithromycin 500mg,BAT244691,93,50,In Stock,2028-10-04,City Medical Supply,491.41,Rack-10 / Shelf-8,2026-01-02
+STK00188,MED00188,Pantoprazole 40mg,BAT254648,369,41,In Stock,2028-11-07,Apollo Distributors,206.44,Rack-5 / Shelf-1,2025-05-06
+STK00189,MED00189,Amlodipine 5mg,BAT259897,328,22,In Stock,2028-10-07,MedPlus Wholesale,356.28,Rack-1 / Shelf-7,2025-05-31
+STK00190,MED00190,Atorvastatin 10mg,BAT254986,216,63,In Stock,2028-03-19,HealthKart Pharma,644.05,Rack-17 / Shelf-5,2025-08-02
+STK00191,MED00191,Montelukast 10mg,BAT245238,116,47,In Stock,2027-06-04,Apollo Distributors,368.88,Rack-5 / Shelf-4,2026-01-07
+STK00192,MED00192,Levocetirizine 5mg,BAT247273,316,23,In Stock,2027-10-05,MedPlus Wholesale,577.17,Rack-18 / Shelf-2,2025-06-08
+STK00193,MED00193,Vitamin D3 60000IU,BAT255743,354,49,In Stock,2027-07-16,Wellness Distributors,580.46,Rack-6 / Shelf-1,2025-06-15
+STK00194,MED00194,ORS Sachet,BAT254000,190,61,In Stock,2027-03-17,HealthKart Pharma,83.01,Rack-3 / Shelf-6,2025-09-26
+STK00195,MED00195,Dolo 650mg,BAT251092,398,74,In Stock,2026-09-27,MedPlus Wholesale,203.29,Rack-18 / Shelf-2,2026-06-28
+STK00196,MED00196,Cough Syrup 100ml,BAT240459,108,58,In Stock,2028-10-12,HealthKart Pharma,137.92,Rack-7 / Shelf-1,2026-03-30
+STK00197,MED00197,Calcium 500mg,BAT258781,137,25,In Stock,2028-03-30,Apollo Distributors,398.11,Rack-16 / Shelf-1,2026-07-07
+STK00198,MED00198,Losartan 50mg,BAT250212,161,25,In Stock,2026-09-07,HealthKart Pharma,528.16,Rack-13 / Shelf-4,2026-02-20
+STK00199,MED00199,Rabeprazole 20mg,BAT251760,384,45,In Stock,2027-01-09,Apollo Distributors,237.27,Rack-17 / Shelf-2,2025-11-16
+STK00200,MED00200,Salbutamol 4mg,BAT245021,413,69,In Stock,2026-09-23,City Medical Supply,558.88,Rack-16 / Shelf-1,2026-03-05
+STK00201,MED00201,Paracetamol 500mg,BAT255275,82,29,In Stock,2026-11-18,Apollo Distributors,667.35,Rack-8 / Shelf-4,2025-06-13
+STK00202,MED00202,Amoxicillin 250mg,BAT244715,348,61,In Stock,2028-10-25,MedPlus Wholesale,695.44,Rack-17 / Shelf-6,2025-12-14
+STK00203,MED00203,Cetirizine 10mg,BAT251209,402,28,In Stock,2027-06-23,HealthKart Pharma,439.44,Rack-14 / Shelf-1,2025-05-01
+STK00204,MED00204,Ibuprofen 400mg,BAT252801,364,69,In Stock,2027-05-01,MedPlus Wholesale,697.93,Rack-20 / Shelf-2,2025-03-28
+STK00205,MED00205,Omeprazole 20mg,BAT260671,78,56,In Stock,2028-01-21,Apollo Distributors,564.87,Rack-5 / Shelf-5,2025-10-24
+STK00206,MED00206,Metformin 500mg,BAT242956,444,71,In Stock,2028-01-22,Apollo Distributors,322.73,Rack-6 / Shelf-5,2026-05-10
+STK00207,MED00207,Azithromycin 500mg,BAT258991,34,37,Low Stock,2027-09-06,HealthKart Pharma,69.75,Rack-6 / Shelf-8,2026-03-21
+STK00208,MED00208,Pantoprazole 40mg,BAT254584,242,36,In Stock,2028-06-25,MedPlus Wholesale,658.36,Rack-19 / Shelf-8,2026-07-11
+STK00209,MED00209,Amlodipine 5mg,BAT249492,186,74,In Stock,2027-10-14,Wellness Distributors,601.04,Rack-5 / Shelf-8,2026-01-25
+STK00210,MED00210,Atorvastatin 10mg,BAT260567,262,74,In Stock,2027-07-17,HealthKart Pharma,65.78,Rack-14 / Shelf-8,2026-03-19
+STK00211,MED00211,Montelukast 10mg,BAT241498,449,76,In Stock,2028-05-26,Apollo Distributors,520.8,Rack-8 / Shelf-1,2026-05-13
+STK00212,MED00212,Levocetirizine 5mg,BAT249624,436,26,In Stock,2027-09-18,MedPlus Wholesale,402.53,Rack-3 / Shelf-4,2026-01-14
+STK00213,MED00213,Vitamin D3 60000IU,BAT243163,447,49,In Stock,2027-08-22,Wellness Distributors,332.19,Rack-18 / Shelf-8,2026-06-06
+STK00214,MED00214,ORS Sachet,BAT243650,43,31,In Stock,2027-10-10,Wellness Distributors,146.03,Rack-11 / Shelf-2,2026-02-19
+STK00215,MED00215,Dolo 650mg,BAT256034,175,58,In Stock,2027-04-04,Wellness Distributors,87.11,Rack-15 / Shelf-1,2025-10-25
+STK00216,MED00216,Cough Syrup 100ml,BAT255499,79,80,Low Stock,2027-01-26,MedPlus Wholesale,229.57,Rack-2 / Shelf-7,2026-06-30
+STK00217,MED00217,Calcium 500mg,BAT251945,479,71,In Stock,2028-11-15,Wellness Distributors,685.16,Rack-7 / Shelf-1,2026-04-14
+STK00218,MED00218,Losartan 50mg,BAT253958,444,21,In Stock,2027-06-02,HealthKart Pharma,447.9,Rack-3 / Shelf-3,2026-06-26
+STK00219,MED00219,Rabeprazole 20mg,BAT242777,140,45,In Stock,2027-07-01,Wellness Distributors,610.93,Rack-17 / Shelf-4,2025-08-23
+STK00220,MED00220,Salbutamol 4mg,BAT246131,457,36,In Stock,2028-12-27,Apollo Distributors,71.97,Rack-14 / Shelf-6,2025-03-25
+STK00221,MED00221,Paracetamol 500mg,BAT245491,385,39,In Stock,2027-03-21,HealthKart Pharma,659.82,Rack-16 / Shelf-8,2025-10-30
+STK00222,MED00222,Amoxicillin 250mg,BAT245365,352,70,In Stock,2028-08-12,Wellness Distributors,253.45,Rack-19 / Shelf-7,2025-06-05
+STK00223,MED00223,Cetirizine 10mg,BAT259666,5,55,Low Stock,2027-03-21,Apollo Distributors,508.12,Rack-19 / Shelf-3,2026-02-16
+STK00224,MED00224,Ibuprofen 400mg,BAT250471,340,72,In Stock,2026-09-13,MedPlus Wholesale,628.38,Rack-5 / Shelf-8,2025-05-15
+STK00225,MED00225,Omeprazole 20mg,BAT253416,162,27,In Stock,2027-05-26,City Medical Supply,507.82,Rack-15 / Shelf-3,2025-09-10
+STK00226,MED00226,Metformin 500mg,BAT259052,230,60,In Stock,2026-12-07,Apollo Distributors,159.29,Rack-7 / Shelf-7,2025-08-09
+STK00227,MED00227,Azithromycin 500mg,BAT245542,279,69,In Stock,2028-05-06,Wellness Distributors,157.57,Rack-7 / Shelf-4,2025-03-21
+STK00228,MED00228,Pantoprazole 40mg,BAT240570,347,56,In Stock,2027-09-13,HealthKart Pharma,19.2,Rack-10 / Shelf-2,2025-08-07
+STK00229,MED00229,Amlodipine 5mg,BAT255042,255,61,In Stock,2027-10-27,Wellness Distributors,251.4,Rack-18 / Shelf-7,2025-11-06
+STK00230,MED00230,Atorvastatin 10mg,BAT251104,498,68,In Stock,2026-12-24,MedPlus Wholesale,325.51,Rack-12 / Shelf-3,2025-10-21
+STK00231,MED00231,Montelukast 10mg,BAT257885,304,30,In Stock,2027-11-19,Wellness Distributors,205.24,Rack-14 / Shelf-5,2025-08-06
+STK00232,MED00232,Levocetirizine 5mg,BAT243351,317,80,In Stock,2026-11-27,Apollo Distributors,70.03,Rack-1 / Shelf-7,2026-06-08
+STK00233,MED00233,Vitamin D3 60000IU,BAT260541,254,67,In Stock,2028-03-09,Apollo Distributors,446.4,Rack-17 / Shelf-1,2025-08-24
+STK00234,MED00234,ORS Sachet,BAT253883,148,74,In Stock,2027-04-03,MedPlus Wholesale,545.6,Rack-18 / Shelf-7,2026-06-03
+STK00235,MED00235,Dolo 650mg,BAT255487,100,74,In Stock,2027-01-04,HealthKart Pharma,677.59,Rack-15 / Shelf-7,2025-04-23
+STK00236,MED00236,Cough Syrup 100ml,BAT253069,420,61,In Stock,2026-09-06,HealthKart Pharma,549.28,Rack-17 / Shelf-5,2026-03-16
+STK00237,MED00237,Calcium 500mg,BAT248767,450,62,In Stock,2027-07-10,Wellness Distributors,473.92,Rack-1 / Shelf-7,2026-07-15
+STK00238,MED00238,Losartan 50mg,BAT245125,7,21,Low Stock,2028-11-16,HealthKart Pharma,589.81,Rack-17 / Shelf-6,2026-02-10
+STK00239,MED00239,Rabeprazole 20mg,BAT254190,87,56,In Stock,2027-05-04,City Medical Supply,681.66,Rack-7 / Shelf-7,2025-06-02
+STK00240,MED00240,Salbutamol 4mg,BAT259035,26,71,Low Stock,2027-11-12,MedPlus Wholesale,658.06,Rack-13 / Shelf-3,2026-01-06
+STK00241,MED00241,Paracetamol 500mg,BAT257050,462,40,In Stock,2027-02-08,Wellness Distributors,167.83,Rack-5 / Shelf-2,2025-09-11
+STK00242,MED00242,Amoxicillin 250mg,BAT252945,295,70,In Stock,2029-01-09,HealthKart Pharma,587.44,Rack-6 / Shelf-6,2026-04-18
+STK00243,MED00243,Cetirizine 10mg,BAT240940,47,25,In Stock,2027-11-20,Apollo Distributors,443.19,Rack-19 / Shelf-3,2026-07-17
+STK00244,MED00244,Ibuprofen 400mg,BAT257915,316,65,In Stock,2026-11-18,City Medical Supply,272.62,Rack-5 / Shelf-8,2025-09-10
+STK00245,MED00245,Omeprazole 20mg,BAT251834,323,69,In Stock,2027-03-09,MedPlus Wholesale,459.55,Rack-8 / Shelf-5,2026-04-23
+STK00246,MED00246,Metformin 500mg,BAT248136,274,73,In Stock,2028-09-11,Wellness Distributors,541.11,Rack-2 / Shelf-5,2026-06-19
+STK00247,MED00247,Azithromycin 500mg,BAT260659,478,29,In Stock,2026-09-22,City Medical Supply,607.92,Rack-4 / Shelf-8,2025-04-13
+STK00248,MED00248,Pantoprazole 40mg,BAT243608,305,27,In Stock,2027-01-22,HealthKart Pharma,189.3,Rack-6 / Shelf-2,2026-06-22
+STK00249,MED00249,Amlodipine 5mg,BAT251942,253,74,In Stock,2029-01-04,MedPlus Wholesale,278.43,Rack-16 / Shelf-1,2026-01-01
+STK00250,MED00250,Atorvastatin 10mg,BAT260602,37,51,Low Stock,2026-11-16,MedPlus Wholesale,483.64,Rack-13 / Shelf-6,2025-09-10
+STK00251,MED00251,Montelukast 10mg,BAT245379,465,48,In Stock,2027-03-02,HealthKart Pharma,15.02,Rack-6 / Shelf-1,2026-06-01
+STK00252,MED00252,Levocetirizine 5mg,BAT251463,499,41,In Stock,2028-01-07,City Medical Supply,423.2,Rack-1 / Shelf-3,2025-11-06
+STK00253,MED00253,Vitamin D3 60000IU,BAT244084,379,36,In Stock,2027-03-15,City Medical Supply,28.45,Rack-1 / Shelf-3,2026-04-12
+STK00254,MED00254,ORS Sachet,BAT243861,443,43,In Stock,2027-04-09,Apollo Distributors,234.66,Rack-8 / Shelf-2,2025-07-24
+STK00255,MED00255,Dolo 650mg,BAT244247,354,80,In Stock,2027-05-31,HealthKart Pharma,341.25,Rack-3 / Shelf-6,2025-08-03
+STK00256,MED00256,Cough Syrup 100ml,BAT249744,282,61,In Stock,2027-12-21,Wellness Distributors,309.75,Rack-13 / Shelf-4,2026-03-25
+STK00257,MED00257,Calcium 500mg,BAT249310,88,32,In Stock,2027-10-06,Apollo Distributors,411.88,Rack-19 / Shelf-5,2026-05-08
+STK00258,MED00258,Losartan 50mg,BAT256085,406,33,In Stock,2027-11-16,Wellness Distributors,301.23,Rack-9 / Shelf-6,2025-09-16
+STK00259,MED00259,Rabeprazole 20mg,BAT252651,55,58,Low Stock,2027-11-12,MedPlus Wholesale,400.46,Rack-12 / Shelf-2,2025-12-13
+STK00260,MED00260,Salbutamol 4mg,BAT241206,85,76,In Stock,2028-02-04,HealthKart Pharma,414.11,Rack-10 / Shelf-6,2026-01-09
+STK00261,MED00261,Paracetamol 500mg,BAT245995,15,27,Low Stock,2028-12-05,HealthKart Pharma,305.14,Rack-6 / Shelf-6,2026-03-28
+STK00262,MED00262,Amoxicillin 250mg,BAT252278,37,33,In Stock,2027-09-14,MedPlus Wholesale,547.42,Rack-4 / Shelf-1,2026-02-18
+STK00263,MED00263,Cetirizine 10mg,BAT250876,352,20,In Stock,2027-04-05,Wellness Distributors,400.69,Rack-11 / Shelf-4,2025-10-17
+STK00264,MED00264,Ibuprofen 400mg,BAT249393,33,44,Low Stock,2028-05-07,MedPlus Wholesale,372.87,Rack-4 / Shelf-5,2025-07-30
+STK00265,MED00265,Omeprazole 20mg,BAT242551,311,80,In Stock,2028-04-08,Wellness Distributors,480.04,Rack-14 / Shelf-6,2025-06-10
+STK00266,MED00266,Metformin 500mg,BAT246559,163,32,In Stock,2026-10-19,Wellness Distributors,353.07,Rack-9 / Shelf-7,2026-05-31
+STK00267,MED00267,Azithromycin 500mg,BAT245707,63,48,In Stock,2028-05-06,HealthKart Pharma,417.09,Rack-8 / Shelf-1,2026-03-08
+STK00268,MED00268,Pantoprazole 40mg,BAT258966,9,61,Low Stock,2026-09-03,Wellness Distributors,204.78,Rack-13 / Shelf-1,2025-04-29
+STK00269,MED00269,Amlodipine 5mg,BAT257385,273,78,In Stock,2026-10-09,HealthKart Pharma,454.18,Rack-3 / Shelf-8,2026-06-13
+STK00270,MED00270,Atorvastatin 10mg,BAT253701,424,71,In Stock,2028-09-08,HealthKart Pharma,198.07,Rack-12 / Shelf-7,2026-06-21
+STK00271,MED00271,Montelukast 10mg,BAT250362,284,69,In Stock,2028-01-17,City Medical Supply,40.57,Rack-10 / Shelf-8,2025-11-21
+STK00272,MED00272,Levocetirizine 5mg,BAT244078,434,61,In Stock,2029-01-09,HealthKart Pharma,656.89,Rack-4 / Shelf-1,2026-04-08
+STK00273,MED00273,Vitamin D3 60000IU,BAT240440,24,72,Low Stock,2027-01-19,Apollo Distributors,695.53,Rack-14 / Shelf-4,2026-05-05
+STK00274,MED00274,ORS Sachet,BAT252187,45,32,In Stock,2028-12-12,City Medical Supply,692.78,Rack-2 / Shelf-5,2025-05-05
+STK00275,MED00275,Dolo 650mg,BAT243730,401,22,In Stock,2026-10-18,HealthKart Pharma,59.93,Rack-11 / Shelf-7,2026-03-15
+STK00276,MED00276,Cough Syrup 100ml,BAT244614,357,30,In Stock,2028-04-18,Wellness Distributors,90.97,Rack-11 / Shelf-3,2025-07-11
+STK00277,MED00277,Calcium 500mg,BAT253642,299,76,In Stock,2028-06-12,Wellness Distributors,470.42,Rack-17 / Shelf-4,2025-10-09
+STK00278,MED00278,Losartan 50mg,BAT256159,244,62,In Stock,2027-06-13,HealthKart Pharma,542.67,Rack-16 / Shelf-4,2026-06-14
+STK00279,MED00279,Rabeprazole 20mg,BAT249807,135,69,In Stock,2028-08-27,Apollo Distributors,252.28,Rack-8 / Shelf-4,2025-08-10
+STK00280,MED00280,Salbutamol 4mg,BAT256307,39,24,In Stock,2026-10-30,MedPlus Wholesale,17.08,Rack-7 / Shelf-8,2025-06-07
+STK00281,MED00281,Paracetamol 500mg,BAT256079,197,32,In Stock,2026-12-15,HealthKart Pharma,152.39,Rack-19 / Shelf-6,2025-07-07
+STK00282,MED00282,Amoxicillin 250mg,BAT254977,483,39,In Stock,2028-07-01,MedPlus Wholesale,594.68,Rack-4 / Shelf-3,2026-04-10
+STK00283,MED00283,Cetirizine 10mg,BAT252734,469,43,In Stock,2027-12-06,City Medical Supply,363.32,Rack-13 / Shelf-4,2026-06-26
+STK00284,MED00284,Ibuprofen 400mg,BAT245480,142,47,In Stock,2028-08-01,HealthKart Pharma,666.43,Rack-19 / Shelf-2,2026-05-17
+STK00285,MED00285,Omeprazole 20mg,BAT243611,236,76,In Stock,2028-09-30,Apollo Distributors,174.47,Rack-15 / Shelf-3,2026-03-17
+STK00286,MED00286,Metformin 500mg,BAT257496,14,50,Low Stock,2027-12-06,HealthKart Pharma,191.78,Rack-18 / Shelf-2,2026-01-31
+STK00287,MED00287,Azithromycin 500mg,BAT245035,220,33,In Stock,2027-10-10,City Medical Supply,306.15,Rack-11 / Shelf-1,2025-12-18
+STK00288,MED00288,Pantoprazole 40mg,BAT243305,139,43,In Stock,2026-10-19,Wellness Distributors,514.55,Rack-14 / Shelf-4,2026-03-03
+STK00289,MED00289,Amlodipine 5mg,BAT245888,96,45,In Stock,2028-04-29,HealthKart Pharma,374.46,Rack-16 / Shelf-7,2026-06-06
+STK00290,MED00290,Atorvastatin 10mg,BAT248257,348,23,In Stock,2026-12-21,MedPlus Wholesale,87.71,Rack-2 / Shelf-5,2026-03-31
+STK00291,MED00291,Montelukast 10mg,BAT243410,33,54,Low Stock,2027-06-08,MedPlus Wholesale,618.76,Rack-13 / Shelf-7,2026-01-11
+STK00292,MED00292,Levocetirizine 5mg,BAT248890,51,34,In Stock,2028-01-19,MedPlus Wholesale,126.35,Rack-7 / Shelf-6,2025-09-08
+STK00293,MED00293,Vitamin D3 60000IU,BAT259639,147,65,In Stock,2027-06-20,Apollo Distributors,73.22,Rack-17 / Shelf-8,2025-07-18
+STK00294,MED00294,ORS Sachet,BAT247919,156,74,In Stock,2027-02-20,HealthKart Pharma,479.56,Rack-6 / Shelf-3,2026-02-11
+STK00295,MED00295,Dolo 650mg,BAT244747,460,49,In Stock,2026-09-12,Wellness Distributors,304.12,Rack-1 / Shelf-3,2025-03-20
+STK00296,MED00296,Cough Syrup 100ml,BAT242622,135,76,In Stock,2027-02-20,Apollo Distributors,419.05,Rack-16 / Shelf-1,2025-11-23
+STK00297,MED00297,Calcium 500mg,BAT255585,447,35,In Stock,2026-12-20,Apollo Distributors,574.7,Rack-19 / Shelf-5,2025-05-30
+STK00298,MED00298,Losartan 50mg,BAT256587,116,53,In Stock,2027-02-17,MedPlus Wholesale,544.48,Rack-4 / Shelf-5,2025-06-15
+STK00299,MED00299,Rabeprazole 20mg,BAT254931,376,41,In Stock,2028-01-14,HealthKart Pharma,692.94,Rack-9 / Shelf-8,2026-03-24
+STK00300,MED00300,Salbutamol 4mg,BAT240544,186,49,In Stock,2028-12-24,HealthKart Pharma,216.38,Rack-11 / Shelf-8,2026-06-04
+STK00301,MED00301,Paracetamol 500mg,BAT257116,138,63,In Stock,2028-09-13,Apollo Distributors,110.35,Rack-14 / Shelf-4,2025-08-28
+STK00302,MED00302,Amoxicillin 250mg,BAT256412,72,42,In Stock,2026-09-30,MedPlus Wholesale,407.69,Rack-14 / Shelf-6,2026-04-17
+STK00303,MED00303,Cetirizine 10mg,BAT246451,381,25,In Stock,2027-09-20,Apollo Distributors,676.09,Rack-18 / Shelf-8,2025-03-28
+STK00304,MED00304,Ibuprofen 400mg,BAT245832,448,53,In Stock,2027-05-28,HealthKart Pharma,622.49,Rack-13 / Shelf-7,2025-04-04
+STK00305,MED00305,Omeprazole 20mg,BAT246344,141,39,In Stock,2026-10-11,City Medical Supply,367.89,Rack-11 / Shelf-2,2025-12-22
+STK00306,MED00306,Metformin 500mg,BAT258668,407,49,In Stock,2028-11-18,HealthKart Pharma,207.58,Rack-1 / Shelf-8,2025-04-13
+STK00307,MED00307,Azithromycin 500mg,BAT255380,350,29,In Stock,2028-07-27,MedPlus Wholesale,370.04,Rack-10 / Shelf-3,2026-02-26
+STK00308,MED00308,Pantoprazole 40mg,BAT242217,249,38,In Stock,2028-11-25,HealthKart Pharma,18.79,Rack-2 / Shelf-4,2026-03-09
+STK00309,MED00309,Amlodipine 5mg,BAT244144,422,57,In Stock,2026-10-23,Wellness Distributors,219.63,Rack-14 / Shelf-6,2025-08-27
+STK00310,MED00310,Atorvastatin 10mg,BAT241735,427,20,In Stock,2027-05-14,MedPlus Wholesale,250.35,Rack-10 / Shelf-3,2025-03-30
+STK00311,MED00311,Montelukast 10mg,BAT248969,44,65,Low Stock,2027-01-23,MedPlus Wholesale,306.98,Rack-3 / Shelf-5,2026-04-10
+STK00312,MED00312,Levocetirizine 5mg,BAT251720,16,50,Low Stock,2027-05-11,Wellness Distributors,300.41,Rack-4 / Shelf-5,2025-04-16
+STK00313,MED00313,Vitamin D3 60000IU,BAT250282,154,58,In Stock,2027-02-23,City Medical Supply,309.58,Rack-11 / Shelf-3,2025-08-16
+STK00314,MED00314,ORS Sachet,BAT248292,393,32,In Stock,2027-01-15,Wellness Distributors,391.56,Rack-10 / Shelf-5,2026-06-18
+STK00315,MED00315,Dolo 650mg,BAT260688,152,56,In Stock,2027-12-15,City Medical Supply,134.89,Rack-14 / Shelf-2,2026-05-22
+STK00316,MED00316,Cough Syrup 100ml,BAT250364,269,48,In Stock,2028-01-27,HealthKart Pharma,332.12,Rack-14 / Shelf-8,2025-12-28
+STK00317,MED00317,Calcium 500mg,BAT255215,492,46,In Stock,2026-09-27,City Medical Supply,26.28,Rack-14 / Shelf-2,2025-07-10
+STK00318,MED00318,Losartan 50mg,BAT250008,71,59,In Stock,2028-11-12,MedPlus Wholesale,409.58,Rack-12 / Shelf-3,2025-09-17
+STK00319,MED00319,Rabeprazole 20mg,BAT258632,278,77,In Stock,2027-06-26,Apollo Distributors,530.69,Rack-13 / Shelf-3,2026-01-06
+STK00320,MED00320,Salbutamol 4mg,BAT255265,343,20,In Stock,2028-12-03,City Medical Supply,326.47,Rack-2 / Shelf-2,2026-07-03
+STK00321,MED00321,Paracetamol 500mg,BAT243607,138,73,In Stock,2027-08-06,City Medical Supply,75.4,Rack-10 / Shelf-8,2025-08-12
+STK00322,MED00322,Amoxicillin 250mg,BAT242094,169,75,In Stock,2027-01-01,City Medical Supply,474.69,Rack-2 / Shelf-4,2025-11-09
+STK00323,MED00323,Cetirizine 10mg,BAT256330,73,55,In Stock,2027-01-16,MedPlus Wholesale,627.38,Rack-5 / Shelf-5,2025-09-13
+STK00324,MED00324,Ibuprofen 400mg,BAT240311,159,66,In Stock,2028-12-01,Wellness Distributors,439.58,Rack-7 / Shelf-2,2026-06-27
+STK00325,MED00325,Omeprazole 20mg,BAT259885,0,29,Out of Stock,2026-12-31,City Medical Supply,75.03,Rack-7 / Shelf-2,2025-12-01
+STK00326,MED00326,Metformin 500mg,BAT256674,12,73,Low Stock,2027-11-27,Wellness Distributors,46.51,Rack-4 / Shelf-5,2026-01-05
+STK00327,MED00327,Azithromycin 500mg,BAT247798,247,31,In Stock,2029-01-07,City Medical Supply,188.11,Rack-20 / Shelf-8,2025-05-18
+STK00328,MED00328,Pantoprazole 40mg,BAT244136,336,59,In Stock,2027-11-15,MedPlus Wholesale,448.25,Rack-6 / Shelf-3,2025-06-07
+STK00329,MED00329,Amlodipine 5mg,BAT247986,381,62,In Stock,2027-02-20,City Medical Supply,521.23,Rack-18 / Shelf-4,2025-11-30
+STK00330,MED00330,Atorvastatin 10mg,BAT249584,245,38,In Stock,2028-07-13,Apollo Distributors,671.69,Rack-16 / Shelf-6,2025-08-24
+STK00331,MED00331,Montelukast 10mg,BAT252742,140,45,In Stock,2028-08-13,Apollo Distributors,329.06,Rack-14 / Shelf-3,2026-07-17
+STK00332,MED00332,Levocetirizine 5mg,BAT244036,145,49,In Stock,2028-03-29,Wellness Distributors,15.63,Rack-10 / Shelf-1,2025-09-04
+STK00333,MED00333,Vitamin D3 60000IU,BAT260412,333,77,In Stock,2027-11-28,Apollo Distributors,636.41,Rack-12 / Shelf-3,2025-12-04
+STK00334,MED00334,ORS Sachet,BAT255119,451,66,In Stock,2027-06-09,Apollo Distributors,687.37,Rack-12 / Shelf-4,2026-02-03
+STK00335,MED00335,Dolo 650mg,BAT257305,462,65,In Stock,2027-10-03,City Medical Supply,51.43,Rack-5 / Shelf-6,2025-08-30
+STK00336,MED00336,Cough Syrup 100ml,BAT251217,368,56,In Stock,2027-12-13,MedPlus Wholesale,200.61,Rack-10 / Shelf-7,2026-06-27
+STK00337,MED00337,Calcium 500mg,BAT255951,469,73,In Stock,2027-09-19,Wellness Distributors,427.24,Rack-6 / Shelf-5,2026-05-26
+STK00338,MED00338,Losartan 50mg,BAT259395,357,40,In Stock,2028-04-15,HealthKart Pharma,412.47,Rack-13 / Shelf-2,2026-07-08
+STK00339,MED00339,Rabeprazole 20mg,BAT245315,15,74,Low Stock,2027-04-24,Apollo Distributors,468.36,Rack-16 / Shelf-8,2026-02-16
+STK00340,MED00340,Salbutamol 4mg,BAT247853,389,34,In Stock,2026-12-15,MedPlus Wholesale,511.89,Rack-13 / Shelf-7,2025-04-15
+STK00341,MED00341,Paracetamol 500mg,BAT260150,32,23,In Stock,2027-05-13,Apollo Distributors,33.89,Rack-3 / Shelf-8,2025-07-06
+STK00342,MED00342,Amoxicillin 250mg,BAT260786,191,58,In Stock,2029-01-06,Apollo Distributors,647.1,Rack-11 / Shelf-2,2025-08-08
+STK00343,MED00343,Cetirizine 10mg,BAT244465,230,44,In Stock,2028-06-12,City Medical Supply,393.08,Rack-7 / Shelf-5,2025-11-22
+STK00344,MED00344,Ibuprofen 400mg,BAT249474,224,63,In Stock,2027-04-17,MedPlus Wholesale,521.57,Rack-14 / Shelf-4,2026-06-17
+STK00345,MED00345,Omeprazole 20mg,BAT260714,298,21,In Stock,2028-07-14,Apollo Distributors,148.85,Rack-5 / Shelf-1,2026-01-28
+STK00346,MED00346,Metformin 500mg,BAT258721,396,46,In Stock,2028-03-11,Apollo Distributors,243.77,Rack-17 / Shelf-8,2026-04-25
+STK00347,MED00347,Azithromycin 500mg,BAT258789,426,33,In Stock,2028-12-24,Wellness Distributors,354.59,Rack-12 / Shelf-3,2025-06-16
+STK00348,MED00348,Pantoprazole 40mg,BAT254108,34,48,Low Stock,2028-05-31,Wellness Distributors,612.79,Rack-19 / Shelf-2,2026-05-27
+STK00349,MED00349,Amlodipine 5mg,BAT249872,400,53,In Stock,2026-12-11,Apollo Distributors,353.11,Rack-2 / Shelf-6,2026-07-20
+STK00350,MED00350,Atorvastatin 10mg,BAT249599,114,72,In Stock,2028-12-25,HealthKart Pharma,278.18,Rack-12 / Shelf-2,2025-05-11
+STK00351,MED00351,Montelukast 10mg,BAT249539,446,30,In Stock,2026-11-14,City Medical Supply,406.15,Rack-17 / Shelf-5,2026-01-08
+STK00352,MED00352,Levocetirizine 5mg,BAT257989,316,23,In Stock,2028-08-13,Apollo Distributors,411.28,Rack-9 / Shelf-1,2026-07-15
+STK00353,MED00353,Vitamin D3 60000IU,BAT248648,173,46,In Stock,2027-03-23,HealthKart Pharma,622.52,Rack-2 / Shelf-3,2026-04-18
+STK00354,MED00354,ORS Sachet,BAT250900,280,72,In Stock,2028-10-13,Apollo Distributors,171.05,Rack-3 / Shelf-1,2026-02-04
+STK00355,MED00355,Dolo 650mg,BAT253739,36,80,Low Stock,2028-05-03,City Medical Supply,651.12,Rack-18 / Shelf-8,2025-04-03
+STK00356,MED00356,Cough Syrup 100ml,BAT241467,66,37,In Stock,2026-12-14,Apollo Distributors,351.64,Rack-8 / Shelf-6,2025-12-23
+STK00357,MED00357,Calcium 500mg,BAT247563,244,39,In Stock,2026-09-20,Apollo Distributors,26.24,Rack-7 / Shelf-7,2025-08-16
+STK00358,MED00358,Losartan 50mg,BAT240692,350,67,In Stock,2028-03-17,Wellness Distributors,44.08,Rack-13 / Shelf-3,2025-12-23
+STK00359,MED00359,Rabeprazole 20mg,BAT258107,359,47,In Stock,2027-01-18,Apollo Distributors,311.06,Rack-20 / Shelf-6,2026-02-01
+STK00360,MED00360,Salbutamol 4mg,BAT254404,99,41,In Stock,2026-10-28,MedPlus Wholesale,168.57,Rack-19 / Shelf-1,2026-04-06
+STK00361,MED00361,Paracetamol 500mg,BAT257670,211,67,In Stock,2028-04-02,Apollo Distributors,693.73,Rack-1 / Shelf-4,2025-06-10
+STK00362,MED00362,Amoxicillin 250mg,BAT241956,29,24,In Stock,2027-01-06,Wellness Distributors,132.97,Rack-2 / Shelf-6,2026-02-02
+STK00363,MED00363,Cetirizine 10mg,BAT248103,308,61,In Stock,2027-06-25,MedPlus Wholesale,427.44,Rack-16 / Shelf-2,2025-08-29
+STK00364,MED00364,Ibuprofen 400mg,BAT248298,39,24,In Stock,2028-03-08,MedPlus Wholesale,350.49,Rack-12 / Shelf-4,2025-12-16
+STK00365,MED00365,Omeprazole 20mg,BAT252123,365,39,In Stock,2028-11-05,City Medical Supply,210.54,Rack-8 / Shelf-5,2026-02-18
+STK00366,MED00366,Metformin 500mg,BAT256596,357,54,In Stock,2026-12-14,Apollo Distributors,247.87,Rack-14 / Shelf-8,2026-03-10
+STK00367,MED00367,Azithromycin 500mg,BAT244593,40,33,In Stock,2029-01-07,City Medical Supply,167.53,Rack-18 / Shelf-4,2026-05-30
+STK00368,MED00368,Pantoprazole 40mg,BAT244751,190,66,In Stock,2026-10-05,MedPlus Wholesale,491.25,Rack-15 / Shelf-2,2026-07-21
+STK00369,MED00369,Amlodipine 5mg,BAT241206,255,73,In Stock,2027-06-02,HealthKart Pharma,415.06,Rack-10 / Shelf-2,2026-07-01
+STK00370,MED00370,Atorvastatin 10mg,BAT260080,142,74,In Stock,2027-09-27,Wellness Distributors,21.04,Rack-13 / Shelf-7,2025-12-16
+STK00371,MED00371,Montelukast 10mg,BAT246841,22,34,Low Stock,2027-09-22,MedPlus Wholesale,464.67,Rack-18 / Shelf-1,2025-08-27
+STK00372,MED00372,Levocetirizine 5mg,BAT257845,156,22,In Stock,2028-10-19,HealthKart Pharma,656.56,Rack-20 / Shelf-6,2025-04-15
+STK00373,MED00373,Vitamin D3 60000IU,BAT248702,424,78,In Stock,2028-12-06,City Medical Supply,157.85,Rack-1 / Shelf-6,2025-07-25
+STK00374,MED00374,ORS Sachet,BAT254323,424,59,In Stock,2027-11-10,Apollo Distributors,566.72,Rack-18 / Shelf-7,2025-03-31
+STK00375,MED00375,Dolo 650mg,BAT249518,369,79,In Stock,2028-02-28,Wellness Distributors,301.29,Rack-19 / Shelf-5,2026-05-09
+STK00376,MED00376,Cough Syrup 100ml,BAT255413,491,44,In Stock,2028-10-01,MedPlus Wholesale,99.26,Rack-1 / Shelf-5,2025-06-17
+STK00377,MED00377,Calcium 500mg,BAT249091,349,80,In Stock,2026-11-25,MedPlus Wholesale,541.77,Rack-10 / Shelf-6,2025-10-12
+STK00378,MED00378,Losartan 50mg,BAT260270,202,22,In Stock,2027-06-06,HealthKart Pharma,193.97,Rack-9 / Shelf-1,2026-05-29
+STK00379,MED00379,Rabeprazole 20mg,BAT250618,157,56,In Stock,2029-01-02,HealthKart Pharma,594.53,Rack-15 / Shelf-8,2026-07-23
+STK00380,MED00380,Salbutamol 4mg,BAT255384,225,20,In Stock,2026-10-06,HealthKart Pharma,340.3,Rack-18 / Shelf-4,2026-01-03
+STK00381,MED00381,Paracetamol 500mg,BAT242706,29,57,Low Stock,2027-06-09,City Medical Supply,389.6,Rack-3 / Shelf-8,2026-04-30
+STK00382,MED00382,Amoxicillin 250mg,BAT249148,132,69,In Stock,2027-05-22,Wellness Distributors,96.04,Rack-6 / Shelf-3,2025-05-11
+STK00383,MED00383,Cetirizine 10mg,BAT241724,316,61,In Stock,2027-04-25,Apollo Distributors,460.98,Rack-6 / Shelf-8,2025-10-08
+STK00384,MED00384,Ibuprofen 400mg,BAT258234,162,22,In Stock,2028-09-02,MedPlus Wholesale,50.08,Rack-9 / Shelf-5,2026-07-23
+STK00385,MED00385,Omeprazole 20mg,BAT251678,347,74,In Stock,2028-03-05,Apollo Distributors,423.6,Rack-12 / Shelf-2,2026-06-22
+STK00386,MED00386,Metformin 500mg,BAT243808,259,48,In Stock,2028-02-04,Apollo Distributors,171.99,Rack-11 / Shelf-6,2025-06-02
+STK00387,MED00387,Azithromycin 500mg,BAT253730,421,63,In Stock,2026-11-11,Wellness Distributors,614.09,Rack-5 / Shelf-1,2026-02-14
+STK00388,MED00388,Pantoprazole 40mg,BAT251905,310,70,In Stock,2027-08-08,Wellness Distributors,629.0,Rack-12 / Shelf-8,2025-04-05
+STK00389,MED00389,Amlodipine 5mg,BAT260478,498,38,In Stock,2026-09-30,MedPlus Wholesale,262.86,Rack-10 / Shelf-3,2025-04-21
+STK00390,MED00390,Atorvastatin 10mg,BAT243581,302,21,In Stock,2028-05-14,MedPlus Wholesale,567.16,Rack-17 / Shelf-6,2025-04-06
+STK00391,MED00391,Montelukast 10mg,BAT259193,110,44,In Stock,2026-10-02,MedPlus Wholesale,271.71,Rack-3 / Shelf-2,2025-03-28
+STK00392,MED00392,Levocetirizine 5mg,BAT258627,478,34,In Stock,2028-01-27,City Medical Supply,444.18,Rack-14 / Shelf-2,2025-05-24
+STK00393,MED00393,Vitamin D3 60000IU,BAT241785,449,53,In Stock,2028-05-12,Wellness Distributors,464.16,Rack-17 / Shelf-8,2026-02-19
+STK00394,MED00394,ORS Sachet,BAT258949,137,32,In Stock,2027-06-26,MedPlus Wholesale,235.45,Rack-12 / Shelf-4,2025-12-10
+STK00395,MED00395,Dolo 650mg,BAT243881,161,67,In Stock,2028-08-08,MedPlus Wholesale,315.95,Rack-14 / Shelf-6,2026-06-21
+STK00396,MED00396,Cough Syrup 100ml,BAT256668,180,55,In Stock,2026-11-16,HealthKart Pharma,460.1,Rack-20 / Shelf-4,2025-12-14
+STK00397,MED00397,Calcium 500mg,BAT247628,402,46,In Stock,2028-04-04,MedPlus Wholesale,648.6,Rack-8 / Shelf-7,2025-08-20
+STK00398,MED00398,Losartan 50mg,BAT244626,299,62,In Stock,2028-05-11,HealthKart Pharma,558.73,Rack-11 / Shelf-6,2026-06-01
+STK00399,MED00399,Rabeprazole 20mg,BAT253896,41,46,Low Stock,2028-01-29,MedPlus Wholesale,406.6,Rack-7 / Shelf-3,2025-05-09
+STK00400,MED00400,Salbutamol 4mg,BAT245564,232,20,In Stock,2026-12-31,Wellness Distributors,190.26,Rack-18 / Shelf-8,2025-07-16
+STK00401,MED00401,Paracetamol 500mg,BAT241216,51,28,In Stock,2028-12-30,Wellness Distributors,24.56,Rack-6 / Shelf-2,2026-05-25
+STK00402,MED00402,Amoxicillin 250mg,BAT257444,263,75,In Stock,2027-10-01,Wellness Distributors,253.22,Rack-13 / Shelf-4,2025-08-01
+STK00403,MED00403,Cetirizine 10mg,BAT251136,150,27,In Stock,2028-12-21,HealthKart Pharma,417.3,Rack-20 / Shelf-2,2025-07-27
+STK00404,MED00404,Ibuprofen 400mg,BAT251731,23,24,Low Stock,2027-12-02,Wellness Distributors,444.54,Rack-14 / Shelf-5,2025-07-09
+STK00405,MED00405,Omeprazole 20mg,BAT244510,244,64,In Stock,2028-09-19,MedPlus Wholesale,508.81,Rack-19 / Shelf-2,2026-05-15
+STK00406,MED00406,Metformin 500mg,BAT259549,458,20,In Stock,2028-04-28,HealthKart Pharma,474.34,Rack-15 / Shelf-7,2026-02-17
+STK00407,MED00407,Azithromycin 500mg,BAT256768,224,31,In Stock,2028-09-07,City Medical Supply,201.28,Rack-4 / Shelf-4,2026-03-01
+STK00408,MED00408,Pantoprazole 40mg,BAT241682,252,41,In Stock,2028-03-29,City Medical Supply,628.93,Rack-19 / Shelf-7,2026-03-07
+STK00409,MED00409,Amlodipine 5mg,BAT250539,165,44,In Stock,2028-10-13,MedPlus Wholesale,667.83,Rack-2 / Shelf-4,2025-12-23
+STK00410,MED00410,Atorvastatin 10mg,BAT258946,265,37,In Stock,2028-05-21,HealthKart Pharma,76.83,Rack-10 / Shelf-3,2026-06-01
+STK00411,MED00411,Montelukast 10mg,BAT256046,147,37,In Stock,2027-11-22,MedPlus Wholesale,620.66,Rack-10 / Shelf-5,2025-09-24
+STK00412,MED00412,Levocetirizine 5mg,BAT247691,385,26,In Stock,2028-07-12,HealthKart Pharma,105.57,Rack-7 / Shelf-3,2026-07-17
+STK00413,MED00413,Vitamin D3 60000IU,BAT241402,306,77,In Stock,2028-03-04,City Medical Supply,560.9,Rack-1 / Shelf-8,2025-05-31
+STK00414,MED00414,ORS Sachet,BAT252209,421,21,In Stock,2027-03-26,HealthKart Pharma,659.73,Rack-19 / Shelf-7,2025-07-22
+STK00415,MED00415,Dolo 650mg,BAT244234,227,53,In Stock,2028-12-27,Wellness Distributors,212.1,Rack-4 / Shelf-2,2025-12-16
+STK00416,MED00416,Cough Syrup 100ml,BAT256262,455,47,In Stock,2027-05-26,Apollo Distributors,606.24,Rack-9 / Shelf-2,2025-03-23
+STK00417,MED00417,Calcium 500mg,BAT242690,181,71,In Stock,2028-09-30,MedPlus Wholesale,511.33,Rack-11 / Shelf-3,2025-11-14
+STK00418,MED00418,Losartan 50mg,BAT254959,171,37,In Stock,2028-06-05,City Medical Supply,473.08,Rack-3 / Shelf-6,2025-05-01
+STK00419,MED00419,Rabeprazole 20mg,BAT254300,473,22,In Stock,2026-12-10,City Medical Supply,227.73,Rack-18 / Shelf-1,2025-04-02
+STK00420,MED00420,Salbutamol 4mg,BAT240361,324,60,In Stock,2027-05-08,MedPlus Wholesale,413.75,Rack-8 / Shelf-4,2026-03-18
+STK00421,MED00421,Paracetamol 500mg,BAT255976,240,29,In Stock,2028-12-10,MedPlus Wholesale,515.62,Rack-10 / Shelf-3,2026-04-21
+STK00422,MED00422,Amoxicillin 250mg,BAT243006,325,76,In Stock,2028-02-09,MedPlus Wholesale,10.21,Rack-3 / Shelf-8,2025-10-19
+STK00423,MED00423,Cetirizine 10mg,BAT245936,312,33,In Stock,2026-10-08,Wellness Distributors,484.08,Rack-20 / Shelf-7,2025-09-11
+STK00424,MED00424,Ibuprofen 400mg,BAT260996,298,35,In Stock,2027-08-22,Wellness Distributors,375.08,Rack-6 / Shelf-5,2025-05-27
+STK00425,MED00425,Omeprazole 20mg,BAT249672,118,76,In Stock,2028-07-14,Wellness Distributors,347.23,Rack-13 / Shelf-6,2025-10-26
+STK00426,MED00426,Metformin 500mg,BAT243263,246,38,In Stock,2027-04-11,Apollo Distributors,674.34,Rack-10 / Shelf-7,2025-03-22
+STK00427,MED00427,Azithromycin 500mg,BAT248206,228,40,In Stock,2028-07-08,Wellness Distributors,88.15,Rack-15 / Shelf-6,2025-08-27
+STK00428,MED00428,Pantoprazole 40mg,BAT253144,58,42,In Stock,2028-08-20,MedPlus Wholesale,543.39,Rack-16 / Shelf-8,2025-09-27
+STK00429,MED00429,Amlodipine 5mg,BAT247795,210,63,In Stock,2026-09-28,HealthKart Pharma,193.4,Rack-7 / Shelf-7,2026-06-30
+STK00430,MED00430,Atorvastatin 10mg,BAT250690,287,69,In Stock,2027-05-24,HealthKart Pharma,292.57,Rack-15 / Shelf-7,2026-01-08
+STK00431,MED00431,Montelukast 10mg,BAT241890,133,78,In Stock,2027-05-31,Wellness Distributors,511.91,Rack-11 / Shelf-1,2026-02-24
+STK00432,MED00432,Levocetirizine 5mg,BAT247351,229,46,In Stock,2028-04-07,MedPlus Wholesale,378.92,Rack-4 / Shelf-6,2026-05-26
+STK00433,MED00433,Vitamin D3 60000IU,BAT240752,309,54,In Stock,2028-09-07,Apollo Distributors,563.27,Rack-3 / Shelf-6,2025-04-20
+STK00434,MED00434,ORS Sachet,BAT258217,180,69,In Stock,2026-11-02,Apollo Distributors,366.91,Rack-12 / Shelf-4,2026-05-12
+STK00435,MED00435,Dolo 650mg,BAT253060,429,54,In Stock,2028-09-03,MedPlus Wholesale,208.81,Rack-6 / Shelf-6,2026-02-12
+STK00436,MED00436,Cough Syrup 100ml,BAT258219,211,33,In Stock,2028-09-18,MedPlus Wholesale,658.49,Rack-2 / Shelf-1,2025-07-10
+STK00437,MED00437,Calcium 500mg,BAT243459,481,53,In Stock,2028-01-25,Wellness Distributors,555.61,Rack-2 / Shelf-3,2026-03-09
+STK00438,MED00438,Losartan 50mg,BAT247636,154,21,In Stock,2028-06-06,MedPlus Wholesale,31.37,Rack-4 / Shelf-7,2025-08-30
+STK00439,MED00439,Rabeprazole 20mg,BAT248947,205,28,In Stock,2026-11-24,Apollo Distributors,59.13,Rack-14 / Shelf-1,2026-07-24
+STK00440,MED00440,Salbutamol 4mg,BAT257850,380,73,In Stock,2028-05-10,MedPlus Wholesale,74.13,Rack-19 / Shelf-7,2026-04-23
+STK00441,MED00441,Paracetamol 500mg,BAT250329,425,58,In Stock,2028-11-10,HealthKart Pharma,302.21,Rack-1 / Shelf-5,2026-03-13
+STK00442,MED00442,Amoxicillin 250mg,BAT243366,234,32,In Stock,2027-05-27,City Medical Supply,334.21,Rack-10 / Shelf-7,2026-06-14
+STK00443,MED00443,Cetirizine 10mg,BAT258482,113,46,In Stock,2027-06-11,Wellness Distributors,204.82,Rack-18 / Shelf-4,2026-01-17
+STK00444,MED00444,Ibuprofen 400mg,BAT252998,8,51,Low Stock,2027-09-15,City Medical Supply,502.49,Rack-15 / Shelf-4,2025-10-09
+STK00445,MED00445,Omeprazole 20mg,BAT253120,499,21,In Stock,2028-10-27,MedPlus Wholesale,317.38,Rack-16 / Shelf-2,2025-09-05
+STK00446,MED00446,Metformin 500mg,BAT244811,159,41,In Stock,2028-12-06,Apollo Distributors,74.01,Rack-6 / Shelf-4,2025-05-15
+STK00447,MED00447,Azithromycin 500mg,BAT259544,482,51,In Stock,2027-05-12,Apollo Distributors,105.8,Rack-20 / Shelf-8,2025-11-06
+STK00448,MED00448,Pantoprazole 40mg,BAT258667,370,73,In Stock,2028-10-16,MedPlus Wholesale,48.78,Rack-16 / Shelf-5,2026-01-02
+STK00449,MED00449,Amlodipine 5mg,BAT251171,159,67,In Stock,2028-12-31,MedPlus Wholesale,33.26,Rack-19 / Shelf-7,2025-05-11
+STK00450,MED00450,Atorvastatin 10mg,BAT246955,2,37,Low Stock,2028-10-11,City Medical Supply,557.93,Rack-18 / Shelf-8,2026-02-21
+STK00451,MED00451,Montelukast 10mg,BAT247824,491,61,In Stock,2027-07-25,Wellness Distributors,498.54,Rack-17 / Shelf-2,2025-04-16
+STK00452,MED00452,Levocetirizine 5mg,BAT242639,53,47,In Stock,2027-09-18,MedPlus Wholesale,531.77,Rack-6 / Shelf-2,2026-05-07
+STK00453,MED00453,Vitamin D3 60000IU,BAT243824,101,48,In Stock,2026-10-08,Wellness Distributors,350.67,Rack-17 / Shelf-8,2026-05-21
+STK00454,MED00454,ORS Sachet,BAT258026,383,75,In Stock,2027-11-01,Wellness Distributors,14.41,Rack-4 / Shelf-7,2026-03-03
+STK00455,MED00455,Dolo 650mg,BAT248983,368,79,In Stock,2028-02-16,HealthKart Pharma,433.65,Rack-12 / Shelf-3,2026-05-20
+STK00456,MED00456,Cough Syrup 100ml,BAT246799,148,53,In Stock,2028-11-29,City Medical Supply,666.78,Rack-12 / Shelf-5,2025-12-02
+STK00457,MED00457,Calcium 500mg,BAT250919,236,33,In Stock,2028-10-02,MedPlus Wholesale,121.65,Rack-16 / Shelf-1,2026-02-19
+STK00458,MED00458,Losartan 50mg,BAT245026,213,31,In Stock,2027-12-24,Apollo Distributors,695.37,Rack-1 / Shelf-5,2025-08-06
+STK00459,MED00459,Rabeprazole 20mg,BAT243175,96,32,In Stock,2028-03-02,Wellness Distributors,237.08,Rack-2 / Shelf-8,2025-09-30
+STK00460,MED00460,Salbutamol 4mg,BAT251583,80,24,In Stock,2028-06-11,City Medical Supply,619.27,Rack-12 / Shelf-1,2025-04-12
+STK00461,MED00461,Paracetamol 500mg,BAT249412,98,37,In Stock,2028-12-17,Wellness Distributors,412.45,Rack-10 / Shelf-6,2025-09-15
+STK00462,MED00462,Amoxicillin 250mg,BAT248447,392,45,In Stock,2028-03-26,City Medical Supply,451.99,Rack-7 / Shelf-2,2025-10-01
+STK00463,MED00463,Cetirizine 10mg,BAT247192,78,26,In Stock,2027-06-12,MedPlus Wholesale,189.95,Rack-4 / Shelf-3,2025-06-18
+STK00464,MED00464,Ibuprofen 400mg,BAT252648,267,57,In Stock,2027-08-03,City Medical Supply,542.21,Rack-19 / Shelf-5,2025-03-24
+STK00465,MED00465,Omeprazole 20mg,BAT260281,413,67,In Stock,2028-07-14,Wellness Distributors,152.84,Rack-1 / Shelf-4,2026-04-12
+STK00466,MED00466,Metformin 500mg,BAT260249,46,79,Low Stock,2027-01-27,MedPlus Wholesale,122.05,Rack-1 / Shelf-6,2026-06-22
+STK00467,MED00467,Azithromycin 500mg,BAT244588,458,23,In Stock,2028-02-04,Wellness Distributors,302.38,Rack-16 / Shelf-6,2026-02-27
+STK00468,MED00468,Pantoprazole 40mg,BAT243943,256,68,In Stock,2027-05-03,City Medical Supply,280.13,Rack-13 / Shelf-8,2026-01-31
+STK00469,MED00469,Amlodipine 5mg,BAT257204,159,73,In Stock,2027-07-20,City Medical Supply,62.11,Rack-20 / Shelf-4,2025-03-29
+STK00470,MED00470,Atorvastatin 10mg,BAT260867,85,80,In Stock,2028-12-30,HealthKart Pharma,500.25,Rack-14 / Shelf-8,2025-11-23
+STK00471,MED00471,Montelukast 10mg,BAT248309,355,70,In Stock,2028-07-31,Apollo Distributors,394.07,Rack-14 / Shelf-6,2026-05-01
+STK00472,MED00472,Levocetirizine 5mg,BAT252082,12,75,Low Stock,2027-12-20,HealthKart Pharma,512.12,Rack-7 / Shelf-4,2026-01-17
+STK00473,MED00473,Vitamin D3 60000IU,BAT240449,191,31,In Stock,2027-03-18,Wellness Distributors,257.81,Rack-7 / Shelf-1,2025-10-04
+STK00474,MED00474,ORS Sachet,BAT243183,158,41,In Stock,2027-09-11,HealthKart Pharma,355.93,Rack-1 / Shelf-5,2026-07-14
+STK00475,MED00475,Dolo 650mg,BAT255787,331,37,In Stock,2027-10-11,Apollo Distributors,697.05,Rack-9 / Shelf-5,2025-09-14
+STK00476,MED00476,Cough Syrup 100ml,BAT241097,29,56,Low Stock,2028-09-03,Wellness Distributors,698.08,Rack-15 / Shelf-8,2026-05-04
+STK00477,MED00477,Calcium 500mg,BAT257977,242,67,In Stock,2028-12-03,Apollo Distributors,34.43,Rack-1 / Shelf-3,2025-08-04
+STK00478,MED00478,Losartan 50mg,BAT244413,376,31,In Stock,2026-11-22,Wellness Distributors,585.17,Rack-4 / Shelf-1,2025-12-16
+STK00479,MED00479,Rabeprazole 20mg,BAT242142,326,65,In Stock,2027-07-17,Apollo Distributors,601.66,Rack-9 / Shelf-4,2025-08-30
+STK00480,MED00480,Salbutamol 4mg,BAT240646,314,67,In Stock,2027-08-05,HealthKart Pharma,629.23,Rack-6 / Shelf-6,2025-11-09
+STK00481,MED00481,Paracetamol 500mg,BAT253311,7,80,Low Stock,2027-10-30,Apollo Distributors,52.95,Rack-17 / Shelf-3,2025-07-23
+STK00482,MED00482,Amoxicillin 250mg,BAT245755,136,25,In Stock,2027-11-27,Apollo Distributors,198.66,Rack-7 / Shelf-7,2026-05-04
+STK00483,MED00483,Cetirizine 10mg,BAT240205,325,67,In Stock,2027-07-14,HealthKart Pharma,395.91,Rack-4 / Shelf-6,2025-12-05
+STK00484,MED00484,Ibuprofen 400mg,BAT242921,290,73,In Stock,2028-03-31,Wellness Distributors,69.01,Rack-3 / Shelf-3,2025-07-23
+STK00485,MED00485,Omeprazole 20mg,BAT250503,44,31,In Stock,2028-04-26,Apollo Distributors,538.57,Rack-1 / Shelf-4,2025-09-08
+STK00486,MED00486,Metformin 500mg,BAT242763,191,49,In Stock,2028-09-09,MedPlus Wholesale,220.99,Rack-7 / Shelf-3,2026-02-23
+STK00487,MED00487,Azithromycin 500mg,BAT249506,27,44,Low Stock,2027-02-28,HealthKart Pharma,105.17,Rack-11 / Shelf-7,2026-04-07
+STK00488,MED00488,Pantoprazole 40mg,BAT249039,427,32,In Stock,2027-03-22,MedPlus Wholesale,685.66,Rack-9 / Shelf-8,2026-03-18
+STK00489,MED00489,Amlodipine 5mg,BAT251737,47,51,Low Stock,2028-04-13,HealthKart Pharma,249.41,Rack-17 / Shelf-8,2025-06-02
+STK00490,MED00490,Atorvastatin 10mg,BAT245686,323,63,In Stock,2026-10-06,City Medical Supply,274.89,Rack-18 / Shelf-4,2025-08-06
+STK00491,MED00491,Montelukast 10mg,BAT249559,222,42,In Stock,2027-03-30,HealthKart Pharma,492.16,Rack-17 / Shelf-5,2026-06-15
+STK00492,MED00492,Levocetirizine 5mg,BAT247004,262,69,In Stock,2027-05-21,MedPlus Wholesale,331.64,Rack-2 / Shelf-2,2025-11-09
+STK00493,MED00493,Vitamin D3 60000IU,BAT246208,337,60,In Stock,2027-12-29,MedPlus Wholesale,331.33,Rack-11 / Shelf-6,2025-10-16
+STK00494,MED00494,ORS Sachet,BAT259380,193,62,In Stock,2026-10-03,HealthKart Pharma,493.29,Rack-12 / Shelf-1,2026-05-11
+STK00495,MED00495,Dolo 650mg,BAT251067,215,50,In Stock,2027-08-09,Apollo Distributors,137.48,Rack-12 / Shelf-5,2026-05-09
+STK00496,MED00496,Cough Syrup 100ml,BAT246200,239,54,In Stock,2028-10-08,Apollo Distributors,311.79,Rack-20 / Shelf-8,2025-10-01
+STK00497,MED00497,Calcium 500mg,BAT254353,294,64,In Stock,2028-09-16,Wellness Distributors,335.71,Rack-8 / Shelf-5,2025-07-26
+STK00498,MED00498,Losartan 50mg,BAT251171,191,58,In Stock,2028-01-06,Wellness Distributors,215.72,Rack-8 / Shelf-2,2025-12-28
+STK00499,MED00499,Rabeprazole 20mg,BAT248926,218,69,In Stock,2028-04-12,Wellness Distributors,418.41,Rack-6 / Shelf-3,2025-04-15
+STK00500,MED00500,Salbutamol 4mg,BAT259657,153,76,In Stock,2028-08-13,City Medical Supply,145.34,Rack-19 / Shelf-3,2026-05-26

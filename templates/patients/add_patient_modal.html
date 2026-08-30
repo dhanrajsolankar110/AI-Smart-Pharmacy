@@ -1,0 +1,500 @@
+<!-- ==========================================================
+     ADD PATIENT MODAL
+========================================================== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<div
+    class="patient-modal"
+    id="addPatientModal"
+    style="display:none;">
+
+    <div class="patient-modal-overlay"></div>
+
+
+    <div class="patient-modal-container add-patient-modal">
+
+        <!-- ==================================================
+             MODAL HEADER
+        =================================================== -->
+
+        <div class="patient-modal-header">
+
+            <div>
+
+                <h2>
+                    Add New Patient
+                </h2>
+
+                <p>
+                    Register a new patient in the system
+                </p>
+
+            </div>
+
+
+            <button
+                type="button"
+                class="patient-modal-close close-add-patient-modal"
+                aria-label="Close">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- ==================================================
+             FORM
+        =================================================== -->
+
+        <form
+            id="addPatientForm"
+            method="POST"
+            action="{{ url_for('patients.add_patient') }}">
+
+            <!-- ==================================================
+                 BASIC INFORMATION
+            =================================================== -->
+
+            <div class="patient-modal-section">
+
+                <div class="patient-modal-section-title">
+
+                    <i class="fa-solid fa-user"></i>
+
+                    <h3>
+                        Basic Information
+                    </h3>
+
+                </div>
+
+
+                <div class="patient-form-grid">
+
+                    <!-- FIRST NAME -->
+
+                    <div class="patient-form-group">
+
+                        <label for="patientFirstName">
+
+                            First Name
+
+                            <span>*</span>
+
+                        </label>
+
+                        <input
+                            type="text"
+                            id="patientFirstName"
+                            name="first_name"
+                            placeholder="Enter first name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- LAST NAME -->
+
+                    <div class="patient-form-group">
+
+                        <label for="patientLastName">
+
+                            Last Name
+
+                            <span>*</span>
+
+                        </label>
+
+                        <input
+                            type="text"
+                            id="patientLastName"
+                            name="last_name"
+                            placeholder="Enter last name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- DATE OF BIRTH -->
+
+                    <div class="patient-form-group">
+
+                        <label for="patientDob">
+
+                            Date of Birth
+
+                            <span>*</span>
+
+                        </label>
+
+                        <input
+                            type="date"
+                            id="patientDob"
+                            name="date_of_birth"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- GENDER -->
+
+                    <div class="patient-form-group">
+
+                        <label for="patientGender">
+
+                            Gender
+
+                            <span>*</span>
+
+                        </label>
+
+                        <select
+                            id="patientGender"
+                            name="gender"
+                            required>
+
+                            <option value="">
+                                Select Gender
+                            </option>
+
+                            <option value="Male">
+                                Male
+                            </option>
+
+                            <option value="Female">
+                                Female
+                            </option>
+
+                            <option value="Other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- BLOOD GROUP -->
+
+                    <div class="patient-form-group">
+
+                        <label for="patientBloodGroup">
+
+                            Blood Group
+
+                        </label>
+
+                        <select
+                            id="patientBloodGroup"
+                            name="blood_group">
+
+                            <option value="">
+                                Select Blood Group
+                            </option>
+
+                            <option value="A+">
+                                A+
+                            </option>
+
+                            <option value="A-">
+                                A-
+                            </option>
+
+                            <option value="B+">
+                                B+
+                            </option>
+
+                            <option value="B-">
+                                B-
+                            </option>
+
+                            <option value="AB+">
+                                AB+
+                            </option>
+
+                            <option value="AB-">
+                                AB-
+                            </option>
+
+                            <option value="O+">
+                                O+
+                            </option>
+
+                            <option value="O-">
+                                O-
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- PHONE -->
+
+                    <div class="patient-form-group">
+
+                        <label for="patientPhone">
+
+                            Phone Number
+
+                            <span>*</span>
+
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="patientPhone"
+                            name="phone"
+                            placeholder="Enter phone number"
+                            maxlength="10"
+                            required
+                        >
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="patient-form-group">
+
+                        <label for="patientEmail">
+
+                            Email Address
+
+                        </label>
+
+                        <input
+                            type="email"
+                            id="patientEmail"
+                            name="email"
+                            placeholder="Enter email address"
+                        >
+
+                    </div>
+
+
+                    <!-- HEIGHT -->
+
+                    <div class="patient-form-group">
+
+                        <label for="patientHeight">
+
+                            Height
+
+                        </label>
+
+                        <div class="patient-input-unit">
+
+                            <input
+                                type="number"
+                                id="patientHeight"
+                                name="height"
+                                placeholder="Height"
+                                min="1"
+                                max="250"
+                            >
+
+                            <span>
+                                cm
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- WEIGHT -->
+
+                    <div class="patient-form-group">
+
+                        <label for="patientWeight">
+
+                            Weight
+
+                        </label>
+
+                        <div class="patient-input-unit">
+
+                            <input
+                                type="number"
+                                id="patientWeight"
+                                name="weight"
+                                placeholder="Weight"
+                                min="1"
+                                max="500"
+                                step="0.1"
+                            >
+
+                            <span>
+                                kg
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================================================
+                 CONTACT INFORMATION
+            =================================================== -->
+
+            <div class="patient-modal-section">
+
+                <div class="patient-modal-section-title">
+
+                    <i class="fa-solid fa-address-book"></i>
+
+                    <h3>
+                        Contact Information
+                    </h3>
+
+                </div>
+
+
+                <div class="patient-form-grid">
+
+                    <div
+                        class="patient-form-group full-width">
+
+                        <label for="patientAddress">
+
+                            Address
+
+                            <span>*</span>
+
+                        </label>
+
+                        <textarea
+                            id="patientAddress"
+                            name="address"
+                            rows="3"
+                            placeholder="Enter complete address"
+                            required></textarea>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================================================
+                 MEDICAL INFORMATION
+            =================================================== -->
+
+            <div class="patient-modal-section">
+
+                <div class="patient-modal-section-title">
+
+                    <i class="fa-solid fa-heart-pulse"></i>
+
+                    <h3>
+                        Medical Information
+                    </h3>
+
+                </div>
+
+
+                <div class="patient-form-grid">
+
+                    <div
+                        class="patient-form-group full-width">
+
+                        <label for="patientMedicalHistory">
+
+                            Medical History
+
+                        </label>
+
+                        <textarea
+                            id="patientMedicalHistory"
+                            name="medical_history"
+                            rows="3"
+                            placeholder="Enter existing medical conditions, previous illnesses, etc."></textarea>
+
+                    </div>
+
+
+                    <div
+                        class="patient-form-group full-width">
+
+                        <label for="patientAllergies">
+
+                            Allergies
+
+                        </label>
+
+                        <textarea
+                            id="patientAllergies"
+                            name="allergies"
+                            rows="2"
+                            placeholder="Enter known allergies"></textarea>
+
+                    </div>
+
+
+                    <div
+                        class="patient-form-group full-width">
+
+                        <label for="patientNotes">
+
+                            Additional Notes
+
+                        </label>
+
+                        <textarea
+                            id="patientNotes"
+                            name="notes"
+                            rows="2"
+                            placeholder="Additional patient notes"></textarea>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================================================
+                 FORM FOOTER
+            =================================================== -->
+
+            <div class="patient-modal-footer">
+
+                <button
+                    type="button"
+                    class="patient-modal-secondary close-add-patient-modal">
+
+                    Cancel
+
+                </button>
+
+
+                <button
+                    type="submit"
+                    class="patient-modal-primary">
+
+                    <i class="fa-solid fa-user-plus"></i>
+
+                    Add Patient
+
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

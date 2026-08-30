@@ -1,0 +1,17 @@
+.content-wrapper{
+
+    margin-left:280px;
+
+    width:calc(100% - 280px);
+
+    transition:.30s;
+
+}
+
+.sidebar.collapsed + .content-wrapper{
+
+    margin-left:85px;
+
+    width:calc(100% - 85px);
+
+}

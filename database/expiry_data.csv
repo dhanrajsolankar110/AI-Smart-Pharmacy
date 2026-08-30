@@ -1,0 +1,501 @@
+Expiry_ID,Medicine_ID,Medicine_Name,Batch_Number,Manufacturer,Supplier,Quantity,Expiry_Date,Days_Left,Expiry_Status,Priority,Action,Purchase_Price_INR,Storage_Location,Last_Checked
+EXP00001,MED00001,Paracetamol 500mg,BAT241323,Alkem,Apollo Distributors,472,2026-05-28,-73,Expired,Critical,Remove from Stock,422.15,Rack-11 / Shelf-4,2026-07-26
+EXP00002,MED00002,Amoxicillin 250mg,BAT258169,Zydus,City Medical Supply,442,2026-08-25,16,Expiring Soon,High,Prioritize Sale,128.72,Rack-9 / Shelf-8,2026-07-28
+EXP00003,MED00003,Cetirizine 10mg,BAT250919,Abbott,MedPlus Wholesale,463,2026-11-05,88,Expiring Later,Medium,Monitor,531.53,Rack-16 / Shelf-1,2026-07-24
+EXP00004,MED00004,Ibuprofen 400mg,BAT241627,Alkem,City Medical Supply,81,2026-12-23,136,Safe,Low,No Action,552.81,Rack-18 / Shelf-2,2026-08-09
+EXP00005,MED00005,Omeprazole 20mg,BAT253943,Dr Reddy's,HealthKart Pharma,108,2026-06-08,-62,Expired,Critical,Remove from Stock,565.88,Rack-9 / Shelf-2,2026-08-06
+EXP00006,MED00006,Metformin 500mg,BAT255346,Sun Pharma,MedPlus Wholesale,42,2026-08-27,18,Expiring Soon,High,Prioritize Sale,612.11,Rack-16 / Shelf-1,2026-07-21
+EXP00007,MED00007,Azithromycin 500mg,BAT244544,Abbott,MedPlus Wholesale,338,2026-10-19,71,Expiring Later,Medium,Monitor,218.72,Rack-11 / Shelf-6,2026-07-23
+EXP00008,MED00008,Pantoprazole 40mg,BAT256113,Lupin,MedPlus Wholesale,82,2027-09-19,406,Safe,Low,No Action,451.11,Rack-1 / Shelf-2,2026-08-09
+EXP00009,MED00009,Amlodipine 5mg,BAT247352,Mankind,Apollo Distributors,441,2026-04-09,-122,Expired,Critical,Remove from Stock,512.37,Rack-5 / Shelf-7,2026-07-24
+EXP00010,MED00010,Atorvastatin 10mg,BAT252715,Lupin,City Medical Supply,460,2026-08-30,21,Expiring Soon,High,Prioritize Sale,223.26,Rack-12 / Shelf-5,2026-08-06
+EXP00011,MED00011,Montelukast 10mg,BAT249452,Zydus,City Medical Supply,411,2026-09-09,31,Expiring Later,Medium,Monitor,253.63,Rack-3 / Shelf-4,2026-07-28
+EXP00012,MED00012,Levocetirizine 5mg,BAT248934,Zydus,HealthKart Pharma,307,2028-06-16,677,Safe,Low,No Action,414.66,Rack-16 / Shelf-1,2026-07-28
+EXP00013,MED00013,Vitamin D3 60000IU,BAT249113,Cipla,MedPlus Wholesale,448,2026-08-06,-3,Expired,Critical,Remove from Stock,184.6,Rack-15 / Shelf-3,2026-07-25
+EXP00014,MED00014,ORS Sachet,BAT254485,Mankind,Apollo Distributors,127,2026-09-05,27,Expiring Soon,High,Prioritize Sale,80.14,Rack-18 / Shelf-3,2026-08-05
+EXP00015,MED00015,Dolo 650mg,BAT250452,Lupin,MedPlus Wholesale,127,2026-10-31,83,Expiring Later,Medium,Monitor,280.92,Rack-2 / Shelf-1,2026-07-22
+EXP00016,MED00016,Cough Syrup 100ml,BAT254076,Zydus,MedPlus Wholesale,61,2028-03-27,596,Safe,Low,No Action,537.91,Rack-12 / Shelf-6,2026-08-09
+EXP00017,MED00017,Calcium 500mg,BAT240171,Mankind,Apollo Distributors,286,2026-04-12,-119,Expired,Critical,Remove from Stock,280.05,Rack-1 / Shelf-6,2026-07-22
+EXP00018,MED00018,Losartan 50mg,BAT258295,Cipla,City Medical Supply,185,2026-08-29,20,Expiring Soon,High,Prioritize Sale,556.9,Rack-1 / Shelf-8,2026-07-30
+EXP00019,MED00019,Rabeprazole 20mg,BAT248374,Mankind,Apollo Distributors,410,2026-10-07,59,Expiring Later,Medium,Monitor,278.89,Rack-8 / Shelf-5,2026-08-01
+EXP00020,MED00020,Salbutamol 4mg,BAT245315,Lupin,Wellness Distributors,251,2027-06-22,317,Safe,Low,No Action,103.59,Rack-11 / Shelf-6,2026-07-28
+EXP00021,MED00021,Paracetamol 500mg,BAT255861,Alkem,City Medical Supply,362,2026-05-06,-95,Expired,Critical,Remove from Stock,241.9,Rack-2 / Shelf-1,2026-08-07
+EXP00022,MED00022,Amoxicillin 250mg,BAT243277,Lupin,City Medical Supply,363,2026-08-13,4,Expiring Soon,High,Prioritize Sale,264.25,Rack-16 / Shelf-4,2026-07-24
+EXP00023,MED00023,Cetirizine 10mg,BAT251802,Alkem,Apollo Distributors,286,2026-10-20,72,Expiring Later,Medium,Monitor,514.85,Rack-18 / Shelf-4,2026-07-28
+EXP00024,MED00024,Ibuprofen 400mg,BAT249909,Zydus,City Medical Supply,171,2028-06-13,674,Safe,Low,No Action,301.46,Rack-1 / Shelf-2,2026-08-07
+EXP00025,MED00025,Omeprazole 20mg,BAT252746,Zydus,Wellness Distributors,355,2026-05-07,-94,Expired,Critical,Remove from Stock,726.52,Rack-13 / Shelf-2,2026-07-23
+EXP00026,MED00026,Metformin 500mg,BAT250066,Cipla,City Medical Supply,231,2026-08-10,1,Expiring Soon,High,Prioritize Sale,528.8,Rack-5 / Shelf-2,2026-07-31
+EXP00027,MED00027,Azithromycin 500mg,BAT248156,Mankind,MedPlus Wholesale,110,2026-10-25,77,Expiring Later,Medium,Monitor,787.42,Rack-2 / Shelf-3,2026-07-30
+EXP00028,MED00028,Pantoprazole 40mg,BAT258598,Mankind,Wellness Distributors,341,2027-04-16,250,Safe,Low,No Action,529.58,Rack-20 / Shelf-4,2026-07-25
+EXP00029,MED00029,Amlodipine 5mg,BAT249265,Lupin,Wellness Distributors,11,2026-05-28,-73,Expired,Critical,Remove from Stock,344.69,Rack-9 / Shelf-7,2026-07-29
+EXP00030,MED00030,Atorvastatin 10mg,BAT255354,Alkem,HealthKart Pharma,55,2026-08-29,20,Expiring Soon,High,Prioritize Sale,352.56,Rack-14 / Shelf-5,2026-08-02
+EXP00031,MED00031,Montelukast 10mg,BAT243216,Lupin,HealthKart Pharma,249,2026-10-28,80,Expiring Later,Medium,Monitor,731.37,Rack-3 / Shelf-7,2026-07-25
+EXP00032,MED00032,Levocetirizine 5mg,BAT260997,Alkem,MedPlus Wholesale,113,2027-07-06,331,Safe,Low,No Action,487.69,Rack-11 / Shelf-8,2026-07-24
+EXP00033,MED00033,Vitamin D3 60000IU,BAT259739,Sun Pharma,Wellness Distributors,492,2026-05-23,-78,Expired,Critical,Remove from Stock,39.96,Rack-14 / Shelf-8,2026-08-05
+EXP00034,MED00034,ORS Sachet,BAT251676,Lupin,City Medical Supply,418,2026-08-21,12,Expiring Soon,High,Prioritize Sale,283.98,Rack-14 / Shelf-4,2026-07-20
+EXP00035,MED00035,Dolo 650mg,BAT250450,Dr Reddy's,Apollo Distributors,72,2026-09-20,42,Expiring Later,Medium,Monitor,541.61,Rack-7 / Shelf-3,2026-07-23
+EXP00036,MED00036,Cough Syrup 100ml,BAT245852,Cipla,Apollo Distributors,69,2027-06-08,303,Safe,Low,No Action,564.48,Rack-17 / Shelf-8,2026-07-30
+EXP00037,MED00037,Calcium 500mg,BAT244224,Lupin,Wellness Distributors,28,2026-03-22,-140,Expired,Critical,Remove from Stock,417.21,Rack-19 / Shelf-4,2026-07-23
+EXP00038,MED00038,Losartan 50mg,BAT256105,Abbott,City Medical Supply,242,2026-08-20,11,Expiring Soon,High,Prioritize Sale,554.54,Rack-17 / Shelf-8,2026-08-09
+EXP00039,MED00039,Rabeprazole 20mg,BAT242383,Zydus,MedPlus Wholesale,389,2026-10-20,72,Expiring Later,Medium,Monitor,224.1,Rack-10 / Shelf-2,2026-08-03
+EXP00040,MED00040,Salbutamol 4mg,BAT254467,Mankind,MedPlus Wholesale,212,2027-02-23,198,Safe,Low,No Action,449.04,Rack-5 / Shelf-7,2026-08-05
+EXP00041,MED00041,Paracetamol 500mg,BAT247124,Mankind,MedPlus Wholesale,429,2026-06-02,-68,Expired,Critical,Remove from Stock,264.16,Rack-12 / Shelf-7,2026-08-04
+EXP00042,MED00042,Amoxicillin 250mg,BAT251327,Lupin,City Medical Supply,231,2026-08-26,17,Expiring Soon,High,Prioritize Sale,30.71,Rack-16 / Shelf-5,2026-07-23
+EXP00043,MED00043,Cetirizine 10mg,BAT242480,Dr Reddy's,MedPlus Wholesale,202,2026-09-23,45,Expiring Later,Medium,Monitor,754.11,Rack-13 / Shelf-7,2026-08-04
+EXP00044,MED00044,Ibuprofen 400mg,BAT242925,Dr Reddy's,Apollo Distributors,310,2028-04-14,614,Safe,Low,No Action,11.61,Rack-7 / Shelf-6,2026-07-29
+EXP00045,MED00045,Omeprazole 20mg,BAT248532,Mankind,MedPlus Wholesale,97,2026-04-25,-106,Expired,Critical,Remove from Stock,200.08,Rack-8 / Shelf-8,2026-08-03
+EXP00046,MED00046,Metformin 500mg,BAT253584,Cipla,Wellness Distributors,389,2026-08-10,1,Expiring Soon,High,Prioritize Sale,753.97,Rack-5 / Shelf-3,2026-08-04
+EXP00047,MED00047,Azithromycin 500mg,BAT247397,Sun Pharma,Wellness Distributors,39,2026-09-17,39,Expiring Later,Medium,Monitor,460.65,Rack-18 / Shelf-6,2026-08-03
+EXP00048,MED00048,Pantoprazole 40mg,BAT254651,Lupin,City Medical Supply,462,2027-11-28,476,Safe,Low,No Action,784.65,Rack-19 / Shelf-2,2026-07-25
+EXP00049,MED00049,Amlodipine 5mg,BAT241805,Zydus,Apollo Distributors,179,2026-06-09,-61,Expired,Critical,Remove from Stock,286.53,Rack-2 / Shelf-4,2026-07-31
+EXP00050,MED00050,Atorvastatin 10mg,BAT248904,Zydus,Apollo Distributors,443,2026-08-29,20,Expiring Soon,High,Prioritize Sale,650.06,Rack-12 / Shelf-7,2026-08-09
+EXP00051,MED00051,Montelukast 10mg,BAT251039,Alkem,City Medical Supply,263,2026-09-27,49,Expiring Later,Medium,Monitor,588.63,Rack-1 / Shelf-4,2026-07-30
+EXP00052,MED00052,Levocetirizine 5mg,BAT251098,Abbott,MedPlus Wholesale,112,2027-10-14,431,Safe,Low,No Action,95.02,Rack-10 / Shelf-4,2026-08-07
+EXP00053,MED00053,Vitamin D3 60000IU,BAT243864,Lupin,Wellness Distributors,245,2026-03-15,-147,Expired,Critical,Remove from Stock,480.52,Rack-7 / Shelf-7,2026-08-05
+EXP00054,MED00054,ORS Sachet,BAT252997,Abbott,Wellness Distributors,128,2026-08-25,16,Expiring Soon,High,Prioritize Sale,686.1,Rack-3 / Shelf-4,2026-08-06
+EXP00055,MED00055,Dolo 650mg,BAT260976,Cipla,Apollo Distributors,482,2026-10-08,60,Expiring Later,Medium,Monitor,389.61,Rack-7 / Shelf-7,2026-08-09
+EXP00056,MED00056,Cough Syrup 100ml,BAT245898,Mankind,Apollo Distributors,391,2027-11-11,459,Safe,Low,No Action,746.87,Rack-15 / Shelf-7,2026-08-01
+EXP00057,MED00057,Calcium 500mg,BAT246804,Abbott,Apollo Distributors,436,2026-03-28,-134,Expired,Critical,Remove from Stock,643.42,Rack-9 / Shelf-3,2026-07-31
+EXP00058,MED00058,Losartan 50mg,BAT246633,Alkem,City Medical Supply,327,2026-09-07,29,Expiring Soon,High,Prioritize Sale,67.62,Rack-5 / Shelf-6,2026-07-27
+EXP00059,MED00059,Rabeprazole 20mg,BAT260427,Alkem,City Medical Supply,450,2026-10-11,63,Expiring Later,Medium,Monitor,327.64,Rack-15 / Shelf-7,2026-07-31
+EXP00060,MED00060,Salbutamol 4mg,BAT258111,Abbott,Wellness Distributors,93,2028-01-30,539,Safe,Low,No Action,253.99,Rack-9 / Shelf-4,2026-07-22
+EXP00061,MED00061,Paracetamol 500mg,BAT253017,Cipla,Apollo Distributors,488,2026-07-04,-36,Expired,Critical,Remove from Stock,716.87,Rack-4 / Shelf-1,2026-08-01
+EXP00062,MED00062,Amoxicillin 250mg,BAT242074,Lupin,Wellness Distributors,427,2026-09-05,27,Expiring Soon,High,Prioritize Sale,291.89,Rack-8 / Shelf-4,2026-08-03
+EXP00063,MED00063,Cetirizine 10mg,BAT252407,Lupin,City Medical Supply,103,2026-10-25,77,Expiring Later,Medium,Monitor,658.45,Rack-20 / Shelf-2,2026-07-31
+EXP00064,MED00064,Ibuprofen 400mg,BAT259076,Lupin,Wellness Distributors,411,2026-11-20,103,Safe,Low,No Action,712.77,Rack-7 / Shelf-7,2026-07-23
+EXP00065,MED00065,Omeprazole 20mg,BAT250040,Zydus,Apollo Distributors,30,2026-02-10,-180,Expired,Critical,Remove from Stock,203.45,Rack-8 / Shelf-5,2026-07-26
+EXP00066,MED00066,Metformin 500mg,BAT254420,Alkem,Apollo Distributors,108,2026-08-29,20,Expiring Soon,High,Prioritize Sale,683.04,Rack-19 / Shelf-3,2026-07-30
+EXP00067,MED00067,Azithromycin 500mg,BAT245425,Sun Pharma,City Medical Supply,381,2026-10-16,68,Expiring Later,Medium,Monitor,283.65,Rack-4 / Shelf-3,2026-08-09
+EXP00068,MED00068,Pantoprazole 40mg,BAT250589,Sun Pharma,Apollo Distributors,129,2027-10-12,429,Safe,Low,No Action,225.91,Rack-8 / Shelf-5,2026-07-29
+EXP00069,MED00069,Amlodipine 5mg,BAT255986,Lupin,City Medical Supply,79,2026-03-07,-155,Expired,Critical,Remove from Stock,78.76,Rack-17 / Shelf-1,2026-08-07
+EXP00070,MED00070,Atorvastatin 10mg,BAT246244,Dr Reddy's,MedPlus Wholesale,198,2026-08-18,9,Expiring Soon,High,Prioritize Sale,693.11,Rack-3 / Shelf-1,2026-08-08
+EXP00071,MED00071,Montelukast 10mg,BAT247319,Abbott,HealthKart Pharma,57,2026-10-08,60,Expiring Later,Medium,Monitor,429.82,Rack-8 / Shelf-3,2026-07-27
+EXP00072,MED00072,Levocetirizine 5mg,BAT260371,Abbott,MedPlus Wholesale,484,2028-05-26,656,Safe,Low,No Action,445.13,Rack-3 / Shelf-2,2026-07-27
+EXP00073,MED00073,Vitamin D3 60000IU,BAT242064,Cipla,Wellness Distributors,370,2026-04-21,-110,Expired,Critical,Remove from Stock,354.94,Rack-5 / Shelf-1,2026-08-04
+EXP00074,MED00074,ORS Sachet,BAT254339,Cipla,City Medical Supply,132,2026-08-23,14,Expiring Soon,High,Prioritize Sale,367.66,Rack-12 / Shelf-3,2026-07-23
+EXP00075,MED00075,Dolo 650mg,BAT259461,Zydus,HealthKart Pharma,278,2026-09-11,33,Expiring Later,Medium,Monitor,419.96,Rack-7 / Shelf-8,2026-07-31
+EXP00076,MED00076,Cough Syrup 100ml,BAT245228,Cipla,City Medical Supply,46,2027-05-01,265,Safe,Low,No Action,741.91,Rack-7 / Shelf-5,2026-08-01
+EXP00077,MED00077,Calcium 500mg,BAT246451,Lupin,Apollo Distributors,312,2026-04-05,-126,Expired,Critical,Remove from Stock,364.65,Rack-3 / Shelf-3,2026-07-27
+EXP00078,MED00078,Losartan 50mg,BAT245953,Abbott,Wellness Distributors,260,2026-08-22,13,Expiring Soon,High,Prioritize Sale,157.01,Rack-8 / Shelf-6,2026-08-01
+EXP00079,MED00079,Rabeprazole 20mg,BAT259102,Alkem,Wellness Distributors,378,2026-10-19,71,Expiring Later,Medium,Monitor,297.6,Rack-15 / Shelf-6,2026-07-29
+EXP00080,MED00080,Salbutamol 4mg,BAT241519,Abbott,Wellness Distributors,259,2028-04-07,607,Safe,Low,No Action,450.21,Rack-13 / Shelf-7,2026-08-01
+EXP00081,MED00081,Paracetamol 500mg,BAT244414,Sun Pharma,MedPlus Wholesale,449,2026-06-20,-50,Expired,Critical,Remove from Stock,725.32,Rack-20 / Shelf-1,2026-08-03
+EXP00082,MED00082,Amoxicillin 250mg,BAT251551,Sun Pharma,City Medical Supply,211,2026-09-03,25,Expiring Soon,High,Prioritize Sale,291.46,Rack-2 / Shelf-8,2026-07-30
+EXP00083,MED00083,Cetirizine 10mg,BAT251871,Sun Pharma,Wellness Distributors,44,2026-09-23,45,Expiring Later,Medium,Monitor,101.18,Rack-5 / Shelf-1,2026-08-09
+EXP00084,MED00084,Ibuprofen 400mg,BAT244169,Alkem,Apollo Distributors,380,2028-07-04,695,Safe,Low,No Action,186.91,Rack-6 / Shelf-3,2026-07-24
+EXP00085,MED00085,Omeprazole 20mg,BAT247678,Alkem,Wellness Distributors,137,2026-03-01,-161,Expired,Critical,Remove from Stock,304.27,Rack-20 / Shelf-6,2026-08-09
+EXP00086,MED00086,Metformin 500mg,BAT253606,Zydus,City Medical Supply,410,2026-08-23,14,Expiring Soon,High,Prioritize Sale,141.23,Rack-20 / Shelf-6,2026-07-25
+EXP00087,MED00087,Azithromycin 500mg,BAT252580,Zydus,City Medical Supply,449,2026-10-24,76,Expiring Later,Medium,Monitor,676.41,Rack-16 / Shelf-6,2026-07-30
+EXP00088,MED00088,Pantoprazole 40mg,BAT243450,Abbott,City Medical Supply,205,2027-07-08,333,Safe,Low,No Action,493.51,Rack-17 / Shelf-6,2026-07-26
+EXP00089,MED00089,Amlodipine 5mg,BAT241389,Sun Pharma,City Medical Supply,227,2026-06-22,-48,Expired,Critical,Remove from Stock,256.83,Rack-20 / Shelf-2,2026-07-22
+EXP00090,MED00090,Atorvastatin 10mg,BAT258830,Alkem,Wellness Distributors,105,2026-08-16,7,Expiring Soon,High,Prioritize Sale,481.58,Rack-11 / Shelf-2,2026-07-22
+EXP00091,MED00091,Montelukast 10mg,BAT244963,Cipla,City Medical Supply,163,2026-10-17,69,Expiring Later,Medium,Monitor,268.65,Rack-13 / Shelf-7,2026-08-08
+EXP00092,MED00092,Levocetirizine 5mg,BAT254586,Lupin,City Medical Supply,441,2027-09-20,407,Safe,Low,No Action,584.45,Rack-4 / Shelf-4,2026-07-28
+EXP00093,MED00093,Vitamin D3 60000IU,BAT255129,Dr Reddy's,City Medical Supply,473,2026-05-17,-84,Expired,Critical,Remove from Stock,682.33,Rack-9 / Shelf-1,2026-07-22
+EXP00094,MED00094,ORS Sachet,BAT243199,Dr Reddy's,HealthKart Pharma,186,2026-09-08,30,Expiring Soon,High,Prioritize Sale,414.56,Rack-3 / Shelf-7,2026-07-28
+EXP00095,MED00095,Dolo 650mg,BAT244287,Abbott,Wellness Distributors,179,2026-11-07,90,Expiring Later,Medium,Monitor,755.68,Rack-16 / Shelf-1,2026-07-23
+EXP00096,MED00096,Cough Syrup 100ml,BAT260163,Sun Pharma,MedPlus Wholesale,409,2028-05-01,631,Safe,Low,No Action,631.67,Rack-13 / Shelf-6,2026-07-28
+EXP00097,MED00097,Calcium 500mg,BAT245722,Lupin,Wellness Distributors,192,2026-05-03,-98,Expired,Critical,Remove from Stock,90.46,Rack-20 / Shelf-3,2026-07-29
+EXP00098,MED00098,Losartan 50mg,BAT242563,Mankind,City Medical Supply,16,2026-08-15,6,Expiring Soon,High,Prioritize Sale,534.08,Rack-9 / Shelf-5,2026-07-21
+EXP00099,MED00099,Rabeprazole 20mg,BAT260087,Sun Pharma,HealthKart Pharma,246,2026-09-30,52,Expiring Later,Medium,Monitor,626.17,Rack-17 / Shelf-4,2026-07-24
+EXP00100,MED00100,Salbutamol 4mg,BAT247129,Abbott,MedPlus Wholesale,476,2027-09-24,411,Safe,Low,No Action,570.15,Rack-6 / Shelf-3,2026-08-03
+EXP00101,MED00101,Paracetamol 500mg,BAT244995,Dr Reddy's,Apollo Distributors,146,2026-06-04,-66,Expired,Critical,Remove from Stock,712.06,Rack-16 / Shelf-2,2026-07-30
+EXP00102,MED00102,Amoxicillin 250mg,BAT255577,Cipla,MedPlus Wholesale,498,2026-08-10,1,Expiring Soon,High,Prioritize Sale,645.21,Rack-17 / Shelf-2,2026-07-23
+EXP00103,MED00103,Cetirizine 10mg,BAT258283,Abbott,City Medical Supply,453,2026-10-04,56,Expiring Later,Medium,Monitor,358.72,Rack-5 / Shelf-1,2026-08-07
+EXP00104,MED00104,Ibuprofen 400mg,BAT248433,Dr Reddy's,City Medical Supply,303,2028-01-06,515,Safe,Low,No Action,224.74,Rack-13 / Shelf-6,2026-08-08
+EXP00105,MED00105,Omeprazole 20mg,BAT248913,Sun Pharma,HealthKart Pharma,23,2026-04-09,-122,Expired,Critical,Remove from Stock,359.78,Rack-17 / Shelf-5,2026-07-25
+EXP00106,MED00106,Metformin 500mg,BAT241349,Zydus,MedPlus Wholesale,359,2026-08-19,10,Expiring Soon,High,Prioritize Sale,439.96,Rack-5 / Shelf-5,2026-07-27
+EXP00107,MED00107,Azithromycin 500mg,BAT252258,Zydus,MedPlus Wholesale,241,2026-10-10,62,Expiring Later,Medium,Monitor,702.18,Rack-11 / Shelf-7,2026-07-21
+EXP00108,MED00108,Pantoprazole 40mg,BAT247405,Cipla,MedPlus Wholesale,450,2027-11-13,461,Safe,Low,No Action,162.06,Rack-11 / Shelf-4,2026-07-26
+EXP00109,MED00109,Amlodipine 5mg,BAT260874,Sun Pharma,HealthKart Pharma,61,2026-05-13,-88,Expired,Critical,Remove from Stock,346.86,Rack-14 / Shelf-7,2026-07-29
+EXP00110,MED00110,Atorvastatin 10mg,BAT246194,Dr Reddy's,Wellness Distributors,394,2026-08-27,18,Expiring Soon,High,Prioritize Sale,170.47,Rack-13 / Shelf-7,2026-08-06
+EXP00111,MED00111,Montelukast 10mg,BAT249697,Mankind,City Medical Supply,331,2026-10-08,60,Expiring Later,Medium,Monitor,660.14,Rack-20 / Shelf-3,2026-07-25
+EXP00112,MED00112,Levocetirizine 5mg,BAT251241,Dr Reddy's,Wellness Distributors,403,2027-02-07,182,Safe,Low,No Action,397.52,Rack-5 / Shelf-5,2026-08-02
+EXP00113,MED00113,Vitamin D3 60000IU,BAT259179,Mankind,Apollo Distributors,19,2026-06-01,-69,Expired,Critical,Remove from Stock,48.77,Rack-11 / Shelf-7,2026-08-09
+EXP00114,MED00114,ORS Sachet,BAT257433,Lupin,HealthKart Pharma,312,2026-08-16,7,Expiring Soon,High,Prioritize Sale,62.32,Rack-4 / Shelf-5,2026-07-23
+EXP00115,MED00115,Dolo 650mg,BAT253317,Abbott,MedPlus Wholesale,325,2026-10-12,64,Expiring Later,Medium,Monitor,240.7,Rack-14 / Shelf-1,2026-07-28
+EXP00116,MED00116,Cough Syrup 100ml,BAT255137,Mankind,Apollo Distributors,141,2028-01-05,514,Safe,Low,No Action,418.7,Rack-2 / Shelf-2,2026-07-21
+EXP00117,MED00117,Calcium 500mg,BAT260944,Sun Pharma,Wellness Distributors,117,2026-06-16,-54,Expired,Critical,Remove from Stock,105.92,Rack-1 / Shelf-5,2026-07-28
+EXP00118,MED00118,Losartan 50mg,BAT253012,Mankind,Wellness Distributors,334,2026-08-15,6,Expiring Soon,High,Prioritize Sale,525.55,Rack-5 / Shelf-8,2026-07-24
+EXP00119,MED00119,Rabeprazole 20mg,BAT241563,Alkem,HealthKart Pharma,10,2026-10-06,58,Expiring Later,Medium,Monitor,257.43,Rack-5 / Shelf-4,2026-08-01
+EXP00120,MED00120,Salbutamol 4mg,BAT242072,Alkem,City Medical Supply,339,2028-06-30,691,Safe,Low,No Action,388.84,Rack-19 / Shelf-3,2026-07-23
+EXP00121,MED00121,Paracetamol 500mg,BAT252915,Zydus,Apollo Distributors,233,2026-07-18,-22,Expired,Critical,Remove from Stock,540.69,Rack-14 / Shelf-8,2026-08-08
+EXP00122,MED00122,Amoxicillin 250mg,BAT240602,Zydus,HealthKart Pharma,317,2026-08-26,17,Expiring Soon,High,Prioritize Sale,180.53,Rack-16 / Shelf-3,2026-07-29
+EXP00123,MED00123,Cetirizine 10mg,BAT244686,Alkem,City Medical Supply,296,2026-11-07,90,Expiring Later,Medium,Monitor,313.6,Rack-12 / Shelf-2,2026-07-23
+EXP00124,MED00124,Ibuprofen 400mg,BAT250309,Dr Reddy's,MedPlus Wholesale,446,2028-05-19,649,Safe,Low,No Action,351.38,Rack-10 / Shelf-5,2026-08-03
+EXP00125,MED00125,Omeprazole 20mg,BAT249895,Alkem,Wellness Distributors,411,2026-02-22,-168,Expired,Critical,Remove from Stock,766.28,Rack-3 / Shelf-3,2026-08-07
+EXP00126,MED00126,Metformin 500mg,BAT241534,Mankind,HealthKart Pharma,293,2026-08-20,11,Expiring Soon,High,Prioritize Sale,601.28,Rack-17 / Shelf-8,2026-07-23
+EXP00127,MED00127,Azithromycin 500mg,BAT260965,Abbott,Apollo Distributors,177,2026-09-19,41,Expiring Later,Medium,Monitor,27.77,Rack-3 / Shelf-8,2026-07-30
+EXP00128,MED00128,Pantoprazole 40mg,BAT244321,Mankind,City Medical Supply,295,2027-06-10,305,Safe,Low,No Action,785.68,Rack-9 / Shelf-4,2026-08-08
+EXP00129,MED00129,Amlodipine 5mg,BAT244235,Abbott,Apollo Distributors,129,2026-07-16,-24,Expired,Critical,Remove from Stock,430.3,Rack-19 / Shelf-8,2026-07-20
+EXP00130,MED00130,Atorvastatin 10mg,BAT240436,Cipla,Wellness Distributors,380,2026-08-10,1,Expiring Soon,High,Prioritize Sale,330.5,Rack-5 / Shelf-4,2026-08-06
+EXP00131,MED00131,Montelukast 10mg,BAT251057,Lupin,MedPlus Wholesale,444,2026-10-06,58,Expiring Later,Medium,Monitor,355.2,Rack-18 / Shelf-6,2026-08-06
+EXP00132,MED00132,Levocetirizine 5mg,BAT245901,Cipla,Wellness Distributors,39,2027-10-01,418,Safe,Low,No Action,449.29,Rack-1 / Shelf-2,2026-08-07
+EXP00133,MED00133,Vitamin D3 60000IU,BAT246446,Mankind,HealthKart Pharma,209,2026-04-30,-101,Expired,Critical,Remove from Stock,383.46,Rack-1 / Shelf-6,2026-08-06
+EXP00134,MED00134,ORS Sachet,BAT252487,Lupin,City Medical Supply,368,2026-08-15,6,Expiring Soon,High,Prioritize Sale,549.62,Rack-6 / Shelf-4,2026-08-08
+EXP00135,MED00135,Dolo 650mg,BAT256284,Alkem,City Medical Supply,208,2026-10-12,64,Expiring Later,Medium,Monitor,310.47,Rack-7 / Shelf-5,2026-08-01
+EXP00136,MED00136,Cough Syrup 100ml,BAT244845,Abbott,City Medical Supply,214,2027-10-25,442,Safe,Low,No Action,200.19,Rack-11 / Shelf-5,2026-08-05
+EXP00137,MED00137,Calcium 500mg,BAT249550,Cipla,Apollo Distributors,306,2026-07-27,-13,Expired,Critical,Remove from Stock,676.02,Rack-3 / Shelf-5,2026-07-25
+EXP00138,MED00138,Losartan 50mg,BAT242633,Zydus,MedPlus Wholesale,487,2026-09-03,25,Expiring Soon,High,Prioritize Sale,656.25,Rack-8 / Shelf-8,2026-08-09
+EXP00139,MED00139,Rabeprazole 20mg,BAT252848,Dr Reddy's,Apollo Distributors,99,2026-10-30,82,Expiring Later,Medium,Monitor,592.38,Rack-9 / Shelf-1,2026-08-02
+EXP00140,MED00140,Salbutamol 4mg,BAT241579,Alkem,Wellness Distributors,109,2028-04-16,616,Safe,Low,No Action,391.39,Rack-9 / Shelf-7,2026-08-03
+EXP00141,MED00141,Paracetamol 500mg,BAT246142,Zydus,Apollo Distributors,27,2026-04-16,-115,Expired,Critical,Remove from Stock,770.36,Rack-12 / Shelf-2,2026-07-31
+EXP00142,MED00142,Amoxicillin 250mg,BAT251742,Sun Pharma,City Medical Supply,486,2026-08-27,18,Expiring Soon,High,Prioritize Sale,442.93,Rack-12 / Shelf-8,2026-07-29
+EXP00143,MED00143,Cetirizine 10mg,BAT240872,Lupin,Wellness Distributors,77,2026-11-06,89,Expiring Later,Medium,Monitor,241.83,Rack-17 / Shelf-1,2026-07-25
+EXP00144,MED00144,Ibuprofen 400mg,BAT256500,Mankind,MedPlus Wholesale,42,2027-11-18,466,Safe,Low,No Action,65.2,Rack-19 / Shelf-7,2026-07-21
+EXP00145,MED00145,Omeprazole 20mg,BAT249919,Dr Reddy's,MedPlus Wholesale,37,2026-04-06,-125,Expired,Critical,Remove from Stock,10.72,Rack-19 / Shelf-8,2026-07-24
+EXP00146,MED00146,Metformin 500mg,BAT242518,Lupin,Apollo Distributors,138,2026-09-02,24,Expiring Soon,High,Prioritize Sale,33.39,Rack-7 / Shelf-1,2026-07-31
+EXP00147,MED00147,Azithromycin 500mg,BAT258728,Zydus,Wellness Distributors,102,2026-11-02,85,Expiring Later,Medium,Monitor,694.25,Rack-2 / Shelf-3,2026-07-24
+EXP00148,MED00148,Pantoprazole 40mg,BAT245676,Abbott,HealthKart Pharma,203,2028-03-18,587,Safe,Low,No Action,249.04,Rack-14 / Shelf-6,2026-07-20
+EXP00149,MED00149,Amlodipine 5mg,BAT254233,Abbott,City Medical Supply,171,2026-02-25,-165,Expired,Critical,Remove from Stock,635.92,Rack-11 / Shelf-3,2026-07-24
+EXP00150,MED00150,Atorvastatin 10mg,BAT240197,Zydus,Wellness Distributors,349,2026-08-27,18,Expiring Soon,High,Prioritize Sale,407.45,Rack-15 / Shelf-5,2026-07-28
+EXP00151,MED00151,Montelukast 10mg,BAT252489,Lupin,City Medical Supply,466,2026-10-02,54,Expiring Later,Medium,Monitor,579.72,Rack-1 / Shelf-2,2026-07-20
+EXP00152,MED00152,Levocetirizine 5mg,BAT250920,Alkem,City Medical Supply,362,2028-02-05,545,Safe,Low,No Action,197.65,Rack-1 / Shelf-4,2026-08-08
+EXP00153,MED00153,Vitamin D3 60000IU,BAT242051,Cipla,Wellness Distributors,175,2026-07-20,-20,Expired,Critical,Remove from Stock,474.23,Rack-6 / Shelf-2,2026-07-31
+EXP00154,MED00154,ORS Sachet,BAT251927,Zydus,HealthKart Pharma,26,2026-08-24,15,Expiring Soon,High,Prioritize Sale,554.92,Rack-16 / Shelf-1,2026-07-31
+EXP00155,MED00155,Dolo 650mg,BAT240627,Mankind,Apollo Distributors,39,2026-10-10,62,Expiring Later,Medium,Monitor,262.17,Rack-5 / Shelf-8,2026-07-28
+EXP00156,MED00156,Cough Syrup 100ml,BAT242273,Zydus,HealthKart Pharma,461,2027-12-14,492,Safe,Low,No Action,31.69,Rack-3 / Shelf-7,2026-08-05
+EXP00157,MED00157,Calcium 500mg,BAT245379,Zydus,City Medical Supply,358,2026-06-11,-59,Expired,Critical,Remove from Stock,680.45,Rack-17 / Shelf-6,2026-08-04
+EXP00158,MED00158,Losartan 50mg,BAT254190,Abbott,Wellness Distributors,497,2026-09-07,29,Expiring Soon,High,Prioritize Sale,40.43,Rack-20 / Shelf-6,2026-08-05
+EXP00159,MED00159,Rabeprazole 20mg,BAT246777,Dr Reddy's,HealthKart Pharma,437,2026-09-17,39,Expiring Later,Medium,Monitor,112.33,Rack-3 / Shelf-1,2026-07-25
+EXP00160,MED00160,Salbutamol 4mg,BAT247987,Mankind,Apollo Distributors,249,2027-06-01,296,Safe,Low,No Action,790.72,Rack-12 / Shelf-8,2026-07-31
+EXP00161,MED00161,Paracetamol 500mg,BAT240112,Lupin,MedPlus Wholesale,233,2026-02-23,-167,Expired,Critical,Remove from Stock,669.95,Rack-6 / Shelf-7,2026-07-20
+EXP00162,MED00162,Amoxicillin 250mg,BAT245011,Sun Pharma,City Medical Supply,360,2026-08-27,18,Expiring Soon,High,Prioritize Sale,477.71,Rack-11 / Shelf-3,2026-07-30
+EXP00163,MED00163,Cetirizine 10mg,BAT246488,Abbott,City Medical Supply,423,2026-10-16,68,Expiring Later,Medium,Monitor,68.83,Rack-12 / Shelf-3,2026-08-09
+EXP00164,MED00164,Ibuprofen 400mg,BAT244262,Dr Reddy's,Wellness Distributors,374,2027-03-27,230,Safe,Low,No Action,352.45,Rack-19 / Shelf-3,2026-07-22
+EXP00165,MED00165,Omeprazole 20mg,BAT245846,Alkem,City Medical Supply,330,2026-07-22,-18,Expired,Critical,Remove from Stock,451.21,Rack-2 / Shelf-5,2026-08-09
+EXP00166,MED00166,Metformin 500mg,BAT244599,Sun Pharma,Apollo Distributors,354,2026-09-08,30,Expiring Soon,High,Prioritize Sale,538.58,Rack-7 / Shelf-8,2026-07-20
+EXP00167,MED00167,Azithromycin 500mg,BAT253347,Zydus,City Medical Supply,469,2026-09-13,35,Expiring Later,Medium,Monitor,100.45,Rack-20 / Shelf-4,2026-07-26
+EXP00168,MED00168,Pantoprazole 40mg,BAT246651,Sun Pharma,Wellness Distributors,224,2028-04-19,619,Safe,Low,No Action,429.64,Rack-7 / Shelf-3,2026-08-01
+EXP00169,MED00169,Amlodipine 5mg,BAT255808,Abbott,MedPlus Wholesale,112,2026-06-29,-41,Expired,Critical,Remove from Stock,487.0,Rack-9 / Shelf-7,2026-07-27
+EXP00170,MED00170,Atorvastatin 10mg,BAT257572,Sun Pharma,City Medical Supply,31,2026-09-04,26,Expiring Soon,High,Prioritize Sale,260.58,Rack-20 / Shelf-3,2026-08-09
+EXP00171,MED00171,Montelukast 10mg,BAT254289,Zydus,HealthKart Pharma,464,2026-10-08,60,Expiring Later,Medium,Monitor,341.21,Rack-4 / Shelf-6,2026-08-05
+EXP00172,MED00172,Levocetirizine 5mg,BAT256793,Mankind,Apollo Distributors,419,2027-09-24,411,Safe,Low,No Action,517.63,Rack-8 / Shelf-4,2026-08-03
+EXP00173,MED00173,Vitamin D3 60000IU,BAT244963,Sun Pharma,HealthKart Pharma,199,2026-03-21,-141,Expired,Critical,Remove from Stock,550.51,Rack-11 / Shelf-7,2026-07-26
+EXP00174,MED00174,ORS Sachet,BAT259480,Dr Reddy's,HealthKart Pharma,493,2026-08-23,14,Expiring Soon,High,Prioritize Sale,621.44,Rack-4 / Shelf-4,2026-08-01
+EXP00175,MED00175,Dolo 650mg,BAT240283,Lupin,MedPlus Wholesale,20,2026-10-26,78,Expiring Later,Medium,Monitor,381.99,Rack-19 / Shelf-5,2026-08-05
+EXP00176,MED00176,Cough Syrup 100ml,BAT240375,Cipla,City Medical Supply,208,2028-03-23,592,Safe,Low,No Action,147.55,Rack-15 / Shelf-8,2026-08-01
+EXP00177,MED00177,Calcium 500mg,BAT259798,Zydus,Apollo Distributors,500,2026-06-26,-44,Expired,Critical,Remove from Stock,441.44,Rack-4 / Shelf-6,2026-07-27
+EXP00178,MED00178,Losartan 50mg,BAT240591,Sun Pharma,City Medical Supply,367,2026-09-02,24,Expiring Soon,High,Prioritize Sale,523.67,Rack-17 / Shelf-4,2026-08-07
+EXP00179,MED00179,Rabeprazole 20mg,BAT255219,Lupin,Apollo Distributors,486,2026-10-11,63,Expiring Later,Medium,Monitor,791.95,Rack-15 / Shelf-8,2026-07-23
+EXP00180,MED00180,Salbutamol 4mg,BAT256074,Lupin,HealthKart Pharma,296,2027-06-01,296,Safe,Low,No Action,716.64,Rack-18 / Shelf-6,2026-07-27
+EXP00181,MED00181,Paracetamol 500mg,BAT257838,Dr Reddy's,Wellness Distributors,336,2026-03-17,-145,Expired,Critical,Remove from Stock,440.18,Rack-12 / Shelf-6,2026-07-20
+EXP00182,MED00182,Amoxicillin 250mg,BAT254253,Dr Reddy's,MedPlus Wholesale,275,2026-08-13,4,Expiring Soon,High,Prioritize Sale,401.11,Rack-19 / Shelf-8,2026-07-31
+EXP00183,MED00183,Cetirizine 10mg,BAT241298,Dr Reddy's,Apollo Distributors,353,2026-10-15,67,Expiring Later,Medium,Monitor,680.9,Rack-11 / Shelf-7,2026-08-03
+EXP00184,MED00184,Ibuprofen 400mg,BAT241769,Cipla,City Medical Supply,54,2028-05-10,640,Safe,Low,No Action,35.47,Rack-8 / Shelf-6,2026-07-26
+EXP00185,MED00185,Omeprazole 20mg,BAT241031,Alkem,City Medical Supply,334,2026-05-21,-80,Expired,Critical,Remove from Stock,136.91,Rack-17 / Shelf-4,2026-08-09
+EXP00186,MED00186,Metformin 500mg,BAT249277,Zydus,MedPlus Wholesale,185,2026-08-27,18,Expiring Soon,High,Prioritize Sale,615.08,Rack-12 / Shelf-7,2026-08-07
+EXP00187,MED00187,Azithromycin 500mg,BAT260015,Dr Reddy's,City Medical Supply,391,2026-11-03,86,Expiring Later,Medium,Monitor,409.93,Rack-14 / Shelf-6,2026-07-29
+EXP00188,MED00188,Pantoprazole 40mg,BAT260430,Dr Reddy's,Wellness Distributors,227,2027-04-01,235,Safe,Low,No Action,626.58,Rack-7 / Shelf-3,2026-08-01
+EXP00189,MED00189,Amlodipine 5mg,BAT258587,Lupin,MedPlus Wholesale,8,2026-05-03,-98,Expired,Critical,Remove from Stock,188.21,Rack-7 / Shelf-6,2026-08-01
+EXP00190,MED00190,Atorvastatin 10mg,BAT256969,Zydus,Apollo Distributors,63,2026-08-17,8,Expiring Soon,High,Prioritize Sale,325.5,Rack-5 / Shelf-1,2026-08-07
+EXP00191,MED00191,Montelukast 10mg,BAT253843,Zydus,Apollo Distributors,361,2026-09-16,38,Expiring Later,Medium,Monitor,773.98,Rack-11 / Shelf-4,2026-07-20
+EXP00192,MED00192,Levocetirizine 5mg,BAT260453,Dr Reddy's,Apollo Distributors,48,2028-03-14,583,Safe,Low,No Action,557.96,Rack-9 / Shelf-1,2026-08-07
+EXP00193,MED00193,Vitamin D3 60000IU,BAT242811,Cipla,Apollo Distributors,287,2026-07-11,-29,Expired,Critical,Remove from Stock,629.01,Rack-15 / Shelf-3,2026-08-03
+EXP00194,MED00194,ORS Sachet,BAT259783,Alkem,Wellness Distributors,383,2026-08-19,10,Expiring Soon,High,Prioritize Sale,480.73,Rack-15 / Shelf-6,2026-07-25
+EXP00195,MED00195,Dolo 650mg,BAT250873,Cipla,Wellness Distributors,372,2026-09-27,49,Expiring Later,Medium,Monitor,89.25,Rack-17 / Shelf-3,2026-08-03
+EXP00196,MED00196,Cough Syrup 100ml,BAT240516,Abbott,Wellness Distributors,144,2026-11-22,105,Safe,Low,No Action,561.2,Rack-1 / Shelf-4,2026-07-23
+EXP00197,MED00197,Calcium 500mg,BAT241336,Lupin,Apollo Distributors,230,2026-06-04,-66,Expired,Critical,Remove from Stock,677.09,Rack-3 / Shelf-3,2026-07-24
+EXP00198,MED00198,Losartan 50mg,BAT251531,Mankind,City Medical Supply,299,2026-09-04,26,Expiring Soon,High,Prioritize Sale,567.04,Rack-10 / Shelf-7,2026-08-09
+EXP00199,MED00199,Rabeprazole 20mg,BAT246412,Lupin,Apollo Distributors,203,2026-11-07,90,Expiring Later,Medium,Monitor,723.88,Rack-18 / Shelf-6,2026-08-05
+EXP00200,MED00200,Salbutamol 4mg,BAT242487,Dr Reddy's,City Medical Supply,59,2027-06-26,321,Safe,Low,No Action,120.58,Rack-3 / Shelf-5,2026-08-09
+EXP00201,MED00201,Paracetamol 500mg,BAT246148,Dr Reddy's,Apollo Distributors,268,2026-03-14,-148,Expired,Critical,Remove from Stock,685.58,Rack-17 / Shelf-2,2026-08-06
+EXP00202,MED00202,Amoxicillin 250mg,BAT245704,Alkem,Wellness Distributors,74,2026-08-22,13,Expiring Soon,High,Prioritize Sale,147.97,Rack-4 / Shelf-3,2026-07-29
+EXP00203,MED00203,Cetirizine 10mg,BAT257039,Zydus,MedPlus Wholesale,371,2026-10-18,70,Expiring Later,Medium,Monitor,736.55,Rack-20 / Shelf-6,2026-07-20
+EXP00204,MED00204,Ibuprofen 400mg,BAT251501,Alkem,City Medical Supply,197,2027-06-14,309,Safe,Low,No Action,603.03,Rack-6 / Shelf-4,2026-07-27
+EXP00205,MED00205,Omeprazole 20mg,BAT242414,Sun Pharma,City Medical Supply,150,2026-05-08,-93,Expired,Critical,Remove from Stock,150.77,Rack-10 / Shelf-2,2026-07-25
+EXP00206,MED00206,Metformin 500mg,BAT259432,Mankind,City Medical Supply,182,2026-08-23,14,Expiring Soon,High,Prioritize Sale,774.61,Rack-15 / Shelf-8,2026-08-06
+EXP00207,MED00207,Azithromycin 500mg,BAT254648,Alkem,Apollo Distributors,337,2026-10-21,73,Expiring Later,Medium,Monitor,621.63,Rack-1 / Shelf-1,2026-08-09
+EXP00208,MED00208,Pantoprazole 40mg,BAT252862,Abbott,Wellness Distributors,105,2027-05-05,269,Safe,Low,No Action,139.31,Rack-13 / Shelf-4,2026-08-08
+EXP00209,MED00209,Amlodipine 5mg,BAT259715,Sun Pharma,Apollo Distributors,401,2026-05-04,-97,Expired,Critical,Remove from Stock,105.47,Rack-3 / Shelf-8,2026-08-05
+EXP00210,MED00210,Atorvastatin 10mg,BAT243095,Mankind,Wellness Distributors,464,2026-08-19,10,Expiring Soon,High,Prioritize Sale,753.19,Rack-12 / Shelf-4,2026-07-23
+EXP00211,MED00211,Montelukast 10mg,BAT254139,Dr Reddy's,MedPlus Wholesale,181,2026-09-15,37,Expiring Later,Medium,Monitor,77.42,Rack-4 / Shelf-2,2026-08-03
+EXP00212,MED00212,Levocetirizine 5mg,BAT241867,Zydus,HealthKart Pharma,161,2027-07-07,332,Safe,Low,No Action,452.61,Rack-7 / Shelf-7,2026-07-31
+EXP00213,MED00213,Vitamin D3 60000IU,BAT245785,Sun Pharma,City Medical Supply,144,2026-05-30,-71,Expired,Critical,Remove from Stock,33.69,Rack-15 / Shelf-4,2026-07-30
+EXP00214,MED00214,ORS Sachet,BAT259011,Zydus,Wellness Distributors,386,2026-08-20,11,Expiring Soon,High,Prioritize Sale,34.86,Rack-14 / Shelf-7,2026-08-06
+EXP00215,MED00215,Dolo 650mg,BAT249666,Mankind,Wellness Distributors,230,2026-09-24,46,Expiring Later,Medium,Monitor,357.94,Rack-3 / Shelf-2,2026-08-05
+EXP00216,MED00216,Cough Syrup 100ml,BAT243405,Alkem,HealthKart Pharma,331,2028-02-11,551,Safe,Low,No Action,344.81,Rack-7 / Shelf-1,2026-07-27
+EXP00217,MED00217,Calcium 500mg,BAT258540,Mankind,Wellness Distributors,342,2026-05-30,-71,Expired,Critical,Remove from Stock,109.27,Rack-14 / Shelf-3,2026-07-25
+EXP00218,MED00218,Losartan 50mg,BAT248651,Cipla,MedPlus Wholesale,372,2026-09-01,23,Expiring Soon,High,Prioritize Sale,384.48,Rack-1 / Shelf-2,2026-07-26
+EXP00219,MED00219,Rabeprazole 20mg,BAT240765,Mankind,MedPlus Wholesale,80,2026-09-22,44,Expiring Later,Medium,Monitor,565.49,Rack-9 / Shelf-5,2026-08-06
+EXP00220,MED00220,Salbutamol 4mg,BAT250354,Abbott,MedPlus Wholesale,292,2027-01-27,171,Safe,Low,No Action,150.19,Rack-18 / Shelf-4,2026-07-29
+EXP00221,MED00221,Paracetamol 500mg,BAT251913,Alkem,City Medical Supply,211,2026-07-30,-10,Expired,Critical,Remove from Stock,67.47,Rack-3 / Shelf-2,2026-08-01
+EXP00222,MED00222,Amoxicillin 250mg,BAT249418,Dr Reddy's,HealthKart Pharma,85,2026-08-19,10,Expiring Soon,High,Prioritize Sale,514.87,Rack-16 / Shelf-8,2026-07-29
+EXP00223,MED00223,Cetirizine 10mg,BAT244461,Abbott,Wellness Distributors,91,2026-10-22,74,Expiring Later,Medium,Monitor,525.57,Rack-17 / Shelf-6,2026-08-01
+EXP00224,MED00224,Ibuprofen 400mg,BAT245190,Mankind,City Medical Supply,173,2027-03-09,212,Safe,Low,No Action,247.94,Rack-18 / Shelf-4,2026-08-04
+EXP00225,MED00225,Omeprazole 20mg,BAT244854,Cipla,Wellness Distributors,21,2026-03-11,-151,Expired,Critical,Remove from Stock,521.04,Rack-8 / Shelf-6,2026-07-26
+EXP00226,MED00226,Metformin 500mg,BAT244864,Abbott,HealthKart Pharma,400,2026-09-06,28,Expiring Soon,High,Prioritize Sale,562.33,Rack-1 / Shelf-1,2026-07-30
+EXP00227,MED00227,Azithromycin 500mg,BAT244669,Mankind,HealthKart Pharma,390,2026-09-09,31,Expiring Later,Medium,Monitor,65.84,Rack-3 / Shelf-5,2026-07-21
+EXP00228,MED00228,Pantoprazole 40mg,BAT241578,Zydus,MedPlus Wholesale,27,2026-12-19,132,Safe,Low,No Action,627.75,Rack-1 / Shelf-3,2026-07-30
+EXP00229,MED00229,Amlodipine 5mg,BAT245764,Sun Pharma,MedPlus Wholesale,298,2026-05-21,-80,Expired,Critical,Remove from Stock,348.05,Rack-14 / Shelf-8,2026-08-07
+EXP00230,MED00230,Atorvastatin 10mg,BAT252573,Abbott,Wellness Distributors,227,2026-09-01,23,Expiring Soon,High,Prioritize Sale,33.06,Rack-6 / Shelf-8,2026-07-28
+EXP00231,MED00231,Montelukast 10mg,BAT246004,Mankind,HealthKart Pharma,483,2026-10-20,72,Expiring Later,Medium,Monitor,388.73,Rack-4 / Shelf-7,2026-07-23
+EXP00232,MED00232,Levocetirizine 5mg,BAT258377,Lupin,City Medical Supply,398,2028-02-07,547,Safe,Low,No Action,563.96,Rack-11 / Shelf-7,2026-07-26
+EXP00233,MED00233,Vitamin D3 60000IU,BAT259045,Lupin,Apollo Distributors,9,2026-06-22,-48,Expired,Critical,Remove from Stock,75.14,Rack-15 / Shelf-7,2026-08-05
+EXP00234,MED00234,ORS Sachet,BAT254279,Cipla,HealthKart Pharma,133,2026-08-23,14,Expiring Soon,High,Prioritize Sale,790.96,Rack-10 / Shelf-6,2026-07-22
+EXP00235,MED00235,Dolo 650mg,BAT244266,Lupin,Apollo Distributors,436,2026-09-27,49,Expiring Later,Medium,Monitor,205.43,Rack-10 / Shelf-2,2026-08-02
+EXP00236,MED00236,Cough Syrup 100ml,BAT243253,Dr Reddy's,City Medical Supply,171,2027-03-04,207,Safe,Low,No Action,784.42,Rack-13 / Shelf-5,2026-08-02
+EXP00237,MED00237,Calcium 500mg,BAT240804,Mankind,HealthKart Pharma,8,2026-05-26,-75,Expired,Critical,Remove from Stock,594.66,Rack-5 / Shelf-7,2026-07-25
+EXP00238,MED00238,Losartan 50mg,BAT256231,Abbott,HealthKart Pharma,386,2026-08-27,18,Expiring Soon,High,Prioritize Sale,590.14,Rack-17 / Shelf-7,2026-07-26
+EXP00239,MED00239,Rabeprazole 20mg,BAT260365,Abbott,City Medical Supply,431,2026-09-14,36,Expiring Later,Medium,Monitor,614.62,Rack-12 / Shelf-7,2026-07-23
+EXP00240,MED00240,Salbutamol 4mg,BAT251278,Lupin,Wellness Distributors,143,2027-04-03,237,Safe,Low,No Action,334.57,Rack-9 / Shelf-3,2026-07-25
+EXP00241,MED00241,Paracetamol 500mg,BAT251750,Cipla,MedPlus Wholesale,11,2026-05-11,-90,Expired,Critical,Remove from Stock,77.05,Rack-1 / Shelf-5,2026-08-03
+EXP00242,MED00242,Amoxicillin 250mg,BAT244070,Zydus,Apollo Distributors,57,2026-09-05,27,Expiring Soon,High,Prioritize Sale,766.14,Rack-8 / Shelf-4,2026-08-06
+EXP00243,MED00243,Cetirizine 10mg,BAT249806,Abbott,MedPlus Wholesale,177,2026-10-16,68,Expiring Later,Medium,Monitor,274.31,Rack-10 / Shelf-4,2026-07-21
+EXP00244,MED00244,Ibuprofen 400mg,BAT247499,Zydus,HealthKart Pharma,24,2027-06-07,302,Safe,Low,No Action,744.22,Rack-11 / Shelf-2,2026-07-24
+EXP00245,MED00245,Omeprazole 20mg,BAT259729,Alkem,City Medical Supply,486,2026-04-20,-111,Expired,Critical,Remove from Stock,768.29,Rack-10 / Shelf-2,2026-07-25
+EXP00246,MED00246,Metformin 500mg,BAT253896,Abbott,HealthKart Pharma,491,2026-08-16,7,Expiring Soon,High,Prioritize Sale,701.48,Rack-11 / Shelf-4,2026-07-26
+EXP00247,MED00247,Azithromycin 500mg,BAT253312,Dr Reddy's,Wellness Distributors,154,2026-10-11,63,Expiring Later,Medium,Monitor,428.35,Rack-8 / Shelf-5,2026-08-03
+EXP00248,MED00248,Pantoprazole 40mg,BAT259194,Abbott,MedPlus Wholesale,446,2028-02-10,550,Safe,Low,No Action,580.86,Rack-5 / Shelf-6,2026-08-02
+EXP00249,MED00249,Amlodipine 5mg,BAT249352,Lupin,Wellness Distributors,71,2026-05-23,-78,Expired,Critical,Remove from Stock,388.7,Rack-2 / Shelf-6,2026-08-08
+EXP00250,MED00250,Atorvastatin 10mg,BAT250753,Sun Pharma,HealthKart Pharma,71,2026-08-19,10,Expiring Soon,High,Prioritize Sale,753.79,Rack-8 / Shelf-6,2026-08-09
+EXP00251,MED00251,Montelukast 10mg,BAT250081,Sun Pharma,City Medical Supply,170,2026-09-29,51,Expiring Later,Medium,Monitor,127.95,Rack-18 / Shelf-8,2026-07-20
+EXP00252,MED00252,Levocetirizine 5mg,BAT246154,Dr Reddy's,Wellness Distributors,469,2027-10-06,423,Safe,Low,No Action,189.3,Rack-15 / Shelf-6,2026-08-08
+EXP00253,MED00253,Vitamin D3 60000IU,BAT255515,Zydus,MedPlus Wholesale,364,2026-07-15,-25,Expired,Critical,Remove from Stock,593.94,Rack-17 / Shelf-2,2026-07-24
+EXP00254,MED00254,ORS Sachet,BAT243645,Mankind,Apollo Distributors,476,2026-08-24,15,Expiring Soon,High,Prioritize Sale,117.54,Rack-9 / Shelf-3,2026-07-27
+EXP00255,MED00255,Dolo 650mg,BAT245487,Mankind,MedPlus Wholesale,259,2026-09-28,50,Expiring Later,Medium,Monitor,751.87,Rack-4 / Shelf-3,2026-07-29
+EXP00256,MED00256,Cough Syrup 100ml,BAT241991,Mankind,Apollo Distributors,379,2028-05-12,642,Safe,Low,No Action,684.18,Rack-14 / Shelf-3,2026-08-07
+EXP00257,MED00257,Calcium 500mg,BAT247631,Abbott,Wellness Distributors,12,2026-04-01,-130,Expired,Critical,Remove from Stock,720.41,Rack-16 / Shelf-5,2026-07-20
+EXP00258,MED00258,Losartan 50mg,BAT246625,Dr Reddy's,Apollo Distributors,139,2026-08-26,17,Expiring Soon,High,Prioritize Sale,462.4,Rack-17 / Shelf-2,2026-07-23
+EXP00259,MED00259,Rabeprazole 20mg,BAT255663,Abbott,MedPlus Wholesale,111,2026-11-03,86,Expiring Later,Medium,Monitor,338.24,Rack-9 / Shelf-6,2026-08-08
+EXP00260,MED00260,Salbutamol 4mg,BAT249255,Cipla,HealthKart Pharma,31,2028-02-26,566,Safe,Low,No Action,23.53,Rack-12 / Shelf-8,2026-08-06
+EXP00261,MED00261,Paracetamol 500mg,BAT260220,Cipla,Apollo Distributors,6,2026-03-16,-146,Expired,Critical,Remove from Stock,278.12,Rack-5 / Shelf-7,2026-08-01
+EXP00262,MED00262,Amoxicillin 250mg,BAT244300,Abbott,MedPlus Wholesale,102,2026-08-14,5,Expiring Soon,High,Prioritize Sale,650.48,Rack-9 / Shelf-3,2026-08-09
+EXP00263,MED00263,Cetirizine 10mg,BAT255152,Alkem,MedPlus Wholesale,493,2026-09-17,39,Expiring Later,Medium,Monitor,422.52,Rack-8 / Shelf-2,2026-07-27
+EXP00264,MED00264,Ibuprofen 400mg,BAT246416,Alkem,Wellness Distributors,483,2028-04-14,614,Safe,Low,No Action,46.55,Rack-19 / Shelf-5,2026-08-01
+EXP00265,MED00265,Omeprazole 20mg,BAT245603,Alkem,City Medical Supply,438,2026-07-11,-29,Expired,Critical,Remove from Stock,490.96,Rack-10 / Shelf-5,2026-07-23
+EXP00266,MED00266,Metformin 500mg,BAT255655,Dr Reddy's,MedPlus Wholesale,187,2026-08-29,20,Expiring Soon,High,Prioritize Sale,180.94,Rack-3 / Shelf-8,2026-07-28
+EXP00267,MED00267,Azithromycin 500mg,BAT246924,Mankind,Apollo Distributors,484,2026-09-25,47,Expiring Later,Medium,Monitor,510.19,Rack-15 / Shelf-7,2026-07-31
+EXP00268,MED00268,Pantoprazole 40mg,BAT247155,Cipla,HealthKart Pharma,274,2027-10-07,424,Safe,Low,No Action,674.11,Rack-2 / Shelf-8,2026-07-31
+EXP00269,MED00269,Amlodipine 5mg,BAT244153,Abbott,City Medical Supply,332,2026-07-25,-15,Expired,Critical,Remove from Stock,698.6,Rack-5 / Shelf-1,2026-07-21
+EXP00270,MED00270,Atorvastatin 10mg,BAT249890,Dr Reddy's,City Medical Supply,225,2026-08-15,6,Expiring Soon,High,Prioritize Sale,208.78,Rack-13 / Shelf-6,2026-08-04
+EXP00271,MED00271,Montelukast 10mg,BAT240865,Dr Reddy's,Apollo Distributors,233,2026-10-11,63,Expiring Later,Medium,Monitor,214.53,Rack-14 / Shelf-3,2026-07-31
+EXP00272,MED00272,Levocetirizine 5mg,BAT257828,Dr Reddy's,City Medical Supply,147,2027-08-28,384,Safe,Low,No Action,291.47,Rack-15 / Shelf-2,2026-07-28
+EXP00273,MED00273,Vitamin D3 60000IU,BAT251880,Lupin,Apollo Distributors,246,2026-04-21,-110,Expired,Critical,Remove from Stock,270.18,Rack-13 / Shelf-2,2026-07-21
+EXP00274,MED00274,ORS Sachet,BAT254974,Zydus,City Medical Supply,241,2026-09-04,26,Expiring Soon,High,Prioritize Sale,687.57,Rack-17 / Shelf-6,2026-08-05
+EXP00275,MED00275,Dolo 650mg,BAT250407,Cipla,Wellness Distributors,363,2026-11-06,89,Expiring Later,Medium,Monitor,249.61,Rack-11 / Shelf-2,2026-08-08
+EXP00276,MED00276,Cough Syrup 100ml,BAT250459,Sun Pharma,HealthKart Pharma,360,2027-08-11,367,Safe,Low,No Action,526.55,Rack-3 / Shelf-4,2026-07-27
+EXP00277,MED00277,Calcium 500mg,BAT260487,Sun Pharma,HealthKart Pharma,202,2026-05-29,-72,Expired,Critical,Remove from Stock,73.87,Rack-4 / Shelf-4,2026-08-03
+EXP00278,MED00278,Losartan 50mg,BAT251059,Abbott,Apollo Distributors,179,2026-09-07,29,Expiring Soon,High,Prioritize Sale,40.78,Rack-4 / Shelf-6,2026-08-04
+EXP00279,MED00279,Rabeprazole 20mg,BAT256955,Cipla,Apollo Distributors,234,2026-11-03,86,Expiring Later,Medium,Monitor,304.24,Rack-8 / Shelf-5,2026-07-29
+EXP00280,MED00280,Salbutamol 4mg,BAT252577,Zydus,City Medical Supply,387,2027-01-21,165,Safe,Low,No Action,414.48,Rack-17 / Shelf-8,2026-08-06
+EXP00281,MED00281,Paracetamol 500mg,BAT250700,Cipla,MedPlus Wholesale,256,2026-06-22,-48,Expired,Critical,Remove from Stock,185.24,Rack-3 / Shelf-7,2026-08-02
+EXP00282,MED00282,Amoxicillin 250mg,BAT246843,Cipla,HealthKart Pharma,213,2026-08-15,6,Expiring Soon,High,Prioritize Sale,350.28,Rack-13 / Shelf-5,2026-08-03
+EXP00283,MED00283,Cetirizine 10mg,BAT246866,Sun Pharma,HealthKart Pharma,62,2026-09-22,44,Expiring Later,Medium,Monitor,150.99,Rack-14 / Shelf-1,2026-07-28
+EXP00284,MED00284,Ibuprofen 400mg,BAT246142,Cipla,HealthKart Pharma,131,2028-01-18,527,Safe,Low,No Action,338.45,Rack-18 / Shelf-3,2026-08-03
+EXP00285,MED00285,Omeprazole 20mg,BAT252670,Dr Reddy's,Wellness Distributors,276,2026-05-21,-80,Expired,Critical,Remove from Stock,737.33,Rack-9 / Shelf-2,2026-08-04
+EXP00286,MED00286,Metformin 500mg,BAT245052,Abbott,Apollo Distributors,493,2026-09-07,29,Expiring Soon,High,Prioritize Sale,109.63,Rack-14 / Shelf-6,2026-07-26
+EXP00287,MED00287,Azithromycin 500mg,BAT240214,Alkem,MedPlus Wholesale,244,2026-10-26,78,Expiring Later,Medium,Monitor,111.28,Rack-12 / Shelf-6,2026-07-20
+EXP00288,MED00288,Pantoprazole 40mg,BAT256401,Abbott,Apollo Distributors,87,2027-04-07,241,Safe,Low,No Action,176.41,Rack-14 / Shelf-6,2026-07-22
+EXP00289,MED00289,Amlodipine 5mg,BAT250016,Sun Pharma,Apollo Distributors,430,2026-06-29,-41,Expired,Critical,Remove from Stock,54.59,Rack-8 / Shelf-2,2026-08-03
+EXP00290,MED00290,Atorvastatin 10mg,BAT249971,Alkem,HealthKart Pharma,55,2026-08-16,7,Expiring Soon,High,Prioritize Sale,586.42,Rack-16 / Shelf-8,2026-08-07
+EXP00291,MED00291,Montelukast 10mg,BAT247338,Lupin,HealthKart Pharma,453,2026-11-06,89,Expiring Later,Medium,Monitor,73.6,Rack-13 / Shelf-5,2026-07-24
+EXP00292,MED00292,Levocetirizine 5mg,BAT256269,Sun Pharma,City Medical Supply,468,2027-08-13,369,Safe,Low,No Action,396.62,Rack-6 / Shelf-3,2026-07-26
+EXP00293,MED00293,Vitamin D3 60000IU,BAT242870,Zydus,City Medical Supply,120,2026-06-16,-54,Expired,Critical,Remove from Stock,541.59,Rack-11 / Shelf-1,2026-07-29
+EXP00294,MED00294,ORS Sachet,BAT251521,Sun Pharma,HealthKart Pharma,65,2026-08-12,3,Expiring Soon,High,Prioritize Sale,480.13,Rack-10 / Shelf-3,2026-07-25
+EXP00295,MED00295,Dolo 650mg,BAT241453,Dr Reddy's,Wellness Distributors,202,2026-10-03,55,Expiring Later,Medium,Monitor,267.13,Rack-11 / Shelf-2,2026-07-25
+EXP00296,MED00296,Cough Syrup 100ml,BAT242589,Lupin,HealthKart Pharma,168,2027-11-27,475,Safe,Low,No Action,601.78,Rack-18 / Shelf-2,2026-07-24
+EXP00297,MED00297,Calcium 500mg,BAT259781,Alkem,Apollo Distributors,118,2026-05-02,-99,Expired,Critical,Remove from Stock,52.67,Rack-18 / Shelf-5,2026-07-28
+EXP00298,MED00298,Losartan 50mg,BAT257621,Cipla,HealthKart Pharma,131,2026-08-21,12,Expiring Soon,High,Prioritize Sale,773.42,Rack-1 / Shelf-6,2026-07-28
+EXP00299,MED00299,Rabeprazole 20mg,BAT243831,Abbott,Apollo Distributors,303,2026-09-11,33,Expiring Later,Medium,Monitor,583.78,Rack-19 / Shelf-8,2026-07-22
+EXP00300,MED00300,Salbutamol 4mg,BAT240105,Mankind,HealthKart Pharma,274,2028-04-29,629,Safe,Low,No Action,474.51,Rack-2 / Shelf-5,2026-08-01
+EXP00301,MED00301,Paracetamol 500mg,BAT247354,Lupin,HealthKart Pharma,184,2026-08-06,-3,Expired,Critical,Remove from Stock,181.57,Rack-2 / Shelf-4,2026-08-03
+EXP00302,MED00302,Amoxicillin 250mg,BAT258363,Dr Reddy's,HealthKart Pharma,312,2026-09-04,26,Expiring Soon,High,Prioritize Sale,467.98,Rack-6 / Shelf-7,2026-07-23
+EXP00303,MED00303,Cetirizine 10mg,BAT254974,Cipla,HealthKart Pharma,399,2026-10-15,67,Expiring Later,Medium,Monitor,782.85,Rack-4 / Shelf-2,2026-07-31
+EXP00304,MED00304,Ibuprofen 400mg,BAT244205,Lupin,HealthKart Pharma,475,2027-06-23,318,Safe,Low,No Action,241.91,Rack-12 / Shelf-2,2026-07-26
+EXP00305,MED00305,Omeprazole 20mg,BAT256048,Mankind,Wellness Distributors,384,2026-04-03,-128,Expired,Critical,Remove from Stock,587.6,Rack-10 / Shelf-1,2026-07-31
+EXP00306,MED00306,Metformin 500mg,BAT240704,Dr Reddy's,Wellness Distributors,470,2026-08-27,18,Expiring Soon,High,Prioritize Sale,770.94,Rack-19 / Shelf-5,2026-07-29
+EXP00307,MED00307,Azithromycin 500mg,BAT253853,Lupin,HealthKart Pharma,373,2026-10-25,77,Expiring Later,Medium,Monitor,787.28,Rack-1 / Shelf-6,2026-07-21
+EXP00308,MED00308,Pantoprazole 40mg,BAT258527,Sun Pharma,HealthKart Pharma,347,2027-04-10,244,Safe,Low,No Action,623.93,Rack-9 / Shelf-3,2026-07-27
+EXP00309,MED00309,Amlodipine 5mg,BAT247873,Alkem,HealthKart Pharma,305,2026-02-27,-163,Expired,Critical,Remove from Stock,548.61,Rack-17 / Shelf-7,2026-07-27
+EXP00310,MED00310,Atorvastatin 10mg,BAT241291,Abbott,Wellness Distributors,166,2026-08-30,21,Expiring Soon,High,Prioritize Sale,88.5,Rack-13 / Shelf-1,2026-08-08
+EXP00311,MED00311,Montelukast 10mg,BAT260261,Dr Reddy's,HealthKart Pharma,295,2026-10-02,54,Expiring Later,Medium,Monitor,426.7,Rack-13 / Shelf-7,2026-07-31
+EXP00312,MED00312,Levocetirizine 5mg,BAT254680,Dr Reddy's,City Medical Supply,256,2026-11-11,94,Safe,Low,No Action,114.85,Rack-2 / Shelf-8,2026-08-04
+EXP00313,MED00313,Vitamin D3 60000IU,BAT257061,Lupin,HealthKart Pharma,352,2026-05-20,-81,Expired,Critical,Remove from Stock,354.6,Rack-18 / Shelf-3,2026-07-28
+EXP00314,MED00314,ORS Sachet,BAT254073,Lupin,Wellness Distributors,472,2026-09-01,23,Expiring Soon,High,Prioritize Sale,735.12,Rack-12 / Shelf-7,2026-08-01
+EXP00315,MED00315,Dolo 650mg,BAT243984,Alkem,Apollo Distributors,394,2026-10-26,78,Expiring Later,Medium,Monitor,735.71,Rack-14 / Shelf-6,2026-07-28
+EXP00316,MED00316,Cough Syrup 100ml,BAT250573,Abbott,HealthKart Pharma,234,2027-05-11,275,Safe,Low,No Action,22.69,Rack-7 / Shelf-1,2026-07-28
+EXP00317,MED00317,Calcium 500mg,BAT253314,Dr Reddy's,HealthKart Pharma,340,2026-02-28,-162,Expired,Critical,Remove from Stock,10.22,Rack-9 / Shelf-1,2026-08-04
+EXP00318,MED00318,Losartan 50mg,BAT257727,Abbott,HealthKart Pharma,324,2026-09-04,26,Expiring Soon,High,Prioritize Sale,449.02,Rack-3 / Shelf-4,2026-07-23
+EXP00319,MED00319,Rabeprazole 20mg,BAT242577,Sun Pharma,MedPlus Wholesale,329,2026-10-17,69,Expiring Later,Medium,Monitor,742.83,Rack-12 / Shelf-7,2026-08-09
+EXP00320,MED00320,Salbutamol 4mg,BAT249795,Sun Pharma,MedPlus Wholesale,179,2028-02-24,564,Safe,Low,No Action,171.5,Rack-8 / Shelf-3,2026-08-01
+EXP00321,MED00321,Paracetamol 500mg,BAT256830,Sun Pharma,City Medical Supply,419,2026-03-05,-157,Expired,Critical,Remove from Stock,89.76,Rack-4 / Shelf-1,2026-08-04
+EXP00322,MED00322,Amoxicillin 250mg,BAT248444,Sun Pharma,HealthKart Pharma,220,2026-08-26,17,Expiring Soon,High,Prioritize Sale,708.55,Rack-19 / Shelf-7,2026-07-29
+EXP00323,MED00323,Cetirizine 10mg,BAT245382,Dr Reddy's,MedPlus Wholesale,497,2026-10-20,72,Expiring Later,Medium,Monitor,648.28,Rack-9 / Shelf-7,2026-07-20
+EXP00324,MED00324,Ibuprofen 400mg,BAT240133,Sun Pharma,City Medical Supply,313,2027-11-04,452,Safe,Low,No Action,320.26,Rack-20 / Shelf-8,2026-07-23
+EXP00325,MED00325,Omeprazole 20mg,BAT254952,Mankind,Apollo Distributors,206,2026-05-23,-78,Expired,Critical,Remove from Stock,259.08,Rack-11 / Shelf-6,2026-07-27
+EXP00326,MED00326,Metformin 500mg,BAT250423,Abbott,HealthKart Pharma,383,2026-09-06,28,Expiring Soon,High,Prioritize Sale,574.81,Rack-15 / Shelf-4,2026-07-20
+EXP00327,MED00327,Azithromycin 500mg,BAT247873,Cipla,MedPlus Wholesale,263,2026-10-07,59,Expiring Later,Medium,Monitor,265.25,Rack-17 / Shelf-1,2026-08-04
+EXP00328,MED00328,Pantoprazole 40mg,BAT247454,Cipla,Wellness Distributors,196,2028-02-25,565,Safe,Low,No Action,50.23,Rack-14 / Shelf-5,2026-07-20
+EXP00329,MED00329,Amlodipine 5mg,BAT243184,Dr Reddy's,HealthKart Pharma,253,2026-06-26,-44,Expired,Critical,Remove from Stock,597.96,Rack-10 / Shelf-5,2026-08-04
+EXP00330,MED00330,Atorvastatin 10mg,BAT251816,Lupin,Wellness Distributors,326,2026-09-01,23,Expiring Soon,High,Prioritize Sale,292.28,Rack-12 / Shelf-7,2026-07-25
+EXP00331,MED00331,Montelukast 10mg,BAT249590,Alkem,Wellness Distributors,465,2026-10-11,63,Expiring Later,Medium,Monitor,594.4,Rack-7 / Shelf-4,2026-07-23
+EXP00332,MED00332,Levocetirizine 5mg,BAT240391,Cipla,MedPlus Wholesale,393,2028-01-25,534,Safe,Low,No Action,671.06,Rack-4 / Shelf-5,2026-08-05
+EXP00333,MED00333,Vitamin D3 60000IU,BAT247819,Lupin,Wellness Distributors,331,2026-05-07,-94,Expired,Critical,Remove from Stock,656.26,Rack-20 / Shelf-7,2026-08-02
+EXP00334,MED00334,ORS Sachet,BAT260927,Mankind,HealthKart Pharma,137,2026-08-11,2,Expiring Soon,High,Prioritize Sale,267.56,Rack-7 / Shelf-2,2026-07-26
+EXP00335,MED00335,Dolo 650mg,BAT247187,Lupin,MedPlus Wholesale,132,2026-09-19,41,Expiring Later,Medium,Monitor,290.45,Rack-19 / Shelf-7,2026-08-07
+EXP00336,MED00336,Cough Syrup 100ml,BAT253161,Mankind,Apollo Distributors,301,2028-05-05,635,Safe,Low,No Action,172.46,Rack-7 / Shelf-7,2026-07-22
+EXP00337,MED00337,Calcium 500mg,BAT246031,Cipla,MedPlus Wholesale,306,2026-05-20,-81,Expired,Critical,Remove from Stock,577.38,Rack-1 / Shelf-1,2026-08-09
+EXP00338,MED00338,Losartan 50mg,BAT244596,Mankind,City Medical Supply,221,2026-09-07,29,Expiring Soon,High,Prioritize Sale,511.54,Rack-16 / Shelf-2,2026-07-20
+EXP00339,MED00339,Rabeprazole 20mg,BAT246711,Lupin,City Medical Supply,143,2026-09-28,50,Expiring Later,Medium,Monitor,386.68,Rack-17 / Shelf-4,2026-08-04
+EXP00340,MED00340,Salbutamol 4mg,BAT253312,Alkem,HealthKart Pharma,426,2027-03-08,211,Safe,Low,No Action,340.42,Rack-17 / Shelf-2,2026-08-01
+EXP00341,MED00341,Paracetamol 500mg,BAT240947,Dr Reddy's,City Medical Supply,182,2026-04-09,-122,Expired,Critical,Remove from Stock,253.71,Rack-14 / Shelf-5,2026-07-25
+EXP00342,MED00342,Amoxicillin 250mg,BAT258113,Sun Pharma,HealthKart Pharma,248,2026-08-14,5,Expiring Soon,High,Prioritize Sale,744.01,Rack-15 / Shelf-5,2026-08-01
+EXP00343,MED00343,Cetirizine 10mg,BAT256359,Abbott,Wellness Distributors,140,2026-10-14,66,Expiring Later,Medium,Monitor,530.68,Rack-17 / Shelf-2,2026-07-30
+EXP00344,MED00344,Ibuprofen 400mg,BAT244831,Zydus,HealthKart Pharma,422,2028-06-06,667,Safe,Low,No Action,17.22,Rack-9 / Shelf-7,2026-08-06
+EXP00345,MED00345,Omeprazole 20mg,BAT249750,Dr Reddy's,HealthKart Pharma,430,2026-07-29,-11,Expired,Critical,Remove from Stock,781.23,Rack-1 / Shelf-2,2026-08-05
+EXP00346,MED00346,Metformin 500mg,BAT244564,Abbott,MedPlus Wholesale,32,2026-08-27,18,Expiring Soon,High,Prioritize Sale,214.48,Rack-8 / Shelf-1,2026-08-08
+EXP00347,MED00347,Azithromycin 500mg,BAT241265,Zydus,MedPlus Wholesale,234,2026-10-18,70,Expiring Later,Medium,Monitor,342.34,Rack-10 / Shelf-2,2026-07-21
+EXP00348,MED00348,Pantoprazole 40mg,BAT255361,Zydus,MedPlus Wholesale,144,2028-03-16,585,Safe,Low,No Action,29.82,Rack-11 / Shelf-4,2026-08-02
+EXP00349,MED00349,Amlodipine 5mg,BAT247851,Lupin,HealthKart Pharma,318,2026-03-23,-139,Expired,Critical,Remove from Stock,612.91,Rack-18 / Shelf-7,2026-08-05
+EXP00350,MED00350,Atorvastatin 10mg,BAT259414,Sun Pharma,HealthKart Pharma,268,2026-08-27,18,Expiring Soon,High,Prioritize Sale,606.95,Rack-4 / Shelf-4,2026-07-31
+EXP00351,MED00351,Montelukast 10mg,BAT240665,Sun Pharma,HealthKart Pharma,252,2026-09-20,42,Expiring Later,Medium,Monitor,36.55,Rack-16 / Shelf-3,2026-07-27
+EXP00352,MED00352,Levocetirizine 5mg,BAT249728,Lupin,HealthKart Pharma,314,2027-03-30,233,Safe,Low,No Action,770.56,Rack-11 / Shelf-1,2026-07-24
+EXP00353,MED00353,Vitamin D3 60000IU,BAT243187,Lupin,City Medical Supply,28,2026-07-09,-31,Expired,Critical,Remove from Stock,235.11,Rack-9 / Shelf-1,2026-08-05
+EXP00354,MED00354,ORS Sachet,BAT245842,Dr Reddy's,Apollo Distributors,183,2026-09-01,23,Expiring Soon,High,Prioritize Sale,246.33,Rack-15 / Shelf-6,2026-07-24
+EXP00355,MED00355,Dolo 650mg,BAT249576,Sun Pharma,Apollo Distributors,491,2026-10-06,58,Expiring Later,Medium,Monitor,224.13,Rack-18 / Shelf-8,2026-07-28
+EXP00356,MED00356,Cough Syrup 100ml,BAT248816,Zydus,Apollo Distributors,373,2027-12-01,479,Safe,Low,No Action,573.07,Rack-12 / Shelf-4,2026-08-03
+EXP00357,MED00357,Calcium 500mg,BAT243587,Cipla,City Medical Supply,8,2026-03-06,-156,Expired,Critical,Remove from Stock,500.92,Rack-1 / Shelf-7,2026-08-05
+EXP00358,MED00358,Losartan 50mg,BAT252071,Sun Pharma,Wellness Distributors,446,2026-08-22,13,Expiring Soon,High,Prioritize Sale,317.68,Rack-18 / Shelf-5,2026-08-06
+EXP00359,MED00359,Rabeprazole 20mg,BAT255375,Alkem,Apollo Distributors,250,2026-10-18,70,Expiring Later,Medium,Monitor,301.6,Rack-6 / Shelf-6,2026-08-01
+EXP00360,MED00360,Salbutamol 4mg,BAT255180,Dr Reddy's,MedPlus Wholesale,49,2027-11-18,466,Safe,Low,No Action,497.98,Rack-17 / Shelf-8,2026-08-09
+EXP00361,MED00361,Paracetamol 500mg,BAT243650,Alkem,Apollo Distributors,327,2026-03-11,-151,Expired,Critical,Remove from Stock,700.29,Rack-9 / Shelf-6,2026-08-07
+EXP00362,MED00362,Amoxicillin 250mg,BAT247303,Zydus,HealthKart Pharma,96,2026-09-03,25,Expiring Soon,High,Prioritize Sale,66.74,Rack-14 / Shelf-5,2026-07-21
+EXP00363,MED00363,Cetirizine 10mg,BAT240483,Dr Reddy's,Apollo Distributors,341,2026-09-13,35,Expiring Later,Medium,Monitor,207.51,Rack-20 / Shelf-6,2026-07-25
+EXP00364,MED00364,Ibuprofen 400mg,BAT260160,Lupin,Apollo Distributors,417,2028-05-21,651,Safe,Low,No Action,789.42,Rack-3 / Shelf-1,2026-07-30
+EXP00365,MED00365,Omeprazole 20mg,BAT249403,Cipla,City Medical Supply,433,2026-04-07,-124,Expired,Critical,Remove from Stock,325.2,Rack-14 / Shelf-8,2026-07-31
+EXP00366,MED00366,Metformin 500mg,BAT253477,Zydus,HealthKart Pharma,320,2026-09-05,27,Expiring Soon,High,Prioritize Sale,591.26,Rack-2 / Shelf-5,2026-07-30
+EXP00367,MED00367,Azithromycin 500mg,BAT250536,Lupin,HealthKart Pharma,87,2026-10-02,54,Expiring Later,Medium,Monitor,424.45,Rack-12 / Shelf-6,2026-07-26
+EXP00368,MED00368,Pantoprazole 40mg,BAT240619,Cipla,City Medical Supply,499,2028-06-01,662,Safe,Low,No Action,142.62,Rack-2 / Shelf-3,2026-07-31
+EXP00369,MED00369,Amlodipine 5mg,BAT257305,Sun Pharma,HealthKart Pharma,491,2026-07-19,-21,Expired,Critical,Remove from Stock,68.91,Rack-3 / Shelf-5,2026-07-23
+EXP00370,MED00370,Atorvastatin 10mg,BAT250192,Lupin,HealthKart Pharma,316,2026-08-11,2,Expiring Soon,High,Prioritize Sale,381.32,Rack-14 / Shelf-6,2026-07-27
+EXP00371,MED00371,Montelukast 10mg,BAT259233,Alkem,City Medical Supply,111,2026-10-06,58,Expiring Later,Medium,Monitor,500.86,Rack-19 / Shelf-5,2026-07-23
+EXP00372,MED00372,Levocetirizine 5mg,BAT251348,Alkem,HealthKart Pharma,409,2028-03-17,586,Safe,Low,No Action,743.54,Rack-6 / Shelf-5,2026-08-08
+EXP00373,MED00373,Vitamin D3 60000IU,BAT242775,Zydus,HealthKart Pharma,357,2026-07-07,-33,Expired,Critical,Remove from Stock,787.4,Rack-7 / Shelf-7,2026-07-25
+EXP00374,MED00374,ORS Sachet,BAT259217,Cipla,HealthKart Pharma,172,2026-09-01,23,Expiring Soon,High,Prioritize Sale,95.84,Rack-15 / Shelf-4,2026-07-22
+EXP00375,MED00375,Dolo 650mg,BAT250868,Cipla,Wellness Distributors,460,2026-10-24,76,Expiring Later,Medium,Monitor,621.64,Rack-16 / Shelf-4,2026-07-31
+EXP00376,MED00376,Cough Syrup 100ml,BAT252384,Zydus,HealthKart Pharma,408,2027-12-06,484,Safe,Low,No Action,170.9,Rack-20 / Shelf-5,2026-07-31
+EXP00377,MED00377,Calcium 500mg,BAT259323,Zydus,MedPlus Wholesale,314,2026-05-29,-72,Expired,Critical,Remove from Stock,476.27,Rack-9 / Shelf-4,2026-07-20
+EXP00378,MED00378,Losartan 50mg,BAT244784,Lupin,City Medical Supply,196,2026-08-18,9,Expiring Soon,High,Prioritize Sale,57.58,Rack-11 / Shelf-3,2026-07-30
+EXP00379,MED00379,Rabeprazole 20mg,BAT256443,Abbott,Apollo Distributors,308,2026-10-15,67,Expiring Later,Medium,Monitor,281.93,Rack-3 / Shelf-8,2026-07-29
+EXP00380,MED00380,Salbutamol 4mg,BAT247803,Abbott,HealthKart Pharma,146,2027-03-07,210,Safe,Low,No Action,106.81,Rack-4 / Shelf-1,2026-08-06
+EXP00381,MED00381,Paracetamol 500mg,BAT253040,Sun Pharma,HealthKart Pharma,477,2026-02-14,-176,Expired,Critical,Remove from Stock,321.76,Rack-20 / Shelf-8,2026-07-27
+EXP00382,MED00382,Amoxicillin 250mg,BAT260050,Lupin,Wellness Distributors,248,2026-08-25,16,Expiring Soon,High,Prioritize Sale,750.1,Rack-3 / Shelf-4,2026-07-26
+EXP00383,MED00383,Cetirizine 10mg,BAT247033,Alkem,City Medical Supply,187,2026-09-15,37,Expiring Later,Medium,Monitor,383.9,Rack-1 / Shelf-5,2026-07-22
+EXP00384,MED00384,Ibuprofen 400mg,BAT252289,Zydus,Apollo Distributors,412,2027-09-12,399,Safe,Low,No Action,547.48,Rack-10 / Shelf-3,2026-07-27
+EXP00385,MED00385,Omeprazole 20mg,BAT251144,Sun Pharma,Wellness Distributors,331,2026-05-07,-94,Expired,Critical,Remove from Stock,640.61,Rack-4 / Shelf-5,2026-07-30
+EXP00386,MED00386,Metformin 500mg,BAT253534,Zydus,HealthKart Pharma,63,2026-08-26,17,Expiring Soon,High,Prioritize Sale,758.08,Rack-13 / Shelf-3,2026-07-22
+EXP00387,MED00387,Azithromycin 500mg,BAT244869,Sun Pharma,Apollo Distributors,9,2026-09-24,46,Expiring Later,Medium,Monitor,352.57,Rack-4 / Shelf-1,2026-07-24
+EXP00388,MED00388,Pantoprazole 40mg,BAT251175,Dr Reddy's,MedPlus Wholesale,442,2026-11-21,104,Safe,Low,No Action,763.41,Rack-14 / Shelf-1,2026-07-27
+EXP00389,MED00389,Amlodipine 5mg,BAT257095,Cipla,City Medical Supply,496,2026-06-25,-45,Expired,Critical,Remove from Stock,358.68,Rack-3 / Shelf-8,2026-08-09
+EXP00390,MED00390,Atorvastatin 10mg,BAT242230,Alkem,City Medical Supply,321,2026-08-28,19,Expiring Soon,High,Prioritize Sale,531.82,Rack-6 / Shelf-8,2026-07-29
+EXP00391,MED00391,Montelukast 10mg,BAT260873,Cipla,MedPlus Wholesale,93,2026-09-11,33,Expiring Later,Medium,Monitor,77.56,Rack-15 / Shelf-7,2026-07-29
+EXP00392,MED00392,Levocetirizine 5mg,BAT246310,Mankind,MedPlus Wholesale,443,2028-02-24,564,Safe,Low,No Action,550.31,Rack-12 / Shelf-8,2026-07-28
+EXP00393,MED00393,Vitamin D3 60000IU,BAT252487,Zydus,Wellness Distributors,272,2026-04-10,-121,Expired,Critical,Remove from Stock,766.97,Rack-7 / Shelf-7,2026-07-22
+EXP00394,MED00394,ORS Sachet,BAT248929,Lupin,HealthKart Pharma,230,2026-08-25,16,Expiring Soon,High,Prioritize Sale,374.74,Rack-12 / Shelf-8,2026-07-27
+EXP00395,MED00395,Dolo 650mg,BAT256372,Lupin,MedPlus Wholesale,472,2026-09-19,41,Expiring Later,Medium,Monitor,48.06,Rack-8 / Shelf-1,2026-07-28
+EXP00396,MED00396,Cough Syrup 100ml,BAT260089,Abbott,HealthKart Pharma,59,2027-07-12,337,Safe,Low,No Action,187.0,Rack-16 / Shelf-1,2026-07-31
+EXP00397,MED00397,Calcium 500mg,BAT247293,Mankind,MedPlus Wholesale,85,2026-06-28,-42,Expired,Critical,Remove from Stock,193.02,Rack-12 / Shelf-5,2026-08-06
+EXP00398,MED00398,Losartan 50mg,BAT253620,Alkem,Wellness Distributors,488,2026-09-01,23,Expiring Soon,High,Prioritize Sale,669.57,Rack-18 / Shelf-6,2026-07-26
+EXP00399,MED00399,Rabeprazole 20mg,BAT257770,Cipla,Apollo Distributors,209,2026-09-17,39,Expiring Later,Medium,Monitor,85.75,Rack-8 / Shelf-4,2026-07-25
+EXP00400,MED00400,Salbutamol 4mg,BAT252969,Zydus,City Medical Supply,374,2027-12-06,484,Safe,Low,No Action,768.75,Rack-18 / Shelf-4,2026-07-23
+EXP00401,MED00401,Paracetamol 500mg,BAT244827,Mankind,HealthKart Pharma,92,2026-04-17,-114,Expired,Critical,Remove from Stock,89.51,Rack-4 / Shelf-7,2026-08-04
+EXP00402,MED00402,Amoxicillin 250mg,BAT254212,Cipla,Wellness Distributors,53,2026-08-21,12,Expiring Soon,High,Prioritize Sale,249.39,Rack-6 / Shelf-7,2026-08-06
+EXP00403,MED00403,Cetirizine 10mg,BAT259292,Mankind,HealthKart Pharma,215,2026-10-09,61,Expiring Later,Medium,Monitor,272.37,Rack-15 / Shelf-1,2026-07-21
+EXP00404,MED00404,Ibuprofen 400mg,BAT249874,Sun Pharma,MedPlus Wholesale,301,2027-02-22,197,Safe,Low,No Action,694.83,Rack-2 / Shelf-2,2026-08-09
+EXP00405,MED00405,Omeprazole 20mg,BAT250513,Abbott,Apollo Distributors,246,2026-03-05,-157,Expired,Critical,Remove from Stock,774.95,Rack-1 / Shelf-4,2026-08-06
+EXP00406,MED00406,Metformin 500mg,BAT258519,Zydus,City Medical Supply,392,2026-08-24,15,Expiring Soon,High,Prioritize Sale,110.18,Rack-7 / Shelf-6,2026-07-29
+EXP00407,MED00407,Azithromycin 500mg,BAT247166,Dr Reddy's,HealthKart Pharma,366,2026-10-23,75,Expiring Later,Medium,Monitor,456.14,Rack-15 / Shelf-5,2026-07-23
+EXP00408,MED00408,Pantoprazole 40mg,BAT250268,Abbott,Wellness Distributors,103,2027-02-25,200,Safe,Low,No Action,726.05,Rack-15 / Shelf-5,2026-08-04
+EXP00409,MED00409,Amlodipine 5mg,BAT258928,Cipla,Wellness Distributors,388,2026-06-12,-58,Expired,Critical,Remove from Stock,118.28,Rack-6 / Shelf-2,2026-07-27
+EXP00410,MED00410,Atorvastatin 10mg,BAT252173,Cipla,City Medical Supply,265,2026-09-07,29,Expiring Soon,High,Prioritize Sale,789.54,Rack-19 / Shelf-2,2026-07-23
+EXP00411,MED00411,Montelukast 10mg,BAT241263,Sun Pharma,Apollo Distributors,64,2026-10-09,61,Expiring Later,Medium,Monitor,122.41,Rack-19 / Shelf-2,2026-07-23
+EXP00412,MED00412,Levocetirizine 5mg,BAT260696,Zydus,MedPlus Wholesale,92,2027-06-30,325,Safe,Low,No Action,66.94,Rack-9 / Shelf-5,2026-07-26
+EXP00413,MED00413,Vitamin D3 60000IU,BAT247411,Sun Pharma,Apollo Distributors,21,2026-06-06,-64,Expired,Critical,Remove from Stock,358.83,Rack-1 / Shelf-1,2026-08-02
+EXP00414,MED00414,ORS Sachet,BAT251012,Alkem,Wellness Distributors,280,2026-08-17,8,Expiring Soon,High,Prioritize Sale,376.37,Rack-11 / Shelf-8,2026-07-27
+EXP00415,MED00415,Dolo 650mg,BAT248243,Abbott,HealthKart Pharma,156,2026-10-28,80,Expiring Later,Medium,Monitor,206.14,Rack-5 / Shelf-8,2026-07-31
+EXP00416,MED00416,Cough Syrup 100ml,BAT246332,Dr Reddy's,Wellness Distributors,261,2027-03-22,225,Safe,Low,No Action,135.6,Rack-4 / Shelf-8,2026-08-02
+EXP00417,MED00417,Calcium 500mg,BAT251071,Mankind,MedPlus Wholesale,342,2026-02-28,-162,Expired,Critical,Remove from Stock,712.91,Rack-17 / Shelf-6,2026-07-23
+EXP00418,MED00418,Losartan 50mg,BAT253989,Cipla,Apollo Distributors,60,2026-08-24,15,Expiring Soon,High,Prioritize Sale,82.92,Rack-14 / Shelf-4,2026-08-03
+EXP00419,MED00419,Rabeprazole 20mg,BAT252487,Sun Pharma,City Medical Supply,499,2026-09-12,34,Expiring Later,Medium,Monitor,646.11,Rack-20 / Shelf-8,2026-07-30
+EXP00420,MED00420,Salbutamol 4mg,BAT260085,Sun Pharma,Wellness Distributors,404,2027-01-04,148,Safe,Low,No Action,773.15,Rack-4 / Shelf-5,2026-07-26
+EXP00421,MED00421,Paracetamol 500mg,BAT250069,Cipla,MedPlus Wholesale,228,2026-06-14,-56,Expired,Critical,Remove from Stock,67.3,Rack-17 / Shelf-5,2026-08-08
+EXP00422,MED00422,Amoxicillin 250mg,BAT251186,Abbott,MedPlus Wholesale,61,2026-08-28,19,Expiring Soon,High,Prioritize Sale,70.35,Rack-15 / Shelf-6,2026-08-06
+EXP00423,MED00423,Cetirizine 10mg,BAT256227,Cipla,MedPlus Wholesale,58,2026-11-06,89,Expiring Later,Medium,Monitor,544.15,Rack-12 / Shelf-6,2026-07-28
+EXP00424,MED00424,Ibuprofen 400mg,BAT256759,Dr Reddy's,City Medical Supply,27,2027-12-23,501,Safe,Low,No Action,71.21,Rack-2 / Shelf-7,2026-08-09
+EXP00425,MED00425,Omeprazole 20mg,BAT240440,Cipla,MedPlus Wholesale,172,2026-03-05,-157,Expired,Critical,Remove from Stock,532.19,Rack-19 / Shelf-4,2026-07-30
+EXP00426,MED00426,Metformin 500mg,BAT249588,Alkem,City Medical Supply,227,2026-08-27,18,Expiring Soon,High,Prioritize Sale,507.5,Rack-15 / Shelf-1,2026-07-23
+EXP00427,MED00427,Azithromycin 500mg,BAT240746,Zydus,HealthKart Pharma,43,2026-10-22,74,Expiring Later,Medium,Monitor,753.37,Rack-19 / Shelf-7,2026-08-08
+EXP00428,MED00428,Pantoprazole 40mg,BAT246496,Zydus,MedPlus Wholesale,127,2027-10-16,433,Safe,Low,No Action,168.95,Rack-3 / Shelf-2,2026-08-08
+EXP00429,MED00429,Amlodipine 5mg,BAT242497,Lupin,HealthKart Pharma,193,2026-05-15,-86,Expired,Critical,Remove from Stock,395.55,Rack-10 / Shelf-5,2026-07-25
+EXP00430,MED00430,Atorvastatin 10mg,BAT254289,Cipla,HealthKart Pharma,172,2026-09-03,25,Expiring Soon,High,Prioritize Sale,82.28,Rack-17 / Shelf-3,2026-07-26
+EXP00431,MED00431,Montelukast 10mg,BAT241385,Dr Reddy's,HealthKart Pharma,212,2026-09-17,39,Expiring Later,Medium,Monitor,757.19,Rack-7 / Shelf-7,2026-08-03
+EXP00432,MED00432,Levocetirizine 5mg,BAT240778,Cipla,MedPlus Wholesale,233,2028-02-27,567,Safe,Low,No Action,550.01,Rack-13 / Shelf-2,2026-07-31
+EXP00433,MED00433,Vitamin D3 60000IU,BAT260143,Sun Pharma,HealthKart Pharma,402,2026-04-28,-103,Expired,Critical,Remove from Stock,294.3,Rack-4 / Shelf-6,2026-07-28
+EXP00434,MED00434,ORS Sachet,BAT250018,Abbott,Apollo Distributors,383,2026-08-16,7,Expiring Soon,High,Prioritize Sale,15.68,Rack-2 / Shelf-4,2026-07-31
+EXP00435,MED00435,Dolo 650mg,BAT250993,Cipla,Wellness Distributors,488,2026-09-25,47,Expiring Later,Medium,Monitor,602.08,Rack-7 / Shelf-3,2026-08-04
+EXP00436,MED00436,Cough Syrup 100ml,BAT244963,Zydus,HealthKart Pharma,346,2027-02-15,190,Safe,Low,No Action,510.67,Rack-17 / Shelf-2,2026-08-06
+EXP00437,MED00437,Calcium 500mg,BAT251522,Zydus,MedPlus Wholesale,179,2026-02-14,-176,Expired,Critical,Remove from Stock,233.42,Rack-18 / Shelf-1,2026-08-09
+EXP00438,MED00438,Losartan 50mg,BAT255716,Dr Reddy's,Apollo Distributors,303,2026-08-28,19,Expiring Soon,High,Prioritize Sale,649.1,Rack-2 / Shelf-1,2026-08-08
+EXP00439,MED00439,Rabeprazole 20mg,BAT248371,Lupin,City Medical Supply,430,2026-09-28,50,Expiring Later,Medium,Monitor,597.98,Rack-8 / Shelf-6,2026-07-22
+EXP00440,MED00440,Salbutamol 4mg,BAT251625,Abbott,City Medical Supply,261,2027-08-29,385,Safe,Low,No Action,411.34,Rack-2 / Shelf-1,2026-07-31
+EXP00441,MED00441,Paracetamol 500mg,BAT258636,Mankind,Apollo Distributors,134,2026-02-17,-173,Expired,Critical,Remove from Stock,130.37,Rack-13 / Shelf-5,2026-08-03
+EXP00442,MED00442,Amoxicillin 250mg,BAT249035,Abbott,HealthKart Pharma,7,2026-09-07,29,Expiring Soon,High,Prioritize Sale,772.43,Rack-11 / Shelf-8,2026-08-02
+EXP00443,MED00443,Cetirizine 10mg,BAT244212,Lupin,City Medical Supply,410,2026-09-09,31,Expiring Later,Medium,Monitor,598.19,Rack-8 / Shelf-4,2026-08-07
+EXP00444,MED00444,Ibuprofen 400mg,BAT254954,Lupin,City Medical Supply,490,2027-04-22,256,Safe,Low,No Action,408.18,Rack-7 / Shelf-6,2026-08-01
+EXP00445,MED00445,Omeprazole 20mg,BAT249172,Alkem,Wellness Distributors,54,2026-06-30,-40,Expired,Critical,Remove from Stock,441.93,Rack-18 / Shelf-3,2026-08-08
+EXP00446,MED00446,Metformin 500mg,BAT249744,Mankind,HealthKart Pharma,433,2026-09-01,23,Expiring Soon,High,Prioritize Sale,553.66,Rack-15 / Shelf-3,2026-08-04
+EXP00447,MED00447,Azithromycin 500mg,BAT243144,Alkem,City Medical Supply,158,2026-10-19,71,Expiring Later,Medium,Monitor,110.28,Rack-3 / Shelf-2,2026-07-28
+EXP00448,MED00448,Pantoprazole 40mg,BAT253353,Sun Pharma,City Medical Supply,11,2028-02-28,568,Safe,Low,No Action,281.09,Rack-13 / Shelf-1,2026-08-04
+EXP00449,MED00449,Amlodipine 5mg,BAT260195,Lupin,Apollo Distributors,43,2026-06-30,-40,Expired,Critical,Remove from Stock,109.44,Rack-5 / Shelf-4,2026-07-20
+EXP00450,MED00450,Atorvastatin 10mg,BAT251556,Alkem,MedPlus Wholesale,68,2026-09-04,26,Expiring Soon,High,Prioritize Sale,532.6,Rack-4 / Shelf-4,2026-08-05
+EXP00451,MED00451,Montelukast 10mg,BAT258451,Cipla,HealthKart Pharma,312,2026-10-18,70,Expiring Later,Medium,Monitor,207.76,Rack-13 / Shelf-3,2026-08-05
+EXP00452,MED00452,Levocetirizine 5mg,BAT247751,Zydus,MedPlus Wholesale,352,2027-04-13,247,Safe,Low,No Action,132.44,Rack-8 / Shelf-7,2026-08-05
+EXP00453,MED00453,Vitamin D3 60000IU,BAT242555,Abbott,City Medical Supply,268,2026-06-11,-59,Expired,Critical,Remove from Stock,563.33,Rack-13 / Shelf-7,2026-07-25
+EXP00454,MED00454,ORS Sachet,BAT245246,Lupin,City Medical Supply,151,2026-09-03,25,Expiring Soon,High,Prioritize Sale,339.14,Rack-14 / Shelf-8,2026-08-03
+EXP00455,MED00455,Dolo 650mg,BAT257205,Cipla,City Medical Supply,392,2026-09-24,46,Expiring Later,Medium,Monitor,22.6,Rack-1 / Shelf-4,2026-08-09
+EXP00456,MED00456,Cough Syrup 100ml,BAT245735,Abbott,HealthKart Pharma,62,2028-05-24,654,Safe,Low,No Action,653.44,Rack-17 / Shelf-5,2026-08-08
+EXP00457,MED00457,Calcium 500mg,BAT246902,Lupin,Apollo Distributors,443,2026-07-30,-10,Expired,Critical,Remove from Stock,54.29,Rack-8 / Shelf-4,2026-08-07
+EXP00458,MED00458,Losartan 50mg,BAT243311,Mankind,MedPlus Wholesale,377,2026-09-08,30,Expiring Soon,High,Prioritize Sale,295.85,Rack-12 / Shelf-2,2026-07-25
+EXP00459,MED00459,Rabeprazole 20mg,BAT258198,Zydus,Apollo Distributors,71,2026-09-12,34,Expiring Later,Medium,Monitor,53.19,Rack-4 / Shelf-3,2026-08-08
+EXP00460,MED00460,Salbutamol 4mg,BAT241950,Sun Pharma,City Medical Supply,157,2027-11-27,475,Safe,Low,No Action,473.76,Rack-5 / Shelf-8,2026-08-09
+EXP00461,MED00461,Paracetamol 500mg,BAT254435,Zydus,MedPlus Wholesale,394,2026-02-24,-166,Expired,Critical,Remove from Stock,536.8,Rack-19 / Shelf-5,2026-07-27
+EXP00462,MED00462,Amoxicillin 250mg,BAT245014,Cipla,HealthKart Pharma,378,2026-09-05,27,Expiring Soon,High,Prioritize Sale,309.49,Rack-20 / Shelf-5,2026-07-30
+EXP00463,MED00463,Cetirizine 10mg,BAT257515,Zydus,Apollo Distributors,191,2026-10-25,77,Expiring Later,Medium,Monitor,59.01,Rack-6 / Shelf-5,2026-08-04
+EXP00464,MED00464,Ibuprofen 400mg,BAT258381,Alkem,HealthKart Pharma,387,2027-10-04,421,Safe,Low,No Action,260.29,Rack-20 / Shelf-3,2026-07-20
+EXP00465,MED00465,Omeprazole 20mg,BAT247382,Abbott,HealthKart Pharma,6,2026-05-26,-75,Expired,Critical,Remove from Stock,469.71,Rack-20 / Shelf-7,2026-07-28
+EXP00466,MED00466,Metformin 500mg,BAT255116,Lupin,City Medical Supply,300,2026-08-23,14,Expiring Soon,High,Prioritize Sale,118.82,Rack-20 / Shelf-7,2026-08-09
+EXP00467,MED00467,Azithromycin 500mg,BAT251418,Cipla,MedPlus Wholesale,145,2026-10-18,70,Expiring Later,Medium,Monitor,509.68,Rack-12 / Shelf-7,2026-07-28
+EXP00468,MED00468,Pantoprazole 40mg,BAT241674,Lupin,HealthKart Pharma,381,2027-08-23,379,Safe,Low,No Action,730.29,Rack-7 / Shelf-3,2026-07-30
+EXP00469,MED00469,Amlodipine 5mg,BAT259467,Sun Pharma,HealthKart Pharma,164,2026-07-07,-33,Expired,Critical,Remove from Stock,532.71,Rack-2 / Shelf-3,2026-07-29
+EXP00470,MED00470,Atorvastatin 10mg,BAT259847,Mankind,MedPlus Wholesale,359,2026-08-30,21,Expiring Soon,High,Prioritize Sale,634.3,Rack-10 / Shelf-6,2026-07-25
+EXP00471,MED00471,Montelukast 10mg,BAT251288,Abbott,HealthKart Pharma,478,2026-10-04,56,Expiring Later,Medium,Monitor,719.9,Rack-15 / Shelf-2,2026-07-27
+EXP00472,MED00472,Levocetirizine 5mg,BAT249428,Zydus,City Medical Supply,145,2027-12-11,489,Safe,Low,No Action,46.19,Rack-12 / Shelf-2,2026-07-22
+EXP00473,MED00473,Vitamin D3 60000IU,BAT260169,Abbott,HealthKart Pharma,440,2026-07-07,-33,Expired,Critical,Remove from Stock,229.69,Rack-8 / Shelf-8,2026-07-31
+EXP00474,MED00474,ORS Sachet,BAT252268,Cipla,HealthKart Pharma,162,2026-09-03,25,Expiring Soon,High,Prioritize Sale,565.42,Rack-9 / Shelf-8,2026-07-29
+EXP00475,MED00475,Dolo 650mg,BAT247930,Cipla,MedPlus Wholesale,383,2026-10-22,74,Expiring Later,Medium,Monitor,45.03,Rack-13 / Shelf-1,2026-07-26
+EXP00476,MED00476,Cough Syrup 100ml,BAT250170,Sun Pharma,HealthKart Pharma,342,2028-04-16,616,Safe,Low,No Action,514.26,Rack-4 / Shelf-1,2026-07-20
+EXP00477,MED00477,Calcium 500mg,BAT249131,Sun Pharma,Wellness Distributors,332,2026-06-02,-68,Expired,Critical,Remove from Stock,237.52,Rack-2 / Shelf-3,2026-07-31
+EXP00478,MED00478,Losartan 50mg,BAT245189,Mankind,Wellness Distributors,323,2026-08-26,17,Expiring Soon,High,Prioritize Sale,104.52,Rack-10 / Shelf-7,2026-07-28
+EXP00479,MED00479,Rabeprazole 20mg,BAT249885,Abbott,Apollo Distributors,94,2026-10-18,70,Expiring Later,Medium,Monitor,645.28,Rack-18 / Shelf-1,2026-07-30
+EXP00480,MED00480,Salbutamol 4mg,BAT256851,Lupin,HealthKart Pharma,351,2027-07-13,338,Safe,Low,No Action,792.08,Rack-20 / Shelf-2,2026-07-29
+EXP00481,MED00481,Paracetamol 500mg,BAT243198,Mankind,City Medical Supply,419,2026-05-31,-70,Expired,Critical,Remove from Stock,264.39,Rack-14 / Shelf-8,2026-07-26
+EXP00482,MED00482,Amoxicillin 250mg,BAT253020,Alkem,City Medical Supply,360,2026-08-16,7,Expiring Soon,High,Prioritize Sale,764.69,Rack-5 / Shelf-4,2026-08-07
+EXP00483,MED00483,Cetirizine 10mg,BAT247082,Zydus,City Medical Supply,121,2026-09-21,43,Expiring Later,Medium,Monitor,211.01,Rack-15 / Shelf-5,2026-07-20
+EXP00484,MED00484,Ibuprofen 400mg,BAT248443,Mankind,MedPlus Wholesale,21,2028-03-01,570,Safe,Low,No Action,245.96,Rack-3 / Shelf-3,2026-07-31
+EXP00485,MED00485,Omeprazole 20mg,BAT240398,Dr Reddy's,MedPlus Wholesale,435,2026-06-17,-53,Expired,Critical,Remove from Stock,471.17,Rack-18 / Shelf-7,2026-08-08
+EXP00486,MED00486,Metformin 500mg,BAT245394,Alkem,Apollo Distributors,328,2026-09-02,24,Expiring Soon,High,Prioritize Sale,732.63,Rack-14 / Shelf-6,2026-07-22
+EXP00487,MED00487,Azithromycin 500mg,BAT248957,Zydus,City Medical Supply,222,2026-10-12,64,Expiring Later,Medium,Monitor,687.53,Rack-20 / Shelf-5,2026-08-07
+EXP00488,MED00488,Pantoprazole 40mg,BAT240335,Dr Reddy's,HealthKart Pharma,381,2027-05-18,282,Safe,Low,No Action,452.24,Rack-1 / Shelf-3,2026-08-05
+EXP00489,MED00489,Amlodipine 5mg,BAT253677,Cipla,HealthKart Pharma,28,2026-06-25,-45,Expired,Critical,Remove from Stock,698.08,Rack-12 / Shelf-8,2026-07-29
+EXP00490,MED00490,Atorvastatin 10mg,BAT256976,Zydus,Apollo Distributors,205,2026-08-23,14,Expiring Soon,High,Prioritize Sale,207.35,Rack-9 / Shelf-8,2026-08-07
+EXP00491,MED00491,Montelukast 10mg,BAT244620,Alkem,City Medical Supply,246,2026-10-18,70,Expiring Later,Medium,Monitor,399.89,Rack-14 / Shelf-8,2026-07-27
+EXP00492,MED00492,Levocetirizine 5mg,BAT251608,Mankind,City Medical Supply,442,2028-02-25,565,Safe,Low,No Action,268.59,Rack-4 / Shelf-8,2026-07-31
+EXP00493,MED00493,Vitamin D3 60000IU,BAT243536,Dr Reddy's,Apollo Distributors,125,2026-06-09,-61,Expired,Critical,Remove from Stock,649.84,Rack-12 / Shelf-7,2026-08-09
+EXP00494,MED00494,ORS Sachet,BAT243984,Zydus,HealthKart Pharma,61,2026-08-18,9,Expiring Soon,High,Prioritize Sale,114.22,Rack-2 / Shelf-1,2026-07-24
+EXP00495,MED00495,Dolo 650mg,BAT256447,Sun Pharma,HealthKart Pharma,343,2026-10-07,59,Expiring Later,Medium,Monitor,694.27,Rack-5 / Shelf-3,2026-08-09
+EXP00496,MED00496,Cough Syrup 100ml,BAT248130,Lupin,Wellness Distributors,330,2028-05-12,642,Safe,Low,No Action,322.76,Rack-4 / Shelf-6,2026-07-22
+EXP00497,MED00497,Calcium 500mg,BAT244356,Alkem,HealthKart Pharma,194,2026-06-07,-63,Expired,Critical,Remove from Stock,580.24,Rack-11 / Shelf-6,2026-07-20
+EXP00498,MED00498,Losartan 50mg,BAT241152,Abbott,Apollo Distributors,115,2026-09-02,24,Expiring Soon,High,Prioritize Sale,796.99,Rack-2 / Shelf-8,2026-07-20
+EXP00499,MED00499,Rabeprazole 20mg,BAT244687,Mankind,City Medical Supply,386,2026-10-21,73,Expiring Later,Medium,Monitor,392.53,Rack-12 / Shelf-2,2026-07-23
+EXP00500,MED00500,Salbutamol 4mg,BAT253473,Cipla,MedPlus Wholesale,417,2028-04-03,603,Safe,Low,No Action,347.75,Rack-3 / Shelf-3,2026-07-27

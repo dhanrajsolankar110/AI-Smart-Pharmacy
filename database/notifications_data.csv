@@ -1,0 +1,501 @@
+Notification_ID,Title,Description,Type,Priority,Date,Time,Status,Related_ID,Created_By
+NTF00001,New Prescription Added,New prescription added for patient P1246.,Prescription,High,2026-06-29,13:30,Unread,P1276,Pharmacist
+NTF00002,Appointment Reminder,Patient P1304 has an appointment today.,Appointment,Low,2026-05-31,21:00,Read,P1194,Pharmacist
+NTF00003,System Update,System maintenance and backup completed successfully.,System,High,2026-07-31,07:30,Read,P1250,Pharmacist
+NTF00004,System Update,System maintenance and backup completed successfully.,System,Low,2026-07-02,13:15,Read,P1392,Admin
+NTF00005,System Update,System maintenance and backup completed successfully.,System,High,2026-07-13,19:00,Read,P1248,System
+NTF00006,Appointment Reminder,Patient P1169 has an appointment today.,Appointment,Low,2026-07-03,11:00,Read,P1465,Admin
+NTF00007,Medicine Expiring Soon,Vitamin D3 60000IU will expire within 25 days.,Expiry Alert,Low,2026-07-13,16:00,Read,P1279,Admin
+NTF00008,Low Stock Alert,Omeprazole 20mg stock is running low.,Stock Alert,Low,2026-07-11,11:45,Read,P1266,System
+NTF00009,Medicine Expiring Soon,Cetirizine 10mg will expire within 19 days.,Expiry Alert,High,2026-06-04,18:45,Read,P1435,Admin
+NTF00010,New Prescription Added,New prescription added for patient P1347.,Prescription,Medium,2026-05-25,16:30,Unread,P1458,Admin
+NTF00011,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-04,16:00,Unread,P1083,System
+NTF00012,Medicine Expiring Soon,Cough Syrup 100ml will expire within 5 days.,Expiry Alert,High,2026-06-26,15:45,Unread,P1214,Admin
+NTF00013,System Update,System maintenance and backup completed successfully.,System,Low,2026-07-19,15:00,Read,P1222,System
+NTF00014,Appointment Reminder,Patient P1109 has an appointment today.,Appointment,Low,2026-05-05,20:30,Unread,P1442,System
+NTF00015,Medicine Expiring Soon,ORS Sachet will expire within 8 days.,Expiry Alert,High,2026-07-10,16:45,Unread,P1427,Admin
+NTF00016,Appointment Reminder,Patient P1419 has an appointment today.,Appointment,High,2026-06-08,08:45,Unread,P1312,Admin
+NTF00017,Low Stock Alert,Cough Syrup 100ml stock is running low.,Stock Alert,Low,2026-05-28,08:00,Read,P1270,Pharmacist
+NTF00018,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-05-10,16:00,Unread,P1272,System
+NTF00019,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-07-17,19:15,Read,P1256,System
+NTF00020,Appointment Reminder,Patient P1253 has an appointment today.,Appointment,Medium,2026-07-07,19:15,Read,P1200,System
+NTF00021,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407708.,Fraud Alert,High,2026-06-08,21:00,Read,P1040,Admin
+NTF00022,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-19,11:00,Read,P1159,Pharmacist
+NTF00023,System Update,System maintenance and backup completed successfully.,System,High,2026-06-30,14:15,Unread,P1384,Admin
+NTF00024,New Prescription Added,New prescription added for patient P1265.,Prescription,Medium,2026-05-28,10:30,Unread,P1463,System
+NTF00025,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-05-17,15:00,Read,P1247,Admin
+NTF00026,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-05-15,17:15,Read,P1467,Admin
+NTF00027,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407985.,Fraud Alert,Medium,2026-07-18,14:30,Read,P1427,Pharmacist
+NTF00028,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-07-08,12:00,Unread,P1427,Admin
+NTF00029,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407432.,Fraud Alert,High,2026-07-18,20:15,Read,P1208,System
+NTF00030,Medicine Expiring Soon,Losartan 50mg will expire within 14 days.,Expiry Alert,High,2026-05-19,16:30,Unread,P1133,System
+NTF00031,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407213.,Fraud Alert,Low,2026-05-21,11:30,Read,P1049,Admin
+NTF00032,Appointment Reminder,Patient P1112 has an appointment today.,Appointment,High,2026-05-15,10:00,Unread,P1307,Admin
+NTF00033,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-18,19:00,Unread,P1357,Pharmacist
+NTF00034,New Prescription Added,New prescription added for patient P1186.,Prescription,Low,2026-05-24,14:15,Unread,P1469,Pharmacist
+NTF00035,Medicine Expiring Soon,Losartan 50mg will expire within 25 days.,Expiry Alert,Low,2026-05-15,20:15,Read,P1236,Admin
+NTF00036,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-06-19,17:00,Unread,P1206,Pharmacist
+NTF00037,Medicine Expiring Soon,Cetirizine 10mg will expire within 30 days.,Expiry Alert,High,2026-07-04,16:45,Read,P1479,Admin
+NTF00038,Appointment Reminder,Patient P1015 has an appointment today.,Appointment,Medium,2026-05-04,09:00,Unread,P1337,System
+NTF00039,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-07-30,18:15,Unread,P1068,Pharmacist
+NTF00040,Low Stock Alert,Metformin 500mg stock is running low.,Stock Alert,Low,2026-06-27,08:15,Read,P1211,Pharmacist
+NTF00041,Low Stock Alert,Metformin 500mg stock is running low.,Stock Alert,Low,2026-07-01,13:30,Unread,P1462,System
+NTF00042,Medicine Expiring Soon,Losartan 50mg will expire within 5 days.,Expiry Alert,Low,2026-06-22,11:30,Read,P1152,Pharmacist
+NTF00043,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407874.,Fraud Alert,Medium,2026-07-12,17:00,Read,P1355,Admin
+NTF00044,Low Stock Alert,Levocetirizine 5mg stock is running low.,Stock Alert,High,2026-05-03,16:30,Unread,P1211,Admin
+NTF00045,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-07-16,17:45,Read,P1173,Admin
+NTF00046,New Prescription Added,New prescription added for patient P1005.,Prescription,Low,2026-05-19,11:00,Unread,P1254,Admin
+NTF00047,Low Stock Alert,Salbutamol 4mg stock is running low.,Stock Alert,Low,2026-05-13,18:00,Read,P1240,System
+NTF00048,New Prescription Added,New prescription added for patient P1160.,Prescription,Low,2026-07-14,11:30,Read,P1351,Pharmacist
+NTF00049,System Update,System maintenance and backup completed successfully.,System,High,2026-05-27,21:15,Unread,P1441,System
+NTF00050,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-07-28,17:15,Unread,P1197,Admin
+NTF00051,System Update,System maintenance and backup completed successfully.,System,Medium,2026-07-08,18:15,Read,P1325,System
+NTF00052,Low Stock Alert,Cough Syrup 100ml stock is running low.,Stock Alert,Medium,2026-06-13,13:45,Read,P1397,System
+NTF00053,System Update,System maintenance and backup completed successfully.,System,Medium,2026-07-02,10:45,Read,P1292,Admin
+NTF00054,Medicine Expiring Soon,Cetirizine 10mg will expire within 22 days.,Expiry Alert,Low,2026-07-07,16:00,Read,P1402,Admin
+NTF00055,Low Stock Alert,Amlodipine 5mg stock is running low.,Stock Alert,Low,2026-05-12,20:15,Unread,P1002,Admin
+NTF00056,Appointment Reminder,Patient P1345 has an appointment today.,Appointment,High,2026-05-27,18:15,Unread,P1210,System
+NTF00057,Low Stock Alert,Atorvastatin 10mg stock is running low.,Stock Alert,Low,2026-05-26,15:15,Read,P1132,System
+NTF00058,Appointment Reminder,Patient P1190 has an appointment today.,Appointment,High,2026-05-25,13:45,Unread,P1375,System
+NTF00059,System Update,System maintenance and backup completed successfully.,System,Medium,2026-06-15,19:30,Read,P1146,System
+NTF00060,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-07-09,13:15,Unread,P1176,System
+NTF00061,Appointment Reminder,Patient P1138 has an appointment today.,Appointment,High,2026-06-18,20:00,Unread,P1084,Pharmacist
+NTF00062,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-05-13,12:30,Unread,P1432,Pharmacist
+NTF00063,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407009.,Fraud Alert,High,2026-05-20,13:45,Unread,P1168,System
+NTF00064,New Prescription Added,New prescription added for patient P1308.,Prescription,High,2026-06-01,13:30,Read,P1133,Admin
+NTF00065,Medicine Expiring Soon,Losartan 50mg will expire within 18 days.,Expiry Alert,High,2026-07-31,07:30,Unread,P1070,Pharmacist
+NTF00066,System Update,System maintenance and backup completed successfully.,System,Medium,2026-07-04,21:30,Unread,P1379,Pharmacist
+NTF00067,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-10,17:45,Unread,P1221,Admin
+NTF00068,System Update,System maintenance and backup completed successfully.,System,Low,2026-05-14,16:30,Unread,P1009,Admin
+NTF00069,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-06-03,18:00,Unread,P1300,System
+NTF00070,Medicine Expiring Soon,Amlodipine 5mg will expire within 21 days.,Expiry Alert,Medium,2026-07-21,08:00,Read,P1409,Pharmacist
+NTF00071,New Prescription Added,New prescription added for patient P1408.,Prescription,Low,2026-06-04,08:30,Unread,P1246,Admin
+NTF00072,Appointment Reminder,Patient P1222 has an appointment today.,Appointment,Low,2026-06-20,07:30,Read,P1278,Pharmacist
+NTF00073,System Update,System maintenance and backup completed successfully.,System,Medium,2026-07-29,17:00,Unread,P1252,Pharmacist
+NTF00074,New Prescription Added,New prescription added for patient P1134.,Prescription,Low,2026-05-05,09:15,Unread,P1356,System
+NTF00075,New Prescription Added,New prescription added for patient P1313.,Prescription,Low,2026-06-06,16:30,Read,P1453,Admin
+NTF00076,New Prescription Added,New prescription added for patient P1389.,Prescription,High,2026-05-10,12:45,Unread,P1439,Pharmacist
+NTF00077,System Update,System maintenance and backup completed successfully.,System,High,2026-05-30,12:30,Read,P1070,Pharmacist
+NTF00078,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-07-09,19:45,Read,P1242,Pharmacist
+NTF00079,System Update,System maintenance and backup completed successfully.,System,Low,2026-07-10,21:30,Unread,P1064,Admin
+NTF00080,Medicine Expiring Soon,Omeprazole 20mg will expire within 12 days.,Expiry Alert,High,2026-05-05,20:15,Unread,P1447,Pharmacist
+NTF00081,Appointment Reminder,Patient P1220 has an appointment today.,Appointment,Low,2026-07-09,19:45,Unread,P1264,System
+NTF00082,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-06-30,15:30,Read,P1389,Pharmacist
+NTF00083,Appointment Reminder,Patient P1441 has an appointment today.,Appointment,Low,2026-07-25,17:45,Read,P1166,Pharmacist
+NTF00084,New Prescription Added,New prescription added for patient P1114.,Prescription,High,2026-07-21,07:00,Read,P1225,Pharmacist
+NTF00085,System Update,System maintenance and backup completed successfully.,System,Medium,2026-05-16,12:00,Read,P1001,Admin
+NTF00086,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-06-14,09:45,Unread,P1180,Pharmacist
+NTF00087,Appointment Reminder,Patient P1389 has an appointment today.,Appointment,Medium,2026-07-25,21:15,Unread,P1168,Admin
+NTF00088,Low Stock Alert,Amoxicillin 250mg stock is running low.,Stock Alert,High,2026-06-07,10:30,Unread,P1349,Admin
+NTF00089,Low Stock Alert,Salbutamol 4mg stock is running low.,Stock Alert,Medium,2026-06-10,15:45,Read,P1120,System
+NTF00090,System Update,System maintenance and backup completed successfully.,System,High,2026-05-06,09:15,Read,P1190,Admin
+NTF00091,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-07-20,14:00,Unread,P1452,System
+NTF00092,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407128.,Fraud Alert,Medium,2026-06-23,11:30,Unread,P1237,Admin
+NTF00093,Low Stock Alert,ORS Sachet stock is running low.,Stock Alert,High,2026-06-12,10:45,Unread,P1276,Admin
+NTF00094,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-05-27,16:45,Unread,P1136,Admin
+NTF00095,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407880.,Fraud Alert,Medium,2026-05-14,11:30,Read,P1482,Admin
+NTF00096,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407515.,Fraud Alert,Low,2026-06-19,09:30,Read,P1229,Pharmacist
+NTF00097,Appointment Reminder,Patient P1404 has an appointment today.,Appointment,Medium,2026-07-28,19:15,Unread,P1200,Admin
+NTF00098,Appointment Reminder,Patient P1286 has an appointment today.,Appointment,Medium,2026-06-25,07:30,Read,P1012,Admin
+NTF00099,Appointment Reminder,Patient P1240 has an appointment today.,Appointment,Medium,2026-07-21,11:45,Unread,P1103,Admin
+NTF00100,Medicine Expiring Soon,Cetirizine 10mg will expire within 12 days.,Expiry Alert,Medium,2026-07-05,17:15,Read,P1319,Pharmacist
+NTF00101,Medicine Expiring Soon,Amoxicillin 250mg will expire within 22 days.,Expiry Alert,Low,2026-07-26,16:30,Read,P1408,Admin
+NTF00102,New Prescription Added,New prescription added for patient P1204.,Prescription,Medium,2026-05-28,09:15,Unread,P1370,Admin
+NTF00103,New Prescription Added,New prescription added for patient P1126.,Prescription,Low,2026-06-19,17:45,Unread,P1126,Admin
+NTF00104,Low Stock Alert,Azithromycin 500mg stock is running low.,Stock Alert,Low,2026-07-15,13:45,Read,P1324,Pharmacist
+NTF00105,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-07-27,11:45,Read,P1438,Pharmacist
+NTF00106,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-07-23,07:15,Unread,P1300,Pharmacist
+NTF00107,New Prescription Added,New prescription added for patient P1423.,Prescription,Medium,2026-07-22,08:45,Unread,P1042,System
+NTF00108,System Update,System maintenance and backup completed successfully.,System,High,2026-05-05,21:30,Read,P1384,Admin
+NTF00109,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407952.,Fraud Alert,Medium,2026-06-10,13:00,Unread,P1374,Admin
+NTF00110,Appointment Reminder,Patient P1230 has an appointment today.,Appointment,Medium,2026-07-20,15:45,Unread,P1343,System
+NTF00111,New Prescription Added,New prescription added for patient P1369.,Prescription,Medium,2026-05-18,13:45,Unread,P1281,System
+NTF00112,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-07-29,18:30,Read,P1189,Admin
+NTF00113,New Prescription Added,New prescription added for patient P1308.,Prescription,Low,2026-06-14,07:00,Unread,P1368,System
+NTF00114,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-05-04,10:00,Read,P1295,Pharmacist
+NTF00115,Low Stock Alert,Cough Syrup 100ml stock is running low.,Stock Alert,Medium,2026-06-25,20:00,Unread,P1143,Admin
+NTF00116,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-05-13,15:45,Read,P1469,System
+NTF00117,Medicine Expiring Soon,Amlodipine 5mg will expire within 3 days.,Expiry Alert,Medium,2026-07-23,10:00,Unread,P1193,System
+NTF00118,New Prescription Added,New prescription added for patient P1249.,Prescription,Medium,2026-06-04,20:15,Read,P1283,Pharmacist
+NTF00119,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407093.,Fraud Alert,Medium,2026-06-03,18:30,Read,P1134,Admin
+NTF00120,New Prescription Added,New prescription added for patient P1443.,Prescription,Medium,2026-07-15,07:15,Unread,P1311,Admin
+NTF00121,New Prescription Added,New prescription added for patient P1053.,Prescription,High,2026-05-06,09:15,Unread,P1331,System
+NTF00122,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407366.,Fraud Alert,High,2026-05-24,21:45,Unread,P1159,Admin
+NTF00123,Appointment Reminder,Patient P1155 has an appointment today.,Appointment,High,2026-07-05,08:15,Unread,P1040,Pharmacist
+NTF00124,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-07-30,09:30,Unread,P1101,Admin
+NTF00125,Appointment Reminder,Patient P1396 has an appointment today.,Appointment,Medium,2026-05-24,20:00,Unread,P1108,Pharmacist
+NTF00126,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-15,17:15,Read,P1251,Pharmacist
+NTF00127,System Update,System maintenance and backup completed successfully.,System,Medium,2026-06-18,21:00,Unread,P1362,Pharmacist
+NTF00128,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407997.,Fraud Alert,High,2026-07-10,15:45,Unread,P1185,Pharmacist
+NTF00129,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407909.,Fraud Alert,High,2026-06-13,14:30,Read,P1111,Pharmacist
+NTF00130,Low Stock Alert,Ibuprofen 400mg stock is running low.,Stock Alert,Low,2026-07-03,11:00,Read,P1375,System
+NTF00131,Low Stock Alert,Losartan 50mg stock is running low.,Stock Alert,High,2026-06-28,20:45,Read,P1133,System
+NTF00132,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-07-09,11:15,Read,P1353,Pharmacist
+NTF00133,New Prescription Added,New prescription added for patient P1295.,Prescription,Medium,2026-07-01,19:00,Read,P1089,System
+NTF00134,System Update,System maintenance and backup completed successfully.,System,Medium,2026-07-12,14:15,Unread,P1047,System
+NTF00135,New Prescription Added,New prescription added for patient P1371.,Prescription,Medium,2026-07-20,10:15,Read,P1171,Pharmacist
+NTF00136,New Prescription Added,New prescription added for patient P1186.,Prescription,High,2026-07-25,08:30,Read,P1020,System
+NTF00137,Medicine Expiring Soon,Atorvastatin 10mg will expire within 11 days.,Expiry Alert,High,2026-06-04,14:00,Read,P1458,System
+NTF00138,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-09,12:30,Unread,P1164,Admin
+NTF00139,Appointment Reminder,Patient P1380 has an appointment today.,Appointment,Low,2026-06-06,10:30,Unread,P1454,Admin
+NTF00140,Medicine Expiring Soon,Losartan 50mg will expire within 25 days.,Expiry Alert,High,2026-05-16,16:00,Read,P1209,Pharmacist
+NTF00141,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407927.,Fraud Alert,Low,2026-06-27,12:15,Read,P1214,Admin
+NTF00142,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-05-13,21:00,Read,P1215,System
+NTF00143,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-06-13,17:45,Read,P1009,System
+NTF00144,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407910.,Fraud Alert,Low,2026-05-25,17:15,Read,P1341,Admin
+NTF00145,Low Stock Alert,Ibuprofen 400mg stock is running low.,Stock Alert,Medium,2026-05-24,09:45,Read,P1078,Pharmacist
+NTF00146,Medicine Expiring Soon,Cough Syrup 100ml will expire within 13 days.,Expiry Alert,Low,2026-06-10,09:45,Unread,P1489,System
+NTF00147,Medicine Expiring Soon,Calcium 500mg will expire within 8 days.,Expiry Alert,Low,2026-06-27,14:00,Read,P1006,Admin
+NTF00148,System Update,System maintenance and backup completed successfully.,System,High,2026-07-14,17:30,Unread,P1067,System
+NTF00149,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-03,07:15,Read,P1075,System
+NTF00150,Medicine Expiring Soon,Dolo 650mg will expire within 29 days.,Expiry Alert,Medium,2026-05-21,12:45,Read,P1131,System
+NTF00151,System Update,System maintenance and backup completed successfully.,System,Medium,2026-07-16,09:30,Read,P1152,Admin
+NTF00152,Low Stock Alert,Amoxicillin 250mg stock is running low.,Stock Alert,Medium,2026-05-06,15:00,Read,P1468,Pharmacist
+NTF00153,System Update,System maintenance and backup completed successfully.,System,Medium,2026-07-29,19:45,Read,P1148,Pharmacist
+NTF00154,Medicine Expiring Soon,Metformin 500mg will expire within 27 days.,Expiry Alert,High,2026-06-28,07:45,Unread,P1434,Admin
+NTF00155,Appointment Reminder,Patient P1135 has an appointment today.,Appointment,Medium,2026-06-10,18:30,Read,P1368,Pharmacist
+NTF00156,Medicine Expiring Soon,Amlodipine 5mg will expire within 29 days.,Expiry Alert,High,2026-05-11,15:30,Unread,P1201,Pharmacist
+NTF00157,New Prescription Added,New prescription added for patient P1105.,Prescription,High,2026-07-19,21:45,Unread,P1322,Admin
+NTF00158,Appointment Reminder,Patient P1413 has an appointment today.,Appointment,High,2026-07-03,15:45,Unread,P1373,Admin
+NTF00159,New Prescription Added,New prescription added for patient P1218.,Prescription,Low,2026-05-14,16:15,Read,P1106,Admin
+NTF00160,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-06-08,17:15,Read,P1432,Pharmacist
+NTF00161,Medicine Expiring Soon,Cetirizine 10mg will expire within 5 days.,Expiry Alert,Low,2026-07-07,15:45,Read,P1473,Admin
+NTF00162,Appointment Reminder,Patient P1426 has an appointment today.,Appointment,Low,2026-06-26,17:45,Read,P1386,Pharmacist
+NTF00163,System Update,System maintenance and backup completed successfully.,System,High,2026-07-04,15:00,Read,P1169,System
+NTF00164,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407739.,Fraud Alert,Low,2026-06-29,20:30,Read,P1287,System
+NTF00165,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-06-24,11:00,Read,P1133,Admin
+NTF00166,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407577.,Fraud Alert,Low,2026-07-25,12:15,Unread,P1226,System
+NTF00167,System Update,System maintenance and backup completed successfully.,System,High,2026-05-17,12:00,Unread,P1243,System
+NTF00168,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-05-20,12:15,Read,P1337,Pharmacist
+NTF00169,Appointment Reminder,Patient P1253 has an appointment today.,Appointment,High,2026-05-21,11:45,Unread,P1428,Admin
+NTF00170,Appointment Reminder,Patient P1353 has an appointment today.,Appointment,Low,2026-07-12,16:15,Unread,P1397,Pharmacist
+NTF00171,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-05-08,09:15,Read,P1368,Pharmacist
+NTF00172,Medicine Expiring Soon,Ibuprofen 400mg will expire within 18 days.,Expiry Alert,High,2026-07-12,10:30,Read,P1022,Admin
+NTF00173,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-18,13:30,Unread,P1249,Admin
+NTF00174,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-05-28,07:45,Unread,P1166,Pharmacist
+NTF00175,Low Stock Alert,Cough Syrup 100ml stock is running low.,Stock Alert,Medium,2026-06-26,16:30,Unread,P1172,System
+NTF00176,Medicine Expiring Soon,Pantoprazole 40mg will expire within 13 days.,Expiry Alert,Low,2026-07-06,08:45,Unread,P1460,Admin
+NTF00177,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-06-19,16:15,Unread,P1141,Pharmacist
+NTF00178,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-06-26,08:00,Unread,P1498,Pharmacist
+NTF00179,Appointment Reminder,Patient P1351 has an appointment today.,Appointment,High,2026-06-07,14:30,Read,P1430,Pharmacist
+NTF00180,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-05-14,16:45,Unread,P1132,Admin
+NTF00181,Low Stock Alert,Amlodipine 5mg stock is running low.,Stock Alert,Low,2026-06-09,12:30,Read,P1393,Admin
+NTF00182,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407657.,Fraud Alert,Medium,2026-06-22,21:00,Unread,P1226,Pharmacist
+NTF00183,System Update,System maintenance and backup completed successfully.,System,Medium,2026-07-01,21:00,Read,P1290,System
+NTF00184,New Prescription Added,New prescription added for patient P1378.,Prescription,Low,2026-07-08,07:00,Unread,P1402,System
+NTF00185,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407039.,Fraud Alert,High,2026-06-20,16:45,Read,P1089,Admin
+NTF00186,Low Stock Alert,Omeprazole 20mg stock is running low.,Stock Alert,Low,2026-06-26,19:15,Unread,P1396,Pharmacist
+NTF00187,System Update,System maintenance and backup completed successfully.,System,High,2026-05-31,13:45,Read,P1291,Pharmacist
+NTF00188,System Update,System maintenance and backup completed successfully.,System,Medium,2026-06-06,17:00,Read,P1412,Pharmacist
+NTF00189,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407519.,Fraud Alert,High,2026-06-26,07:15,Read,P1466,Admin
+NTF00190,System Update,System maintenance and backup completed successfully.,System,High,2026-07-22,20:30,Read,P1225,Pharmacist
+NTF00191,Low Stock Alert,Levocetirizine 5mg stock is running low.,Stock Alert,Low,2026-06-10,13:45,Read,P1476,Admin
+NTF00192,New Prescription Added,New prescription added for patient P1134.,Prescription,Medium,2026-06-08,21:00,Unread,P1126,Pharmacist
+NTF00193,Low Stock Alert,Vitamin D3 60000IU stock is running low.,Stock Alert,High,2026-05-14,21:45,Unread,P1439,Admin
+NTF00194,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-05-11,18:15,Unread,P1070,System
+NTF00195,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-07-05,13:30,Read,P1055,Pharmacist
+NTF00196,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-05-02,15:30,Unread,P1228,Pharmacist
+NTF00197,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-07-12,19:30,Read,P1088,System
+NTF00198,New Prescription Added,New prescription added for patient P1497.,Prescription,Medium,2026-05-09,20:15,Read,P1441,System
+NTF00199,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-06-03,12:30,Read,P1046,System
+NTF00200,Appointment Reminder,Patient P1094 has an appointment today.,Appointment,Medium,2026-06-28,10:30,Unread,P1245,Pharmacist
+NTF00201,System Update,System maintenance and backup completed successfully.,System,Medium,2026-06-25,18:45,Read,P1229,Pharmacist
+NTF00202,System Update,System maintenance and backup completed successfully.,System,High,2026-05-31,20:30,Read,P1342,Pharmacist
+NTF00203,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-07-19,16:00,Unread,P1248,Admin
+NTF00204,New Prescription Added,New prescription added for patient P1036.,Prescription,High,2026-05-19,17:30,Unread,P1050,Admin
+NTF00205,System Update,System maintenance and backup completed successfully.,System,High,2026-06-18,10:00,Unread,P1470,Admin
+NTF00206,System Update,System maintenance and backup completed successfully.,System,Low,2026-07-09,15:15,Unread,P1340,Pharmacist
+NTF00207,Appointment Reminder,Patient P1140 has an appointment today.,Appointment,Medium,2026-06-05,13:30,Unread,P1400,Admin
+NTF00208,System Update,System maintenance and backup completed successfully.,System,High,2026-05-31,07:30,Unread,P1156,Pharmacist
+NTF00209,System Update,System maintenance and backup completed successfully.,System,Medium,2026-05-09,19:15,Unread,P1114,Admin
+NTF00210,System Update,System maintenance and backup completed successfully.,System,Medium,2026-05-08,14:00,Unread,P1441,Admin
+NTF00211,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407578.,Fraud Alert,High,2026-07-13,18:00,Unread,P1394,Pharmacist
+NTF00212,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407920.,Fraud Alert,High,2026-05-30,13:15,Unread,P1443,System
+NTF00213,New Prescription Added,New prescription added for patient P1108.,Prescription,Medium,2026-05-17,14:45,Read,P1027,Pharmacist
+NTF00214,Medicine Expiring Soon,Ibuprofen 400mg will expire within 5 days.,Expiry Alert,Medium,2026-05-10,11:45,Unread,P1440,System
+NTF00215,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407295.,Fraud Alert,Low,2026-06-28,10:00,Unread,P1356,Pharmacist
+NTF00216,Appointment Reminder,Patient P1069 has an appointment today.,Appointment,High,2026-06-16,12:45,Unread,P1206,Admin
+NTF00217,Medicine Expiring Soon,Pantoprazole 40mg will expire within 12 days.,Expiry Alert,Medium,2026-05-10,18:45,Unread,P1049,Admin
+NTF00218,System Update,System maintenance and backup completed successfully.,System,Medium,2026-05-09,12:45,Read,P1318,Pharmacist
+NTF00219,New Prescription Added,New prescription added for patient P1078.,Prescription,High,2026-07-13,15:30,Unread,P1179,Pharmacist
+NTF00220,Medicine Expiring Soon,Rabeprazole 20mg will expire within 27 days.,Expiry Alert,Medium,2026-05-30,18:30,Unread,P1186,Pharmacist
+NTF00221,Medicine Expiring Soon,ORS Sachet will expire within 14 days.,Expiry Alert,High,2026-07-12,19:30,Read,P1398,System
+NTF00222,Appointment Reminder,Patient P1086 has an appointment today.,Appointment,High,2026-07-04,18:30,Unread,P1001,Admin
+NTF00223,Medicine Expiring Soon,Dolo 650mg will expire within 5 days.,Expiry Alert,Medium,2026-06-10,19:45,Read,P1131,Pharmacist
+NTF00224,Appointment Reminder,Patient P1343 has an appointment today.,Appointment,Low,2026-05-30,18:15,Unread,P1064,Pharmacist
+NTF00225,New Prescription Added,New prescription added for patient P1366.,Prescription,Medium,2026-05-19,12:00,Read,P1256,Admin
+NTF00226,New Prescription Added,New prescription added for patient P1366.,Prescription,Medium,2026-07-27,08:45,Read,P1098,Pharmacist
+NTF00227,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407398.,Fraud Alert,High,2026-07-29,08:45,Unread,P1316,Pharmacist
+NTF00228,Medicine Expiring Soon,Amoxicillin 250mg will expire within 26 days.,Expiry Alert,High,2026-06-05,18:00,Unread,P1236,Pharmacist
+NTF00229,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407662.,Fraud Alert,Medium,2026-05-19,07:45,Unread,P1359,Pharmacist
+NTF00230,Low Stock Alert,Calcium 500mg stock is running low.,Stock Alert,Medium,2026-06-21,17:00,Unread,P1463,Pharmacist
+NTF00231,Low Stock Alert,Ibuprofen 400mg stock is running low.,Stock Alert,Low,2026-06-15,16:15,Unread,P1228,Admin
+NTF00232,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-06-16,10:45,Unread,P1123,Admin
+NTF00233,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-05-02,15:45,Read,P1251,System
+NTF00234,Appointment Reminder,Patient P1066 has an appointment today.,Appointment,High,2026-05-24,15:15,Unread,P1399,System
+NTF00235,Low Stock Alert,Pantoprazole 40mg stock is running low.,Stock Alert,Medium,2026-07-18,19:15,Read,P1039,Admin
+NTF00236,Low Stock Alert,Amoxicillin 250mg stock is running low.,Stock Alert,Low,2026-06-02,21:30,Read,P1253,Pharmacist
+NTF00237,New Prescription Added,New prescription added for patient P1500.,Prescription,Low,2026-07-02,13:45,Read,P1161,Admin
+NTF00238,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-05-20,13:45,Read,P1487,Pharmacist
+NTF00239,New Prescription Added,New prescription added for patient P1267.,Prescription,High,2026-07-06,18:00,Read,P1469,Admin
+NTF00240,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-07-02,19:30,Unread,P1432,Admin
+NTF00241,System Update,System maintenance and backup completed successfully.,System,High,2026-06-12,20:00,Read,P1499,Admin
+NTF00242,Low Stock Alert,ORS Sachet stock is running low.,Stock Alert,High,2026-06-01,19:30,Read,P1073,Pharmacist
+NTF00243,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407782.,Fraud Alert,Low,2026-06-12,13:00,Read,P1415,System
+NTF00244,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-07-06,19:15,Read,P1136,Pharmacist
+NTF00245,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-06-20,20:15,Unread,P1043,System
+NTF00246,System Update,System maintenance and backup completed successfully.,System,Medium,2026-05-10,15:15,Unread,P1415,Pharmacist
+NTF00247,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407314.,Fraud Alert,Medium,2026-06-21,14:30,Unread,P1194,Admin
+NTF00248,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-07-08,12:30,Unread,P1147,System
+NTF00249,Medicine Expiring Soon,Calcium 500mg will expire within 5 days.,Expiry Alert,Low,2026-05-24,17:30,Read,P1110,Admin
+NTF00250,Appointment Reminder,Patient P1097 has an appointment today.,Appointment,Low,2026-07-29,17:30,Read,P1030,System
+NTF00251,System Update,System maintenance and backup completed successfully.,System,Low,2026-05-10,15:00,Read,P1228,Pharmacist
+NTF00252,Appointment Reminder,Patient P1263 has an appointment today.,Appointment,Medium,2026-07-19,15:30,Unread,P1481,System
+NTF00253,New Prescription Added,New prescription added for patient P1196.,Prescription,Low,2026-07-14,09:00,Read,P1134,Pharmacist
+NTF00254,System Update,System maintenance and backup completed successfully.,System,High,2026-07-06,10:30,Unread,P1500,System
+NTF00255,Medicine Expiring Soon,Ibuprofen 400mg will expire within 7 days.,Expiry Alert,Medium,2026-07-10,15:15,Unread,P1006,System
+NTF00256,Medicine Expiring Soon,Calcium 500mg will expire within 17 days.,Expiry Alert,Medium,2026-06-24,14:45,Read,P1375,Pharmacist
+NTF00257,Medicine Expiring Soon,ORS Sachet will expire within 23 days.,Expiry Alert,Low,2026-05-31,13:00,Read,P1398,Admin
+NTF00258,Appointment Reminder,Patient P1074 has an appointment today.,Appointment,Low,2026-05-15,12:00,Unread,P1216,Pharmacist
+NTF00259,Appointment Reminder,Patient P1353 has an appointment today.,Appointment,High,2026-05-11,13:15,Read,P1256,System
+NTF00260,Medicine Expiring Soon,Atorvastatin 10mg will expire within 19 days.,Expiry Alert,Low,2026-05-26,13:00,Unread,P1053,Pharmacist
+NTF00261,Appointment Reminder,Patient P1417 has an appointment today.,Appointment,Low,2026-07-03,07:15,Read,P1199,Admin
+NTF00262,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-06-10,11:45,Unread,P1153,System
+NTF00263,System Update,System maintenance and backup completed successfully.,System,Low,2026-07-21,13:00,Unread,P1368,Pharmacist
+NTF00264,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407237.,Fraud Alert,Low,2026-05-05,07:45,Unread,P1408,Pharmacist
+NTF00265,Medicine Expiring Soon,Rabeprazole 20mg will expire within 25 days.,Expiry Alert,Low,2026-05-30,17:00,Read,P1153,System
+NTF00266,New Prescription Added,New prescription added for patient P1417.,Prescription,Low,2026-07-17,18:45,Read,P1064,Pharmacist
+NTF00267,Medicine Expiring Soon,Levocetirizine 5mg will expire within 19 days.,Expiry Alert,Low,2026-07-19,10:45,Read,P1297,Admin
+NTF00268,Appointment Reminder,Patient P1489 has an appointment today.,Appointment,High,2026-06-02,11:15,Read,P1492,Admin
+NTF00269,Low Stock Alert,Cetirizine 10mg stock is running low.,Stock Alert,Low,2026-06-30,17:45,Read,P1400,Admin
+NTF00270,Low Stock Alert,Vitamin D3 60000IU stock is running low.,Stock Alert,High,2026-07-14,09:00,Unread,P1293,Pharmacist
+NTF00271,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407026.,Fraud Alert,Low,2026-05-02,15:45,Unread,P1406,Admin
+NTF00272,System Update,System maintenance and backup completed successfully.,System,High,2026-07-13,20:15,Read,P1396,Admin
+NTF00273,System Update,System maintenance and backup completed successfully.,System,High,2026-05-28,20:30,Read,P1350,Pharmacist
+NTF00274,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-07-31,13:30,Unread,P1123,Admin
+NTF00275,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407087.,Fraud Alert,Medium,2026-06-22,12:30,Unread,P1294,System
+NTF00276,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407707.,Fraud Alert,Low,2026-06-17,08:00,Read,P1377,System
+NTF00277,New Prescription Added,New prescription added for patient P1025.,Prescription,High,2026-07-12,21:15,Read,P1045,Pharmacist
+NTF00278,New Prescription Added,New prescription added for patient P1189.,Prescription,Low,2026-05-11,16:45,Read,P1478,System
+NTF00279,New Prescription Added,New prescription added for patient P1414.,Prescription,Low,2026-06-03,08:45,Unread,P1042,Admin
+NTF00280,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-07-07,07:30,Unread,P1257,Admin
+NTF00281,Medicine Expiring Soon,Rabeprazole 20mg will expire within 11 days.,Expiry Alert,High,2026-07-15,11:45,Read,P1169,System
+NTF00282,Appointment Reminder,Patient P1130 has an appointment today.,Appointment,Low,2026-07-02,19:30,Read,P1123,Admin
+NTF00283,Appointment Reminder,Patient P1287 has an appointment today.,Appointment,Medium,2026-07-17,19:45,Unread,P1235,Admin
+NTF00284,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407684.,Fraud Alert,Medium,2026-07-24,07:45,Unread,P1115,Admin
+NTF00285,New Prescription Added,New prescription added for patient P1483.,Prescription,Low,2026-05-17,19:45,Read,P1432,System
+NTF00286,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-07-01,07:15,Read,P1091,Admin
+NTF00287,System Update,System maintenance and backup completed successfully.,System,Medium,2026-06-04,12:45,Unread,P1445,Admin
+NTF00288,Medicine Expiring Soon,Paracetamol 500mg will expire within 11 days.,Expiry Alert,Low,2026-06-26,21:00,Unread,P1359,Admin
+NTF00289,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-07-17,15:00,Unread,P1199,System
+NTF00290,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407350.,Fraud Alert,Medium,2026-07-11,14:00,Unread,P1305,Pharmacist
+NTF00291,New Prescription Added,New prescription added for patient P1419.,Prescription,Low,2026-06-23,19:45,Unread,P1426,System
+NTF00292,Medicine Expiring Soon,Ibuprofen 400mg will expire within 3 days.,Expiry Alert,Medium,2026-05-19,14:45,Unread,P1452,Admin
+NTF00293,New Prescription Added,New prescription added for patient P1149.,Prescription,Low,2026-06-17,13:30,Unread,P1077,Pharmacist
+NTF00294,System Update,System maintenance and backup completed successfully.,System,Medium,2026-07-12,09:45,Read,P1152,Pharmacist
+NTF00295,New Prescription Added,New prescription added for patient P1138.,Prescription,Low,2026-07-28,19:15,Read,P1312,Pharmacist
+NTF00296,New Prescription Added,New prescription added for patient P1490.,Prescription,Low,2026-06-13,15:30,Unread,P1006,Admin
+NTF00297,Appointment Reminder,Patient P1371 has an appointment today.,Appointment,Low,2026-05-16,09:45,Read,P1112,Pharmacist
+NTF00298,Low Stock Alert,ORS Sachet stock is running low.,Stock Alert,Low,2026-06-01,07:45,Unread,P1456,Admin
+NTF00299,Appointment Reminder,Patient P1306 has an appointment today.,Appointment,Medium,2026-06-02,07:15,Unread,P1074,Admin
+NTF00300,Low Stock Alert,Cough Syrup 100ml stock is running low.,Stock Alert,Medium,2026-05-17,09:45,Read,P1344,System
+NTF00301,Medicine Expiring Soon,Dolo 650mg will expire within 26 days.,Expiry Alert,High,2026-06-16,08:15,Unread,P1089,System
+NTF00302,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-06-09,15:15,Unread,P1104,System
+NTF00303,Low Stock Alert,Azithromycin 500mg stock is running low.,Stock Alert,Low,2026-07-01,07:15,Read,P1316,Pharmacist
+NTF00304,Low Stock Alert,Amlodipine 5mg stock is running low.,Stock Alert,Medium,2026-06-13,07:45,Read,P1428,Admin
+NTF00305,System Update,System maintenance and backup completed successfully.,System,Medium,2026-05-02,10:00,Unread,P1314,Admin
+NTF00306,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-07-07,12:45,Unread,P1166,System
+NTF00307,System Update,System maintenance and backup completed successfully.,System,Medium,2026-07-20,09:30,Read,P1247,Pharmacist
+NTF00308,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407050.,Fraud Alert,High,2026-06-13,20:30,Unread,P1272,Pharmacist
+NTF00309,New Prescription Added,New prescription added for patient P1148.,Prescription,Low,2026-05-31,19:30,Read,P1055,System
+NTF00310,System Update,System maintenance and backup completed successfully.,System,Low,2026-05-26,19:00,Unread,P1086,Admin
+NTF00311,New Prescription Added,New prescription added for patient P1494.,Prescription,Medium,2026-07-13,15:00,Unread,P1127,Admin
+NTF00312,Appointment Reminder,Patient P1390 has an appointment today.,Appointment,Medium,2026-07-15,12:30,Read,P1246,Pharmacist
+NTF00313,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407995.,Fraud Alert,Medium,2026-05-22,15:45,Unread,P1015,Pharmacist
+NTF00314,Low Stock Alert,Amoxicillin 250mg stock is running low.,Stock Alert,High,2026-05-17,09:15,Read,P1128,System
+NTF00315,Appointment Reminder,Patient P1018 has an appointment today.,Appointment,High,2026-05-13,18:30,Unread,P1494,Admin
+NTF00316,Low Stock Alert,Rabeprazole 20mg stock is running low.,Stock Alert,Low,2026-05-08,09:45,Unread,P1082,Pharmacist
+NTF00317,Appointment Reminder,Patient P1104 has an appointment today.,Appointment,Low,2026-07-22,11:15,Unread,P1291,Admin
+NTF00318,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407419.,Fraud Alert,High,2026-05-19,20:00,Unread,P1469,Pharmacist
+NTF00319,System Update,System maintenance and backup completed successfully.,System,Medium,2026-06-22,11:00,Unread,P1005,System
+NTF00320,Low Stock Alert,Metformin 500mg stock is running low.,Stock Alert,Low,2026-05-21,15:00,Unread,P1003,System
+NTF00321,New Prescription Added,New prescription added for patient P1041.,Prescription,Low,2026-07-26,09:45,Unread,P1174,Pharmacist
+NTF00322,Medicine Expiring Soon,Omeprazole 20mg will expire within 2 days.,Expiry Alert,High,2026-05-05,09:00,Read,P1371,Admin
+NTF00323,New Prescription Added,New prescription added for patient P1153.,Prescription,Medium,2026-06-27,08:45,Unread,P1272,Admin
+NTF00324,System Update,System maintenance and backup completed successfully.,System,High,2026-05-08,20:00,Read,P1445,Admin
+NTF00325,Appointment Reminder,Patient P1213 has an appointment today.,Appointment,High,2026-06-02,12:00,Read,P1183,System
+NTF00326,Appointment Reminder,Patient P1349 has an appointment today.,Appointment,Low,2026-05-19,14:30,Unread,P1088,System
+NTF00327,Low Stock Alert,Vitamin D3 60000IU stock is running low.,Stock Alert,High,2026-05-31,15:30,Unread,P1377,Pharmacist
+NTF00328,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407194.,Fraud Alert,High,2026-07-30,16:30,Unread,P1073,System
+NTF00329,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-07-04,13:00,Unread,P1026,System
+NTF00330,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407266.,Fraud Alert,Medium,2026-06-04,16:15,Read,P1069,Admin
+NTF00331,Appointment Reminder,Patient P1039 has an appointment today.,Appointment,Medium,2026-05-08,15:30,Read,P1318,Pharmacist
+NTF00332,Appointment Reminder,Patient P1004 has an appointment today.,Appointment,High,2026-06-15,07:00,Unread,P1255,Pharmacist
+NTF00333,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407999.,Fraud Alert,Medium,2026-05-07,09:00,Read,P1180,System
+NTF00334,System Update,System maintenance and backup completed successfully.,System,High,2026-07-26,08:15,Unread,P1065,System
+NTF00335,Low Stock Alert,Omeprazole 20mg stock is running low.,Stock Alert,Low,2026-06-04,20:00,Unread,P1295,Pharmacist
+NTF00336,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407203.,Fraud Alert,Medium,2026-05-18,12:15,Read,P1176,Pharmacist
+NTF00337,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-06-20,19:00,Read,P1220,System
+NTF00338,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407619.,Fraud Alert,Low,2026-06-05,08:30,Read,P1499,System
+NTF00339,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407478.,Fraud Alert,Medium,2026-06-03,11:00,Unread,P1469,System
+NTF00340,New Prescription Added,New prescription added for patient P1288.,Prescription,Medium,2026-07-01,16:45,Read,P1198,System
+NTF00341,New Prescription Added,New prescription added for patient P1308.,Prescription,High,2026-05-26,21:15,Read,P1092,Admin
+NTF00342,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-06-01,18:45,Read,P1389,Pharmacist
+NTF00343,Appointment Reminder,Patient P1363 has an appointment today.,Appointment,Medium,2026-05-31,09:30,Unread,P1098,Pharmacist
+NTF00344,New Prescription Added,New prescription added for patient P1102.,Prescription,Low,2026-06-18,20:30,Unread,P1266,Admin
+NTF00345,Low Stock Alert,Salbutamol 4mg stock is running low.,Stock Alert,Medium,2026-06-15,14:00,Unread,P1463,Admin
+NTF00346,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407729.,Fraud Alert,Medium,2026-07-03,21:00,Read,P1315,Pharmacist
+NTF00347,Medicine Expiring Soon,Pantoprazole 40mg will expire within 10 days.,Expiry Alert,Low,2026-05-10,07:30,Read,P1151,Admin
+NTF00348,System Update,System maintenance and backup completed successfully.,System,Medium,2026-07-25,17:00,Read,P1291,Admin
+NTF00349,Medicine Expiring Soon,Salbutamol 4mg will expire within 4 days.,Expiry Alert,Medium,2026-05-03,12:45,Read,P1245,Admin
+NTF00350,Low Stock Alert,Atorvastatin 10mg stock is running low.,Stock Alert,High,2026-06-10,13:15,Read,P1188,Admin
+NTF00351,System Update,System maintenance and backup completed successfully.,System,High,2026-07-27,10:45,Read,P1028,Pharmacist
+NTF00352,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407087.,Fraud Alert,Low,2026-06-27,21:00,Read,P1348,Admin
+NTF00353,Low Stock Alert,Dolo 650mg stock is running low.,Stock Alert,High,2026-07-18,18:00,Unread,P1095,System
+NTF00354,Appointment Reminder,Patient P1160 has an appointment today.,Appointment,High,2026-06-28,14:30,Unread,P1293,System
+NTF00355,Medicine Expiring Soon,Cetirizine 10mg will expire within 18 days.,Expiry Alert,Medium,2026-07-15,21:15,Read,P1169,Pharmacist
+NTF00356,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-27,14:30,Read,P1081,Pharmacist
+NTF00357,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-30,20:30,Unread,P1351,Admin
+NTF00358,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-05-31,19:00,Unread,P1128,Pharmacist
+NTF00359,Medicine Expiring Soon,Metformin 500mg will expire within 7 days.,Expiry Alert,Medium,2026-07-11,18:30,Unread,P1374,System
+NTF00360,Appointment Reminder,Patient P1167 has an appointment today.,Appointment,High,2026-07-26,18:15,Read,P1310,Pharmacist
+NTF00361,Medicine Expiring Soon,Rabeprazole 20mg will expire within 3 days.,Expiry Alert,Low,2026-05-11,07:45,Unread,P1432,Admin
+NTF00362,Appointment Reminder,Patient P1035 has an appointment today.,Appointment,Low,2026-06-22,11:15,Unread,P1258,Admin
+NTF00363,Low Stock Alert,Montelukast 10mg stock is running low.,Stock Alert,Medium,2026-06-28,17:00,Unread,P1091,Pharmacist
+NTF00364,Low Stock Alert,Ibuprofen 400mg stock is running low.,Stock Alert,Medium,2026-05-13,14:15,Read,P1377,Admin
+NTF00365,Appointment Reminder,Patient P1487 has an appointment today.,Appointment,Medium,2026-06-27,16:15,Read,P1157,System
+NTF00366,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-06-10,16:00,Unread,P1164,System
+NTF00367,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-05-17,20:15,Unread,P1090,Pharmacist
+NTF00368,Appointment Reminder,Patient P1286 has an appointment today.,Appointment,Low,2026-07-03,12:45,Read,P1128,Pharmacist
+NTF00369,Medicine Expiring Soon,Pantoprazole 40mg will expire within 9 days.,Expiry Alert,High,2026-05-31,10:30,Unread,P1128,Pharmacist
+NTF00370,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407696.,Fraud Alert,High,2026-07-25,09:15,Unread,P1159,System
+NTF00371,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407184.,Fraud Alert,High,2026-06-24,19:45,Unread,P1012,Pharmacist
+NTF00372,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-14,10:45,Read,P1029,System
+NTF00373,Low Stock Alert,Levocetirizine 5mg stock is running low.,Stock Alert,High,2026-06-20,21:00,Unread,P1025,System
+NTF00374,Low Stock Alert,Omeprazole 20mg stock is running low.,Stock Alert,Medium,2026-07-19,20:00,Unread,P1363,System
+NTF00375,New Prescription Added,New prescription added for patient P1485.,Prescription,Medium,2026-06-20,15:45,Read,P1412,Pharmacist
+NTF00376,New Prescription Added,New prescription added for patient P1325.,Prescription,Low,2026-07-25,11:15,Read,P1459,Pharmacist
+NTF00377,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407704.,Fraud Alert,Low,2026-06-23,12:45,Unread,P1037,System
+NTF00378,System Update,System maintenance and backup completed successfully.,System,Low,2026-07-11,12:30,Read,P1068,Admin
+NTF00379,Low Stock Alert,Calcium 500mg stock is running low.,Stock Alert,High,2026-05-30,19:00,Read,P1433,System
+NTF00380,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407751.,Fraud Alert,Medium,2026-07-29,12:15,Unread,P1313,Admin
+NTF00381,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407998.,Fraud Alert,High,2026-05-14,18:45,Read,P1171,Pharmacist
+NTF00382,Appointment Reminder,Patient P1440 has an appointment today.,Appointment,Medium,2026-06-16,14:00,Unread,P1222,System
+NTF00383,Low Stock Alert,Calcium 500mg stock is running low.,Stock Alert,Low,2026-05-09,09:30,Unread,P1126,System
+NTF00384,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407803.,Fraud Alert,Medium,2026-07-16,18:45,Read,P1433,System
+NTF00385,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-05-24,17:30,Unread,P1122,Admin
+NTF00386,Low Stock Alert,Paracetamol 500mg stock is running low.,Stock Alert,High,2026-06-03,13:00,Unread,P1022,Admin
+NTF00387,Low Stock Alert,Amoxicillin 250mg stock is running low.,Stock Alert,Medium,2026-05-15,15:45,Unread,P1342,Pharmacist
+NTF00388,Appointment Reminder,Patient P1305 has an appointment today.,Appointment,Medium,2026-06-03,21:00,Unread,P1098,Pharmacist
+NTF00389,Low Stock Alert,ORS Sachet stock is running low.,Stock Alert,High,2026-05-28,07:00,Read,P1023,System
+NTF00390,New Prescription Added,New prescription added for patient P1392.,Prescription,Medium,2026-07-19,20:00,Read,P1308,System
+NTF00391,Appointment Reminder,Patient P1426 has an appointment today.,Appointment,Low,2026-05-25,15:00,Read,P1020,Admin
+NTF00392,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407998.,Fraud Alert,Medium,2026-05-08,08:45,Read,P1285,Pharmacist
+NTF00393,Medicine Expiring Soon,ORS Sachet will expire within 18 days.,Expiry Alert,Medium,2026-05-02,15:30,Read,P1271,Pharmacist
+NTF00394,New Prescription Added,New prescription added for patient P1478.,Prescription,Medium,2026-05-16,07:30,Read,P1339,Pharmacist
+NTF00395,Appointment Reminder,Patient P1172 has an appointment today.,Appointment,Medium,2026-05-21,15:15,Unread,P1246,System
+NTF00396,System Update,System maintenance and backup completed successfully.,System,High,2026-07-30,14:15,Unread,P1081,System
+NTF00397,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-05-22,08:30,Unread,P1080,Pharmacist
+NTF00398,Low Stock Alert,Dolo 650mg stock is running low.,Stock Alert,High,2026-06-16,13:30,Read,P1239,Pharmacist
+NTF00399,Low Stock Alert,Paracetamol 500mg stock is running low.,Stock Alert,Low,2026-07-03,07:45,Unread,P1488,Pharmacist
+NTF00400,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407613.,Fraud Alert,Low,2026-05-12,16:30,Read,P1329,Admin
+NTF00401,New Prescription Added,New prescription added for patient P1146.,Prescription,Low,2026-05-22,10:45,Unread,P1457,System
+NTF00402,New Prescription Added,New prescription added for patient P1199.,Prescription,Medium,2026-06-28,16:00,Unread,P1195,Pharmacist
+NTF00403,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-08,14:30,Read,P1445,Pharmacist
+NTF00404,New Prescription Added,New prescription added for patient P1391.,Prescription,Medium,2026-07-19,08:45,Unread,P1182,Admin
+NTF00405,Medicine Expiring Soon,Levocetirizine 5mg will expire within 23 days.,Expiry Alert,Low,2026-06-15,20:45,Read,P1156,System
+NTF00406,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407092.,Fraud Alert,Low,2026-07-25,21:45,Read,P1302,System
+NTF00407,Medicine Expiring Soon,Amoxicillin 250mg will expire within 6 days.,Expiry Alert,Medium,2026-05-25,20:30,Unread,P1170,System
+NTF00408,Low Stock Alert,Cough Syrup 100ml stock is running low.,Stock Alert,Low,2026-05-31,14:15,Read,P1347,System
+NTF00409,Medicine Expiring Soon,Vitamin D3 60000IU will expire within 17 days.,Expiry Alert,Low,2026-05-21,14:00,Read,P1430,Admin
+NTF00410,Medicine Expiring Soon,Levocetirizine 5mg will expire within 11 days.,Expiry Alert,Low,2026-05-31,17:15,Read,P1437,System
+NTF00411,Low Stock Alert,Amlodipine 5mg stock is running low.,Stock Alert,Low,2026-07-24,09:30,Unread,P1173,Admin
+NTF00412,Medicine Expiring Soon,Amoxicillin 250mg will expire within 12 days.,Expiry Alert,Medium,2026-05-17,07:00,Read,P1291,Admin
+NTF00413,Appointment Reminder,Patient P1324 has an appointment today.,Appointment,Medium,2026-07-01,15:45,Read,P1159,Admin
+NTF00414,Medicine Expiring Soon,Vitamin D3 60000IU will expire within 8 days.,Expiry Alert,High,2026-07-06,19:30,Read,P1270,System
+NTF00415,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407688.,Fraud Alert,High,2026-07-28,07:00,Unread,P1115,Admin
+NTF00416,Low Stock Alert,Salbutamol 4mg stock is running low.,Stock Alert,Medium,2026-05-13,21:15,Read,P1252,Pharmacist
+NTF00417,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-07-18,14:45,Unread,P1139,Admin
+NTF00418,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407397.,Fraud Alert,High,2026-05-27,16:45,Read,P1184,System
+NTF00419,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-13,09:15,Unread,P1080,Admin
+NTF00420,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407336.,Fraud Alert,Low,2026-06-10,07:00,Read,P1066,System
+NTF00421,Medicine Expiring Soon,Omeprazole 20mg will expire within 9 days.,Expiry Alert,Medium,2026-07-27,12:45,Unread,P1232,System
+NTF00422,Low Stock Alert,Levocetirizine 5mg stock is running low.,Stock Alert,High,2026-05-08,12:00,Unread,P1053,Pharmacist
+NTF00423,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407645.,Fraud Alert,High,2026-05-28,21:00,Unread,P1036,Admin
+NTF00424,Appointment Reminder,Patient P1221 has an appointment today.,Appointment,High,2026-05-02,15:00,Read,P1112,Pharmacist
+NTF00425,Low Stock Alert,Cough Syrup 100ml stock is running low.,Stock Alert,Low,2026-05-22,11:30,Unread,P1326,Pharmacist
+NTF00426,Medicine Expiring Soon,Rabeprazole 20mg will expire within 19 days.,Expiry Alert,Medium,2026-07-07,13:00,Unread,P1072,Admin
+NTF00427,Appointment Reminder,Patient P1314 has an appointment today.,Appointment,Medium,2026-05-22,19:30,Unread,P1156,System
+NTF00428,Medicine Expiring Soon,Omeprazole 20mg will expire within 7 days.,Expiry Alert,Medium,2026-05-04,15:15,Unread,P1275,Pharmacist
+NTF00429,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407403.,Fraud Alert,High,2026-07-22,10:45,Read,P1237,System
+NTF00430,New Prescription Added,New prescription added for patient P1188.,Prescription,High,2026-07-03,08:00,Read,P1357,System
+NTF00431,Appointment Reminder,Patient P1348 has an appointment today.,Appointment,Medium,2026-05-12,16:00,Unread,P1404,System
+NTF00432,System Update,System maintenance and backup completed successfully.,System,High,2026-05-07,16:45,Read,P1197,System
+NTF00433,Medicine Expiring Soon,Amlodipine 5mg will expire within 16 days.,Expiry Alert,High,2026-05-28,16:00,Read,P1418,Pharmacist
+NTF00434,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407819.,Fraud Alert,Low,2026-07-15,18:30,Unread,P1490,Pharmacist
+NTF00435,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-07-13,21:30,Unread,P1210,Pharmacist
+NTF00436,System Update,System maintenance and backup completed successfully.,System,Low,2026-07-04,11:00,Read,P1113,Admin
+NTF00437,Medicine Expiring Soon,Amlodipine 5mg will expire within 4 days.,Expiry Alert,High,2026-07-23,15:00,Read,P1484,Pharmacist
+NTF00438,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-06-22,07:30,Read,P1358,Pharmacist
+NTF00439,Low Stock Alert,Metformin 500mg stock is running low.,Stock Alert,Medium,2026-05-11,08:45,Read,P1159,Admin
+NTF00440,Appointment Reminder,Patient P1020 has an appointment today.,Appointment,Low,2026-06-15,13:00,Unread,P1406,System
+NTF00441,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407925.,Fraud Alert,Medium,2026-06-03,08:30,Unread,P1270,System
+NTF00442,Medicine Expiring Soon,Paracetamol 500mg will expire within 8 days.,Expiry Alert,High,2026-06-28,19:30,Unread,P1140,Admin
+NTF00443,Appointment Reminder,Patient P1065 has an appointment today.,Appointment,High,2026-06-03,12:45,Unread,P1405,System
+NTF00444,Appointment Reminder,Patient P1372 has an appointment today.,Appointment,Medium,2026-07-28,10:15,Unread,P1136,Admin
+NTF00445,System Update,System maintenance and backup completed successfully.,System,Low,2026-05-18,16:45,Read,P1310,System
+NTF00446,Low Stock Alert,Salbutamol 4mg stock is running low.,Stock Alert,High,2026-05-02,10:45,Unread,P1046,System
+NTF00447,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407646.,Fraud Alert,Medium,2026-06-23,08:00,Unread,P1009,System
+NTF00448,Low Stock Alert,ORS Sachet stock is running low.,Stock Alert,Medium,2026-06-17,10:00,Read,P1179,Admin
+NTF00449,Appointment Reminder,Patient P1124 has an appointment today.,Appointment,High,2026-05-05,20:00,Read,P1014,Pharmacist
+NTF00450,System Update,System maintenance and backup completed successfully.,System,Medium,2026-05-10,12:30,Unread,P1403,System
+NTF00451,Low Stock Alert,Montelukast 10mg stock is running low.,Stock Alert,High,2026-06-11,07:45,Unread,P1011,System
+NTF00452,New Prescription Added,New prescription added for patient P1226.,Prescription,Medium,2026-05-26,13:45,Unread,P1449,Pharmacist
+NTF00453,Appointment Reminder,Patient P1397 has an appointment today.,Appointment,Low,2026-05-11,16:30,Unread,P1265,System
+NTF00454,Appointment Reminder,Patient P1007 has an appointment today.,Appointment,Low,2026-06-30,13:00,Read,P1028,Admin
+NTF00455,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407480.,Fraud Alert,High,2026-07-22,14:45,Read,P1335,Admin
+NTF00456,New Prescription Added,New prescription added for patient P1294.,Prescription,Medium,2026-05-16,10:15,Read,P1228,Pharmacist
+NTF00457,Medicine Expiring Soon,Ibuprofen 400mg will expire within 30 days.,Expiry Alert,High,2026-06-05,08:45,Read,P1019,Admin
+NTF00458,System Update,System maintenance and backup completed successfully.,System,High,2026-07-10,21:00,Unread,P1147,Admin
+NTF00459,Medicine Expiring Soon,Levocetirizine 5mg will expire within 12 days.,Expiry Alert,Low,2026-06-07,14:30,Read,P1119,System
+NTF00460,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-05-26,11:45,Unread,P1192,System
+NTF00461,Low Stock Alert,Rabeprazole 20mg stock is running low.,Stock Alert,High,2026-05-31,19:00,Read,P1373,System
+NTF00462,New Prescription Added,New prescription added for patient P1125.,Prescription,High,2026-07-24,11:15,Unread,P1321,Admin
+NTF00463,New Prescription Added,New prescription added for patient P1110.,Prescription,Low,2026-06-12,18:00,Unread,P1332,Admin
+NTF00464,Low Stock Alert,Ibuprofen 400mg stock is running low.,Stock Alert,Medium,2026-07-04,16:30,Unread,P1356,System
+NTF00465,New Prescription Added,New prescription added for patient P1260.,Prescription,Medium,2026-07-12,21:15,Unread,P1434,Pharmacist
+NTF00466,Appointment Reminder,Patient P1440 has an appointment today.,Appointment,Medium,2026-05-08,10:15,Unread,P1338,Admin
+NTF00467,System Update,System maintenance and backup completed successfully.,System,Medium,2026-05-08,08:30,Read,P1474,System
+NTF00468,New Prescription Added,New prescription added for patient P1296.,Prescription,High,2026-07-16,21:45,Unread,P1226,System
+NTF00469,Appointment Reminder,Patient P1004 has an appointment today.,Appointment,Medium,2026-06-15,15:00,Unread,P1447,System
+NTF00470,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407328.,Fraud Alert,Medium,2026-05-15,09:00,Read,P1199,System
+NTF00471,New Prescription Added,New prescription added for patient P1013.,Prescription,Medium,2026-05-03,19:15,Unread,P1385,Admin
+NTF00472,Appointment Reminder,Patient P1155 has an appointment today.,Appointment,Medium,2026-07-05,20:45,Read,P1053,Admin
+NTF00473,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-05-10,12:30,Unread,P1003,System
+NTF00474,System Update,System maintenance and backup completed successfully.,System,Low,2026-07-01,11:15,Unread,P1357,System
+NTF00475,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-06-11,13:15,Unread,P1165,System
+NTF00476,System Update,System maintenance and backup completed successfully.,System,Low,2026-07-24,12:00,Read,P1200,System
+NTF00477,Medicine Expiring Soon,Amoxicillin 250mg will expire within 23 days.,Expiry Alert,High,2026-07-17,17:00,Read,P1419,Admin
+NTF00478,Appointment Reminder,Patient P1038 has an appointment today.,Appointment,Medium,2026-07-22,20:45,Read,P1288,Admin
+NTF00479,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407259.,Fraud Alert,Low,2026-05-13,17:00,Read,P1486,System
+NTF00480,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407237.,Fraud Alert,High,2026-07-25,17:15,Read,P1272,Admin
+NTF00481,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-05-19,16:00,Unread,P1245,System
+NTF00482,Low Stock Alert,Azithromycin 500mg stock is running low.,Stock Alert,High,2026-07-24,11:30,Read,P1253,Pharmacist
+NTF00483,Appointment Reminder,Patient P1486 has an appointment today.,Appointment,Low,2026-06-30,17:45,Unread,P1497,Admin
+NTF00484,Daily Sales Report,Daily sales and inventory report is now available.,Report,Medium,2026-07-23,16:15,Read,P1037,Pharmacist
+NTF00485,System Update,System maintenance and backup completed successfully.,System,High,2026-07-14,07:45,Read,P1385,System
+NTF00486,System Update,System maintenance and backup completed successfully.,System,Low,2026-06-11,20:30,Read,P1247,Admin
+NTF00487,Medicine Expiring Soon,Pantoprazole 40mg will expire within 28 days.,Expiry Alert,High,2026-07-12,10:45,Unread,P1392,System
+NTF00488,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-06-06,16:15,Unread,P1260,System
+NTF00489,New Prescription Added,New prescription added for patient P1468.,Prescription,Low,2026-05-14,16:00,Unread,P1434,Admin
+NTF00490,Appointment Reminder,Patient P1141 has an appointment today.,Appointment,High,2026-06-30,09:15,Read,P1366,Pharmacist
+NTF00491,Daily Sales Report,Daily sales and inventory report is now available.,Report,High,2026-05-08,09:30,Read,P1404,Pharmacist
+NTF00492,Low Stock Alert,Vitamin D3 60000IU stock is running low.,Stock Alert,Medium,2026-07-18,09:45,Read,P1237,Pharmacist
+NTF00493,New Prescription Added,New prescription added for patient P1310.,Prescription,Low,2026-05-20,12:15,Read,P1161,System
+NTF00494,System Update,System maintenance and backup completed successfully.,System,Medium,2026-06-29,11:30,Unread,P1390,System
+NTF00495,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407944.,Fraud Alert,Low,2026-05-12,13:45,Read,P1447,System
+NTF00496,Medicine Expiring Soon,Atorvastatin 10mg will expire within 27 days.,Expiry Alert,High,2026-07-03,07:45,Unread,P1013,Pharmacist
+NTF00497,Daily Sales Report,Daily sales and inventory report is now available.,Report,Low,2026-07-28,12:45,Unread,P1044,Admin
+NTF00498,New Prescription Added,New prescription added for patient P1360.,Prescription,Medium,2026-05-16,17:00,Unread,P1358,System
+NTF00499,High Risk Fraud Alert,Suspicious claim detected for Claim ID CLM2407494.,Fraud Alert,Low,2026-05-31,21:00,Read,P1473,Admin
+NTF00500,System Update,System maintenance and backup completed successfully.,System,High,2026-05-04,09:00,Unread,P1489,Admin

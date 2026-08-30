@@ -1,0 +1,501 @@
+Medicine_ID,Medicine_Name,Generic_Name,Category,Manufacturer,Batch_Number,Strength,Dosage_Form,Unit_Price_INR,Selling_Price_INR,Prescription_Required,Status
+MED00001,Paracetamol 500mg,Paracetamol,Cardiac,Cipla,BAT253681,250mg,Drops,713.8,655.92,No,Inactive
+MED00002,Amoxicillin 250mg,Amoxicillin,Dermatology,Dr Reddy's,BAT256445,250mg,Cream,628.95,617.48,No,Inactive
+MED00003,Cetirizine 10mg,Cetirizine,Respiratory,Dr Reddy's,BAT259058,650mg,Drops,695.17,131.84,No,Inactive
+MED00004,Ibuprofen 400mg,Ibuprofen,Vitamin,Abbott,BAT249065,5mg,Syrup,825.27,509.07,Yes,Active
+MED00005,Omeprazole 20mg,Omeprazole,Vitamin,Mankind,BAT258050,40mg,Drops,629.45,617.87,Yes,Active
+MED00006,Metformin 500mg,Metformin,Gastric,Mankind,BAT251414,650mg,Drops,556.77,1054.99,No,Active
+MED00007,Azithromycin 500mg,Azithromycin,Cardiac,Alkem,BAT259197,5mg,Drops,638.71,928.7,No,Inactive
+MED00008,Pantoprazole 40mg,Pantoprazole,Pain Relief,Cipla,BAT240928,5mg,Capsule,56.47,81.13,No,Active
+MED00009,Amlodipine 5mg,Amlodipine,Diabetes,Mankind,BAT244898,250mg,Drops,669.29,240.32,Yes,Inactive
+MED00010,Atorvastatin 10mg,Atorvastatin,Antacid,Cipla,BAT260288,10mg,Drops,554.29,440.0,No,Active
+MED00011,Montelukast 10mg,Montelukast,Vitamin,Lupin,BAT253750,40mg,Cream,57.09,823.16,Yes,Inactive
+MED00012,Levocetirizine 5mg,Levocetirizine,Gastric,Zydus,BAT259380,10mg,Drops,820.07,337.71,Yes,Active
+MED00013,Vitamin D3 60000IU,Vitamin,Antihistamine,Dr Reddy's,BAT256937,500mg,Injection,46.05,321.44,No,Active
+MED00014,ORS Sachet,ORS,Antihistamine,Mankind,BAT240284,40mg,Injection,606.72,187.19,Yes,Inactive
+MED00015,Dolo 650mg,Dolo,Dermatology,Sun Pharma,BAT260592,20mg,Injection,673.94,614.17,Yes,Inactive
+MED00016,Cough Syrup 100ml,Cough,Respiratory,Abbott,BAT246125,500mg,Cream,145.55,606.53,No,Active
+MED00017,Calcium 500mg,Calcium,Cardiac,Abbott,BAT247091,40mg,Syrup,314.35,255.92,No,Active
+MED00018,Losartan 50mg,Losartan,Antibiotic,Zydus,BAT254703,10mg,Drops,526.28,690.82,Yes,Inactive
+MED00019,Rabeprazole 20mg,Rabeprazole,Vitamin,Cipla,BAT252744,20mg,Cream,618.69,46.68,No,Inactive
+MED00020,Salbutamol 4mg,Salbutamol,Antacid,Sun Pharma,BAT249813,10mg,Syrup,442.64,1044.07,Yes,Active
+MED00021,Paracetamol 500mg,Paracetamol,Antibiotic,Abbott,BAT260727,10mg,Drops,367.49,132.24,No,Active
+MED00022,Amoxicillin 250mg,Amoxicillin,Antihistamine,Sun Pharma,BAT255147,40mg,Tablet,85.34,78.61,No,Active
+MED00023,Cetirizine 10mg,Cetirizine,Dermatology,Abbott,BAT248575,5mg,Injection,390.04,456.8,No,Active
+MED00024,Ibuprofen 400mg,Ibuprofen,Vitamin,Cipla,BAT257625,250mg,Drops,615.6,88.3,Yes,Active
+MED00025,Omeprazole 20mg,Omeprazole,Cardiac,Cipla,BAT249597,20mg,Cream,84.49,846.5,No,Inactive
+MED00026,Metformin 500mg,Metformin,Vitamin,Sun Pharma,BAT255631,650mg,Cream,196.25,826.49,No,Active
+MED00027,Azithromycin 500mg,Azithromycin,Diabetes,Zydus,BAT240465,650mg,Tablet,47.01,638.54,No,Active
+MED00028,Pantoprazole 40mg,Pantoprazole,Diabetes,Abbott,BAT251367,10mg,Injection,770.92,939.58,Yes,Active
+MED00029,Amlodipine 5mg,Amlodipine,Antihistamine,Abbott,BAT260314,20mg,Capsule,108.05,744.66,Yes,Inactive
+MED00030,Atorvastatin 10mg,Atorvastatin,Respiratory,Cipla,BAT249624,500mg,Syrup,94.29,803.64,No,Inactive
+MED00031,Montelukast 10mg,Montelukast,Cardiac,Dr Reddy's,BAT247785,500mg,Syrup,531.15,992.13,No,Inactive
+MED00032,Levocetirizine 5mg,Levocetirizine,Antacid,Zydus,BAT260296,20mg,Drops,501.53,630.8,No,Inactive
+MED00033,Vitamin D3 60000IU,Vitamin,Vitamin,Dr Reddy's,BAT240258,40mg,Capsule,670.38,789.18,No,Inactive
+MED00034,ORS Sachet,ORS,Cardiac,Dr Reddy's,BAT250964,100ml,Injection,385.21,856.75,No,Active
+MED00035,Dolo 650mg,Dolo,Antihistamine,Cipla,BAT249295,650mg,Cream,176.61,812.23,Yes,Active
+MED00036,Cough Syrup 100ml,Cough,Pain Relief,Sun Pharma,BAT259167,5mg,Cream,190.29,59.59,No,Inactive
+MED00037,Calcium 500mg,Calcium,Antihistamine,Zydus,BAT252961,10mg,Cream,626.44,334.28,No,Active
+MED00038,Losartan 50mg,Losartan,Vitamin,Zydus,BAT256555,250mg,Drops,212.18,1061.12,Yes,Active
+MED00039,Rabeprazole 20mg,Rabeprazole,Antacid,Dr Reddy's,BAT245970,650mg,Drops,625.42,1034.31,Yes,Active
+MED00040,Salbutamol 4mg,Salbutamol,Antacid,Abbott,BAT242159,20mg,Syrup,208.11,742.07,No,Inactive
+MED00041,Paracetamol 500mg,Paracetamol,Antacid,Alkem,BAT241621,250mg,Drops,283.57,780.04,No,Inactive
+MED00042,Amoxicillin 250mg,Amoxicillin,Dermatology,Dr Reddy's,BAT252442,5mg,Syrup,504.47,990.08,Yes,Inactive
+MED00043,Cetirizine 10mg,Cetirizine,Vitamin,Abbott,BAT257020,5mg,Syrup,696.84,392.63,No,Active
+MED00044,Ibuprofen 400mg,Ibuprofen,Respiratory,Dr Reddy's,BAT254514,650mg,Capsule,76.6,714.96,Yes,Active
+MED00045,Omeprazole 20mg,Omeprazole,Antihistamine,Dr Reddy's,BAT251969,500mg,Drops,205.03,896.07,Yes,Inactive
+MED00046,Metformin 500mg,Metformin,Antacid,Alkem,BAT247004,650mg,Drops,710.36,44.24,Yes,Active
+MED00047,Azithromycin 500mg,Azithromycin,Dermatology,Dr Reddy's,BAT244514,250mg,Cream,135.07,199.65,Yes,Inactive
+MED00048,Pantoprazole 40mg,Pantoprazole,Dermatology,Sun Pharma,BAT249388,500mg,Capsule,388.43,1092.2,No,Active
+MED00049,Amlodipine 5mg,Amlodipine,Gastric,Lupin,BAT259788,650mg,Cream,699.54,216.43,No,Active
+MED00050,Atorvastatin 10mg,Atorvastatin,Cardiac,Alkem,BAT259647,500mg,Capsule,328.94,162.79,Yes,Active
+MED00051,Montelukast 10mg,Montelukast,Respiratory,Lupin,BAT245000,500mg,Capsule,410.78,683.93,Yes,Active
+MED00052,Levocetirizine 5mg,Levocetirizine,Antibiotic,Alkem,BAT244370,250mg,Drops,556.06,583.81,No,Active
+MED00053,Vitamin D3 60000IU,Vitamin,Respiratory,Lupin,BAT247619,100ml,Injection,305.73,888.99,Yes,Inactive
+MED00054,ORS Sachet,ORS,Antihistamine,Mankind,BAT255734,10mg,Tablet,249.38,966.91,No,Inactive
+MED00055,Dolo 650mg,Dolo,Gastric,Sun Pharma,BAT240333,500mg,Cream,18.03,726.91,No,Inactive
+MED00056,Cough Syrup 100ml,Cough,Cardiac,Cipla,BAT245171,5mg,Drops,502.54,302.21,No,Inactive
+MED00057,Calcium 500mg,Calcium,Dermatology,Mankind,BAT253123,10mg,Injection,474.66,622.17,Yes,Inactive
+MED00058,Losartan 50mg,Losartan,Respiratory,Alkem,BAT248415,20mg,Cream,300.57,781.93,Yes,Active
+MED00059,Rabeprazole 20mg,Rabeprazole,Gastric,Alkem,BAT245401,500mg,Capsule,437.99,868.97,Yes,Active
+MED00060,Salbutamol 4mg,Salbutamol,Vitamin,Sun Pharma,BAT243084,650mg,Injection,787.87,490.21,Yes,Inactive
+MED00061,Paracetamol 500mg,Paracetamol,Gastric,Zydus,BAT242722,250mg,Drops,334.07,1083.2,No,Active
+MED00062,Amoxicillin 250mg,Amoxicillin,Antihistamine,Alkem,BAT254484,250mg,Capsule,724.78,1025.22,No,Active
+MED00063,Cetirizine 10mg,Cetirizine,Pain Relief,Abbott,BAT260258,650mg,Drops,42.22,278.4,Yes,Active
+MED00064,Ibuprofen 400mg,Ibuprofen,Antibiotic,Mankind,BAT253188,40mg,Drops,343.13,652.97,Yes,Active
+MED00065,Omeprazole 20mg,Omeprazole,Antibiotic,Mankind,BAT258421,40mg,Syrup,819.24,318.63,Yes,Inactive
+MED00066,Metformin 500mg,Metformin,Vitamin,Sun Pharma,BAT248655,650mg,Injection,436.23,623.32,No,Inactive
+MED00067,Azithromycin 500mg,Azithromycin,Antibiotic,Mankind,BAT257726,20mg,Drops,383.04,427.25,No,Active
+MED00068,Pantoprazole 40mg,Pantoprazole,Cardiac,Alkem,BAT255196,250mg,Injection,109.43,92.96,Yes,Active
+MED00069,Amlodipine 5mg,Amlodipine,Cardiac,Lupin,BAT251670,250mg,Drops,709.36,288.12,Yes,Inactive
+MED00070,Atorvastatin 10mg,Atorvastatin,Cardiac,Cipla,BAT258271,650mg,Injection,275.03,256.05,No,Active
+MED00071,Montelukast 10mg,Montelukast,Gastric,Alkem,BAT246642,10mg,Drops,214.84,306.64,Yes,Active
+MED00072,Levocetirizine 5mg,Levocetirizine,Gastric,Zydus,BAT245211,500mg,Tablet,783.12,749.88,No,Active
+MED00073,Vitamin D3 60000IU,Vitamin,Respiratory,Sun Pharma,BAT255903,40mg,Cream,276.32,989.97,No,Inactive
+MED00074,ORS Sachet,ORS,Antihistamine,Mankind,BAT253137,10mg,Cream,119.47,587.79,No,Inactive
+MED00075,Dolo 650mg,Dolo,Respiratory,Sun Pharma,BAT256565,40mg,Injection,733.02,857.98,No,Active
+MED00076,Cough Syrup 100ml,Cough,Respiratory,Alkem,BAT250443,250mg,Tablet,576.9,429.78,Yes,Inactive
+MED00077,Calcium 500mg,Calcium,Cardiac,Mankind,BAT246232,20mg,Capsule,237.76,1055.21,No,Inactive
+MED00078,Losartan 50mg,Losartan,Antihistamine,Alkem,BAT253991,10mg,Injection,599.2,422.09,No,Inactive
+MED00079,Rabeprazole 20mg,Rabeprazole,Antacid,Dr Reddy's,BAT258823,650mg,Cream,586.88,899.33,No,Active
+MED00080,Salbutamol 4mg,Salbutamol,Respiratory,Lupin,BAT252580,10mg,Capsule,682.43,817.63,No,Active
+MED00081,Paracetamol 500mg,Paracetamol,Antihistamine,Lupin,BAT256470,650mg,Drops,445.25,798.21,No,Inactive
+MED00082,Amoxicillin 250mg,Amoxicillin,Diabetes,Sun Pharma,BAT253154,500mg,Drops,148.88,252.7,No,Inactive
+MED00083,Cetirizine 10mg,Cetirizine,Antibiotic,Alkem,BAT251066,20mg,Syrup,313.94,622.09,No,Inactive
+MED00084,Ibuprofen 400mg,Ibuprofen,Pain Relief,Lupin,BAT244072,40mg,Drops,819.09,234.87,Yes,Inactive
+MED00085,Omeprazole 20mg,Omeprazole,Cardiac,Zydus,BAT256826,100ml,Drops,386.53,104.68,No,Inactive
+MED00086,Metformin 500mg,Metformin,Antihistamine,Dr Reddy's,BAT251155,5mg,Drops,525.12,457.15,Yes,Active
+MED00087,Azithromycin 500mg,Azithromycin,Antihistamine,Zydus,BAT247578,40mg,Syrup,559.22,787.27,No,Inactive
+MED00088,Pantoprazole 40mg,Pantoprazole,Antacid,Zydus,BAT259332,100ml,Injection,152.21,942.55,Yes,Active
+MED00089,Amlodipine 5mg,Amlodipine,Diabetes,Cipla,BAT247000,650mg,Injection,98.32,88.9,No,Active
+MED00090,Atorvastatin 10mg,Atorvastatin,Pain Relief,Lupin,BAT257269,500mg,Tablet,231.93,187.7,No,Inactive
+MED00091,Montelukast 10mg,Montelukast,Gastric,Abbott,BAT249411,100ml,Drops,117.93,588.88,Yes,Active
+MED00092,Levocetirizine 5mg,Levocetirizine,Pain Relief,Zydus,BAT250756,100ml,Injection,829.03,603.83,No,Inactive
+MED00093,Vitamin D3 60000IU,Vitamin,Antihistamine,Dr Reddy's,BAT259460,100ml,Drops,639.59,967.48,No,Inactive
+MED00094,ORS Sachet,ORS,Cardiac,Alkem,BAT257783,10mg,Tablet,382.28,415.05,No,Active
+MED00095,Dolo 650mg,Dolo,Diabetes,Sun Pharma,BAT240103,650mg,Syrup,252.31,597.91,No,Inactive
+MED00096,Cough Syrup 100ml,Cough,Diabetes,Sun Pharma,BAT254204,20mg,Cream,205.76,27.8,No,Active
+MED00097,Calcium 500mg,Calcium,Vitamin,Lupin,BAT253035,10mg,Capsule,611.12,717.67,No,Active
+MED00098,Losartan 50mg,Losartan,Diabetes,Cipla,BAT253935,10mg,Cream,652.68,1002.75,No,Inactive
+MED00099,Rabeprazole 20mg,Rabeprazole,Respiratory,Mankind,BAT253630,10mg,Tablet,164.86,332.76,No,Inactive
+MED00100,Salbutamol 4mg,Salbutamol,Diabetes,Alkem,BAT246253,40mg,Tablet,139.5,1067.29,Yes,Active
+MED00101,Paracetamol 500mg,Paracetamol,Antibiotic,Mankind,BAT248920,650mg,Drops,379.39,28.86,Yes,Active
+MED00102,Amoxicillin 250mg,Amoxicillin,Pain Relief,Alkem,BAT247216,40mg,Injection,273.1,883.42,No,Inactive
+MED00103,Cetirizine 10mg,Cetirizine,Pain Relief,Zydus,BAT242728,650mg,Tablet,235.33,443.82,No,Active
+MED00104,Ibuprofen 400mg,Ibuprofen,Gastric,Mankind,BAT252603,250mg,Tablet,828.71,791.86,No,Inactive
+MED00105,Omeprazole 20mg,Omeprazole,Gastric,Sun Pharma,BAT246626,100ml,Drops,658.09,582.83,Yes,Inactive
+MED00106,Metformin 500mg,Metformin,Vitamin,Mankind,BAT250686,650mg,Drops,622.26,824.3,Yes,Inactive
+MED00107,Azithromycin 500mg,Azithromycin,Antacid,Mankind,BAT246611,40mg,Tablet,735.75,255.21,Yes,Active
+MED00108,Pantoprazole 40mg,Pantoprazole,Vitamin,Zydus,BAT240593,650mg,Syrup,501.98,447.47,Yes,Active
+MED00109,Amlodipine 5mg,Amlodipine,Pain Relief,Alkem,BAT259636,650mg,Syrup,657.93,288.62,No,Active
+MED00110,Atorvastatin 10mg,Atorvastatin,Dermatology,Zydus,BAT260584,250mg,Tablet,309.92,186.23,Yes,Active
+MED00111,Montelukast 10mg,Montelukast,Antacid,Abbott,BAT250478,40mg,Injection,626.41,43.06,No,Inactive
+MED00112,Levocetirizine 5mg,Levocetirizine,Antihistamine,Mankind,BAT241393,100ml,Drops,378.63,338.29,No,Active
+MED00113,Vitamin D3 60000IU,Vitamin,Dermatology,Dr Reddy's,BAT257913,40mg,Syrup,625.75,317.35,Yes,Active
+MED00114,ORS Sachet,ORS,Respiratory,Dr Reddy's,BAT254825,20mg,Syrup,465.87,510.41,No,Active
+MED00115,Dolo 650mg,Dolo,Pain Relief,Zydus,BAT260422,10mg,Syrup,616.2,730.95,No,Active
+MED00116,Cough Syrup 100ml,Cough,Respiratory,Alkem,BAT258170,650mg,Cream,249.26,462.59,No,Active
+MED00117,Calcium 500mg,Calcium,Antibiotic,Cipla,BAT241534,650mg,Capsule,743.99,238.25,No,Active
+MED00118,Losartan 50mg,Losartan,Antibiotic,Sun Pharma,BAT258810,5mg,Drops,422.54,693.89,No,Active
+MED00119,Rabeprazole 20mg,Rabeprazole,Cardiac,Abbott,BAT259955,500mg,Tablet,791.52,245.44,No,Active
+MED00120,Salbutamol 4mg,Salbutamol,Antacid,Sun Pharma,BAT251926,5mg,Syrup,677.58,82.96,No,Active
+MED00121,Paracetamol 500mg,Paracetamol,Antibiotic,Mankind,BAT242653,10mg,Cream,93.39,803.19,No,Active
+MED00122,Amoxicillin 250mg,Amoxicillin,Gastric,Abbott,BAT258778,650mg,Cream,639.82,468.4,Yes,Inactive
+MED00123,Cetirizine 10mg,Cetirizine,Antacid,Lupin,BAT243511,650mg,Capsule,472.87,565.07,Yes,Inactive
+MED00124,Ibuprofen 400mg,Ibuprofen,Cardiac,Zydus,BAT258125,40mg,Syrup,357.54,703.9,No,Active
+MED00125,Omeprazole 20mg,Omeprazole,Dermatology,Abbott,BAT252390,20mg,Syrup,817.86,503.3,No,Active
+MED00126,Metformin 500mg,Metformin,Pain Relief,Mankind,BAT259621,250mg,Cream,125.2,981.55,Yes,Inactive
+MED00127,Azithromycin 500mg,Azithromycin,Gastric,Abbott,BAT250418,250mg,Drops,701.12,1012.64,Yes,Active
+MED00128,Pantoprazole 40mg,Pantoprazole,Pain Relief,Alkem,BAT251754,650mg,Capsule,234.06,980.8,Yes,Active
+MED00129,Amlodipine 5mg,Amlodipine,Diabetes,Mankind,BAT243111,5mg,Cream,781.18,813.01,No,Inactive
+MED00130,Atorvastatin 10mg,Atorvastatin,Antihistamine,Alkem,BAT258981,500mg,Cream,550.21,60.36,No,Active
+MED00131,Montelukast 10mg,Montelukast,Pain Relief,Zydus,BAT251500,5mg,Injection,791.55,150.18,Yes,Active
+MED00132,Levocetirizine 5mg,Levocetirizine,Vitamin,Sun Pharma,BAT250087,250mg,Syrup,464.46,181.55,Yes,Active
+MED00133,Vitamin D3 60000IU,Vitamin,Pain Relief,Lupin,BAT254701,500mg,Capsule,373.96,869.28,Yes,Active
+MED00134,ORS Sachet,ORS,Cardiac,Cipla,BAT255692,250mg,Cream,346.52,111.89,No,Active
+MED00135,Dolo 650mg,Dolo,Antihistamine,Alkem,BAT258427,10mg,Injection,343.28,637.04,Yes,Active
+MED00136,Cough Syrup 100ml,Cough,Antibiotic,Mankind,BAT254192,40mg,Drops,786.43,116.76,No,Inactive
+MED00137,Calcium 500mg,Calcium,Cardiac,Zydus,BAT246341,40mg,Syrup,509.67,46.14,No,Active
+MED00138,Losartan 50mg,Losartan,Cardiac,Alkem,BAT260520,650mg,Injection,49.61,903.63,Yes,Inactive
+MED00139,Rabeprazole 20mg,Rabeprazole,Antihistamine,Cipla,BAT243782,250mg,Capsule,807.21,1020.87,No,Active
+MED00140,Salbutamol 4mg,Salbutamol,Cardiac,Cipla,BAT250098,100ml,Injection,31.06,245.73,Yes,Active
+MED00141,Paracetamol 500mg,Paracetamol,Respiratory,Mankind,BAT258083,100ml,Cream,623.68,172.66,Yes,Inactive
+MED00142,Amoxicillin 250mg,Amoxicillin,Dermatology,Sun Pharma,BAT248470,650mg,Tablet,250.0,872.32,No,Active
+MED00143,Cetirizine 10mg,Cetirizine,Antacid,Sun Pharma,BAT242282,5mg,Drops,239.36,940.25,No,Active
+MED00144,Ibuprofen 400mg,Ibuprofen,Pain Relief,Mankind,BAT252765,10mg,Injection,438.16,786.46,No,Inactive
+MED00145,Omeprazole 20mg,Omeprazole,Dermatology,Cipla,BAT246208,10mg,Cream,822.17,625.54,Yes,Active
+MED00146,Metformin 500mg,Metformin,Gastric,Mankind,BAT251030,100ml,Injection,635.8,39.84,No,Inactive
+MED00147,Azithromycin 500mg,Azithromycin,Diabetes,Abbott,BAT256525,20mg,Tablet,536.41,968.97,Yes,Inactive
+MED00148,Pantoprazole 40mg,Pantoprazole,Gastric,Dr Reddy's,BAT251299,5mg,Drops,127.02,808.28,Yes,Inactive
+MED00149,Amlodipine 5mg,Amlodipine,Gastric,Dr Reddy's,BAT254074,20mg,Cream,287.94,605.61,Yes,Active
+MED00150,Atorvastatin 10mg,Atorvastatin,Dermatology,Abbott,BAT244625,20mg,Drops,602.9,585.71,Yes,Inactive
+MED00151,Montelukast 10mg,Montelukast,Antihistamine,Dr Reddy's,BAT250503,500mg,Cream,458.62,797.0,Yes,Inactive
+MED00152,Levocetirizine 5mg,Levocetirizine,Antihistamine,Sun Pharma,BAT250542,5mg,Injection,266.21,825.26,No,Active
+MED00153,Vitamin D3 60000IU,Vitamin,Gastric,Cipla,BAT244410,650mg,Tablet,650.93,680.94,No,Active
+MED00154,ORS Sachet,ORS,Dermatology,Abbott,BAT247666,250mg,Syrup,78.6,862.21,Yes,Inactive
+MED00155,Dolo 650mg,Dolo,Cardiac,Dr Reddy's,BAT252796,100ml,Injection,127.24,228.72,Yes,Inactive
+MED00156,Cough Syrup 100ml,Cough,Pain Relief,Mankind,BAT253634,10mg,Drops,574.58,239.06,Yes,Active
+MED00157,Calcium 500mg,Calcium,Antihistamine,Alkem,BAT260319,100ml,Drops,284.26,514.15,Yes,Inactive
+MED00158,Losartan 50mg,Losartan,Vitamin,Sun Pharma,BAT260020,5mg,Drops,274.21,680.43,Yes,Active
+MED00159,Rabeprazole 20mg,Rabeprazole,Antacid,Alkem,BAT241489,10mg,Cream,462.73,1082.54,Yes,Inactive
+MED00160,Salbutamol 4mg,Salbutamol,Respiratory,Sun Pharma,BAT246321,20mg,Injection,345.56,348.92,No,Inactive
+MED00161,Paracetamol 500mg,Paracetamol,Antihistamine,Lupin,BAT249747,250mg,Drops,445.22,173.62,No,Active
+MED00162,Amoxicillin 250mg,Amoxicillin,Respiratory,Cipla,BAT245990,650mg,Injection,358.56,506.96,Yes,Inactive
+MED00163,Cetirizine 10mg,Cetirizine,Dermatology,Abbott,BAT254999,500mg,Syrup,283.57,720.46,Yes,Active
+MED00164,Ibuprofen 400mg,Ibuprofen,Antibiotic,Cipla,BAT254825,40mg,Tablet,450.96,434.81,Yes,Inactive
+MED00165,Omeprazole 20mg,Omeprazole,Respiratory,Lupin,BAT241538,650mg,Syrup,485.88,732.29,Yes,Active
+MED00166,Metformin 500mg,Metformin,Antihistamine,Dr Reddy's,BAT241781,5mg,Syrup,271.38,850.12,No,Inactive
+MED00167,Azithromycin 500mg,Azithromycin,Antihistamine,Cipla,BAT244411,10mg,Tablet,533.71,293.36,No,Inactive
+MED00168,Pantoprazole 40mg,Pantoprazole,Antacid,Sun Pharma,BAT260022,100ml,Capsule,193.74,732.23,No,Inactive
+MED00169,Amlodipine 5mg,Amlodipine,Antacid,Cipla,BAT259800,250mg,Capsule,751.26,320.36,Yes,Active
+MED00170,Atorvastatin 10mg,Atorvastatin,Antihistamine,Dr Reddy's,BAT241904,40mg,Tablet,133.82,55.03,No,Inactive
+MED00171,Montelukast 10mg,Montelukast,Antibiotic,Sun Pharma,BAT243668,5mg,Capsule,147.2,327.13,Yes,Inactive
+MED00172,Levocetirizine 5mg,Levocetirizine,Dermatology,Zydus,BAT241274,500mg,Syrup,282.52,989.33,Yes,Inactive
+MED00173,Vitamin D3 60000IU,Vitamin,Respiratory,Cipla,BAT249695,100ml,Capsule,114.26,948.16,No,Inactive
+MED00174,ORS Sachet,ORS,Respiratory,Abbott,BAT246950,250mg,Tablet,490.81,1077.7,Yes,Inactive
+MED00175,Dolo 650mg,Dolo,Dermatology,Mankind,BAT254093,40mg,Syrup,452.28,1094.63,No,Active
+MED00176,Cough Syrup 100ml,Cough,Dermatology,Alkem,BAT257129,100ml,Injection,689.09,974.36,Yes,Inactive
+MED00177,Calcium 500mg,Calcium,Gastric,Sun Pharma,BAT243973,250mg,Injection,536.14,147.36,Yes,Inactive
+MED00178,Losartan 50mg,Losartan,Vitamin,Sun Pharma,BAT251037,40mg,Cream,687.46,249.32,Yes,Inactive
+MED00179,Rabeprazole 20mg,Rabeprazole,Diabetes,Cipla,BAT250185,20mg,Cream,472.89,848.4,Yes,Inactive
+MED00180,Salbutamol 4mg,Salbutamol,Cardiac,Lupin,BAT258742,250mg,Capsule,174.59,920.53,No,Inactive
+MED00181,Paracetamol 500mg,Paracetamol,Pain Relief,Dr Reddy's,BAT255877,650mg,Drops,398.0,954.44,No,Inactive
+MED00182,Amoxicillin 250mg,Amoxicillin,Vitamin,Sun Pharma,BAT257174,20mg,Cream,619.52,360.74,Yes,Active
+MED00183,Cetirizine 10mg,Cetirizine,Dermatology,Zydus,BAT251686,500mg,Capsule,247.03,53.67,No,Active
+MED00184,Ibuprofen 400mg,Ibuprofen,Dermatology,Lupin,BAT246240,500mg,Syrup,603.01,359.66,Yes,Inactive
+MED00185,Omeprazole 20mg,Omeprazole,Vitamin,Cipla,BAT256387,10mg,Syrup,390.7,1046.78,Yes,Inactive
+MED00186,Metformin 500mg,Metformin,Antihistamine,Cipla,BAT252362,250mg,Capsule,777.39,499.28,Yes,Inactive
+MED00187,Azithromycin 500mg,Azithromycin,Respiratory,Dr Reddy's,BAT246332,40mg,Injection,625.79,585.52,No,Active
+MED00188,Pantoprazole 40mg,Pantoprazole,Antibiotic,Dr Reddy's,BAT246823,250mg,Injection,336.8,954.0,Yes,Active
+MED00189,Amlodipine 5mg,Amlodipine,Diabetes,Sun Pharma,BAT259573,500mg,Syrup,403.24,69.83,No,Active
+MED00190,Atorvastatin 10mg,Atorvastatin,Dermatology,Mankind,BAT246976,40mg,Capsule,173.35,318.78,No,Inactive
+MED00191,Montelukast 10mg,Montelukast,Antibiotic,Mankind,BAT244992,650mg,Syrup,107.92,1054.96,Yes,Active
+MED00192,Levocetirizine 5mg,Levocetirizine,Respiratory,Zydus,BAT258101,40mg,Syrup,130.62,780.7,No,Active
+MED00193,Vitamin D3 60000IU,Vitamin,Antihistamine,Cipla,BAT250303,40mg,Cream,383.78,160.48,No,Active
+MED00194,ORS Sachet,ORS,Antibiotic,Lupin,BAT241862,500mg,Injection,340.43,781.05,No,Inactive
+MED00195,Dolo 650mg,Dolo,Diabetes,Zydus,BAT246592,500mg,Injection,487.81,120.35,No,Active
+MED00196,Cough Syrup 100ml,Cough,Antacid,Mankind,BAT255350,100ml,Capsule,805.96,175.22,No,Inactive
+MED00197,Calcium 500mg,Calcium,Vitamin,Dr Reddy's,BAT250924,40mg,Injection,420.53,90.59,Yes,Inactive
+MED00198,Losartan 50mg,Losartan,Antacid,Alkem,BAT245696,20mg,Syrup,518.52,157.59,Yes,Inactive
+MED00199,Rabeprazole 20mg,Rabeprazole,Antibiotic,Zydus,BAT258323,500mg,Syrup,458.44,452.88,No,Active
+MED00200,Salbutamol 4mg,Salbutamol,Dermatology,Abbott,BAT258055,650mg,Injection,333.64,387.97,No,Inactive
+MED00201,Paracetamol 500mg,Paracetamol,Dermatology,Zydus,BAT257943,10mg,Capsule,567.27,104.13,No,Active
+MED00202,Amoxicillin 250mg,Amoxicillin,Dermatology,Alkem,BAT250761,500mg,Injection,159.63,1052.35,Yes,Active
+MED00203,Cetirizine 10mg,Cetirizine,Dermatology,Lupin,BAT250828,100ml,Drops,565.22,117.78,Yes,Active
+MED00204,Ibuprofen 400mg,Ibuprofen,Antihistamine,Dr Reddy's,BAT254943,20mg,Injection,527.85,502.93,Yes,Inactive
+MED00205,Omeprazole 20mg,Omeprazole,Diabetes,Mankind,BAT254345,40mg,Tablet,500.33,680.41,No,Active
+MED00206,Metformin 500mg,Metformin,Diabetes,Sun Pharma,BAT252198,250mg,Tablet,601.41,906.41,No,Active
+MED00207,Azithromycin 500mg,Azithromycin,Diabetes,Sun Pharma,BAT247808,5mg,Drops,506.56,695.23,No,Inactive
+MED00208,Pantoprazole 40mg,Pantoprazole,Vitamin,Lupin,BAT257962,10mg,Drops,157.32,170.19,No,Inactive
+MED00209,Amlodipine 5mg,Amlodipine,Vitamin,Dr Reddy's,BAT249552,650mg,Capsule,21.72,720.26,Yes,Inactive
+MED00210,Atorvastatin 10mg,Atorvastatin,Vitamin,Dr Reddy's,BAT242874,650mg,Drops,687.38,948.96,No,Active
+MED00211,Montelukast 10mg,Montelukast,Antacid,Lupin,BAT258189,100ml,Injection,309.75,220.65,Yes,Inactive
+MED00212,Levocetirizine 5mg,Levocetirizine,Gastric,Mankind,BAT253562,40mg,Tablet,831.76,633.6,No,Active
+MED00213,Vitamin D3 60000IU,Vitamin,Dermatology,Alkem,BAT242723,650mg,Drops,624.82,1082.27,No,Inactive
+MED00214,ORS Sachet,ORS,Respiratory,Cipla,BAT257249,500mg,Capsule,407.91,821.02,Yes,Inactive
+MED00215,Dolo 650mg,Dolo,Dermatology,Sun Pharma,BAT251357,250mg,Injection,392.48,998.54,No,Inactive
+MED00216,Cough Syrup 100ml,Cough,Cardiac,Mankind,BAT249576,650mg,Tablet,594.45,665.45,No,Inactive
+MED00217,Calcium 500mg,Calcium,Pain Relief,Alkem,BAT259044,650mg,Cream,55.26,1089.59,Yes,Inactive
+MED00218,Losartan 50mg,Losartan,Antacid,Cipla,BAT244255,500mg,Syrup,223.22,685.06,No,Inactive
+MED00219,Rabeprazole 20mg,Rabeprazole,Pain Relief,Cipla,BAT259886,650mg,Cream,631.25,731.89,No,Active
+MED00220,Salbutamol 4mg,Salbutamol,Diabetes,Abbott,BAT255989,650mg,Cream,734.37,390.28,Yes,Active
+MED00221,Paracetamol 500mg,Paracetamol,Dermatology,Dr Reddy's,BAT256351,5mg,Injection,211.4,495.4,Yes,Active
+MED00222,Amoxicillin 250mg,Amoxicillin,Dermatology,Zydus,BAT241880,20mg,Tablet,56.01,521.14,No,Inactive
+MED00223,Cetirizine 10mg,Cetirizine,Antacid,Abbott,BAT252545,5mg,Injection,232.08,592.88,No,Active
+MED00224,Ibuprofen 400mg,Ibuprofen,Diabetes,Alkem,BAT252617,40mg,Cream,584.25,64.3,No,Inactive
+MED00225,Omeprazole 20mg,Omeprazole,Dermatology,Mankind,BAT251076,20mg,Syrup,684.34,295.77,No,Inactive
+MED00226,Metformin 500mg,Metformin,Gastric,Abbott,BAT257137,40mg,Drops,590.45,214.31,Yes,Active
+MED00227,Azithromycin 500mg,Azithromycin,Antibiotic,Sun Pharma,BAT253575,500mg,Cream,99.07,501.62,Yes,Inactive
+MED00228,Pantoprazole 40mg,Pantoprazole,Diabetes,Abbott,BAT241215,250mg,Cream,89.05,1033.59,Yes,Active
+MED00229,Amlodipine 5mg,Amlodipine,Antibiotic,Cipla,BAT259914,650mg,Injection,562.06,991.89,Yes,Active
+MED00230,Atorvastatin 10mg,Atorvastatin,Antihistamine,Mankind,BAT249752,100ml,Drops,796.52,709.88,No,Inactive
+MED00231,Montelukast 10mg,Montelukast,Cardiac,Mankind,BAT245407,500mg,Syrup,663.21,433.42,No,Active
+MED00232,Levocetirizine 5mg,Levocetirizine,Diabetes,Mankind,BAT245930,100ml,Tablet,424.06,1022.87,No,Active
+MED00233,Vitamin D3 60000IU,Vitamin,Antacid,Cipla,BAT244814,5mg,Capsule,526.5,134.75,No,Inactive
+MED00234,ORS Sachet,ORS,Antibiotic,Sun Pharma,BAT242489,500mg,Cream,621.68,859.42,Yes,Inactive
+MED00235,Dolo 650mg,Dolo,Antihistamine,Sun Pharma,BAT241339,5mg,Syrup,139.05,376.22,No,Active
+MED00236,Cough Syrup 100ml,Cough,Respiratory,Alkem,BAT255767,5mg,Injection,719.31,863.41,Yes,Active
+MED00237,Calcium 500mg,Calcium,Pain Relief,Lupin,BAT255896,500mg,Cream,460.58,1090.93,No,Inactive
+MED00238,Losartan 50mg,Losartan,Vitamin,Sun Pharma,BAT260818,500mg,Syrup,460.02,1057.8,Yes,Inactive
+MED00239,Rabeprazole 20mg,Rabeprazole,Diabetes,Abbott,BAT245887,250mg,Injection,565.7,342.78,No,Active
+MED00240,Salbutamol 4mg,Salbutamol,Cardiac,Alkem,BAT242880,100ml,Drops,170.77,58.55,Yes,Active
+MED00241,Paracetamol 500mg,Paracetamol,Antacid,Lupin,BAT242164,20mg,Injection,459.44,920.99,No,Active
+MED00242,Amoxicillin 250mg,Amoxicillin,Pain Relief,Zydus,BAT241936,40mg,Drops,47.88,147.64,No,Active
+MED00243,Cetirizine 10mg,Cetirizine,Dermatology,Abbott,BAT242460,250mg,Drops,130.65,726.14,No,Active
+MED00244,Ibuprofen 400mg,Ibuprofen,Gastric,Dr Reddy's,BAT240570,650mg,Drops,53.86,351.92,Yes,Inactive
+MED00245,Omeprazole 20mg,Omeprazole,Dermatology,Dr Reddy's,BAT259467,500mg,Tablet,107.68,662.58,Yes,Active
+MED00246,Metformin 500mg,Metformin,Gastric,Lupin,BAT251154,5mg,Syrup,113.23,758.82,Yes,Inactive
+MED00247,Azithromycin 500mg,Azithromycin,Gastric,Sun Pharma,BAT259534,650mg,Syrup,64.98,315.8,No,Active
+MED00248,Pantoprazole 40mg,Pantoprazole,Cardiac,Dr Reddy's,BAT254474,10mg,Cream,46.11,127.97,No,Active
+MED00249,Amlodipine 5mg,Amlodipine,Pain Relief,Alkem,BAT242745,250mg,Tablet,162.35,116.27,No,Inactive
+MED00250,Atorvastatin 10mg,Atorvastatin,Antacid,Dr Reddy's,BAT246855,650mg,Drops,239.06,506.45,Yes,Active
+MED00251,Montelukast 10mg,Montelukast,Dermatology,Sun Pharma,BAT259638,650mg,Drops,430.91,1046.32,No,Inactive
+MED00252,Levocetirizine 5mg,Levocetirizine,Vitamin,Sun Pharma,BAT258375,10mg,Capsule,110.47,592.61,Yes,Inactive
+MED00253,Vitamin D3 60000IU,Vitamin,Respiratory,Abbott,BAT255311,10mg,Syrup,56.47,141.69,Yes,Inactive
+MED00254,ORS Sachet,ORS,Antacid,Dr Reddy's,BAT245335,250mg,Tablet,552.39,327.87,No,Inactive
+MED00255,Dolo 650mg,Dolo,Cardiac,Alkem,BAT241519,500mg,Drops,55.96,600.35,Yes,Active
+MED00256,Cough Syrup 100ml,Cough,Antacid,Cipla,BAT242421,10mg,Drops,384.76,646.14,No,Active
+MED00257,Calcium 500mg,Calcium,Cardiac,Abbott,BAT243708,40mg,Capsule,94.18,816.77,Yes,Inactive
+MED00258,Losartan 50mg,Losartan,Gastric,Cipla,BAT255533,100ml,Tablet,758.23,176.54,No,Active
+MED00259,Rabeprazole 20mg,Rabeprazole,Vitamin,Zydus,BAT244569,100ml,Drops,174.7,407.28,No,Active
+MED00260,Salbutamol 4mg,Salbutamol,Cardiac,Dr Reddy's,BAT241151,250mg,Syrup,126.39,939.78,No,Inactive
+MED00261,Paracetamol 500mg,Paracetamol,Antihistamine,Zydus,BAT247304,20mg,Cream,143.39,878.13,Yes,Active
+MED00262,Amoxicillin 250mg,Amoxicillin,Antibiotic,Lupin,BAT257197,100ml,Capsule,507.74,923.95,No,Active
+MED00263,Cetirizine 10mg,Cetirizine,Vitamin,Abbott,BAT248220,40mg,Injection,497.59,983.17,Yes,Active
+MED00264,Ibuprofen 400mg,Ibuprofen,Vitamin,Sun Pharma,BAT241412,100ml,Drops,656.09,56.31,No,Inactive
+MED00265,Omeprazole 20mg,Omeprazole,Antibiotic,Alkem,BAT256329,10mg,Tablet,480.01,33.42,No,Active
+MED00266,Metformin 500mg,Metformin,Antihistamine,Zydus,BAT249792,10mg,Drops,849.12,37.2,No,Active
+MED00267,Azithromycin 500mg,Azithromycin,Antacid,Sun Pharma,BAT255004,100ml,Capsule,744.58,457.79,No,Inactive
+MED00268,Pantoprazole 40mg,Pantoprazole,Pain Relief,Cipla,BAT252711,40mg,Cream,39.41,479.97,No,Active
+MED00269,Amlodipine 5mg,Amlodipine,Antibiotic,Zydus,BAT241896,40mg,Tablet,104.99,414.84,Yes,Inactive
+MED00270,Atorvastatin 10mg,Atorvastatin,Cardiac,Dr Reddy's,BAT258410,500mg,Cream,606.42,241.09,No,Active
+MED00271,Montelukast 10mg,Montelukast,Respiratory,Cipla,BAT255779,10mg,Drops,649.62,366.1,No,Inactive
+MED00272,Levocetirizine 5mg,Levocetirizine,Diabetes,Sun Pharma,BAT242176,40mg,Syrup,391.12,561.57,Yes,Inactive
+MED00273,Vitamin D3 60000IU,Vitamin,Respiratory,Mankind,BAT254910,40mg,Drops,804.22,893.5,Yes,Active
+MED00274,ORS Sachet,ORS,Antacid,Cipla,BAT242727,5mg,Capsule,253.66,1053.16,Yes,Active
+MED00275,Dolo 650mg,Dolo,Diabetes,Cipla,BAT244948,100ml,Capsule,745.24,582.34,Yes,Inactive
+MED00276,Cough Syrup 100ml,Cough,Vitamin,Dr Reddy's,BAT255628,40mg,Injection,383.95,716.26,No,Active
+MED00277,Calcium 500mg,Calcium,Antibiotic,Sun Pharma,BAT247712,40mg,Injection,496.95,728.22,No,Inactive
+MED00278,Losartan 50mg,Losartan,Dermatology,Alkem,BAT255107,20mg,Cream,122.58,872.5,Yes,Inactive
+MED00279,Rabeprazole 20mg,Rabeprazole,Gastric,Alkem,BAT252286,20mg,Tablet,136.31,327.13,Yes,Active
+MED00280,Salbutamol 4mg,Salbutamol,Respiratory,Mankind,BAT246072,650mg,Drops,592.62,739.66,Yes,Active
+MED00281,Paracetamol 500mg,Paracetamol,Gastric,Cipla,BAT241448,40mg,Cream,117.98,301.24,Yes,Active
+MED00282,Amoxicillin 250mg,Amoxicillin,Respiratory,Sun Pharma,BAT250485,40mg,Capsule,324.5,603.06,Yes,Inactive
+MED00283,Cetirizine 10mg,Cetirizine,Antibiotic,Sun Pharma,BAT253356,100ml,Capsule,806.25,1022.04,Yes,Active
+MED00284,Ibuprofen 400mg,Ibuprofen,Respiratory,Zydus,BAT249784,100ml,Syrup,824.53,834.49,Yes,Inactive
+MED00285,Omeprazole 20mg,Omeprazole,Cardiac,Cipla,BAT255795,250mg,Capsule,580.17,146.23,Yes,Inactive
+MED00286,Metformin 500mg,Metformin,Dermatology,Abbott,BAT254713,40mg,Tablet,285.5,676.8,Yes,Active
+MED00287,Azithromycin 500mg,Azithromycin,Diabetes,Abbott,BAT240838,500mg,Cream,723.84,751.23,Yes,Inactive
+MED00288,Pantoprazole 40mg,Pantoprazole,Gastric,Alkem,BAT250512,250mg,Drops,314.57,179.78,No,Inactive
+MED00289,Amlodipine 5mg,Amlodipine,Vitamin,Zydus,BAT240499,20mg,Syrup,306.44,1075.73,Yes,Active
+MED00290,Atorvastatin 10mg,Atorvastatin,Antacid,Lupin,BAT254599,20mg,Capsule,687.15,1067.99,No,Inactive
+MED00291,Montelukast 10mg,Montelukast,Antihistamine,Cipla,BAT244806,10mg,Syrup,409.73,956.93,No,Active
+MED00292,Levocetirizine 5mg,Levocetirizine,Dermatology,Lupin,BAT242998,250mg,Injection,547.32,315.2,Yes,Inactive
+MED00293,Vitamin D3 60000IU,Vitamin,Dermatology,Dr Reddy's,BAT246629,650mg,Injection,254.57,549.83,No,Inactive
+MED00294,ORS Sachet,ORS,Antacid,Alkem,BAT247457,250mg,Tablet,141.07,344.18,No,Active
+MED00295,Dolo 650mg,Dolo,Diabetes,Lupin,BAT245977,100ml,Drops,552.33,50.72,No,Inactive
+MED00296,Cough Syrup 100ml,Cough,Antibiotic,Zydus,BAT259140,100ml,Cream,377.43,298.54,No,Active
+MED00297,Calcium 500mg,Calcium,Cardiac,Sun Pharma,BAT248604,650mg,Cream,61.03,365.26,Yes,Inactive
+MED00298,Losartan 50mg,Losartan,Antihistamine,Sun Pharma,BAT249034,40mg,Injection,545.18,1051.57,Yes,Inactive
+MED00299,Rabeprazole 20mg,Rabeprazole,Diabetes,Cipla,BAT256938,10mg,Drops,165.56,122.07,Yes,Inactive
+MED00300,Salbutamol 4mg,Salbutamol,Cardiac,Mankind,BAT248995,40mg,Tablet,459.84,399.76,Yes,Active
+MED00301,Paracetamol 500mg,Paracetamol,Antihistamine,Mankind,BAT252322,100ml,Injection,297.18,1003.65,Yes,Active
+MED00302,Amoxicillin 250mg,Amoxicillin,Antihistamine,Abbott,BAT246274,500mg,Injection,397.89,102.51,Yes,Active
+MED00303,Cetirizine 10mg,Cetirizine,Antacid,Zydus,BAT250309,40mg,Capsule,696.68,980.9,No,Active
+MED00304,Ibuprofen 400mg,Ibuprofen,Diabetes,Sun Pharma,BAT243986,10mg,Capsule,730.01,173.75,Yes,Inactive
+MED00305,Omeprazole 20mg,Omeprazole,Antihistamine,Abbott,BAT244366,500mg,Injection,590.91,866.75,Yes,Active
+MED00306,Metformin 500mg,Metformin,Antacid,Lupin,BAT241493,10mg,Tablet,39.48,732.57,Yes,Inactive
+MED00307,Azithromycin 500mg,Azithromycin,Antibiotic,Mankind,BAT241518,500mg,Syrup,571.44,834.91,Yes,Active
+MED00308,Pantoprazole 40mg,Pantoprazole,Dermatology,Abbott,BAT246154,40mg,Tablet,88.07,933.53,No,Inactive
+MED00309,Amlodipine 5mg,Amlodipine,Cardiac,Dr Reddy's,BAT256504,10mg,Cream,489.86,127.03,Yes,Active
+MED00310,Atorvastatin 10mg,Atorvastatin,Gastric,Mankind,BAT245728,250mg,Drops,94.7,251.14,No,Inactive
+MED00311,Montelukast 10mg,Montelukast,Dermatology,Dr Reddy's,BAT254506,500mg,Capsule,711.51,1079.81,No,Active
+MED00312,Levocetirizine 5mg,Levocetirizine,Respiratory,Abbott,BAT253455,500mg,Syrup,115.59,139.14,Yes,Inactive
+MED00313,Vitamin D3 60000IU,Vitamin,Cardiac,Mankind,BAT258356,250mg,Tablet,286.96,144.98,No,Inactive
+MED00314,ORS Sachet,ORS,Dermatology,Mankind,BAT254647,10mg,Cream,353.3,1083.76,No,Active
+MED00315,Dolo 650mg,Dolo,Antibiotic,Alkem,BAT252140,650mg,Tablet,848.93,550.98,Yes,Inactive
+MED00316,Cough Syrup 100ml,Cough,Antacid,Cipla,BAT244006,650mg,Injection,347.72,657.8,Yes,Active
+MED00317,Calcium 500mg,Calcium,Antibiotic,Zydus,BAT246623,40mg,Capsule,510.58,1089.91,Yes,Active
+MED00318,Losartan 50mg,Losartan,Vitamin,Alkem,BAT249226,20mg,Drops,802.42,404.59,No,Inactive
+MED00319,Rabeprazole 20mg,Rabeprazole,Respiratory,Mankind,BAT244929,100ml,Tablet,114.4,548.49,Yes,Active
+MED00320,Salbutamol 4mg,Salbutamol,Pain Relief,Cipla,BAT241831,500mg,Injection,580.25,1069.84,No,Inactive
+MED00321,Paracetamol 500mg,Paracetamol,Antihistamine,Mankind,BAT260480,500mg,Tablet,565.99,581.54,No,Inactive
+MED00322,Amoxicillin 250mg,Amoxicillin,Gastric,Mankind,BAT256415,100ml,Cream,231.28,391.1,Yes,Active
+MED00323,Cetirizine 10mg,Cetirizine,Vitamin,Cipla,BAT252670,100ml,Syrup,726.71,497.96,Yes,Active
+MED00324,Ibuprofen 400mg,Ibuprofen,Antihistamine,Mankind,BAT245478,100ml,Injection,124.7,792.98,No,Active
+MED00325,Omeprazole 20mg,Omeprazole,Dermatology,Alkem,BAT258246,100ml,Injection,483.17,188.82,Yes,Inactive
+MED00326,Metformin 500mg,Metformin,Diabetes,Alkem,BAT259467,5mg,Cream,578.9,847.79,No,Inactive
+MED00327,Azithromycin 500mg,Azithromycin,Pain Relief,Sun Pharma,BAT259448,250mg,Capsule,713.35,396.79,Yes,Inactive
+MED00328,Pantoprazole 40mg,Pantoprazole,Vitamin,Cipla,BAT254129,40mg,Syrup,357.2,80.97,Yes,Active
+MED00329,Amlodipine 5mg,Amlodipine,Gastric,Mankind,BAT259516,500mg,Drops,66.89,349.31,No,Active
+MED00330,Atorvastatin 10mg,Atorvastatin,Pain Relief,Zydus,BAT241324,100ml,Drops,735.5,633.49,No,Inactive
+MED00331,Montelukast 10mg,Montelukast,Pain Relief,Alkem,BAT259367,250mg,Syrup,328.54,441.52,Yes,Inactive
+MED00332,Levocetirizine 5mg,Levocetirizine,Antibiotic,Abbott,BAT251108,100ml,Cream,692.0,740.78,Yes,Inactive
+MED00333,Vitamin D3 60000IU,Vitamin,Cardiac,Lupin,BAT246711,100ml,Drops,722.07,870.12,Yes,Inactive
+MED00334,ORS Sachet,ORS,Diabetes,Sun Pharma,BAT249842,5mg,Capsule,535.39,1054.58,Yes,Inactive
+MED00335,Dolo 650mg,Dolo,Diabetes,Cipla,BAT258660,100ml,Injection,187.76,879.3,No,Inactive
+MED00336,Cough Syrup 100ml,Cough,Vitamin,Zydus,BAT246656,5mg,Injection,222.56,576.6,Yes,Active
+MED00337,Calcium 500mg,Calcium,Respiratory,Dr Reddy's,BAT259002,100ml,Capsule,565.76,909.82,No,Inactive
+MED00338,Losartan 50mg,Losartan,Respiratory,Lupin,BAT258650,250mg,Cream,180.14,519.49,Yes,Active
+MED00339,Rabeprazole 20mg,Rabeprazole,Diabetes,Lupin,BAT253543,40mg,Tablet,543.23,933.64,No,Inactive
+MED00340,Salbutamol 4mg,Salbutamol,Antihistamine,Mankind,BAT259801,10mg,Injection,211.85,181.96,Yes,Active
+MED00341,Paracetamol 500mg,Paracetamol,Diabetes,Alkem,BAT256005,5mg,Injection,554.12,59.96,Yes,Inactive
+MED00342,Amoxicillin 250mg,Amoxicillin,Antihistamine,Sun Pharma,BAT248567,20mg,Drops,473.49,715.84,Yes,Inactive
+MED00343,Cetirizine 10mg,Cetirizine,Pain Relief,Sun Pharma,BAT242850,40mg,Cream,261.71,88.67,No,Inactive
+MED00344,Ibuprofen 400mg,Ibuprofen,Antibiotic,Lupin,BAT244705,10mg,Tablet,490.48,560.27,Yes,Inactive
+MED00345,Omeprazole 20mg,Omeprazole,Antacid,Cipla,BAT247901,500mg,Syrup,287.94,651.07,No,Active
+MED00346,Metformin 500mg,Metformin,Vitamin,Abbott,BAT244827,500mg,Capsule,191.42,316.51,No,Inactive
+MED00347,Azithromycin 500mg,Azithromycin,Dermatology,Sun Pharma,BAT256168,40mg,Drops,807.02,361.81,No,Inactive
+MED00348,Pantoprazole 40mg,Pantoprazole,Gastric,Mankind,BAT244848,40mg,Injection,611.73,907.07,Yes,Active
+MED00349,Amlodipine 5mg,Amlodipine,Pain Relief,Abbott,BAT248389,5mg,Syrup,547.44,776.67,Yes,Active
+MED00350,Atorvastatin 10mg,Atorvastatin,Antacid,Lupin,BAT240357,5mg,Syrup,264.14,1031.23,Yes,Inactive
+MED00351,Montelukast 10mg,Montelukast,Gastric,Dr Reddy's,BAT254480,40mg,Drops,352.47,56.59,Yes,Inactive
+MED00352,Levocetirizine 5mg,Levocetirizine,Antacid,Lupin,BAT251002,5mg,Tablet,702.85,774.36,Yes,Inactive
+MED00353,Vitamin D3 60000IU,Vitamin,Vitamin,Zydus,BAT254952,250mg,Tablet,549.47,218.44,No,Active
+MED00354,ORS Sachet,ORS,Pain Relief,Lupin,BAT246656,20mg,Syrup,494.53,139.69,Yes,Active
+MED00355,Dolo 650mg,Dolo,Dermatology,Lupin,BAT250566,100ml,Injection,744.0,164.19,Yes,Inactive
+MED00356,Cough Syrup 100ml,Cough,Diabetes,Abbott,BAT242865,5mg,Syrup,164.42,966.5,Yes,Active
+MED00357,Calcium 500mg,Calcium,Pain Relief,Abbott,BAT243015,100ml,Capsule,231.37,939.98,Yes,Inactive
+MED00358,Losartan 50mg,Losartan,Dermatology,Lupin,BAT259773,20mg,Capsule,86.63,417.35,Yes,Active
+MED00359,Rabeprazole 20mg,Rabeprazole,Respiratory,Lupin,BAT254967,100ml,Tablet,200.12,239.4,No,Inactive
+MED00360,Salbutamol 4mg,Salbutamol,Antacid,Lupin,BAT244366,5mg,Capsule,514.87,1094.82,No,Active
+MED00361,Paracetamol 500mg,Paracetamol,Vitamin,Dr Reddy's,BAT253486,650mg,Tablet,255.18,302.74,No,Active
+MED00362,Amoxicillin 250mg,Amoxicillin,Cardiac,Alkem,BAT242909,250mg,Injection,123.63,369.11,No,Active
+MED00363,Cetirizine 10mg,Cetirizine,Vitamin,Lupin,BAT259668,20mg,Tablet,91.84,83.45,No,Active
+MED00364,Ibuprofen 400mg,Ibuprofen,Antacid,Zydus,BAT259969,250mg,Tablet,224.56,689.23,No,Inactive
+MED00365,Omeprazole 20mg,Omeprazole,Cardiac,Dr Reddy's,BAT258435,250mg,Cream,162.31,203.46,No,Inactive
+MED00366,Metformin 500mg,Metformin,Antacid,Dr Reddy's,BAT243037,40mg,Drops,456.5,173.14,Yes,Inactive
+MED00367,Azithromycin 500mg,Azithromycin,Pain Relief,Dr Reddy's,BAT256458,20mg,Drops,314.18,484.49,No,Inactive
+MED00368,Pantoprazole 40mg,Pantoprazole,Respiratory,Zydus,BAT254379,650mg,Syrup,629.5,550.58,Yes,Inactive
+MED00369,Amlodipine 5mg,Amlodipine,Pain Relief,Abbott,BAT244970,250mg,Capsule,165.47,527.87,Yes,Inactive
+MED00370,Atorvastatin 10mg,Atorvastatin,Vitamin,Cipla,BAT256317,250mg,Injection,310.76,785.75,No,Inactive
+MED00371,Montelukast 10mg,Montelukast,Antacid,Cipla,BAT244951,500mg,Syrup,90.42,957.63,Yes,Active
+MED00372,Levocetirizine 5mg,Levocetirizine,Respiratory,Mankind,BAT258556,10mg,Cream,848.33,24.46,Yes,Inactive
+MED00373,Vitamin D3 60000IU,Vitamin,Antibiotic,Abbott,BAT256422,500mg,Syrup,33.76,755.82,Yes,Inactive
+MED00374,ORS Sachet,ORS,Cardiac,Cipla,BAT250701,650mg,Tablet,79.93,917.16,No,Inactive
+MED00375,Dolo 650mg,Dolo,Diabetes,Sun Pharma,BAT250894,250mg,Drops,533.54,509.35,Yes,Active
+MED00376,Cough Syrup 100ml,Cough,Pain Relief,Mankind,BAT250689,250mg,Drops,71.27,1048.05,No,Active
+MED00377,Calcium 500mg,Calcium,Vitamin,Mankind,BAT245933,10mg,Injection,86.74,940.53,Yes,Inactive
+MED00378,Losartan 50mg,Losartan,Vitamin,Mankind,BAT245150,500mg,Syrup,423.33,486.95,No,Active
+MED00379,Rabeprazole 20mg,Rabeprazole,Cardiac,Cipla,BAT252140,10mg,Injection,385.28,439.14,No,Inactive
+MED00380,Salbutamol 4mg,Salbutamol,Antibiotic,Lupin,BAT252166,650mg,Injection,540.52,120.38,No,Inactive
+MED00381,Paracetamol 500mg,Paracetamol,Gastric,Dr Reddy's,BAT256330,500mg,Syrup,404.37,105.52,No,Inactive
+MED00382,Amoxicillin 250mg,Amoxicillin,Antihistamine,Dr Reddy's,BAT249943,10mg,Cream,370.44,634.02,Yes,Active
+MED00383,Cetirizine 10mg,Cetirizine,Respiratory,Cipla,BAT256833,5mg,Injection,91.18,733.72,No,Inactive
+MED00384,Ibuprofen 400mg,Ibuprofen,Diabetes,Cipla,BAT256596,250mg,Tablet,632.55,519.91,Yes,Inactive
+MED00385,Omeprazole 20mg,Omeprazole,Pain Relief,Cipla,BAT253739,20mg,Syrup,504.08,511.4,No,Inactive
+MED00386,Metformin 500mg,Metformin,Cardiac,Dr Reddy's,BAT247016,650mg,Tablet,638.01,672.38,Yes,Inactive
+MED00387,Azithromycin 500mg,Azithromycin,Respiratory,Sun Pharma,BAT240291,5mg,Tablet,23.15,728.27,No,Inactive
+MED00388,Pantoprazole 40mg,Pantoprazole,Dermatology,Alkem,BAT250022,40mg,Drops,576.65,765.52,No,Inactive
+MED00389,Amlodipine 5mg,Amlodipine,Antibiotic,Dr Reddy's,BAT244527,250mg,Capsule,105.78,37.16,Yes,Active
+MED00390,Atorvastatin 10mg,Atorvastatin,Gastric,Alkem,BAT244856,10mg,Injection,717.67,946.84,Yes,Active
+MED00391,Montelukast 10mg,Montelukast,Diabetes,Alkem,BAT244955,100ml,Injection,30.28,199.39,Yes,Inactive
+MED00392,Levocetirizine 5mg,Levocetirizine,Antacid,Alkem,BAT240743,100ml,Cream,215.32,338.42,No,Active
+MED00393,Vitamin D3 60000IU,Vitamin,Cardiac,Sun Pharma,BAT243464,5mg,Injection,723.14,816.04,No,Active
+MED00394,ORS Sachet,ORS,Antacid,Lupin,BAT256028,100ml,Capsule,610.58,590.57,No,Inactive
+MED00395,Dolo 650mg,Dolo,Respiratory,Cipla,BAT248876,5mg,Injection,110.0,692.51,No,Inactive
+MED00396,Cough Syrup 100ml,Cough,Vitamin,Sun Pharma,BAT245386,20mg,Drops,173.06,391.36,Yes,Active
+MED00397,Calcium 500mg,Calcium,Dermatology,Zydus,BAT259829,100ml,Capsule,752.1,800.83,No,Inactive
+MED00398,Losartan 50mg,Losartan,Cardiac,Alkem,BAT245409,10mg,Syrup,590.8,113.09,No,Active
+MED00399,Rabeprazole 20mg,Rabeprazole,Antihistamine,Abbott,BAT245222,100ml,Tablet,676.94,1038.5,No,Inactive
+MED00400,Salbutamol 4mg,Salbutamol,Gastric,Abbott,BAT258346,250mg,Tablet,312.66,301.67,Yes,Active
+MED00401,Paracetamol 500mg,Paracetamol,Respiratory,Sun Pharma,BAT242186,40mg,Injection,107.51,264.83,Yes,Inactive
+MED00402,Amoxicillin 250mg,Amoxicillin,Diabetes,Zydus,BAT251740,250mg,Cream,236.16,183.27,Yes,Active
+MED00403,Cetirizine 10mg,Cetirizine,Antacid,Alkem,BAT243734,500mg,Cream,522.89,947.06,Yes,Active
+MED00404,Ibuprofen 400mg,Ibuprofen,Respiratory,Cipla,BAT245573,500mg,Capsule,775.41,189.6,No,Inactive
+MED00405,Omeprazole 20mg,Omeprazole,Respiratory,Alkem,BAT243353,650mg,Drops,316.81,904.69,Yes,Active
+MED00406,Metformin 500mg,Metformin,Antacid,Lupin,BAT240315,10mg,Injection,298.03,565.42,Yes,Inactive
+MED00407,Azithromycin 500mg,Azithromycin,Cardiac,Lupin,BAT251917,10mg,Capsule,643.19,592.02,Yes,Active
+MED00408,Pantoprazole 40mg,Pantoprazole,Vitamin,Lupin,BAT253512,100ml,Cream,677.88,410.72,Yes,Inactive
+MED00409,Amlodipine 5mg,Amlodipine,Antihistamine,Sun Pharma,BAT257052,500mg,Tablet,295.5,453.78,Yes,Inactive
+MED00410,Atorvastatin 10mg,Atorvastatin,Pain Relief,Lupin,BAT241315,650mg,Cream,60.44,702.14,No,Inactive
+MED00411,Montelukast 10mg,Montelukast,Vitamin,Mankind,BAT250379,40mg,Tablet,705.03,992.23,Yes,Inactive
+MED00412,Levocetirizine 5mg,Levocetirizine,Antacid,Abbott,BAT257939,100ml,Drops,301.32,896.78,No,Active
+MED00413,Vitamin D3 60000IU,Vitamin,Diabetes,Cipla,BAT241311,40mg,Injection,619.63,819.26,Yes,Inactive
+MED00414,ORS Sachet,ORS,Gastric,Cipla,BAT256866,20mg,Cream,297.51,706.54,Yes,Active
+MED00415,Dolo 650mg,Dolo,Respiratory,Mankind,BAT248008,20mg,Drops,366.26,565.7,Yes,Inactive
+MED00416,Cough Syrup 100ml,Cough,Diabetes,Zydus,BAT244157,250mg,Drops,800.85,504.64,Yes,Inactive
+MED00417,Calcium 500mg,Calcium,Cardiac,Abbott,BAT259157,10mg,Syrup,262.73,740.28,Yes,Inactive
+MED00418,Losartan 50mg,Losartan,Respiratory,Abbott,BAT243548,40mg,Cream,500.03,908.67,No,Inactive
+MED00419,Rabeprazole 20mg,Rabeprazole,Antibiotic,Dr Reddy's,BAT254049,5mg,Tablet,89.3,478.88,Yes,Inactive
+MED00420,Salbutamol 4mg,Salbutamol,Gastric,Alkem,BAT242658,40mg,Drops,453.0,655.3,No,Inactive
+MED00421,Paracetamol 500mg,Paracetamol,Dermatology,Alkem,BAT260955,5mg,Injection,589.4,1043.65,No,Active
+MED00422,Amoxicillin 250mg,Amoxicillin,Antihistamine,Dr Reddy's,BAT255984,100ml,Capsule,823.21,574.24,Yes,Active
+MED00423,Cetirizine 10mg,Cetirizine,Antacid,Alkem,BAT241168,650mg,Cream,321.5,1047.97,No,Active
+MED00424,Ibuprofen 400mg,Ibuprofen,Antibiotic,Zydus,BAT258835,20mg,Tablet,450.09,147.16,No,Inactive
+MED00425,Omeprazole 20mg,Omeprazole,Diabetes,Mankind,BAT256022,250mg,Capsule,131.11,656.79,Yes,Inactive
+MED00426,Metformin 500mg,Metformin,Diabetes,Abbott,BAT246099,100ml,Tablet,114.51,396.54,Yes,Inactive
+MED00427,Azithromycin 500mg,Azithromycin,Antacid,Mankind,BAT258638,100ml,Syrup,666.77,533.25,Yes,Active
+MED00428,Pantoprazole 40mg,Pantoprazole,Respiratory,Alkem,BAT254843,100ml,Capsule,738.0,371.23,No,Inactive
+MED00429,Amlodipine 5mg,Amlodipine,Gastric,Lupin,BAT251208,250mg,Drops,757.86,814.79,Yes,Active
+MED00430,Atorvastatin 10mg,Atorvastatin,Pain Relief,Mankind,BAT258484,500mg,Drops,480.74,227.82,Yes,Active
+MED00431,Montelukast 10mg,Montelukast,Antacid,Sun Pharma,BAT244041,650mg,Tablet,242.42,242.27,No,Active
+MED00432,Levocetirizine 5mg,Levocetirizine,Respiratory,Zydus,BAT253266,250mg,Injection,734.33,45.12,No,Active
+MED00433,Vitamin D3 60000IU,Vitamin,Vitamin,Sun Pharma,BAT257398,40mg,Injection,227.51,143.82,Yes,Active
+MED00434,ORS Sachet,ORS,Diabetes,Dr Reddy's,BAT246085,20mg,Tablet,141.24,1048.34,Yes,Active
+MED00435,Dolo 650mg,Dolo,Dermatology,Zydus,BAT246046,250mg,Drops,61.02,441.13,No,Active
+MED00436,Cough Syrup 100ml,Cough,Vitamin,Zydus,BAT248551,5mg,Tablet,55.47,278.79,Yes,Inactive
+MED00437,Calcium 500mg,Calcium,Respiratory,Lupin,BAT243870,20mg,Tablet,278.77,617.37,Yes,Inactive
+MED00438,Losartan 50mg,Losartan,Pain Relief,Lupin,BAT260859,10mg,Tablet,237.56,1060.55,Yes,Active
+MED00439,Rabeprazole 20mg,Rabeprazole,Respiratory,Dr Reddy's,BAT250081,5mg,Injection,82.32,706.66,Yes,Active
+MED00440,Salbutamol 4mg,Salbutamol,Cardiac,Dr Reddy's,BAT248133,5mg,Cream,390.56,21.08,No,Inactive
+MED00441,Paracetamol 500mg,Paracetamol,Antihistamine,Sun Pharma,BAT242071,100ml,Syrup,513.01,926.65,No,Inactive
+MED00442,Amoxicillin 250mg,Amoxicillin,Gastric,Mankind,BAT241590,650mg,Drops,459.57,95.53,Yes,Inactive
+MED00443,Cetirizine 10mg,Cetirizine,Antibiotic,Dr Reddy's,BAT258334,20mg,Injection,188.69,565.21,No,Inactive
+MED00444,Ibuprofen 400mg,Ibuprofen,Diabetes,Alkem,BAT249046,10mg,Drops,835.77,388.96,No,Inactive
+MED00445,Omeprazole 20mg,Omeprazole,Pain Relief,Dr Reddy's,BAT240167,100ml,Tablet,767.41,746.52,No,Inactive
+MED00446,Metformin 500mg,Metformin,Vitamin,Cipla,BAT242640,250mg,Drops,385.06,153.29,No,Inactive
+MED00447,Azithromycin 500mg,Azithromycin,Vitamin,Dr Reddy's,BAT240376,500mg,Injection,322.46,228.43,Yes,Active
+MED00448,Pantoprazole 40mg,Pantoprazole,Pain Relief,Mankind,BAT251825,10mg,Tablet,696.04,695.26,Yes,Active
+MED00449,Amlodipine 5mg,Amlodipine,Antacid,Zydus,BAT241305,20mg,Injection,769.98,783.53,Yes,Active
+MED00450,Atorvastatin 10mg,Atorvastatin,Gastric,Lupin,BAT243735,20mg,Cream,431.27,204.12,Yes,Active
+MED00451,Montelukast 10mg,Montelukast,Antibiotic,Dr Reddy's,BAT242231,650mg,Syrup,794.33,943.92,No,Active
+MED00452,Levocetirizine 5mg,Levocetirizine,Pain Relief,Mankind,BAT258453,100ml,Tablet,797.95,712.24,Yes,Inactive
+MED00453,Vitamin D3 60000IU,Vitamin,Vitamin,Lupin,BAT249079,500mg,Drops,446.33,555.22,Yes,Active
+MED00454,ORS Sachet,ORS,Pain Relief,Mankind,BAT253864,100ml,Syrup,16.32,230.18,Yes,Active
+MED00455,Dolo 650mg,Dolo,Gastric,Lupin,BAT242539,10mg,Capsule,149.84,355.67,Yes,Active
+MED00456,Cough Syrup 100ml,Cough,Antacid,Lupin,BAT240887,40mg,Syrup,219.11,531.46,No,Active
+MED00457,Calcium 500mg,Calcium,Cardiac,Abbott,BAT242489,100ml,Tablet,536.04,645.25,Yes,Active
+MED00458,Losartan 50mg,Losartan,Pain Relief,Lupin,BAT250365,500mg,Capsule,63.96,886.58,Yes,Inactive
+MED00459,Rabeprazole 20mg,Rabeprazole,Dermatology,Lupin,BAT242255,500mg,Drops,58.75,76.38,No,Inactive
+MED00460,Salbutamol 4mg,Salbutamol,Antibiotic,Lupin,BAT247738,250mg,Injection,333.72,878.78,Yes,Inactive
+MED00461,Paracetamol 500mg,Paracetamol,Pain Relief,Alkem,BAT257048,40mg,Cream,173.3,130.9,Yes,Active
+MED00462,Amoxicillin 250mg,Amoxicillin,Dermatology,Dr Reddy's,BAT260985,20mg,Syrup,364.8,802.59,No,Active
+MED00463,Cetirizine 10mg,Cetirizine,Gastric,Dr Reddy's,BAT241544,250mg,Capsule,273.18,490.72,No,Inactive
+MED00464,Ibuprofen 400mg,Ibuprofen,Dermatology,Dr Reddy's,BAT244930,100ml,Syrup,517.59,334.35,Yes,Active
+MED00465,Omeprazole 20mg,Omeprazole,Pain Relief,Abbott,BAT256716,250mg,Injection,300.12,1074.63,Yes,Active
+MED00466,Metformin 500mg,Metformin,Cardiac,Abbott,BAT255688,100ml,Cream,592.24,940.17,No,Inactive
+MED00467,Azithromycin 500mg,Azithromycin,Vitamin,Zydus,BAT245417,500mg,Injection,746.18,1003.39,No,Active
+MED00468,Pantoprazole 40mg,Pantoprazole,Pain Relief,Abbott,BAT247645,100ml,Cream,190.61,539.21,No,Inactive
+MED00469,Amlodipine 5mg,Amlodipine,Gastric,Lupin,BAT246137,250mg,Syrup,20.29,406.52,Yes,Active
+MED00470,Atorvastatin 10mg,Atorvastatin,Diabetes,Alkem,BAT246470,40mg,Tablet,829.31,235.05,No,Active
+MED00471,Montelukast 10mg,Montelukast,Gastric,Mankind,BAT245810,40mg,Cream,218.12,231.67,Yes,Inactive
+MED00472,Levocetirizine 5mg,Levocetirizine,Antibiotic,Sun Pharma,BAT244597,5mg,Drops,671.85,139.85,Yes,Inactive
+MED00473,Vitamin D3 60000IU,Vitamin,Antacid,Abbott,BAT252212,40mg,Drops,155.6,589.08,No,Active
+MED00474,ORS Sachet,ORS,Antibiotic,Dr Reddy's,BAT244385,10mg,Capsule,458.28,769.9,No,Inactive
+MED00475,Dolo 650mg,Dolo,Gastric,Sun Pharma,BAT260286,10mg,Cream,258.53,180.45,Yes,Active
+MED00476,Cough Syrup 100ml,Cough,Diabetes,Dr Reddy's,BAT256754,100ml,Capsule,621.48,867.44,Yes,Active
+MED00477,Calcium 500mg,Calcium,Respiratory,Lupin,BAT256784,40mg,Injection,446.83,213.32,No,Inactive
+MED00478,Losartan 50mg,Losartan,Antacid,Alkem,BAT248892,5mg,Drops,783.95,650.7,Yes,Active
+MED00479,Rabeprazole 20mg,Rabeprazole,Gastric,Abbott,BAT254913,10mg,Injection,195.18,479.02,No,Active
+MED00480,Salbutamol 4mg,Salbutamol,Cardiac,Mankind,BAT258140,500mg,Capsule,641.86,338.65,No,Active
+MED00481,Paracetamol 500mg,Paracetamol,Dermatology,Sun Pharma,BAT255345,40mg,Injection,390.06,487.11,No,Inactive
+MED00482,Amoxicillin 250mg,Amoxicillin,Cardiac,Mankind,BAT252629,250mg,Capsule,382.13,306.87,Yes,Inactive
+MED00483,Cetirizine 10mg,Cetirizine,Antibiotic,Mankind,BAT256541,500mg,Syrup,788.5,126.28,Yes,Inactive
+MED00484,Ibuprofen 400mg,Ibuprofen,Pain Relief,Abbott,BAT251036,10mg,Drops,287.9,346.93,No,Active
+MED00485,Omeprazole 20mg,Omeprazole,Dermatology,Dr Reddy's,BAT257897,20mg,Tablet,657.32,324.39,No,Inactive
+MED00486,Metformin 500mg,Metformin,Vitamin,Sun Pharma,BAT255566,650mg,Injection,202.71,801.2,Yes,Inactive
+MED00487,Azithromycin 500mg,Azithromycin,Gastric,Alkem,BAT255219,40mg,Tablet,274.36,222.87,No,Active
+MED00488,Pantoprazole 40mg,Pantoprazole,Antacid,Alkem,BAT258399,250mg,Syrup,128.44,963.65,No,Active
+MED00489,Amlodipine 5mg,Amlodipine,Antacid,Zydus,BAT251235,10mg,Injection,368.75,832.84,No,Inactive
+MED00490,Atorvastatin 10mg,Atorvastatin,Dermatology,Sun Pharma,BAT258698,250mg,Capsule,140.79,1048.85,No,Inactive
+MED00491,Montelukast 10mg,Montelukast,Vitamin,Abbott,BAT252900,500mg,Cream,335.83,532.76,No,Inactive
+MED00492,Levocetirizine 5mg,Levocetirizine,Diabetes,Cipla,BAT245717,500mg,Drops,475.34,54.62,No,Active
+MED00493,Vitamin D3 60000IU,Vitamin,Antihistamine,Abbott,BAT242377,5mg,Syrup,184.54,334.39,Yes,Inactive
+MED00494,ORS Sachet,ORS,Pain Relief,Zydus,BAT257091,250mg,Capsule,285.83,1002.6,No,Active
+MED00495,Dolo 650mg,Dolo,Antibiotic,Dr Reddy's,BAT257678,5mg,Injection,634.75,440.11,Yes,Active
+MED00496,Cough Syrup 100ml,Cough,Gastric,Mankind,BAT254262,100ml,Capsule,517.91,1034.29,Yes,Inactive
+MED00497,Calcium 500mg,Calcium,Diabetes,Abbott,BAT240343,650mg,Injection,65.61,451.18,Yes,Inactive
+MED00498,Losartan 50mg,Losartan,Dermatology,Alkem,BAT255179,100ml,Cream,44.75,118.39,No,Inactive
+MED00499,Rabeprazole 20mg,Rabeprazole,Diabetes,Lupin,BAT260187,650mg,Injection,220.77,991.96,No,Inactive
+MED00500,Salbutamol 4mg,Salbutamol,Vitamin,Dr Reddy's,BAT258732,500mg,Injection,597.46,67.16,Yes,Inactive

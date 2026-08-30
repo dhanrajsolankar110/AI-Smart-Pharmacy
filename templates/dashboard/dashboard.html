@@ -1,0 +1,731 @@
+{% extends "components/dashboard_layout.html" %}
+
+{% block title %}
+Dashboard
+{% endblock %}
+
+
+{% block extra_css %}
+
+<link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+>
+
+<link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+>
+
+<link
+    rel="stylesheet"
+    href="{{ url_for(
+        'static',
+        filename='css/dashboard.css'
+    ) }}"
+>
+
+{% endblock %}
+
+
+{% block content %}
+
+<div class="dashboard-page">
+
+    <!-- ==================================================
+         PAGE HEADER
+    =================================================== -->
+
+    <section class="dashboard-header">
+
+        <div class="dashboard-header-text">
+
+            <h1>
+                Dashboard Overview
+            </h1>
+
+            <p>
+                Welcome back! Here's what's happening with your pharmacy today.
+            </p>
+
+        </div>
+
+
+        <div
+            class="dashboard-date"
+            id="dashboardDate"
+        ></div>
+
+    </section>
+
+
+    <!-- ==================================================
+         SUMMARY CARDS
+    =================================================== -->
+
+    <section class="dashboard-summary-grid">
+
+        <!-- TOTAL MEDICINES -->
+
+        <article class="dashboard-summary-card">
+
+            <div class="
+                dashboard-summary-icon
+                summary-purple
+            ">
+                <i class="fa-solid fa-prescription-bottle-medical"></i>
+            </div>
+
+
+            <div class="dashboard-summary-content">
+
+                <h4>
+                    Total Medicines
+                </h4>
+
+                <h2>
+                    {{ "{:,}".format(
+                        total_medicines
+                    ) }}
+                </h2>
+
+                <p class="summary-positive">
+
+                    <i class="fa-solid fa-arrow-up"></i>
+
+                    <strong>
+                        12
+                    </strong>
+
+                    this week
+
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- LOW STOCK -->
+
+        <article class="dashboard-summary-card">
+
+            <div class="
+                dashboard-summary-icon
+                summary-orange
+            ">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+
+
+            <div class="dashboard-summary-content">
+
+                <h4>
+                    Low Stock Alerts
+                </h4>
+
+                <h2>
+                    {{ "{:,}".format(
+                        low_stock
+                    ) }}
+                </h2>
+
+                <p class="summary-warning">
+
+                    <span class="status-dot"></span>
+
+                    Requires attention
+
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- EXPIRING SOON -->
+
+        <article class="dashboard-summary-card">
+
+            <div class="
+                dashboard-summary-icon
+                summary-red
+            ">
+                <i class="fa-regular fa-calendar-xmark"></i>
+            </div>
+
+
+            <div class="dashboard-summary-content">
+
+                <h4>
+                    Expiring Soon
+                </h4>
+
+                <h2>
+                    {{ "{:,}".format(
+                        expiring_soon
+                    ) }}
+                </h2>
+
+                <p class="summary-warning">
+
+                    <span class="status-dot"></span>
+
+                    Within 30 days
+
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- TOTAL PATIENTS -->
+
+        <article class="dashboard-summary-card">
+
+            <div class="
+                dashboard-summary-icon
+                summary-green
+            ">
+                <i class="fa-solid fa-user-group"></i>
+            </div>
+
+
+            <div class="dashboard-summary-content">
+
+                <h4>
+                    Total Patients
+                </h4>
+
+                <h2>
+                    {{ "{:,}".format(
+                        total_patients
+                    ) }}
+                </h2>
+
+                <p class="summary-positive">
+
+                    <i class="fa-solid fa-arrow-up"></i>
+
+                    <strong>
+                        8
+                    </strong>
+
+                    this week
+
+                </p>
+
+            </div>
+
+        </article>
+
+    </section>
+
+
+    <!-- ==================================================
+         MAIN GRID
+    =================================================== -->
+
+    <section class="dashboard-main-grid">
+
+
+        <!-- =================================================
+             STOCK STATUS
+        ================================================== -->
+
+        <!-- =================================================
+     STOCK STATUS
+================================================== -->
+
+<article class="
+    dashboard-card
+    stock-status-card
+    "
+    style="
+        height: 390px;
+        min-height: 390px;
+        max-height: 390px;
+    "
+>
+
+    <div class="dashboard-card-header">
+
+        <h3>
+            Stock Status
+        </h3>
+
+    </div>
+
+
+    <div class="stock-content">
+
+
+        <!-- =================================================
+             LARGE DONUT CHART
+        ================================================== -->
+
+        <div class="stock-chart-area">
+
+            <div class="stock-donut-wrapper">
+
+                <canvas
+                    id="stockStatusChart"
+                    data-in-stock="{{ in_stock }}"
+                    data-low-stock="{{ low_stock }}"
+                    data-out-of-stock="{{ out_of_stock }}"
+                ></canvas>
+
+
+                <!-- CENTER TEXT -->
+
+                <div class="stock-donut-center">
+
+                    <strong>
+                        {{ "{:,}".format(
+                            total_medicines
+                        ) }}
+                    </strong>
+
+                    <span>
+                        Total
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             SIDE LEGEND
+        ================================================== -->
+
+        <div class="stock-legend">
+
+            <div class="stock-legend-item">
+
+                <span class="
+                    stock-dot
+                    stock-in
+                "></span>
+
+                <span class="stock-legend-label">
+                    In Stock
+                </span>
+
+                <strong>
+                    {{ in_stock_percent }}%
+                </strong>
+
+            </div>
+
+
+            <div class="stock-legend-item">
+
+                <span class="
+                    stock-dot
+                    stock-low
+                "></span>
+
+                <span class="stock-legend-label">
+                    Low Stock
+                </span>
+
+                <strong>
+                    {{ low_stock_percent }}%
+                </strong>
+
+            </div>
+
+
+            <div class="stock-legend-item">
+
+                <span class="
+                    stock-dot
+                    stock-out
+                "></span>
+
+                <span class="stock-legend-label">
+                    Out of Stock
+                </span>
+
+                <strong>
+                    {{ out_of_stock_percent }}%
+                </strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</article>
+
+
+        <!-- =================================================
+             EXPIRY ALERTS
+        ================================================== -->
+
+        <article class="
+            dashboard-card
+            expiry-alert-card
+        ">
+
+            <div class="dashboard-card-header">
+
+                <h3>
+                    Expiry Alerts
+                </h3>
+
+            </div>
+
+
+            <div class="expiry-alert-list">
+
+                {% for alert in expiry_alerts %}
+
+                <div class="
+                    expiry-alert-item
+                    {{ alert.type }}
+                ">
+
+                    <div class="
+                        expiry-alert-icon
+                        {{ alert.type }}-icon
+                    ">
+
+                        {% if alert.type == "critical" %}
+
+                            <i class="
+                                fa-solid
+                                fa-triangle-exclamation
+                            "></i>
+
+                        {% elif alert.type == "warning" %}
+
+                            <i class="
+                                fa-solid
+                                fa-triangle-exclamation
+                            "></i>
+
+                        {% else %}
+
+                            <i class="
+                                fa-solid
+                                fa-circle-info
+                            "></i>
+
+                        {% endif %}
+
+                    </div>
+
+
+                    <div class="expiry-alert-content">
+
+                        <h4>
+                            {{ alert.name }}
+                        </h4>
+
+                        <p>
+                            Expires in
+                            {{ alert.days }}
+                            days
+                        </p>
+
+                    </div>
+
+
+                    <div class="expiry-quantity">
+
+                        {{ alert.quantity }}
+
+                    </div>
+
+
+                    <span class="
+                        alert-badge
+                        {{ alert.type }}
+                    ">
+                        {{ alert.status }}
+                    </span>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+
+            <div class="dashboard-card-footer">
+
+                <a
+                    href="{{ url_for(
+                        'expiry.expiry'
+                    ) }}"
+                >
+
+                    View All Alerts
+
+                    <i class="
+                        fa-solid
+                        fa-arrow-right
+                    "></i>
+
+                </a>
+
+            </div>
+
+        </article>
+
+    </section>
+
+
+    <!-- ==================================================
+         LOWER GRID
+    =================================================== -->
+
+    <section class="dashboard-lower-grid">
+
+
+        <!-- =================================================
+             RECENT ACTIVITIES
+        ================================================== -->
+
+        <article class="
+            dashboard-card
+            recent-activities-card
+        ">
+
+            <div class="dashboard-card-header">
+
+                <h3>
+                    Recent Activities
+                </h3>
+
+            </div>
+
+
+            <div class="activities-list">
+
+                {% for activity in activities %}
+
+                <div class="activity-item">
+
+                    <div class="
+                        activity-icon
+                        {{ activity.color }}
+                    ">
+
+                        <i class="
+                            fa-solid
+                            {{ activity.icon }}
+                        "></i>
+
+                    </div>
+
+
+                    <div class="activity-content">
+
+                        <h4>
+                            {{ activity.text }}
+                        </h4>
+
+                    </div>
+
+
+                    <span class="activity-time">
+
+                        {{ activity.time }}
+
+                    </span>
+
+                </div>
+
+                {% endfor %}
+
+            </div>
+
+
+            <div class="dashboard-card-footer">
+
+                <a
+                    href="{{ url_for(
+                        'reports.reports'
+                    ) }}"
+                >
+
+                    View All Activities
+
+                    <i class="
+                        fa-solid
+                        fa-arrow-right
+                    "></i>
+
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- =================================================
+             QUICK STATS
+        ================================================== -->
+
+        <article class="
+            dashboard-card
+            quick-stats-card
+        ">
+
+            <div class="dashboard-card-header">
+
+                <h3>
+                    Quick Stats
+                </h3>
+
+            </div>
+
+
+            <div class="quick-stats-grid">
+
+
+                <!-- TODAY'S SALES -->
+
+                <div class="quick-stat">
+
+                    <div class="quick-stat-header">
+
+                        <span>
+                            Today's Sales
+                        </span>
+
+
+                        <div class="
+                            quick-stat-icon
+                            sales-stat
+                        ">
+
+                            <i class="
+                                fa-solid
+                                fa-arrow-trend-up
+                            "></i>
+
+                        </div>
+
+                    </div>
+
+
+                    <h2>
+                        ₹{{ "{:,}".format(
+                            quick_stats.today_sales
+                        ) }}
+                    </h2>
+
+
+                    <div class="quick-stat-footer">
+
+                        <span>
+                            vs yesterday
+                        </span>
+
+                        <strong>
+
+                            <i class="
+                                fa-solid
+                                fa-arrow-up
+                            "></i>
+
+                            {{ quick_stats.sales_growth }}%
+
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PRESCRIPTIONS -->
+
+                <div class="quick-stat">
+
+                    <div class="quick-stat-header">
+
+                        <span>
+                            Prescriptions
+                        </span>
+
+
+                        <div class="
+                            quick-stat-icon
+                            prescription-stat
+                        ">
+
+                            <i class="
+                                fa-solid
+                                fa-prescription
+                            "></i>
+
+                        </div>
+
+                    </div>
+
+
+                    <h2>
+                        {{ quick_stats.today_prescriptions }}
+                    </h2>
+
+
+                    <div class="quick-stat-footer">
+
+                        <span>
+                            vs yesterday
+                        </span>
+
+                        <strong>
+
+                            <i class="
+                                fa-solid
+                                fa-arrow-up
+                            "></i>
+
+                            {{ quick_stats.prescription_growth }}
+
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </section>
+
+</div>
+
+{% endblock %}
+
+
+{% block extra_js %}
+
+<script
+    src="https://cdn.jsdelivr.net/npm/chart.js"
+></script>
+
+<script
+    src="{{ url_for(
+        'static',
+        filename='js/dashboard.js'
+    ) }}"
+></script>
+
+{% endblock %}

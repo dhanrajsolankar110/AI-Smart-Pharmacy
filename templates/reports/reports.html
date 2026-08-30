@@ -1,0 +1,889 @@
+{% extends "components/dashboard_layout.html" %}
+
+{% block title %}
+Reports & Analytics
+{% endblock %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+{% block content %}
+
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/reports.css') }}"
+>
+
+<!-- ==========================================================
+     REPORTS & ANALYTICS PAGE
+========================================================== -->
+
+<div class="reports-page">
+
+    <!-- ======================================================
+         PAGE HEADER
+    ======================================================= -->
+
+    <div class="reports-header">
+
+        <div class="reports-title">
+
+            <h1>
+                Reports & Analytics
+            </h1>
+
+            <p>
+                Track performance, sales and inventory insights
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ======================================================
+         SUMMARY CARDS
+    ======================================================= -->
+
+    <div class="reports-summary-grid">
+
+
+        <!-- TOTAL SALES -->
+
+        <div class="report-summary-card">
+
+            <div class="summary-card-icon sales-icon">
+
+                <i class="fa-solid fa-indian-rupee-sign"></i>
+
+            </div>
+
+            <div class="summary-card-content">
+
+                <h4>
+                    Total Sales
+                </h4>
+
+                <h2 id="totalSales">
+                    ₹2,45,680
+                </h2>
+
+                <p class="positive-change">
+
+                    <i class="fa-solid fa-arrow-up"></i>
+
+                    <strong>
+                        12.5%
+                    </strong>
+
+                    vs previous period
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- TOTAL MEDICINES SOLD -->
+
+        <div class="report-summary-card">
+
+            <div class="summary-card-icon medicine-icon">
+
+                <i class="fa-solid fa-pills"></i>
+
+            </div>
+
+            <div class="summary-card-content">
+
+                <h4>
+                    Total Medicines Sold
+                </h4>
+
+                <h2 id="totalMedicinesSold">
+                    1,248
+                </h2>
+
+                <p class="positive-change">
+
+                    <i class="fa-solid fa-arrow-up"></i>
+
+                    <strong>
+                        8.3%
+                    </strong>
+
+                    vs previous period
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- TOTAL PATIENTS -->
+
+        <div class="report-summary-card">
+
+            <div class="summary-card-icon patient-icon">
+
+                <i class="fa-solid fa-user-group"></i>
+
+            </div>
+
+            <div class="summary-card-content">
+
+                <h4>
+                    Total Patients
+                </h4>
+
+                <h2 id="totalPatients">
+                    500
+                </h2>
+
+                <p class="positive-change">
+
+                    <i class="fa-solid fa-arrow-up"></i>
+
+                    <strong>
+                        6.7%
+                    </strong>
+
+                    vs previous period
+
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- STOCK ALERTS -->
+
+        <div class="report-summary-card">
+
+            <div class="summary-card-icon stock-alert-icon">
+
+                <i class="fa-solid fa-cube"></i>
+
+            </div>
+
+            <div class="summary-card-content">
+
+                <h4>
+                    Stock Alerts
+                </h4>
+
+                <h2 id="stockAlerts">
+                    23
+                </h2>
+
+                <p class="negative-change">
+
+                    <i class="fa-solid fa-arrow-down"></i>
+
+                    <strong>
+                        18.4%
+                    </strong>
+
+                    vs previous period
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ======================================================
+         MAIN CHARTS ROW
+    ======================================================= -->
+
+    <div class="reports-main-grid">
+
+
+        <!-- ==================================================
+             SALES TREND
+        =================================================== -->
+
+        <div class="report-card sales-trend-card">
+
+            <div class="report-card-header">
+
+                <div>
+
+                    <h3>
+                        Sales Trend
+                    </h3>
+
+                </div>
+
+                <div class="chart-legend">
+
+                    <span class="legend-line"></span>
+
+                    <span>
+                        Sales (₹)
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="chart-wrapper">
+
+                <canvas
+                    id="salesTrendChart">
+                </canvas>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==================================================
+             MEDICINE CATEGORY SALES
+        =================================================== -->
+
+        <div class="report-card category-sales-card">
+
+            <div class="report-card-header">
+
+                <h3>
+                    Medicine Category Sales
+                </h3>
+
+            </div>
+
+            <div class="category-chart-area">
+
+                <div class="donut-chart-wrapper">
+
+                    <canvas
+                        id="categorySalesChart">
+                    </canvas>
+
+                    <div class="donut-center">
+
+                        <strong>
+                            ₹2,45,680
+                        </strong>
+
+                        <span>
+                            Total Sales
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="category-legend">
+
+                    <div class="category-item">
+
+                        <span class="category-dot antibiotics"></span>
+
+                        <span>
+                            Antibiotics
+                        </span>
+
+                        <strong>
+                            28%
+                        </strong>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <span class="category-dot pain-relief"></span>
+
+                        <span>
+                            Pain Relief
+                        </span>
+
+                        <strong>
+                            22%
+                        </strong>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <span class="category-dot multivitamins"></span>
+
+                        <span>
+                            Multivitamins
+                        </span>
+
+                        <strong>
+                            18%
+                        </strong>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <span class="category-dot antacids"></span>
+
+                        <span>
+                            Antacids
+                        </span>
+
+                        <strong>
+                            12%
+                        </strong>
+
+                    </div>
+
+                    <div class="category-item">
+
+                        <span class="category-dot others"></span>
+
+                        <span>
+                            Others
+                        </span>
+
+                        <strong>
+                            20%
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==================================================
+     STOCK STATUS
+=================================================== -->
+
+<div class="report-card stock-status-card">
+
+    <div class="report-card-header">
+
+        <h3>
+            Stock Status
+        </h3>
+
+    </div>
+
+
+    <div class="stock-chart-area">
+
+        <div class="stock-donut-wrapper">
+
+            <canvas
+                id="stockStatusChart">
+            </canvas>
+
+
+            <div class="stock-donut-center">
+
+                <strong>
+                    500
+                </strong>
+
+                <span>
+                    Total Items
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="stock-legend">
+
+            <div class="stock-legend-item">
+
+                <span
+                    class="stock-dot in-stock">
+                </span>
+
+                <span>
+                    In Stock
+                </span>
+
+                <strong>
+                    80.6%
+                </strong>
+
+            </div>
+
+
+            <div class="stock-legend-item">
+
+                <span
+                    class="stock-dot low-stock">
+                </span>
+
+                <span>
+                    Low Stock
+                </span>
+
+                <strong>
+                    12.5%
+                </strong>
+
+            </div>
+
+
+            <div class="stock-legend-item">
+
+                <span
+                    class="stock-dot out-stock">
+                </span>
+
+                <span>
+                    Out of Stock
+                </span>
+
+                <strong>
+                    7.0%
+                </strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    </div>
+
+        <!-- ======================================================
+         LOWER CONTENT GRID
+    ======================================================= -->
+
+    <div class="reports-lower-grid">
+
+
+        <!-- ==================================================
+             TOP SELLING MEDICINES
+        =================================================== -->
+
+        <div class="report-card top-selling-card">
+
+            <div class="report-card-header">
+
+                <h3>
+                    Top Selling Medicines
+                </h3>
+
+            </div>
+
+
+            <div class="reports-table-wrapper">
+
+                <table class="reports-table">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>
+                                Rank
+                            </th>
+
+                            <th>
+                                Medicine Name
+                            </th>
+
+                            <th>
+                                Category
+                            </th>
+
+                            <th>
+                                Quantity Sold
+                            </th>
+
+                            <th>
+                                Revenue
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody>
+
+                        <!-- ROW 1 -->
+
+                        <tr>
+
+                            <td>
+
+                                <span class="rank-badge rank-one">
+                                    1
+                                </span>
+
+                            </td>
+
+                            <td>
+                                Paracetamol 500mg
+                            </td>
+
+                            <td>
+                                Pain Relief
+                            </td>
+
+                            <td>
+                                312
+                            </td>
+
+                            <td>
+                                ₹15,600
+                            </td>
+
+                        </tr>
+
+
+                        <!-- ROW 2 -->
+
+                        <tr>
+
+                            <td>
+
+                                <span class="rank-badge rank-two">
+                                    2
+                                </span>
+
+                            </td>
+
+                            <td>
+                                Amoxicillin 250mg
+                            </td>
+
+                            <td>
+                                Antibiotic
+                            </td>
+
+                            <td>
+                                287
+                            </td>
+
+                            <td>
+                                ₹14,350
+                            </td>
+
+                        </tr>
+
+
+                        <!-- ROW 3 -->
+
+                        <tr>
+
+                            <td>
+
+                                <span class="rank-badge rank-three">
+                                    3
+                                </span>
+
+                            </td>
+
+                            <td>
+                                Cetirizine 10mg
+                            </td>
+
+                            <td>
+                                Antihistamine
+                            </td>
+
+                            <td>
+                                215
+                            </td>
+
+                            <td>
+                                ₹10,750
+                            </td>
+
+                        </tr>
+
+
+                        <!-- ROW 4 -->
+
+                        <tr>
+
+                            <td>
+                                <span class="rank-number">
+                                    4
+                                </span>
+                            </td>
+
+                            <td>
+                                Ibuprofen 400mg
+                            </td>
+
+                            <td>
+                                Pain Relief
+                            </td>
+
+                            <td>
+                                198
+                            </td>
+
+                            <td>
+                                ₹9,900
+                            </td>
+
+                        </tr>
+
+
+                        <!-- ROW 5 -->
+
+                        <tr>
+
+                            <td>
+                                <span class="rank-number">
+                                    5
+                                </span>
+                            </td>
+
+                            <td>
+                                Omeprazole 20mg
+                            </td>
+
+                            <td>
+                                Gastric
+                            </td>
+
+                            <td>
+                                176
+                            </td>
+
+                            <td>
+                                ₹8,800
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+            <!-- VIEW ALL -->
+
+            <div class="card-footer-link">
+
+                <a href="{{ url_for('medicine.medicines') }}">
+
+                    View All Medicines
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==================================================
+             RECENT ACTIVITIES
+        =================================================== -->
+
+        <div class="report-card recent-activities-card">
+
+            <div class="report-card-header">
+
+                <h3>
+                    Recent Activities
+                </h3>
+
+            </div>
+
+
+            <div class="activities-list">
+
+
+                <!-- NEW SALE -->
+
+                <div class="activity-item">
+
+                    <div class="activity-icon sale-activity">
+
+                        <i class="fa-solid fa-bag-shopping"></i>
+
+                    </div>
+
+                    <div class="activity-content">
+
+                        <h4>
+                            New sale: Paracetamol 500mg
+                        </h4>
+
+                        <p>
+                            ₹1,200 - 10 units
+                        </p>
+
+                    </div>
+
+                    <span class="activity-time">
+                        2 hours ago
+                    </span>
+
+                </div>
+
+
+                <!-- NEW PATIENT -->
+
+                <div class="activity-item">
+
+                    <div class="activity-icon patient-activity">
+
+                        <i class="fa-solid fa-user-plus"></i>
+
+                    </div>
+
+                    <div class="activity-content">
+
+                        <h4>
+                            New patient registered
+                        </h4>
+
+                        <p>
+                            Rahul Sharma
+                        </p>
+
+                    </div>
+
+                    <span class="activity-time">
+                        4 hours ago
+                    </span>
+
+                </div>
+
+
+                <!-- STOCK ALERT -->
+
+                <div class="activity-item">
+
+                    <div class="activity-icon stock-activity">
+
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+
+                    </div>
+
+                    <div class="activity-content">
+
+                        <h4>
+                            Stock alert: Ibuprofen 400mg
+                        </h4>
+
+                        <p>
+                            Low stock (12 units)
+                        </p>
+
+                    </div>
+
+                    <span class="activity-time">
+                        6 hours ago
+                    </span>
+
+                </div>
+
+
+                <!-- PRESCRIPTION -->
+
+                <div class="activity-item">
+
+                    <div class="activity-icon prescription-activity">
+
+                        <i class="fa-solid fa-prescription-bottle-medical"></i>
+
+                    </div>
+
+                    <div class="activity-content">
+
+                        <h4>
+                            New prescription created
+                        </h4>
+
+                        <p>
+                            Dr. Mehta - #RX1287
+                        </p>
+
+                    </div>
+
+                    <span class="activity-time">
+                        8 hours ago
+                    </span>
+
+                </div>
+
+
+                <!-- EXPIRY -->
+
+                <div class="activity-item">
+
+                    <div class="activity-icon expiry-activity">
+
+                        <i class="fa-solid fa-calendar-xmark"></i>
+
+                    </div>
+
+                    <div class="activity-content">
+
+                        <h4>
+                            Expiry approaching: Amoxicillin 250mg
+                        </h4>
+
+                        <p>
+                            Expires in 5 days
+                        </p>
+
+                    </div>
+
+                    <span class="activity-time">
+                        1 day ago
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <!-- VIEW ALL ACTIVITIES -->
+
+            <div class="card-footer-link">
+
+                <a href="#">
+
+                    View All Activities
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+<script
+    src="https://cdn.jsdelivr.net/npm/chart.js">
+</script>
+
+<script
+    src="{{ url_for('static', filename='js/reports.js') }}">
+</script>
+
+{% endblock %}

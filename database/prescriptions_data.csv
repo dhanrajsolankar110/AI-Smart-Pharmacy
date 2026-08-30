@@ -1,0 +1,501 @@
+Prescription_ID,Patient_ID,Patient_Name,Doctor_Name,Specialization,Date,Time,Medicine_Count,Primary_Medicine,Diagnosis,Status,Total_Amount_INR,Refills
+RX2507301001,P1001,Nikhil Joshi,Dr. Kavita Rao,Cardiologist,2026-06-15,14:30,6,Cough Syrup 100ml,Allergy,Pending,1120.8,0
+RX2507301002,P1002,Nisha Desai,Dr. Priya Nair,Cardiologist,2026-05-30,13:30,2,Calcium 500mg,Diabetes,Pending,1968.43,2
+RX2507301003,P1003,Nikhil Mishra,Dr. Neha Singh,ENT Specialist,2026-06-23,16:30,6,Dolo 650mg,Fever,Cancelled,223.61,1
+RX2507301004,P1004,Nisha Pawar,Dr. Meera Shah,General Physician,2026-04-24,14:45,2,Dolo 650mg,Fever,Completed,2193.83,3
+RX2507301005,P1005,Amit Singh,Dr. Anil Verma,Gynaecologist,2026-06-29,10:00,4,Vitamin D3 60000IU,Asthma,Pending,1114.73,0
+RX2507301006,P1006,Anjali Jain,Dr. Priya Nair,General Physician,2026-07-05,19:45,4,ORS Sachet,Fever,Completed,1375.78,1
+RX2507301007,P1007,Karan Yadav,Dr. Anil Verma,Pediatrician,2026-05-28,15:00,4,Paracetamol 500mg,Migraine,Cancelled,1349.95,1
+RX2507301008,P1008,Nisha Jain,Dr. Rajesh Patel,Cardiologist,2026-05-04,13:30,2,Amlodipine 5mg,Diabetes,Completed,1759.47,1
+RX2507301009,P1009,Raj Sharma,Dr. Kavita Rao,Dermatologist,2026-05-19,14:00,3,Salbutamol 4mg,Infection,Cancelled,2099.21,0
+RX2507301010,P1010,Isha Singh,Dr. Meera Shah,Dermatologist,2026-05-05,18:30,4,Dolo 650mg,Diabetes,Cancelled,1160.4,3
+RX2507301011,P1011,Akash Mehta,Dr. Kavita Rao,Pediatrician,2026-06-18,13:30,2,ORS Sachet,Hypertension,Dispensed,621.78,2
+RX2507301012,P1012,Riya Joshi,Dr. Rajesh Patel,ENT Specialist,2026-07-08,15:15,4,Omeprazole 20mg,Infection,Pending,494.95,1
+RX2507301013,P1013,Karan Mishra,Dr. Rajesh Patel,Pediatrician,2026-07-13,15:00,1,Cetirizine 10mg,Infection,Completed,1474.6,3
+RX2507301014,P1014,Shreya Kulkarni,Dr. Anil Verma,Orthopedic,2026-07-16,15:00,4,Metformin 500mg,Diabetes,Completed,447.84,2
+RX2507301015,P1015,Manish Verma,Dr. Neha Singh,General Physician,2026-06-27,16:45,5,Losartan 50mg,Asthma,Dispensed,899.58,0
+RX2507301016,P1016,Sneha Kumar,Dr. Anil Verma,Orthopedic,2026-07-30,11:15,2,Paracetamol 500mg,Fever,Cancelled,2189.4,0
+RX2507301017,P1017,Manish Gupta,Dr. Neha Singh,General Physician,2026-07-08,18:45,3,Cough Syrup 100ml,Hypertension,Dispensed,998.39,0
+RX2507301018,P1018,Nisha Mehta,Dr. Neha Singh,Gynaecologist,2026-06-02,08:15,1,Vitamin D3 60000IU,Asthma,Cancelled,1965.16,0
+RX2507301019,P1019,Rahul Patil,Dr. Meera Shah,Pediatrician,2026-07-30,08:30,5,Azithromycin 500mg,Asthma,Pending,979.6,3
+RX2507301020,P1020,Pooja Mehta,Dr. Rajesh Patel,General Physician,2026-04-05,12:45,5,Pantoprazole 40mg,Hypertension,Cancelled,452.61,2
+RX2507301021,P1021,Manish Jain,Dr. Kavita Rao,Gynaecologist,2026-07-01,16:00,5,Pantoprazole 40mg,Heart Disease,Dispensed,1662.18,2
+RX2507301022,P1022,Priya Shah,Dr. Sunil Joshi,Cardiologist,2026-07-11,13:30,1,Salbutamol 4mg,Asthma,Pending,384.62,1
+RX2507301023,P1023,Aditya Desai,Dr. Kavita Rao,Dermatologist,2026-05-23,09:15,5,Ibuprofen 400mg,Arthritis,Pending,843.97,0
+RX2507301024,P1024,Simran Sharma,Dr. Sunil Joshi,ENT Specialist,2026-05-20,14:00,2,ORS Sachet,Arthritis,Cancelled,941.88,2
+RX2507301025,P1025,Ankit Jain,Dr. Rajesh Patel,Gynaecologist,2026-04-12,10:30,3,Azithromycin 500mg,Heart Disease,Cancelled,670.73,2
+RX2507301026,P1026,Pooja Mishra,Dr. Amit Kumar,Gynaecologist,2026-04-30,08:45,3,Paracetamol 500mg,Arthritis,Cancelled,2186.93,3
+RX2507301027,P1027,Ankit Mishra,Dr. Amit Kumar,Dermatologist,2026-07-26,16:00,6,Ibuprofen 400mg,Heart Disease,Pending,1357.65,1
+RX2507301028,P1028,Priya Verma,Dr. Rajesh Patel,ENT Specialist,2026-07-22,13:30,2,Salbutamol 4mg,Diabetes,Completed,658.82,0
+RX2507301029,P1029,Sanjay Verma,Dr. Priya Nair,Dermatologist,2026-04-07,10:30,2,Pantoprazole 40mg,Asthma,Pending,133.65,1
+RX2507301030,P1030,Asha Patil,Dr. Priya Nair,General Physician,2026-07-23,08:15,3,Montelukast 10mg,Gastritis,Dispensed,356.13,1
+RX2507301031,P1031,Nikhil Shah,Dr. Meera Shah,General Physician,2026-06-19,19:00,2,Vitamin D3 60000IU,Heart Disease,Completed,1565.9,1
+RX2507301032,P1032,Swati Kulkarni,Dr. Priya Nair,ENT Specialist,2026-04-23,11:15,2,Atorvastatin 10mg,Asthma,Cancelled,2031.8,3
+RX2507301033,P1033,Rohit Patil,Dr. Rajesh Patel,Cardiologist,2026-04-19,16:00,3,Rabeprazole 20mg,Allergy,Pending,374.69,2
+RX2507301034,P1034,Sneha Verma,Dr. Sunil Joshi,Cardiologist,2026-07-11,17:00,4,Montelukast 10mg,Heart Disease,Cancelled,771.16,1
+RX2507301035,P1035,Rahul Jain,Dr. Amit Kumar,Cardiologist,2026-07-13,11:45,4,Azithromycin 500mg,Hypertension,Cancelled,1076.35,2
+RX2507301036,P1036,Priya Kumar,Dr. Sunil Joshi,Dermatologist,2026-07-23,08:45,2,Salbutamol 4mg,Migraine,Dispensed,1298.02,3
+RX2507301037,P1037,Aditya Gupta,Dr. Meera Shah,Orthopedic,2026-04-21,09:15,2,Vitamin D3 60000IU,Infection,Dispensed,1582.22,0
+RX2507301038,P1038,Neha Shah,Dr. Kavita Rao,General Physician,2026-07-02,19:45,2,ORS Sachet,Migraine,Cancelled,782.48,3
+RX2507301039,P1039,Nikhil Mishra,Dr. Sunil Joshi,Gynaecologist,2026-07-18,10:00,5,ORS Sachet,Hypertension,Cancelled,1802.0,1
+RX2507301040,P1040,Simran Yadav,Dr. Amit Kumar,Cardiologist,2026-05-19,17:15,6,Losartan 50mg,Migraine,Completed,1939.08,2
+RX2507301041,P1041,Manish Shah,Dr. Amit Kumar,Dermatologist,2026-07-10,19:00,1,Levocetirizine 5mg,Asthma,Completed,857.62,2
+RX2507301042,P1042,Pooja Patil,Dr. Neha Singh,General Physician,2026-07-05,19:15,1,Rabeprazole 20mg,Hypertension,Completed,614.55,0
+RX2507301043,P1043,Nikhil Singh,Dr. Kavita Rao,Gynaecologist,2026-04-05,17:45,6,Omeprazole 20mg,Migraine,Cancelled,1379.37,1
+RX2507301044,P1044,Anjali Sharma,Dr. Meera Shah,Pediatrician,2026-04-28,12:15,2,Cetirizine 10mg,Allergy,Pending,1593.05,2
+RX2507301045,P1045,Deepak Mishra,Dr. Meera Shah,Pediatrician,2026-04-03,16:00,5,Metformin 500mg,Diabetes,Completed,1725.05,3
+RX2507301046,P1046,Anjali Kulkarni,Dr. Kavita Rao,Cardiologist,2026-06-06,15:45,5,Azithromycin 500mg,Asthma,Pending,1695.71,3
+RX2507301047,P1047,Manish Kumar,Dr. Meera Shah,Cardiologist,2026-06-16,17:00,2,Montelukast 10mg,Infection,Completed,2116.87,2
+RX2507301048,P1048,Megha Pawar,Dr. Amit Kumar,Orthopedic,2026-06-19,18:30,6,Calcium 500mg,Allergy,Pending,1845.45,1
+RX2507301049,P1049,Ankit Kulkarni,Dr. Meera Shah,Pediatrician,2026-06-06,19:45,2,Vitamin D3 60000IU,Fever,Dispensed,1658.48,2
+RX2507301050,P1050,Anjali Kulkarni,Dr. Anil Verma,Gynaecologist,2026-07-15,18:15,3,Atorvastatin 10mg,Asthma,Completed,1653.2,0
+RX2507301051,P1051,Pranav Desai,Dr. Anil Verma,Dermatologist,2026-05-21,10:15,2,Levocetirizine 5mg,Diabetes,Dispensed,1229.23,2
+RX2507301052,P1052,Divya Verma,Dr. Anil Verma,Dermatologist,2026-04-26,12:45,2,Losartan 50mg,Arthritis,Pending,1345.08,2
+RX2507301053,P1053,Rahul Mehta,Dr. Rajesh Patel,Pediatrician,2026-07-30,09:15,2,Pantoprazole 40mg,Migraine,Dispensed,717.94,1
+RX2507301054,P1054,Sneha Patil,Dr. Amit Kumar,ENT Specialist,2026-07-30,17:45,4,Metformin 500mg,Infection,Dispensed,399.51,3
+RX2507301055,P1055,Vikram Mehta,Dr. Amit Kumar,General Physician,2026-04-05,13:00,5,Levocetirizine 5mg,Arthritis,Pending,505.03,3
+RX2507301056,P1056,Nisha Yadav,Dr. Sunil Joshi,Pediatrician,2026-07-26,08:15,5,Cetirizine 10mg,Diabetes,Dispensed,1315.84,1
+RX2507301057,P1057,Amit Shah,Dr. Meera Shah,ENT Specialist,2026-07-06,16:15,2,Metformin 500mg,Migraine,Cancelled,314.78,1
+RX2507301058,P1058,Isha Pawar,Dr. Anil Verma,ENT Specialist,2026-07-31,19:00,4,Paracetamol 500mg,Allergy,Pending,1079.72,0
+RX2507301059,P1059,Vikram Joshi,Dr. Meera Shah,Gynaecologist,2026-06-26,14:00,6,ORS Sachet,Diabetes,Cancelled,2149.28,1
+RX2507301060,P1060,Pooja Sharma,Dr. Anil Verma,General Physician,2026-07-04,19:30,1,Paracetamol 500mg,Heart Disease,Completed,594.8,1
+RX2507301061,P1061,Vikram Shah,Dr. Priya Nair,General Physician,2026-06-07,09:45,4,Omeprazole 20mg,Asthma,Dispensed,547.62,1
+RX2507301062,P1062,Isha Pawar,Dr. Anil Verma,Cardiologist,2026-07-30,18:30,3,Cetirizine 10mg,Arthritis,Completed,405.41,1
+RX2507301063,P1063,Aditya Mehta,Dr. Neha Singh,Gynaecologist,2026-06-17,12:30,1,Azithromycin 500mg,Infection,Pending,1084.96,3
+RX2507301064,P1064,Pooja Yadav,Dr. Meera Shah,Gynaecologist,2026-06-08,08:45,6,Azithromycin 500mg,Migraine,Completed,494.53,0
+RX2507301065,P1065,Karan Mehta,Dr. Sunil Joshi,Gynaecologist,2026-04-19,09:45,3,Montelukast 10mg,Hypertension,Cancelled,161.13,0
+RX2507301066,P1066,Isha Pawar,Dr. Kavita Rao,Orthopedic,2026-05-14,17:15,2,Atorvastatin 10mg,Fever,Dispensed,1954.99,2
+RX2507301067,P1067,Nikhil Kulkarni,Dr. Priya Nair,Gynaecologist,2026-06-22,12:30,1,Cough Syrup 100ml,Fever,Pending,678.83,3
+RX2507301068,P1068,Priya Mehta,Dr. Meera Shah,ENT Specialist,2026-07-06,16:45,5,Amlodipine 5mg,Infection,Dispensed,464.26,2
+RX2507301069,P1069,Rohit Shah,Dr. Meera Shah,Pediatrician,2026-07-03,14:15,4,Losartan 50mg,Heart Disease,Dispensed,704.22,3
+RX2507301070,P1070,Pooja Joshi,Dr. Rajesh Patel,Dermatologist,2026-05-26,14:30,1,Paracetamol 500mg,Diabetes,Completed,592.44,2
+RX2507301071,P1071,Nikhil Sharma,Dr. Meera Shah,Gynaecologist,2026-04-28,12:15,1,Vitamin D3 60000IU,Migraine,Pending,788.28,0
+RX2507301072,P1072,Simran Desai,Dr. Amit Kumar,Orthopedic,2026-04-23,11:45,5,Cetirizine 10mg,Migraine,Cancelled,223.81,3
+RX2507301073,P1073,Raj Kulkarni,Dr. Anil Verma,Pediatrician,2026-07-19,12:15,4,Calcium 500mg,Allergy,Completed,693.68,3
+RX2507301074,P1074,Anjali Kumar,Dr. Amit Kumar,Gynaecologist,2026-04-29,14:00,5,Dolo 650mg,Gastritis,Cancelled,653.33,3
+RX2507301075,P1075,Deepak Mishra,Dr. Kavita Rao,Dermatologist,2026-05-06,14:15,4,Losartan 50mg,Hypertension,Completed,1490.97,0
+RX2507301076,P1076,Anjali Sharma,Dr. Meera Shah,ENT Specialist,2026-05-26,19:00,1,Omeprazole 20mg,Infection,Cancelled,2042.97,1
+RX2507301077,P1077,Rahul Patil,Dr. Neha Singh,Cardiologist,2026-04-23,16:30,3,Amoxicillin 250mg,Infection,Cancelled,162.5,1
+RX2507301078,P1078,Divya Desai,Dr. Meera Shah,Gynaecologist,2026-04-26,14:00,3,Amoxicillin 250mg,Asthma,Pending,1043.95,3
+RX2507301079,P1079,Vikram Pawar,Dr. Priya Nair,Dermatologist,2026-07-28,14:45,6,Dolo 650mg,Asthma,Dispensed,1820.24,3
+RX2507301080,P1080,Kavita Kulkarni,Dr. Neha Singh,Orthopedic,2026-04-03,10:15,6,Metformin 500mg,Arthritis,Cancelled,1966.73,3
+RX2507301081,P1081,Rahul Sharma,Dr. Sunil Joshi,ENT Specialist,2026-07-21,17:00,5,Dolo 650mg,Allergy,Cancelled,804.52,2
+RX2507301082,P1082,Anjali Kulkarni,Dr. Amit Kumar,Gynaecologist,2026-06-01,11:45,2,Atorvastatin 10mg,Fever,Cancelled,2173.82,0
+RX2507301083,P1083,Deepak Shah,Dr. Meera Shah,ENT Specialist,2026-05-11,13:00,6,Atorvastatin 10mg,Heart Disease,Pending,409.12,0
+RX2507301084,P1084,Simran Kulkarni,Dr. Kavita Rao,Cardiologist,2026-06-28,18:45,6,Cetirizine 10mg,Allergy,Cancelled,1540.21,3
+RX2507301085,P1085,Sanjay Joshi,Dr. Amit Kumar,Gynaecologist,2026-06-11,11:15,1,Cetirizine 10mg,Arthritis,Pending,1321.99,0
+RX2507301086,P1086,Neha Patil,Dr. Kavita Rao,Dermatologist,2026-04-02,17:15,5,Salbutamol 4mg,Hypertension,Pending,1140.32,1
+RX2507301087,P1087,Rahul Mehta,Dr. Anil Verma,Pediatrician,2026-06-20,11:15,4,Cetirizine 10mg,Infection,Dispensed,1230.5,2
+RX2507301088,P1088,Simran Mishra,Dr. Sunil Joshi,Dermatologist,2026-06-10,17:30,2,Paracetamol 500mg,Asthma,Pending,2142.75,0
+RX2507301089,P1089,Deepak Jain,Dr. Priya Nair,General Physician,2026-06-23,18:00,1,Atorvastatin 10mg,Gastritis,Cancelled,1055.25,3
+RX2507301090,P1090,Isha Mishra,Dr. Rajesh Patel,Cardiologist,2026-05-14,13:45,2,Paracetamol 500mg,Gastritis,Completed,2192.17,1
+RX2507301091,P1091,Rohit Kumar,Dr. Sunil Joshi,Dermatologist,2026-05-21,16:30,6,Pantoprazole 40mg,Diabetes,Pending,1748.24,0
+RX2507301092,P1092,Kavita Joshi,Dr. Kavita Rao,Pediatrician,2026-05-24,09:45,4,Calcium 500mg,Diabetes,Cancelled,1438.76,2
+RX2507301093,P1093,Aditya Kulkarni,Dr. Priya Nair,Pediatrician,2026-07-17,13:00,1,Vitamin D3 60000IU,Migraine,Pending,1994.61,0
+RX2507301094,P1094,Asha Jain,Dr. Meera Shah,Cardiologist,2026-07-06,15:00,1,Cough Syrup 100ml,Diabetes,Pending,977.51,2
+RX2507301095,P1095,Raj Yadav,Dr. Amit Kumar,Gynaecologist,2026-04-10,08:15,1,Calcium 500mg,Allergy,Dispensed,1196.57,0
+RX2507301096,P1096,Isha Mehta,Dr. Kavita Rao,Dermatologist,2026-06-10,10:15,5,ORS Sachet,Allergy,Pending,1474.67,2
+RX2507301097,P1097,Aditya Singh,Dr. Sunil Joshi,ENT Specialist,2026-05-25,13:00,6,Paracetamol 500mg,Infection,Pending,1193.99,2
+RX2507301098,P1098,Megha Mishra,Dr. Rajesh Patel,Pediatrician,2026-05-10,15:30,1,Cetirizine 10mg,Arthritis,Dispensed,999.8,0
+RX2507301099,P1099,Akash Singh,Dr. Anil Verma,ENT Specialist,2026-07-17,10:45,4,Vitamin D3 60000IU,Fever,Dispensed,1279.54,1
+RX2507301100,P1100,Asha Singh,Dr. Amit Kumar,Dermatologist,2026-05-13,09:45,1,Metformin 500mg,Arthritis,Pending,1518.84,2
+RX2507301101,P1101,Manish Yadav,Dr. Sunil Joshi,General Physician,2026-07-04,13:45,6,Metformin 500mg,Migraine,Completed,2196.51,3
+RX2507301102,P1102,Isha Kumar,Dr. Amit Kumar,Cardiologist,2026-07-09,08:30,6,Omeprazole 20mg,Migraine,Pending,1487.87,2
+RX2507301103,P1103,Manish Mehta,Dr. Priya Nair,Gynaecologist,2026-05-16,08:00,2,Pantoprazole 40mg,Infection,Completed,637.18,1
+RX2507301104,P1104,Swati Yadav,Dr. Sunil Joshi,Orthopedic,2026-06-04,14:00,2,Salbutamol 4mg,Arthritis,Cancelled,121.6,2
+RX2507301105,P1105,Aditya Pawar,Dr. Priya Nair,Gynaecologist,2026-06-21,10:30,1,Levocetirizine 5mg,Gastritis,Pending,1572.67,3
+RX2507301106,P1106,Kavita Yadav,Dr. Sunil Joshi,Orthopedic,2026-04-26,09:45,3,Amlodipine 5mg,Diabetes,Pending,1937.3,2
+RX2507301107,P1107,Manish Mehta,Dr. Rajesh Patel,Cardiologist,2026-06-16,19:45,4,Pantoprazole 40mg,Allergy,Completed,695.01,3
+RX2507301108,P1108,Divya Mehta,Dr. Anil Verma,Dermatologist,2026-07-06,10:15,4,Amoxicillin 250mg,Arthritis,Cancelled,1798.14,3
+RX2507301109,P1109,Aditya Mishra,Dr. Sunil Joshi,Orthopedic,2026-07-22,10:30,5,Atorvastatin 10mg,Heart Disease,Cancelled,2133.0,1
+RX2507301110,P1110,Anjali Mishra,Dr. Rajesh Patel,Pediatrician,2026-07-25,12:15,5,Calcium 500mg,Arthritis,Pending,464.83,3
+RX2507301111,P1111,Manish Desai,Dr. Rajesh Patel,Cardiologist,2026-06-12,14:45,1,Dolo 650mg,Heart Disease,Cancelled,488.0,2
+RX2507301112,P1112,Nisha Singh,Dr. Anil Verma,Orthopedic,2026-05-17,17:15,5,Salbutamol 4mg,Allergy,Pending,567.9,3
+RX2507301113,P1113,Deepak Kulkarni,Dr. Anil Verma,Orthopedic,2026-05-27,15:45,4,Salbutamol 4mg,Fever,Completed,2026.04,3
+RX2507301114,P1114,Sneha Desai,Dr. Amit Kumar,General Physician,2026-07-16,11:30,5,Metformin 500mg,Diabetes,Completed,1982.04,1
+RX2507301115,P1115,Raj Kulkarni,Dr. Neha Singh,General Physician,2026-07-06,17:15,5,Cetirizine 10mg,Fever,Pending,957.1,0
+RX2507301116,P1116,Priya Sharma,Dr. Amit Kumar,Cardiologist,2026-06-24,12:00,6,Dolo 650mg,Arthritis,Pending,1867.36,0
+RX2507301117,P1117,Pranav Desai,Dr. Sunil Joshi,Pediatrician,2026-05-09,18:15,1,Atorvastatin 10mg,Heart Disease,Dispensed,572.87,0
+RX2507301118,P1118,Megha Desai,Dr. Amit Kumar,Dermatologist,2026-05-26,17:45,3,Omeprazole 20mg,Allergy,Cancelled,395.38,3
+RX2507301119,P1119,Aditya Gupta,Dr. Meera Shah,ENT Specialist,2026-05-07,14:30,2,Omeprazole 20mg,Migraine,Dispensed,805.37,1
+RX2507301120,P1120,Neha Patil,Dr. Amit Kumar,Orthopedic,2026-07-08,11:30,2,Paracetamol 500mg,Heart Disease,Cancelled,2186.12,3
+RX2507301121,P1121,Rohit Sharma,Dr. Neha Singh,Orthopedic,2026-04-02,12:45,2,Rabeprazole 20mg,Allergy,Dispensed,1469.99,2
+RX2507301122,P1122,Divya Verma,Dr. Anil Verma,Orthopedic,2026-07-15,08:00,4,Levocetirizine 5mg,Asthma,Dispensed,1053.03,3
+RX2507301123,P1123,Vikram Yadav,Dr. Anil Verma,Cardiologist,2026-04-03,16:45,5,Montelukast 10mg,Infection,Pending,1696.01,2
+RX2507301124,P1124,Kavita Jain,Dr. Amit Kumar,General Physician,2026-06-30,12:45,3,Ibuprofen 400mg,Fever,Completed,589.12,0
+RX2507301125,P1125,Aditya Shah,Dr. Priya Nair,Gynaecologist,2026-05-08,17:30,4,Ibuprofen 400mg,Diabetes,Dispensed,1152.1,3
+RX2507301126,P1126,Swati Yadav,Dr. Priya Nair,Pediatrician,2026-07-10,09:45,3,Amoxicillin 250mg,Asthma,Cancelled,299.21,1
+RX2507301127,P1127,Raj Mehta,Dr. Amit Kumar,Dermatologist,2026-05-04,13:00,5,Azithromycin 500mg,Allergy,Cancelled,522.22,3
+RX2507301128,P1128,Kavita Pawar,Dr. Amit Kumar,Dermatologist,2026-06-23,19:15,3,Atorvastatin 10mg,Migraine,Cancelled,716.15,0
+RX2507301129,P1129,Vikram Mehta,Dr. Sunil Joshi,Gynaecologist,2026-06-06,08:45,6,Losartan 50mg,Arthritis,Pending,1730.89,2
+RX2507301130,P1130,Shreya Desai,Dr. Neha Singh,Cardiologist,2026-05-04,15:45,3,Cetirizine 10mg,Heart Disease,Dispensed,1755.77,0
+RX2507301131,P1131,Vikram Patil,Dr. Meera Shah,Cardiologist,2026-05-31,19:15,6,Metformin 500mg,Allergy,Completed,283.19,2
+RX2507301132,P1132,Riya Yadav,Dr. Anil Verma,Dermatologist,2026-06-29,08:00,5,Levocetirizine 5mg,Allergy,Dispensed,836.17,0
+RX2507301133,P1133,Nikhil Kumar,Dr. Neha Singh,General Physician,2026-04-08,15:30,3,Salbutamol 4mg,Arthritis,Completed,637.66,0
+RX2507301134,P1134,Divya Mehta,Dr. Anil Verma,Cardiologist,2026-05-10,15:45,1,Amoxicillin 250mg,Migraine,Dispensed,1342.69,0
+RX2507301135,P1135,Ankit Patil,Dr. Sunil Joshi,General Physician,2026-04-08,12:00,5,Amlodipine 5mg,Diabetes,Pending,1376.75,1
+RX2507301136,P1136,Priya Sharma,Dr. Rajesh Patel,Cardiologist,2026-04-20,16:00,6,Azithromycin 500mg,Heart Disease,Cancelled,938.8,1
+RX2507301137,P1137,Pranav Mehta,Dr. Amit Kumar,Dermatologist,2026-05-27,13:45,6,Amlodipine 5mg,Diabetes,Cancelled,1231.09,0
+RX2507301138,P1138,Priya Mishra,Dr. Rajesh Patel,Gynaecologist,2026-06-20,10:30,1,Vitamin D3 60000IU,Migraine,Cancelled,1595.33,1
+RX2507301139,P1139,Akash Kulkarni,Dr. Priya Nair,Pediatrician,2026-07-01,13:45,2,Azithromycin 500mg,Diabetes,Pending,1378.19,3
+RX2507301140,P1140,Isha Desai,Dr. Sunil Joshi,General Physician,2026-04-14,08:00,4,Cough Syrup 100ml,Diabetes,Cancelled,2184.19,0
+RX2507301141,P1141,Manish Pawar,Dr. Rajesh Patel,Cardiologist,2026-05-06,19:00,5,Salbutamol 4mg,Hypertension,Completed,1920.56,0
+RX2507301142,P1142,Megha Mehta,Dr. Neha Singh,Dermatologist,2026-05-05,10:45,4,Ibuprofen 400mg,Hypertension,Completed,1237.2,2
+RX2507301143,P1143,Deepak Kumar,Dr. Amit Kumar,General Physician,2026-07-11,14:15,2,Ibuprofen 400mg,Hypertension,Cancelled,187.28,3
+RX2507301144,P1144,Shreya Kumar,Dr. Rajesh Patel,Dermatologist,2026-07-29,13:15,5,Cough Syrup 100ml,Diabetes,Cancelled,1113.01,2
+RX2507301145,P1145,Vikram Mehta,Dr. Meera Shah,Pediatrician,2026-06-26,12:45,6,Amoxicillin 250mg,Allergy,Pending,2030.55,1
+RX2507301146,P1146,Riya Desai,Dr. Neha Singh,Gynaecologist,2026-04-26,09:30,4,Cetirizine 10mg,Heart Disease,Completed,1636.72,2
+RX2507301147,P1147,Rohit Patil,Dr. Anil Verma,ENT Specialist,2026-05-30,14:45,2,ORS Sachet,Fever,Pending,799.57,3
+RX2507301148,P1148,Sneha Shah,Dr. Amit Kumar,General Physician,2026-07-02,08:15,6,Vitamin D3 60000IU,Hypertension,Completed,154.2,2
+RX2507301149,P1149,Arjun Mishra,Dr. Kavita Rao,ENT Specialist,2026-05-21,15:00,2,Vitamin D3 60000IU,Allergy,Cancelled,220.71,0
+RX2507301150,P1150,Divya Mishra,Dr. Anil Verma,Dermatologist,2026-07-26,14:45,2,ORS Sachet,Diabetes,Completed,211.55,0
+RX2507301151,P1151,Pranav Kulkarni,Dr. Anil Verma,General Physician,2026-04-15,08:00,1,Azithromycin 500mg,Heart Disease,Dispensed,1352.12,1
+RX2507301152,P1152,Sneha Pawar,Dr. Amit Kumar,ENT Specialist,2026-04-28,11:00,2,Levocetirizine 5mg,Fever,Dispensed,1385.28,2
+RX2507301153,P1153,Deepak Jain,Dr. Rajesh Patel,Pediatrician,2026-07-06,15:30,5,Dolo 650mg,Heart Disease,Completed,601.03,0
+RX2507301154,P1154,Riya Kumar,Dr. Rajesh Patel,Gynaecologist,2026-07-26,08:45,1,Omeprazole 20mg,Infection,Completed,2027.84,3
+RX2507301155,P1155,Rahul Kumar,Dr. Sunil Joshi,Pediatrician,2026-06-20,12:30,6,Rabeprazole 20mg,Fever,Dispensed,783.57,2
+RX2507301156,P1156,Priya Gupta,Dr. Sunil Joshi,General Physician,2026-07-03,16:00,1,Losartan 50mg,Diabetes,Dispensed,1614.2,3
+RX2507301157,P1157,Manish Patil,Dr. Meera Shah,Pediatrician,2026-06-17,16:15,3,Atorvastatin 10mg,Gastritis,Cancelled,2159.13,1
+RX2507301158,P1158,Sneha Kumar,Dr. Rajesh Patel,Orthopedic,2026-04-21,18:30,2,Ibuprofen 400mg,Infection,Cancelled,228.85,3
+RX2507301159,P1159,Arjun Mehta,Dr. Anil Verma,Cardiologist,2026-07-01,14:00,4,Omeprazole 20mg,Migraine,Cancelled,183.41,0
+RX2507301160,P1160,Neha Yadav,Dr. Sunil Joshi,Gynaecologist,2026-04-12,18:15,4,Vitamin D3 60000IU,Diabetes,Pending,529.22,0
+RX2507301161,P1161,Karan Singh,Dr. Meera Shah,Orthopedic,2026-06-15,08:00,3,Azithromycin 500mg,Diabetes,Dispensed,1037.74,0
+RX2507301162,P1162,Isha Jain,Dr. Anil Verma,Gynaecologist,2026-04-19,09:30,4,Amoxicillin 250mg,Gastritis,Cancelled,1309.93,2
+RX2507301163,P1163,Deepak Mishra,Dr. Rajesh Patel,Dermatologist,2026-06-29,12:00,2,Pantoprazole 40mg,Heart Disease,Completed,759.79,2
+RX2507301164,P1164,Divya Sharma,Dr. Amit Kumar,Pediatrician,2026-06-13,12:30,2,Ibuprofen 400mg,Gastritis,Cancelled,1333.73,2
+RX2507301165,P1165,Rahul Joshi,Dr. Kavita Rao,Cardiologist,2026-05-19,19:00,6,Calcium 500mg,Heart Disease,Cancelled,1024.23,2
+RX2507301166,P1166,Swati Yadav,Dr. Anil Verma,Orthopedic,2026-07-04,14:30,4,Ibuprofen 400mg,Allergy,Pending,525.2,2
+RX2507301167,P1167,Vikram Desai,Dr. Kavita Rao,General Physician,2026-05-12,18:45,4,Losartan 50mg,Diabetes,Completed,1548.26,0
+RX2507301168,P1168,Kavita Kumar,Dr. Rajesh Patel,Dermatologist,2026-04-27,19:45,4,Cetirizine 10mg,Allergy,Completed,628.27,0
+RX2507301169,P1169,Akash Mehta,Dr. Neha Singh,Orthopedic,2026-07-08,10:00,5,Levocetirizine 5mg,Arthritis,Cancelled,623.14,1
+RX2507301170,P1170,Nisha Verma,Dr. Rajesh Patel,Pediatrician,2026-05-02,17:45,2,Omeprazole 20mg,Asthma,Cancelled,721.32,0
+RX2507301171,P1171,Rohit Jain,Dr. Rajesh Patel,ENT Specialist,2026-05-21,10:30,2,Metformin 500mg,Arthritis,Cancelled,902.21,1
+RX2507301172,P1172,Shreya Verma,Dr. Sunil Joshi,Dermatologist,2026-06-05,15:15,5,Metformin 500mg,Asthma,Completed,1475.55,0
+RX2507301173,P1173,Aditya Yadav,Dr. Rajesh Patel,Dermatologist,2026-05-05,10:00,5,Ibuprofen 400mg,Migraine,Dispensed,255.74,1
+RX2507301174,P1174,Swati Yadav,Dr. Priya Nair,ENT Specialist,2026-04-20,10:30,3,Omeprazole 20mg,Asthma,Completed,1148.86,0
+RX2507301175,P1175,Akash Verma,Dr. Rajesh Patel,Orthopedic,2026-07-30,18:45,3,Montelukast 10mg,Hypertension,Completed,1872.9,2
+RX2507301176,P1176,Divya Jain,Dr. Rajesh Patel,Gynaecologist,2026-07-24,15:30,4,Rabeprazole 20mg,Heart Disease,Dispensed,539.62,1
+RX2507301177,P1177,Sanjay Shah,Dr. Neha Singh,Cardiologist,2026-07-31,19:45,3,Pantoprazole 40mg,Asthma,Pending,503.35,3
+RX2507301178,P1178,Anjali Desai,Dr. Rajesh Patel,Dermatologist,2026-05-29,15:45,4,Azithromycin 500mg,Asthma,Dispensed,981.47,0
+RX2507301179,P1179,Aditya Mishra,Dr. Anil Verma,Gynaecologist,2026-04-04,12:45,1,Dolo 650mg,Diabetes,Pending,1281.7,0
+RX2507301180,P1180,Riya Verma,Dr. Priya Nair,Gynaecologist,2026-04-20,08:30,5,Montelukast 10mg,Fever,Completed,401.37,2
+RX2507301181,P1181,Arjun Mehta,Dr. Neha Singh,Pediatrician,2026-04-17,08:45,6,Atorvastatin 10mg,Diabetes,Pending,1987.44,2
+RX2507301182,P1182,Sneha Joshi,Dr. Amit Kumar,Pediatrician,2026-05-10,14:45,3,Calcium 500mg,Fever,Cancelled,1063.16,1
+RX2507301183,P1183,Karan Sharma,Dr. Meera Shah,Orthopedic,2026-04-04,08:45,2,Paracetamol 500mg,Diabetes,Pending,1589.7,1
+RX2507301184,P1184,Swati Jain,Dr. Meera Shah,Pediatrician,2026-04-14,14:30,4,Cetirizine 10mg,Migraine,Cancelled,675.91,3
+RX2507301185,P1185,Ankit Yadav,Dr. Priya Nair,Cardiologist,2026-05-26,11:45,6,Rabeprazole 20mg,Allergy,Completed,1871.6,0
+RX2507301186,P1186,Kavita Patil,Dr. Sunil Joshi,Orthopedic,2026-04-06,19:45,1,Rabeprazole 20mg,Heart Disease,Completed,1812.84,0
+RX2507301187,P1187,Rahul Mishra,Dr. Sunil Joshi,Orthopedic,2026-05-03,18:15,2,ORS Sachet,Arthritis,Completed,570.27,1
+RX2507301188,P1188,Priya Jain,Dr. Priya Nair,Orthopedic,2026-06-29,14:00,2,Ibuprofen 400mg,Fever,Dispensed,1493.91,0
+RX2507301189,P1189,Raj Jain,Dr. Meera Shah,Orthopedic,2026-06-25,16:30,2,Amlodipine 5mg,Diabetes,Dispensed,1575.59,1
+RX2507301190,P1190,Nisha Pawar,Dr. Kavita Rao,Gynaecologist,2026-04-28,19:15,2,Azithromycin 500mg,Heart Disease,Completed,2073.22,2
+RX2507301191,P1191,Manish Jain,Dr. Rajesh Patel,ENT Specialist,2026-04-09,18:15,3,Vitamin D3 60000IU,Infection,Cancelled,253.57,1
+RX2507301192,P1192,Riya Mehta,Dr. Rajesh Patel,Dermatologist,2026-06-04,16:45,1,Montelukast 10mg,Allergy,Completed,260.18,0
+RX2507301193,P1193,Nikhil Sharma,Dr. Anil Verma,Pediatrician,2026-07-22,19:15,6,Amlodipine 5mg,Heart Disease,Completed,953.69,3
+RX2507301194,P1194,Pooja Pawar,Dr. Sunil Joshi,Gynaecologist,2026-07-28,18:30,5,ORS Sachet,Infection,Completed,1300.13,3
+RX2507301195,P1195,Karan Joshi,Dr. Priya Nair,Pediatrician,2026-05-23,11:00,5,Dolo 650mg,Fever,Pending,941.54,0
+RX2507301196,P1196,Simran Patil,Dr. Amit Kumar,ENT Specialist,2026-05-23,08:15,4,Cetirizine 10mg,Arthritis,Cancelled,395.41,0
+RX2507301197,P1197,Rohit Verma,Dr. Anil Verma,General Physician,2026-06-16,13:45,6,Calcium 500mg,Arthritis,Completed,807.53,3
+RX2507301198,P1198,Sneha Sharma,Dr. Meera Shah,General Physician,2026-04-26,13:45,3,Ibuprofen 400mg,Fever,Completed,1098.14,2
+RX2507301199,P1199,Ankit Kumar,Dr. Amit Kumar,Cardiologist,2026-07-25,14:45,3,Calcium 500mg,Arthritis,Pending,725.63,0
+RX2507301200,P1200,Simran Patil,Dr. Meera Shah,Cardiologist,2026-06-08,14:30,3,Montelukast 10mg,Hypertension,Pending,484.26,2
+RX2507301201,P1201,Deepak Shah,Dr. Sunil Joshi,General Physician,2026-07-23,16:45,3,Paracetamol 500mg,Fever,Pending,539.31,3
+RX2507301202,P1202,Divya Patil,Dr. Anil Verma,Cardiologist,2026-05-27,11:30,4,Amoxicillin 250mg,Hypertension,Cancelled,161.35,1
+RX2507301203,P1203,Rohit Joshi,Dr. Anil Verma,Dermatologist,2026-07-26,17:30,3,Omeprazole 20mg,Asthma,Cancelled,246.39,0
+RX2507301204,P1204,Kavita Mishra,Dr. Meera Shah,Pediatrician,2026-07-25,16:15,1,Salbutamol 4mg,Migraine,Dispensed,562.19,0
+RX2507301205,P1205,Arjun Jain,Dr. Anil Verma,Pediatrician,2026-07-23,17:45,5,Cough Syrup 100ml,Heart Disease,Cancelled,400.65,2
+RX2507301206,P1206,Sneha Yadav,Dr. Meera Shah,Dermatologist,2026-05-21,12:00,2,Levocetirizine 5mg,Arthritis,Completed,1215.38,2
+RX2507301207,P1207,Raj Joshi,Dr. Meera Shah,Cardiologist,2026-06-02,11:30,4,Cough Syrup 100ml,Migraine,Dispensed,1311.92,3
+RX2507301208,P1208,Simran Kumar,Dr. Priya Nair,Orthopedic,2026-06-29,18:00,3,Rabeprazole 20mg,Allergy,Dispensed,411.94,3
+RX2507301209,P1209,Ankit Kumar,Dr. Amit Kumar,Dermatologist,2026-05-01,17:30,3,Omeprazole 20mg,Diabetes,Pending,2136.45,2
+RX2507301210,P1210,Priya Sharma,Dr. Rajesh Patel,General Physician,2026-05-26,12:00,4,Azithromycin 500mg,Migraine,Pending,205.01,0
+RX2507301211,P1211,Amit Singh,Dr. Kavita Rao,Pediatrician,2026-06-03,15:30,5,ORS Sachet,Infection,Completed,1388.1,0
+RX2507301212,P1212,Nisha Shah,Dr. Sunil Joshi,Cardiologist,2026-05-27,14:30,6,Calcium 500mg,Fever,Pending,127.68,1
+RX2507301213,P1213,Rohit Jain,Dr. Meera Shah,ENT Specialist,2026-05-10,16:45,6,Calcium 500mg,Migraine,Dispensed,1306.75,1
+RX2507301214,P1214,Isha Jain,Dr. Priya Nair,Pediatrician,2026-04-24,11:15,4,Paracetamol 500mg,Gastritis,Cancelled,1610.18,2
+RX2507301215,P1215,Karan Singh,Dr. Rajesh Patel,Gynaecologist,2026-06-08,15:30,5,Azithromycin 500mg,Hypertension,Cancelled,520.34,0
+RX2507301216,P1216,Kavita Desai,Dr. Anil Verma,Gynaecologist,2026-07-08,17:15,6,Cetirizine 10mg,Gastritis,Dispensed,2161.99,0
+RX2507301217,P1217,Amit Desai,Dr. Kavita Rao,Orthopedic,2026-05-28,10:30,2,Vitamin D3 60000IU,Gastritis,Completed,1291.3,3
+RX2507301218,P1218,Megha Sharma,Dr. Amit Kumar,Gynaecologist,2026-04-04,10:15,2,Dolo 650mg,Fever,Pending,1479.83,0
+RX2507301219,P1219,Manish Mehta,Dr. Kavita Rao,Orthopedic,2026-05-28,17:00,2,Metformin 500mg,Asthma,Cancelled,1532.96,0
+RX2507301220,P1220,Swati Gupta,Dr. Amit Kumar,Pediatrician,2026-04-18,14:30,3,Losartan 50mg,Infection,Dispensed,1515.89,2
+RX2507301221,P1221,Manish Kumar,Dr. Kavita Rao,Gynaecologist,2026-05-18,13:30,1,Dolo 650mg,Arthritis,Cancelled,773.04,1
+RX2507301222,P1222,Priya Joshi,Dr. Neha Singh,ENT Specialist,2026-04-10,16:00,4,Azithromycin 500mg,Infection,Dispensed,853.7,0
+RX2507301223,P1223,Rahul Singh,Dr. Meera Shah,Gynaecologist,2026-05-15,08:30,3,Calcium 500mg,Heart Disease,Cancelled,468.71,1
+RX2507301224,P1224,Swati Mishra,Dr. Sunil Joshi,Orthopedic,2026-05-27,15:45,2,Calcium 500mg,Diabetes,Pending,2115.73,3
+RX2507301225,P1225,Akash Verma,Dr. Anil Verma,Cardiologist,2026-07-12,11:45,6,Ibuprofen 400mg,Fever,Dispensed,2066.16,0
+RX2507301226,P1226,Nisha Jain,Dr. Meera Shah,Pediatrician,2026-07-20,16:00,2,Rabeprazole 20mg,Allergy,Cancelled,1882.46,0
+RX2507301227,P1227,Nikhil Gupta,Dr. Rajesh Patel,ENT Specialist,2026-04-19,08:45,1,Vitamin D3 60000IU,Arthritis,Dispensed,1936.0,0
+RX2507301228,P1228,Asha Patil,Dr. Kavita Rao,Orthopedic,2026-07-15,11:45,2,Rabeprazole 20mg,Allergy,Pending,926.25,1
+RX2507301229,P1229,Nikhil Joshi,Dr. Priya Nair,General Physician,2026-04-07,19:45,6,Atorvastatin 10mg,Heart Disease,Cancelled,2036.35,1
+RX2507301230,P1230,Kavita Yadav,Dr. Meera Shah,Cardiologist,2026-06-08,15:30,4,Calcium 500mg,Heart Disease,Cancelled,1913.48,1
+RX2507301231,P1231,Arjun Shah,Dr. Priya Nair,General Physician,2026-06-16,19:45,1,Cough Syrup 100ml,Infection,Pending,1658.65,1
+RX2507301232,P1232,Sneha Verma,Dr. Priya Nair,Cardiologist,2026-06-20,13:30,6,Amoxicillin 250mg,Gastritis,Cancelled,1526.33,0
+RX2507301233,P1233,Amit Mishra,Dr. Meera Shah,Dermatologist,2026-05-10,09:45,5,Salbutamol 4mg,Asthma,Completed,1598.69,2
+RX2507301234,P1234,Neha Mehta,Dr. Sunil Joshi,Cardiologist,2026-06-22,13:15,1,Cetirizine 10mg,Migraine,Dispensed,761.82,3
+RX2507301235,P1235,Vikram Desai,Dr. Amit Kumar,Pediatrician,2026-04-05,19:00,2,Pantoprazole 40mg,Gastritis,Dispensed,532.78,3
+RX2507301236,P1236,Divya Mehta,Dr. Neha Singh,General Physician,2026-05-12,14:00,6,Amoxicillin 250mg,Heart Disease,Cancelled,1946.95,3
+RX2507301237,P1237,Amit Jain,Dr. Kavita Rao,Orthopedic,2026-07-25,10:15,6,Atorvastatin 10mg,Migraine,Completed,1006.81,2
+RX2507301238,P1238,Sneha Gupta,Dr. Sunil Joshi,Gynaecologist,2026-06-01,17:30,1,Pantoprazole 40mg,Arthritis,Cancelled,2103.86,0
+RX2507301239,P1239,Akash Singh,Dr. Neha Singh,Gynaecologist,2026-07-04,10:30,4,Azithromycin 500mg,Infection,Pending,1926.7,2
+RX2507301240,P1240,Simran Patil,Dr. Kavita Rao,General Physician,2026-06-04,19:15,5,Omeprazole 20mg,Infection,Pending,337.28,3
+RX2507301241,P1241,Pranav Joshi,Dr. Priya Nair,Pediatrician,2026-07-27,10:00,3,Losartan 50mg,Gastritis,Completed,1456.47,1
+RX2507301242,P1242,Priya Mehta,Dr. Priya Nair,Dermatologist,2026-06-23,09:45,6,Levocetirizine 5mg,Hypertension,Completed,1423.8,2
+RX2507301243,P1243,Pranav Jain,Dr. Priya Nair,Orthopedic,2026-06-06,14:00,4,Azithromycin 500mg,Migraine,Completed,1773.0,3
+RX2507301244,P1244,Neha Pawar,Dr. Sunil Joshi,Gynaecologist,2026-07-09,19:00,3,Rabeprazole 20mg,Gastritis,Completed,1472.63,3
+RX2507301245,P1245,Rohit Patil,Dr. Sunil Joshi,Pediatrician,2026-04-03,17:00,4,Cetirizine 10mg,Infection,Dispensed,820.27,1
+RX2507301246,P1246,Anjali Mehta,Dr. Rajesh Patel,Cardiologist,2026-05-27,18:00,4,Rabeprazole 20mg,Allergy,Dispensed,1462.7,2
+RX2507301247,P1247,Akash Verma,Dr. Neha Singh,Dermatologist,2026-04-22,12:30,6,Cough Syrup 100ml,Arthritis,Dispensed,1586.89,2
+RX2507301248,P1248,Swati Mishra,Dr. Priya Nair,Pediatrician,2026-05-30,15:30,1,Omeprazole 20mg,Heart Disease,Pending,1234.91,2
+RX2507301249,P1249,Manish Shah,Dr. Priya Nair,Dermatologist,2026-04-24,08:15,4,Levocetirizine 5mg,Diabetes,Cancelled,1590.73,1
+RX2507301250,P1250,Riya Desai,Dr. Neha Singh,Orthopedic,2026-04-08,11:45,4,Dolo 650mg,Infection,Dispensed,1367.55,3
+RX2507301251,P1251,Nikhil Verma,Dr. Anil Verma,Gynaecologist,2026-06-06,09:00,2,Montelukast 10mg,Arthritis,Pending,698.0,0
+RX2507301252,P1252,Sneha Sharma,Dr. Rajesh Patel,ENT Specialist,2026-04-14,10:15,6,Pantoprazole 40mg,Migraine,Dispensed,270.53,1
+RX2507301253,P1253,Amit Mishra,Dr. Kavita Rao,Gynaecologist,2026-05-22,11:45,4,Levocetirizine 5mg,Heart Disease,Dispensed,315.08,3
+RX2507301254,P1254,Kavita Joshi,Dr. Neha Singh,General Physician,2026-07-12,18:30,3,Vitamin D3 60000IU,Hypertension,Completed,731.03,1
+RX2507301255,P1255,Amit Yadav,Dr. Priya Nair,Dermatologist,2026-04-23,13:00,4,Atorvastatin 10mg,Arthritis,Completed,1023.3,2
+RX2507301256,P1256,Riya Verma,Dr. Rajesh Patel,ENT Specialist,2026-04-19,14:00,1,Losartan 50mg,Arthritis,Pending,1138.4,1
+RX2507301257,P1257,Deepak Kulkarni,Dr. Anil Verma,Dermatologist,2026-07-23,17:30,6,Vitamin D3 60000IU,Heart Disease,Completed,860.51,1
+RX2507301258,P1258,Shreya Gupta,Dr. Rajesh Patel,Gynaecologist,2026-05-05,15:45,3,Cetirizine 10mg,Migraine,Dispensed,174.76,2
+RX2507301259,P1259,Karan Verma,Dr. Amit Kumar,Dermatologist,2026-04-27,13:30,1,Azithromycin 500mg,Migraine,Completed,2044.75,2
+RX2507301260,P1260,Kavita Desai,Dr. Anil Verma,Gynaecologist,2026-07-13,10:15,5,Paracetamol 500mg,Migraine,Cancelled,1690.46,1
+RX2507301261,P1261,Vikram Jain,Dr. Neha Singh,General Physician,2026-04-04,13:30,4,Cetirizine 10mg,Gastritis,Cancelled,728.21,1
+RX2507301262,P1262,Riya Singh,Dr. Rajesh Patel,General Physician,2026-07-20,09:30,6,Rabeprazole 20mg,Infection,Cancelled,1346.46,2
+RX2507301263,P1263,Nikhil Joshi,Dr. Priya Nair,Cardiologist,2026-07-14,19:00,3,Paracetamol 500mg,Heart Disease,Completed,713.66,3
+RX2507301264,P1264,Neha Kulkarni,Dr. Kavita Rao,Pediatrician,2026-06-06,14:00,5,Azithromycin 500mg,Diabetes,Completed,1164.26,0
+RX2507301265,P1265,Sanjay Shah,Dr. Neha Singh,Pediatrician,2026-05-03,16:45,2,Cetirizine 10mg,Migraine,Pending,1331.18,2
+RX2507301266,P1266,Asha Joshi,Dr. Neha Singh,Cardiologist,2026-06-29,11:45,4,Losartan 50mg,Arthritis,Pending,1433.12,0
+RX2507301267,P1267,Aditya Kulkarni,Dr. Kavita Rao,ENT Specialist,2026-05-22,09:45,1,Amoxicillin 250mg,Heart Disease,Cancelled,1432.19,2
+RX2507301268,P1268,Anjali Mishra,Dr. Anil Verma,General Physician,2026-07-15,13:45,1,ORS Sachet,Allergy,Dispensed,417.0,3
+RX2507301269,P1269,Ankit Desai,Dr. Priya Nair,Dermatologist,2026-04-04,19:00,3,Amlodipine 5mg,Fever,Pending,145.45,0
+RX2507301270,P1270,Neha Mehta,Dr. Amit Kumar,Dermatologist,2026-07-07,08:15,5,ORS Sachet,Gastritis,Completed,2012.7,0
+RX2507301271,P1271,Akash Joshi,Dr. Meera Shah,ENT Specialist,2026-07-14,10:30,6,Ibuprofen 400mg,Hypertension,Completed,1759.58,0
+RX2507301272,P1272,Pooja Singh,Dr. Anil Verma,Gynaecologist,2026-05-31,08:00,3,Cetirizine 10mg,Migraine,Completed,1656.15,1
+RX2507301273,P1273,Pranav Mehta,Dr. Amit Kumar,Cardiologist,2026-04-12,14:45,2,Azithromycin 500mg,Allergy,Pending,387.75,1
+RX2507301274,P1274,Anjali Gupta,Dr. Sunil Joshi,Cardiologist,2026-07-27,13:15,5,Omeprazole 20mg,Fever,Pending,218.16,3
+RX2507301275,P1275,Vikram Joshi,Dr. Rajesh Patel,Pediatrician,2026-07-28,09:00,1,Ibuprofen 400mg,Asthma,Completed,1231.1,1
+RX2507301276,P1276,Priya Pawar,Dr. Priya Nair,Orthopedic,2026-07-19,11:15,6,Metformin 500mg,Gastritis,Pending,1195.41,0
+RX2507301277,P1277,Vikram Joshi,Dr. Priya Nair,Dermatologist,2026-06-30,19:30,3,ORS Sachet,Migraine,Completed,382.58,2
+RX2507301278,P1278,Nisha Mishra,Dr. Rajesh Patel,Orthopedic,2026-06-10,12:30,5,Dolo 650mg,Arthritis,Dispensed,480.39,3
+RX2507301279,P1279,Arjun Yadav,Dr. Anil Verma,Dermatologist,2026-06-27,10:00,6,Rabeprazole 20mg,Gastritis,Pending,1029.51,3
+RX2507301280,P1280,Nisha Jain,Dr. Kavita Rao,Pediatrician,2026-04-07,11:30,6,Rabeprazole 20mg,Allergy,Completed,488.88,3
+RX2507301281,P1281,Sanjay Shah,Dr. Priya Nair,General Physician,2026-06-10,09:30,6,Metformin 500mg,Arthritis,Cancelled,891.53,2
+RX2507301282,P1282,Riya Verma,Dr. Neha Singh,General Physician,2026-05-30,14:15,3,Pantoprazole 40mg,Allergy,Dispensed,1408.74,3
+RX2507301283,P1283,Pranav Yadav,Dr. Anil Verma,General Physician,2026-07-18,12:45,3,Pantoprazole 40mg,Asthma,Cancelled,1885.91,2
+RX2507301284,P1284,Pooja Jain,Dr. Rajesh Patel,General Physician,2026-04-10,15:30,4,ORS Sachet,Gastritis,Pending,823.17,3
+RX2507301285,P1285,Vikram Sharma,Dr. Rajesh Patel,ENT Specialist,2026-05-11,17:30,6,Pantoprazole 40mg,Fever,Completed,541.3,3
+RX2507301286,P1286,Nisha Patil,Dr. Kavita Rao,Orthopedic,2026-07-12,12:00,3,Cough Syrup 100ml,Hypertension,Pending,1453.18,3
+RX2507301287,P1287,Deepak Joshi,Dr. Priya Nair,Pediatrician,2026-05-12,16:15,3,Amlodipine 5mg,Asthma,Completed,974.51,2
+RX2507301288,P1288,Shreya Mishra,Dr. Anil Verma,Dermatologist,2026-05-07,17:00,4,Ibuprofen 400mg,Arthritis,Pending,735.75,3
+RX2507301289,P1289,Arjun Kumar,Dr. Priya Nair,Orthopedic,2026-05-15,16:00,4,Ibuprofen 400mg,Gastritis,Pending,1521.53,0
+RX2507301290,P1290,Swati Kumar,Dr. Neha Singh,Gynaecologist,2026-04-08,16:15,6,Dolo 650mg,Hypertension,Dispensed,629.27,3
+RX2507301291,P1291,Deepak Patil,Dr. Priya Nair,Gynaecologist,2026-07-15,14:00,4,Metformin 500mg,Diabetes,Dispensed,689.65,3
+RX2507301292,P1292,Anjali Kulkarni,Dr. Kavita Rao,Orthopedic,2026-04-07,19:00,5,Omeprazole 20mg,Arthritis,Completed,1313.59,0
+RX2507301293,P1293,Raj Jain,Dr. Rajesh Patel,Cardiologist,2026-06-25,14:15,5,Atorvastatin 10mg,Infection,Cancelled,502.6,2
+RX2507301294,P1294,Sneha Joshi,Dr. Rajesh Patel,Pediatrician,2026-05-18,18:15,4,Atorvastatin 10mg,Gastritis,Cancelled,546.64,1
+RX2507301295,P1295,Vikram Verma,Dr. Neha Singh,Gynaecologist,2026-07-14,19:30,1,Azithromycin 500mg,Arthritis,Completed,1171.7,0
+RX2507301296,P1296,Divya Yadav,Dr. Neha Singh,Dermatologist,2026-05-10,14:45,6,Atorvastatin 10mg,Heart Disease,Cancelled,303.94,3
+RX2507301297,P1297,Vikram Gupta,Dr. Kavita Rao,Pediatrician,2026-07-28,14:15,2,Montelukast 10mg,Asthma,Dispensed,188.35,3
+RX2507301298,P1298,Riya Joshi,Dr. Neha Singh,Dermatologist,2026-06-17,17:00,1,Vitamin D3 60000IU,Asthma,Completed,1641.27,0
+RX2507301299,P1299,Vikram Yadav,Dr. Neha Singh,Dermatologist,2026-07-03,11:30,3,Azithromycin 500mg,Infection,Cancelled,1853.12,1
+RX2507301300,P1300,Kavita Patil,Dr. Sunil Joshi,Orthopedic,2026-04-21,09:30,1,Rabeprazole 20mg,Allergy,Completed,304.31,0
+RX2507301301,P1301,Rohit Pawar,Dr. Neha Singh,ENT Specialist,2026-06-06,15:15,1,Cetirizine 10mg,Migraine,Dispensed,335.76,0
+RX2507301302,P1302,Simran Pawar,Dr. Sunil Joshi,Orthopedic,2026-05-09,19:00,1,Amoxicillin 250mg,Migraine,Pending,1978.75,0
+RX2507301303,P1303,Pranav Pawar,Dr. Rajesh Patel,Orthopedic,2026-05-21,14:45,1,Vitamin D3 60000IU,Allergy,Dispensed,1675.82,0
+RX2507301304,P1304,Sneha Shah,Dr. Amit Kumar,Dermatologist,2026-06-24,10:00,2,Amlodipine 5mg,Allergy,Completed,748.92,2
+RX2507301305,P1305,Ankit Kulkarni,Dr. Rajesh Patel,Cardiologist,2026-07-05,13:15,1,ORS Sachet,Diabetes,Cancelled,1296.19,0
+RX2507301306,P1306,Nisha Yadav,Dr. Kavita Rao,ENT Specialist,2026-04-02,17:00,2,Losartan 50mg,Arthritis,Dispensed,286.06,3
+RX2507301307,P1307,Akash Patil,Dr. Neha Singh,ENT Specialist,2026-05-03,09:45,1,Azithromycin 500mg,Fever,Dispensed,1332.57,2
+RX2507301308,P1308,Asha Joshi,Dr. Amit Kumar,Dermatologist,2026-06-23,15:00,2,Calcium 500mg,Allergy,Dispensed,721.8,0
+RX2507301309,P1309,Pranav Jain,Dr. Rajesh Patel,ENT Specialist,2026-05-24,15:30,3,Omeprazole 20mg,Infection,Dispensed,1727.02,1
+RX2507301310,P1310,Sneha Shah,Dr. Anil Verma,Gynaecologist,2026-04-14,16:30,4,Vitamin D3 60000IU,Migraine,Cancelled,510.05,0
+RX2507301311,P1311,Vikram Verma,Dr. Priya Nair,Orthopedic,2026-04-22,09:00,6,Cough Syrup 100ml,Migraine,Dispensed,1487.85,3
+RX2507301312,P1312,Kavita Mishra,Dr. Neha Singh,ENT Specialist,2026-05-19,12:15,2,Omeprazole 20mg,Hypertension,Completed,710.63,0
+RX2507301313,P1313,Pranav Patil,Dr. Neha Singh,Pediatrician,2026-07-01,09:30,2,Montelukast 10mg,Diabetes,Cancelled,1361.37,3
+RX2507301314,P1314,Swati Jain,Dr. Rajesh Patel,Gynaecologist,2026-07-23,14:30,3,Montelukast 10mg,Fever,Completed,485.04,3
+RX2507301315,P1315,Rahul Yadav,Dr. Sunil Joshi,Cardiologist,2026-07-31,10:30,3,Cough Syrup 100ml,Hypertension,Cancelled,1334.2,2
+RX2507301316,P1316,Megha Kulkarni,Dr. Meera Shah,Gynaecologist,2026-06-12,17:30,5,Rabeprazole 20mg,Heart Disease,Pending,2160.82,0
+RX2507301317,P1317,Raj Gupta,Dr. Meera Shah,Cardiologist,2026-05-17,18:30,4,Dolo 650mg,Gastritis,Cancelled,553.07,2
+RX2507301318,P1318,Nisha Verma,Dr. Sunil Joshi,Dermatologist,2026-04-13,10:45,6,Cetirizine 10mg,Infection,Pending,930.61,1
+RX2507301319,P1319,Raj Jain,Dr. Meera Shah,Gynaecologist,2026-06-15,08:30,4,Paracetamol 500mg,Infection,Dispensed,1499.74,0
+RX2507301320,P1320,Nisha Gupta,Dr. Sunil Joshi,ENT Specialist,2026-05-09,12:00,2,Paracetamol 500mg,Arthritis,Cancelled,1911.18,2
+RX2507301321,P1321,Karan Verma,Dr. Amit Kumar,ENT Specialist,2026-05-03,16:45,1,Paracetamol 500mg,Diabetes,Cancelled,971.09,0
+RX2507301322,P1322,Shreya Singh,Dr. Sunil Joshi,ENT Specialist,2026-04-25,09:45,2,Losartan 50mg,Fever,Dispensed,1101.16,1
+RX2507301323,P1323,Akash Kumar,Dr. Priya Nair,Orthopedic,2026-04-30,09:00,3,Metformin 500mg,Fever,Pending,417.08,1
+RX2507301324,P1324,Sneha Mishra,Dr. Rajesh Patel,Dermatologist,2026-05-21,10:30,1,Losartan 50mg,Migraine,Cancelled,799.62,1
+RX2507301325,P1325,Aditya Desai,Dr. Priya Nair,General Physician,2026-05-15,17:30,1,Paracetamol 500mg,Migraine,Dispensed,201.15,2
+RX2507301326,P1326,Pooja Singh,Dr. Kavita Rao,Orthopedic,2026-04-20,09:15,3,Ibuprofen 400mg,Hypertension,Pending,841.82,0
+RX2507301327,P1327,Deepak Gupta,Dr. Meera Shah,Dermatologist,2026-06-21,15:15,2,Calcium 500mg,Heart Disease,Pending,2040.95,0
+RX2507301328,P1328,Neha Patil,Dr. Anil Verma,General Physician,2026-07-16,18:30,4,Losartan 50mg,Diabetes,Cancelled,1210.32,0
+RX2507301329,P1329,Vikram Sharma,Dr. Rajesh Patel,Orthopedic,2026-07-29,09:00,3,Ibuprofen 400mg,Heart Disease,Completed,2012.87,2
+RX2507301330,P1330,Sneha Singh,Dr. Priya Nair,General Physician,2026-07-22,17:30,2,Calcium 500mg,Hypertension,Completed,718.86,3
+RX2507301331,P1331,Deepak Yadav,Dr. Kavita Rao,General Physician,2026-04-29,18:15,5,Amoxicillin 250mg,Fever,Dispensed,1454.44,1
+RX2507301332,P1332,Isha Kumar,Dr. Amit Kumar,Gynaecologist,2026-07-03,13:45,5,Paracetamol 500mg,Asthma,Cancelled,1281.29,0
+RX2507301333,P1333,Arjun Jain,Dr. Rajesh Patel,Cardiologist,2026-07-03,18:45,3,Pantoprazole 40mg,Arthritis,Dispensed,783.39,2
+RX2507301334,P1334,Priya Gupta,Dr. Meera Shah,General Physician,2026-04-05,15:30,5,Rabeprazole 20mg,Migraine,Dispensed,1253.04,2
+RX2507301335,P1335,Deepak Yadav,Dr. Rajesh Patel,Orthopedic,2026-04-08,19:00,4,Salbutamol 4mg,Arthritis,Dispensed,1554.1,2
+RX2507301336,P1336,Divya Joshi,Dr. Rajesh Patel,Orthopedic,2026-05-15,16:45,1,Vitamin D3 60000IU,Hypertension,Dispensed,928.1,3
+RX2507301337,P1337,Aditya Desai,Dr. Kavita Rao,Dermatologist,2026-07-02,15:30,3,Dolo 650mg,Diabetes,Dispensed,950.07,1
+RX2507301338,P1338,Sneha Patil,Dr. Kavita Rao,Gynaecologist,2026-07-20,11:45,6,Losartan 50mg,Hypertension,Completed,1342.51,0
+RX2507301339,P1339,Pranav Patil,Dr. Rajesh Patel,General Physician,2026-07-03,18:00,5,Amlodipine 5mg,Asthma,Cancelled,1623.6,1
+RX2507301340,P1340,Simran Gupta,Dr. Anil Verma,General Physician,2026-06-27,12:45,4,Metformin 500mg,Gastritis,Dispensed,1225.53,1
+RX2507301341,P1341,Ankit Kulkarni,Dr. Priya Nair,Pediatrician,2026-07-13,12:15,2,Atorvastatin 10mg,Allergy,Dispensed,1714.93,2
+RX2507301342,P1342,Nisha Joshi,Dr. Neha Singh,Gynaecologist,2026-05-02,10:30,1,Montelukast 10mg,Gastritis,Pending,2079.98,3
+RX2507301343,P1343,Raj Singh,Dr. Neha Singh,General Physician,2026-05-24,13:30,4,Atorvastatin 10mg,Heart Disease,Dispensed,919.08,3
+RX2507301344,P1344,Divya Desai,Dr. Anil Verma,Cardiologist,2026-07-11,12:15,3,Dolo 650mg,Diabetes,Pending,2193.24,1
+RX2507301345,P1345,Sanjay Singh,Dr. Priya Nair,Pediatrician,2026-07-13,17:30,6,Salbutamol 4mg,Migraine,Completed,497.07,1
+RX2507301346,P1346,Riya Kulkarni,Dr. Neha Singh,General Physician,2026-05-11,16:15,5,Vitamin D3 60000IU,Asthma,Dispensed,701.43,1
+RX2507301347,P1347,Aditya Verma,Dr. Anil Verma,Gynaecologist,2026-07-08,19:00,4,Metformin 500mg,Hypertension,Cancelled,734.62,1
+RX2507301348,P1348,Priya Kumar,Dr. Rajesh Patel,ENT Specialist,2026-07-15,08:30,1,ORS Sachet,Infection,Pending,2002.76,2
+RX2507301349,P1349,Rohit Mehta,Dr. Priya Nair,Orthopedic,2026-07-09,14:45,5,Azithromycin 500mg,Infection,Dispensed,944.13,1
+RX2507301350,P1350,Divya Joshi,Dr. Meera Shah,ENT Specialist,2026-07-27,11:00,2,Rabeprazole 20mg,Fever,Dispensed,748.31,2
+RX2507301351,P1351,Rohit Gupta,Dr. Amit Kumar,Dermatologist,2026-07-12,08:45,1,Rabeprazole 20mg,Diabetes,Dispensed,1319.02,1
+RX2507301352,P1352,Swati Sharma,Dr. Priya Nair,General Physician,2026-05-13,11:45,5,Cough Syrup 100ml,Hypertension,Dispensed,124.29,0
+RX2507301353,P1353,Deepak Kumar,Dr. Rajesh Patel,Pediatrician,2026-05-18,18:30,4,Ibuprofen 400mg,Arthritis,Pending,503.15,2
+RX2507301354,P1354,Swati Kumar,Dr. Anil Verma,Pediatrician,2026-05-01,18:30,6,Cough Syrup 100ml,Hypertension,Completed,856.11,2
+RX2507301355,P1355,Manish Pawar,Dr. Amit Kumar,Pediatrician,2026-06-04,17:15,2,Paracetamol 500mg,Migraine,Completed,1632.07,1
+RX2507301356,P1356,Kavita Jain,Dr. Rajesh Patel,Pediatrician,2026-07-02,09:45,6,Dolo 650mg,Infection,Dispensed,712.52,3
+RX2507301357,P1357,Sanjay Sharma,Dr. Sunil Joshi,Gynaecologist,2026-04-29,12:15,4,Paracetamol 500mg,Hypertension,Completed,2085.56,2
+RX2507301358,P1358,Simran Shah,Dr. Priya Nair,Pediatrician,2026-05-14,19:00,1,Dolo 650mg,Infection,Cancelled,2135.93,3
+RX2507301359,P1359,Ankit Sharma,Dr. Meera Shah,Cardiologist,2026-06-17,10:45,6,ORS Sachet,Hypertension,Pending,175.13,1
+RX2507301360,P1360,Swati Singh,Dr. Neha Singh,ENT Specialist,2026-05-03,18:30,4,Losartan 50mg,Diabetes,Cancelled,1497.34,0
+RX2507301361,P1361,Nikhil Jain,Dr. Rajesh Patel,Dermatologist,2026-06-30,09:00,4,Cough Syrup 100ml,Allergy,Cancelled,170.0,3
+RX2507301362,P1362,Swati Gupta,Dr. Anil Verma,Dermatologist,2026-06-19,11:15,2,Azithromycin 500mg,Infection,Dispensed,1241.43,1
+RX2507301363,P1363,Manish Sharma,Dr. Neha Singh,ENT Specialist,2026-07-14,14:30,6,Calcium 500mg,Gastritis,Cancelled,578.99,3
+RX2507301364,P1364,Simran Jain,Dr. Neha Singh,Cardiologist,2026-06-25,10:30,2,Paracetamol 500mg,Diabetes,Dispensed,2073.04,1
+RX2507301365,P1365,Vikram Mehta,Dr. Kavita Rao,ENT Specialist,2026-06-18,11:15,2,Cetirizine 10mg,Asthma,Pending,660.08,2
+RX2507301366,P1366,Isha Gupta,Dr. Anil Verma,Gynaecologist,2026-05-14,11:15,4,Losartan 50mg,Migraine,Dispensed,1141.05,1
+RX2507301367,P1367,Vikram Mehta,Dr. Kavita Rao,Gynaecologist,2026-06-18,17:00,3,Azithromycin 500mg,Allergy,Pending,205.79,0
+RX2507301368,P1368,Pooja Kumar,Dr. Sunil Joshi,Pediatrician,2026-04-11,08:45,3,Metformin 500mg,Arthritis,Cancelled,729.1,3
+RX2507301369,P1369,Akash Singh,Dr. Kavita Rao,ENT Specialist,2026-04-21,11:30,1,Omeprazole 20mg,Infection,Pending,2186.32,2
+RX2507301370,P1370,Kavita Shah,Dr. Meera Shah,Dermatologist,2026-04-19,11:45,3,Vitamin D3 60000IU,Gastritis,Cancelled,1396.28,3
+RX2507301371,P1371,Amit Singh,Dr. Sunil Joshi,Orthopedic,2026-06-05,16:30,5,ORS Sachet,Fever,Pending,699.66,2
+RX2507301372,P1372,Simran Mishra,Dr. Meera Shah,ENT Specialist,2026-07-16,08:30,4,Omeprazole 20mg,Gastritis,Dispensed,2113.83,1
+RX2507301373,P1373,Ankit Shah,Dr. Anil Verma,General Physician,2026-06-12,16:30,1,Omeprazole 20mg,Diabetes,Cancelled,1713.1,3
+RX2507301374,P1374,Asha Sharma,Dr. Anil Verma,Pediatrician,2026-05-29,10:15,6,Montelukast 10mg,Diabetes,Cancelled,1335.36,1
+RX2507301375,P1375,Akash Kumar,Dr. Sunil Joshi,Pediatrician,2026-04-10,12:15,1,Omeprazole 20mg,Heart Disease,Dispensed,746.42,2
+RX2507301376,P1376,Swati Kumar,Dr. Amit Kumar,Dermatologist,2026-07-13,11:30,4,Dolo 650mg,Allergy,Dispensed,716.7,2
+RX2507301377,P1377,Arjun Kulkarni,Dr. Kavita Rao,Pediatrician,2026-05-20,15:15,3,Ibuprofen 400mg,Allergy,Completed,1572.08,0
+RX2507301378,P1378,Anjali Joshi,Dr. Kavita Rao,Cardiologist,2026-07-05,11:15,1,Atorvastatin 10mg,Infection,Pending,1730.28,1
+RX2507301379,P1379,Rohit Mishra,Dr. Kavita Rao,Pediatrician,2026-04-29,10:00,5,Amlodipine 5mg,Gastritis,Dispensed,1612.96,3
+RX2507301380,P1380,Swati Mehta,Dr. Kavita Rao,Gynaecologist,2026-04-24,19:45,1,Vitamin D3 60000IU,Asthma,Cancelled,1430.69,1
+RX2507301381,P1381,Pranav Gupta,Dr. Anil Verma,Dermatologist,2026-07-31,09:00,2,Omeprazole 20mg,Diabetes,Dispensed,1973.99,2
+RX2507301382,P1382,Anjali Shah,Dr. Sunil Joshi,Dermatologist,2026-06-12,12:15,2,Azithromycin 500mg,Arthritis,Cancelled,1525.45,3
+RX2507301383,P1383,Nikhil Singh,Dr. Amit Kumar,ENT Specialist,2026-05-27,10:45,4,Cetirizine 10mg,Asthma,Cancelled,138.15,2
+RX2507301384,P1384,Kavita Joshi,Dr. Sunil Joshi,Orthopedic,2026-04-05,12:45,5,Omeprazole 20mg,Diabetes,Completed,2027.83,2
+RX2507301385,P1385,Raj Mehta,Dr. Amit Kumar,Cardiologist,2026-04-12,11:15,3,Salbutamol 4mg,Gastritis,Dispensed,2008.84,1
+RX2507301386,P1386,Neha Singh,Dr. Meera Shah,Cardiologist,2026-04-17,18:00,1,Ibuprofen 400mg,Gastritis,Completed,934.33,3
+RX2507301387,P1387,Manish Kumar,Dr. Meera Shah,ENT Specialist,2026-04-07,16:00,5,Amoxicillin 250mg,Asthma,Dispensed,714.55,0
+RX2507301388,P1388,Riya Kumar,Dr. Amit Kumar,General Physician,2026-07-24,12:15,1,Levocetirizine 5mg,Arthritis,Cancelled,1978.74,2
+RX2507301389,P1389,Amit Shah,Dr. Neha Singh,Pediatrician,2026-07-04,13:15,5,Ibuprofen 400mg,Migraine,Pending,1112.81,3
+RX2507301390,P1390,Priya Pawar,Dr. Meera Shah,General Physician,2026-05-28,08:15,1,Salbutamol 4mg,Diabetes,Dispensed,2038.12,2
+RX2507301391,P1391,Arjun Verma,Dr. Anil Verma,General Physician,2026-06-04,09:45,4,Losartan 50mg,Migraine,Dispensed,309.72,0
+RX2507301392,P1392,Isha Joshi,Dr. Rajesh Patel,Gynaecologist,2026-04-21,18:00,4,Salbutamol 4mg,Allergy,Pending,1126.16,0
+RX2507301393,P1393,Sanjay Yadav,Dr. Anil Verma,Cardiologist,2026-07-18,13:45,4,Calcium 500mg,Arthritis,Dispensed,297.19,3
+RX2507301394,P1394,Divya Gupta,Dr. Anil Verma,Gynaecologist,2026-06-16,17:15,6,Azithromycin 500mg,Fever,Cancelled,256.6,0
+RX2507301395,P1395,Nikhil Yadav,Dr. Meera Shah,ENT Specialist,2026-07-28,13:15,3,Azithromycin 500mg,Migraine,Completed,1458.74,0
+RX2507301396,P1396,Simran Patil,Dr. Meera Shah,Gynaecologist,2026-06-20,15:15,5,Levocetirizine 5mg,Asthma,Completed,2099.86,1
+RX2507301397,P1397,Amit Patil,Dr. Rajesh Patel,General Physician,2026-07-11,14:45,6,Omeprazole 20mg,Hypertension,Cancelled,2003.28,3
+RX2507301398,P1398,Megha Shah,Dr. Meera Shah,Orthopedic,2026-07-26,09:30,5,Amlodipine 5mg,Arthritis,Cancelled,1259.95,1
+RX2507301399,P1399,Akash Patil,Dr. Amit Kumar,ENT Specialist,2026-04-11,11:00,2,Calcium 500mg,Gastritis,Pending,447.79,3
+RX2507301400,P1400,Kavita Yadav,Dr. Rajesh Patel,Gynaecologist,2026-04-26,14:45,5,Losartan 50mg,Asthma,Completed,778.64,2
+RX2507301401,P1401,Aditya Verma,Dr. Amit Kumar,Dermatologist,2026-06-21,10:30,3,ORS Sachet,Hypertension,Pending,129.19,3
+RX2507301402,P1402,Pooja Verma,Dr. Priya Nair,Cardiologist,2026-05-24,17:45,2,Paracetamol 500mg,Infection,Pending,1275.59,1
+RX2507301403,P1403,Manish Pawar,Dr. Kavita Rao,ENT Specialist,2026-06-01,15:45,6,Ibuprofen 400mg,Hypertension,Completed,411.63,1
+RX2507301404,P1404,Priya Patil,Dr. Kavita Rao,Pediatrician,2026-05-28,14:15,1,Salbutamol 4mg,Diabetes,Dispensed,1040.58,0
+RX2507301405,P1405,Karan Patil,Dr. Rajesh Patel,Cardiologist,2026-07-25,10:30,2,Azithromycin 500mg,Migraine,Completed,1136.83,0
+RX2507301406,P1406,Kavita Yadav,Dr. Meera Shah,Pediatrician,2026-05-08,15:45,4,Ibuprofen 400mg,Heart Disease,Cancelled,2064.13,3
+RX2507301407,P1407,Ankit Mishra,Dr. Neha Singh,Gynaecologist,2026-06-15,19:45,3,Vitamin D3 60000IU,Arthritis,Cancelled,965.98,0
+RX2507301408,P1408,Asha Joshi,Dr. Anil Verma,Orthopedic,2026-04-13,11:15,3,Amlodipine 5mg,Diabetes,Dispensed,1399.19,2
+RX2507301409,P1409,Deepak Joshi,Dr. Rajesh Patel,Dermatologist,2026-04-03,12:15,6,Vitamin D3 60000IU,Gastritis,Pending,1743.09,1
+RX2507301410,P1410,Divya Singh,Dr. Rajesh Patel,Dermatologist,2026-04-15,09:00,3,Pantoprazole 40mg,Heart Disease,Dispensed,1074.0,2
+RX2507301411,P1411,Nikhil Joshi,Dr. Sunil Joshi,Gynaecologist,2026-05-07,11:45,1,Ibuprofen 400mg,Gastritis,Cancelled,1760.27,0
+RX2507301412,P1412,Priya Mishra,Dr. Neha Singh,General Physician,2026-07-27,19:00,1,Cetirizine 10mg,Arthritis,Pending,991.64,0
+RX2507301413,P1413,Deepak Kulkarni,Dr. Amit Kumar,Dermatologist,2026-06-10,13:15,6,Amlodipine 5mg,Infection,Completed,1363.58,1
+RX2507301414,P1414,Neha Sharma,Dr. Priya Nair,General Physician,2026-06-25,16:15,3,Cough Syrup 100ml,Hypertension,Pending,344.22,3
+RX2507301415,P1415,Akash Gupta,Dr. Kavita Rao,Orthopedic,2026-07-20,12:45,2,Calcium 500mg,Arthritis,Cancelled,1894.37,1
+RX2507301416,P1416,Nisha Mishra,Dr. Rajesh Patel,Cardiologist,2026-04-10,11:00,4,Omeprazole 20mg,Arthritis,Cancelled,878.92,1
+RX2507301417,P1417,Manish Joshi,Dr. Sunil Joshi,Gynaecologist,2026-05-24,13:30,5,Metformin 500mg,Infection,Pending,723.4,0
+RX2507301418,P1418,Nisha Pawar,Dr. Amit Kumar,Pediatrician,2026-04-10,19:15,1,Losartan 50mg,Arthritis,Dispensed,299.63,3
+RX2507301419,P1419,Arjun Mehta,Dr. Amit Kumar,General Physician,2026-07-20,17:00,5,Montelukast 10mg,Migraine,Pending,1833.72,3
+RX2507301420,P1420,Sneha Kumar,Dr. Neha Singh,Gynaecologist,2026-05-09,11:00,6,Azithromycin 500mg,Asthma,Completed,1989.09,1
+RX2507301421,P1421,Rahul Joshi,Dr. Anil Verma,Orthopedic,2026-05-01,11:00,1,Amoxicillin 250mg,Diabetes,Dispensed,1345.81,1
+RX2507301422,P1422,Kavita Yadav,Dr. Neha Singh,Orthopedic,2026-06-05,16:00,6,Paracetamol 500mg,Migraine,Dispensed,480.86,1
+RX2507301423,P1423,Manish Sharma,Dr. Meera Shah,Pediatrician,2026-06-26,09:30,5,Salbutamol 4mg,Fever,Dispensed,1413.01,1
+RX2507301424,P1424,Neha Gupta,Dr. Amit Kumar,General Physician,2026-05-02,11:45,4,ORS Sachet,Hypertension,Pending,1722.25,3
+RX2507301425,P1425,Ankit Sharma,Dr. Rajesh Patel,Orthopedic,2026-04-05,18:00,5,Cetirizine 10mg,Fever,Pending,1522.71,3
+RX2507301426,P1426,Asha Joshi,Dr. Neha Singh,General Physician,2026-04-13,17:30,4,Amlodipine 5mg,Infection,Dispensed,1933.38,1
+RX2507301427,P1427,Deepak Jain,Dr. Neha Singh,ENT Specialist,2026-04-12,09:00,3,Losartan 50mg,Asthma,Pending,137.4,3
+RX2507301428,P1428,Divya Sharma,Dr. Kavita Rao,Dermatologist,2026-05-15,15:30,2,Ibuprofen 400mg,Allergy,Dispensed,1673.75,1
+RX2507301429,P1429,Pranav Jain,Dr. Anil Verma,Orthopedic,2026-07-02,15:45,6,Levocetirizine 5mg,Diabetes,Dispensed,963.51,3
+RX2507301430,P1430,Swati Shah,Dr. Anil Verma,Gynaecologist,2026-05-04,09:45,4,Vitamin D3 60000IU,Fever,Pending,971.07,1
+RX2507301431,P1431,Deepak Joshi,Dr. Anil Verma,Orthopedic,2026-05-25,18:30,1,Cetirizine 10mg,Arthritis,Pending,1076.57,3
+RX2507301432,P1432,Anjali Jain,Dr. Rajesh Patel,Orthopedic,2026-07-11,10:45,4,ORS Sachet,Infection,Dispensed,1305.34,1
+RX2507301433,P1433,Vikram Singh,Dr. Kavita Rao,Pediatrician,2026-06-11,09:45,3,Metformin 500mg,Fever,Dispensed,1084.7,1
+RX2507301434,P1434,Sneha Shah,Dr. Meera Shah,Orthopedic,2026-05-24,09:15,3,Montelukast 10mg,Heart Disease,Cancelled,1118.97,1
+RX2507301435,P1435,Raj Singh,Dr. Anil Verma,General Physician,2026-05-15,15:45,3,Paracetamol 500mg,Allergy,Pending,2017.24,2
+RX2507301436,P1436,Anjali Joshi,Dr. Amit Kumar,General Physician,2026-07-28,09:30,1,Dolo 650mg,Hypertension,Cancelled,805.7,1
+RX2507301437,P1437,Raj Patil,Dr. Neha Singh,ENT Specialist,2026-07-14,17:30,4,Levocetirizine 5mg,Hypertension,Cancelled,286.98,0
+RX2507301438,P1438,Divya Shah,Dr. Sunil Joshi,Orthopedic,2026-06-07,08:00,6,Levocetirizine 5mg,Diabetes,Dispensed,1614.27,1
+RX2507301439,P1439,Sanjay Yadav,Dr. Sunil Joshi,General Physician,2026-05-16,19:15,5,Dolo 650mg,Allergy,Cancelled,847.13,3
+RX2507301440,P1440,Anjali Shah,Dr. Amit Kumar,Pediatrician,2026-07-02,18:00,2,Rabeprazole 20mg,Asthma,Dispensed,376.86,1
+RX2507301441,P1441,Vikram Patil,Dr. Meera Shah,Pediatrician,2026-07-30,09:45,6,Amoxicillin 250mg,Infection,Completed,475.5,0
+RX2507301442,P1442,Anjali Sharma,Dr. Anil Verma,Pediatrician,2026-05-10,17:30,2,Metformin 500mg,Fever,Pending,1890.04,3
+RX2507301443,P1443,Manish Mehta,Dr. Priya Nair,ENT Specialist,2026-07-16,18:00,4,Metformin 500mg,Diabetes,Dispensed,1747.51,3
+RX2507301444,P1444,Priya Sharma,Dr. Priya Nair,Cardiologist,2026-04-02,10:30,2,Vitamin D3 60000IU,Arthritis,Pending,659.89,3
+RX2507301445,P1445,Raj Mishra,Dr. Meera Shah,Dermatologist,2026-06-01,19:30,1,Montelukast 10mg,Infection,Dispensed,1798.06,2
+RX2507301446,P1446,Megha Pawar,Dr. Sunil Joshi,Gynaecologist,2026-05-08,17:30,4,Cough Syrup 100ml,Migraine,Dispensed,1618.35,3
+RX2507301447,P1447,Rahul Sharma,Dr. Priya Nair,General Physician,2026-05-10,12:30,3,Pantoprazole 40mg,Migraine,Completed,1627.07,2
+RX2507301448,P1448,Divya Patil,Dr. Anil Verma,Pediatrician,2026-06-07,16:45,3,Calcium 500mg,Asthma,Completed,1173.89,2
+RX2507301449,P1449,Rohit Gupta,Dr. Priya Nair,Pediatrician,2026-04-02,13:45,6,Metformin 500mg,Arthritis,Cancelled,568.94,3
+RX2507301450,P1450,Kavita Patil,Dr. Sunil Joshi,Orthopedic,2026-06-21,11:15,1,Dolo 650mg,Infection,Completed,1211.01,0
+RX2507301451,P1451,Manish Jain,Dr. Sunil Joshi,Dermatologist,2026-07-11,18:45,5,Losartan 50mg,Asthma,Completed,745.59,3
+RX2507301452,P1452,Swati Kulkarni,Dr. Meera Shah,ENT Specialist,2026-05-24,08:30,1,Atorvastatin 10mg,Gastritis,Dispensed,871.25,0
+RX2507301453,P1453,Aditya Shah,Dr. Rajesh Patel,Orthopedic,2026-06-27,14:45,2,Paracetamol 500mg,Diabetes,Cancelled,529.91,1
+RX2507301454,P1454,Swati Mehta,Dr. Priya Nair,Orthopedic,2026-07-26,19:45,4,Pantoprazole 40mg,Infection,Pending,1876.64,2
+RX2507301455,P1455,Rohit Verma,Dr. Sunil Joshi,Pediatrician,2026-04-22,13:00,2,Losartan 50mg,Diabetes,Dispensed,997.16,2
+RX2507301456,P1456,Asha Verma,Dr. Meera Shah,Cardiologist,2026-06-16,08:15,6,Paracetamol 500mg,Migraine,Completed,168.17,1
+RX2507301457,P1457,Manish Sharma,Dr. Neha Singh,General Physician,2026-07-05,13:15,1,Omeprazole 20mg,Infection,Completed,1725.3,1
+RX2507301458,P1458,Priya Singh,Dr. Priya Nair,ENT Specialist,2026-05-30,17:30,2,Cetirizine 10mg,Hypertension,Dispensed,415.85,2
+RX2507301459,P1459,Amit Sharma,Dr. Amit Kumar,General Physician,2026-04-11,10:45,3,Metformin 500mg,Infection,Completed,429.89,3
+RX2507301460,P1460,Shreya Jain,Dr. Anil Verma,Dermatologist,2026-04-19,18:30,1,Amoxicillin 250mg,Allergy,Completed,1151.49,1
+RX2507301461,P1461,Karan Pawar,Dr. Meera Shah,General Physician,2026-06-24,13:00,3,ORS Sachet,Diabetes,Dispensed,1335.97,2
+RX2507301462,P1462,Divya Sharma,Dr. Neha Singh,Cardiologist,2026-05-31,18:30,3,Levocetirizine 5mg,Gastritis,Pending,1552.37,0
+RX2507301463,P1463,Deepak Verma,Dr. Anil Verma,Dermatologist,2026-06-01,10:00,4,Dolo 650mg,Asthma,Pending,1039.9,3
+RX2507301464,P1464,Kavita Yadav,Dr. Neha Singh,ENT Specialist,2026-07-14,09:30,4,Levocetirizine 5mg,Arthritis,Pending,1702.99,2
+RX2507301465,P1465,Raj Yadav,Dr. Neha Singh,Dermatologist,2026-04-26,14:00,5,Amlodipine 5mg,Allergy,Dispensed,1183.22,3
+RX2507301466,P1466,Divya Kumar,Dr. Anil Verma,Dermatologist,2026-07-30,17:00,4,Rabeprazole 20mg,Asthma,Dispensed,1375.3,3
+RX2507301467,P1467,Rahul Kulkarni,Dr. Priya Nair,Cardiologist,2026-04-21,11:30,1,ORS Sachet,Infection,Dispensed,766.39,0
+RX2507301468,P1468,Neha Verma,Dr. Meera Shah,Pediatrician,2026-05-14,17:15,2,ORS Sachet,Infection,Pending,1527.53,0
+RX2507301469,P1469,Vikram Mehta,Dr. Rajesh Patel,ENT Specialist,2026-07-04,12:15,5,Losartan 50mg,Allergy,Dispensed,761.84,2
+RX2507301470,P1470,Nisha Yadav,Dr. Neha Singh,Pediatrician,2026-06-24,18:15,1,Omeprazole 20mg,Gastritis,Pending,953.53,2
+RX2507301471,P1471,Raj Shah,Dr. Amit Kumar,ENT Specialist,2026-05-06,10:15,6,Pantoprazole 40mg,Hypertension,Pending,651.13,3
+RX2507301472,P1472,Pooja Patil,Dr. Meera Shah,ENT Specialist,2026-06-14,15:45,4,Metformin 500mg,Heart Disease,Dispensed,349.21,2
+RX2507301473,P1473,Rahul Desai,Dr. Sunil Joshi,Orthopedic,2026-07-28,19:30,6,Amlodipine 5mg,Asthma,Dispensed,1204.38,1
+RX2507301474,P1474,Divya Jain,Dr. Sunil Joshi,Dermatologist,2026-06-06,17:30,2,Cetirizine 10mg,Diabetes,Pending,1502.1,3
+RX2507301475,P1475,Raj Desai,Dr. Kavita Rao,Cardiologist,2026-05-06,18:00,3,Paracetamol 500mg,Arthritis,Pending,1541.31,0
+RX2507301476,P1476,Isha Pawar,Dr. Kavita Rao,Orthopedic,2026-07-15,14:30,1,Dolo 650mg,Asthma,Pending,1179.21,3
+RX2507301477,P1477,Aditya Kumar,Dr. Rajesh Patel,Pediatrician,2026-05-14,09:00,6,Calcium 500mg,Infection,Pending,1825.8,1
+RX2507301478,P1478,Anjali Singh,Dr. Rajesh Patel,Cardiologist,2026-05-17,16:15,4,Rabeprazole 20mg,Hypertension,Completed,1040.72,3
+RX2507301479,P1479,Ankit Pawar,Dr. Anil Verma,ENT Specialist,2026-05-31,09:00,3,Omeprazole 20mg,Heart Disease,Cancelled,1133.63,3
+RX2507301480,P1480,Nisha Kulkarni,Dr. Sunil Joshi,General Physician,2026-04-14,17:00,3,Azithromycin 500mg,Diabetes,Completed,690.26,0
+RX2507301481,P1481,Aditya Gupta,Dr. Amit Kumar,ENT Specialist,2026-07-09,08:15,6,Vitamin D3 60000IU,Allergy,Pending,1285.76,0
+RX2507301482,P1482,Isha Sharma,Dr. Priya Nair,Pediatrician,2026-04-02,12:30,1,Metformin 500mg,Heart Disease,Completed,1166.24,3
+RX2507301483,P1483,Karan Sharma,Dr. Anil Verma,Cardiologist,2026-07-01,18:00,3,Paracetamol 500mg,Heart Disease,Pending,688.14,3
+RX2507301484,P1484,Simran Joshi,Dr. Meera Shah,General Physician,2026-05-12,09:15,2,ORS Sachet,Allergy,Dispensed,212.88,1
+RX2507301485,P1485,Deepak Mehta,Dr. Rajesh Patel,Gynaecologist,2026-07-09,09:00,3,Ibuprofen 400mg,Asthma,Pending,704.1,0
+RX2507301486,P1486,Priya Sharma,Dr. Neha Singh,Orthopedic,2026-06-22,10:15,1,Ibuprofen 400mg,Asthma,Pending,872.26,1
+RX2507301487,P1487,Vikram Mishra,Dr. Rajesh Patel,Cardiologist,2026-04-24,16:15,6,Cetirizine 10mg,Arthritis,Dispensed,1625.22,3
+RX2507301488,P1488,Pooja Desai,Dr. Priya Nair,Gynaecologist,2026-04-15,08:15,5,Rabeprazole 20mg,Hypertension,Cancelled,2179.94,3
+RX2507301489,P1489,Manish Mishra,Dr. Amit Kumar,Gynaecologist,2026-04-27,16:30,6,Cough Syrup 100ml,Arthritis,Cancelled,503.11,0
+RX2507301490,P1490,Swati Singh,Dr. Amit Kumar,General Physician,2026-07-15,09:30,6,Ibuprofen 400mg,Diabetes,Cancelled,2019.72,3
+RX2507301491,P1491,Deepak Kulkarni,Dr. Neha Singh,Gynaecologist,2026-07-01,12:30,1,Losartan 50mg,Heart Disease,Completed,336.74,1
+RX2507301492,P1492,Asha Mishra,Dr. Kavita Rao,Cardiologist,2026-05-25,13:00,1,Rabeprazole 20mg,Hypertension,Completed,1780.98,2
+RX2507301493,P1493,Rahul Gupta,Dr. Meera Shah,General Physician,2026-04-03,13:45,5,Cough Syrup 100ml,Fever,Cancelled,835.76,3
+RX2507301494,P1494,Megha Pawar,Dr. Neha Singh,Orthopedic,2026-07-08,15:45,4,Cetirizine 10mg,Asthma,Cancelled,1047.99,0
+RX2507301495,P1495,Amit Mehta,Dr. Anil Verma,ENT Specialist,2026-07-13,14:15,5,Levocetirizine 5mg,Arthritis,Dispensed,399.7,3
+RX2507301496,P1496,Asha Mishra,Dr. Anil Verma,ENT Specialist,2026-06-05,16:15,1,Levocetirizine 5mg,Gastritis,Cancelled,551.54,0
+RX2507301497,P1497,Nikhil Yadav,Dr. Priya Nair,Orthopedic,2026-04-14,16:45,6,Atorvastatin 10mg,Diabetes,Pending,1637.23,1
+RX2507301498,P1498,Nisha Joshi,Dr. Sunil Joshi,Pediatrician,2026-06-13,09:30,3,Vitamin D3 60000IU,Arthritis,Pending,1148.02,1
+RX2507301499,P1499,Sanjay Pawar,Dr. Priya Nair,Cardiologist,2026-06-24,18:00,1,Dolo 650mg,Arthritis,Dispensed,1543.13,1
+RX2507301500,P1500,Simran Joshi,Dr. Neha Singh,General Physician,2026-07-08,12:15,1,Salbutamol 4mg,Arthritis,Cancelled,550.99,3

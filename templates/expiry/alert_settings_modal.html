@@ -1,0 +1,332 @@
+<!-- ==========================================================
+     ALERT SETTINGS MODAL
+========================================================== -->
+
+<div
+    class="modal"
+    id="alertSettingsModal">
+
+    <div class="modal-content">
+
+        <!-- ==========================================
+             HEADER
+        =========================================== -->
+
+        <div class="modal-header">
+
+            <div>
+
+                <h2>
+
+                    Alert Settings
+
+                </h2>
+
+                <p>
+
+                    Configure global expiry notification settings.
+
+                </p>
+
+            </div>
+
+            <button
+                class="modal-close"
+                id="closeAlertSettingsModal">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+        <!-- ==========================================
+             FORM
+        =========================================== -->
+
+        <form
+            action="{{ url_for('expiry.save_alert_settings') }}"
+            method="POST">
+
+            <div class="modal-body">
+
+                <h3 class="section-title">
+
+                    Notification Settings
+
+                </h3>
+
+                <div class="form-grid">
+
+                    <!-- Default Alert -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Default Alert Before
+
+                        </label>
+
+                        <select name="default_days">
+
+                            <option value="7">7 Days</option>
+
+                            <option value="15">15 Days</option>
+
+                            <option value="30" selected>30 Days</option>
+
+                            <option value="45">45 Days</option>
+
+                            <option value="60">60 Days</option>
+
+                            <option value="90">90 Days</option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Daily Report -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Daily Report Time
+
+                        </label>
+
+                        <input
+                            type="time"
+                            name="report_time"
+                            value="09:00">
+
+                    </div>
+
+                    <!-- Email -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Email Notifications
+
+                        </label>
+
+                        <select name="email_notifications">
+
+                            <option value="Enabled" selected>
+
+                                Enabled
+
+                            </option>
+
+                            <option value="Disabled">
+
+                                Disabled
+
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- SMS -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            SMS Notifications
+
+                        </label>
+
+                        <select name="sms_notifications">
+
+                            <option value="Enabled">
+
+                                Enabled
+
+                            </option>
+
+                            <option value="Disabled" selected>
+
+                                Disabled
+
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Dashboard -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Dashboard Notifications
+
+                        </label>
+
+                        <select name="dashboard_notifications">
+
+                            <option value="Enabled" selected>
+
+                                Enabled
+
+                            </option>
+
+                            <option value="Disabled">
+
+                                Disabled
+
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Auto Archive -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Auto Archive Expired Medicines
+
+                        </label>
+
+                        <select name="auto_archive">
+
+                            <option value="Yes">
+
+                                Yes
+
+                            </option>
+
+                            <option value="No" selected>
+
+                                No
+
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Alert Sound -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Alert Sound
+
+                        </label>
+
+                        <select name="alert_sound">
+
+                            <option value="Enabled" selected>
+
+                                Enabled
+
+                            </option>
+
+                            <option value="Disabled">
+
+                                Disabled
+
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Priority -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Default Priority
+
+                        </label>
+
+                        <select name="priority">
+
+                            <option value="High">
+
+                                High
+
+                            </option>
+
+                            <option value="Medium" selected>
+
+                                Medium
+
+                            </option>
+
+                            <option value="Low">
+
+                                Low
+
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Notes -->
+
+                    <div class="form-group full">
+
+                        <label>
+
+                            Notes
+
+                        </label>
+
+                        <textarea
+                            name="notes"
+                            rows="5"
+                            placeholder="Additional notification settings..."></textarea>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ==========================================
+                 FOOTER
+            =========================================== -->
+
+            <div class="modal-footer">
+
+                <button
+                    type="button"
+                    class="cancel-btn"
+                    id="cancelAlertSettings">
+
+                    Cancel
+
+                </button>
+
+                <button
+                    type="submit"
+                    class="save-btn">
+
+                    <i class="fa-solid fa-floppy-disk"></i>
+
+                    Save Settings
+
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>

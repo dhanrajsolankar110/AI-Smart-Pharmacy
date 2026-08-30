@@ -1,0 +1,33 @@
+.toolbar{
+
+display:flex;
+
+gap:15px;
+
+margin-bottom:25px;
+
+}
+
+input,
+
+select,
+
+textarea{
+
+width:100%;
+
+padding:14px;
+
+border:1px solid var(--border);
+
+border-radius:10px;
+
+font-size:15px;
+
+}
+
+.toolbar input{
+
+width:320px;
+
+}

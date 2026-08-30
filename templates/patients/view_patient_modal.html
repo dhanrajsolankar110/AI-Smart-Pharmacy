@@ -1,0 +1,353 @@
+<!-- ==========================================================
+     VIEW PATIENT MODAL
+========================================================== -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<div
+    class="patient-modal"
+    id="viewPatientModal"
+    style="display:none;">
+
+    <div class="patient-modal-overlay"></div>
+
+
+    <div class="patient-modal-container">
+
+        <!-- ==================================================
+             MODAL HEADER
+        =================================================== -->
+
+        <div class="patient-modal-header">
+
+            <div>
+
+                <h2>
+                    Patient Profile
+                </h2>
+
+                <p>
+                    Complete patient information
+                </p>
+
+            </div>
+
+
+            <button
+                type="button"
+                class="patient-modal-close close-patient-modal"
+                aria-label="Close">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+
+        <!-- ==================================================
+             PATIENT PROFILE HEADER
+        =================================================== -->
+
+        <div class="modal-profile-header">
+
+            <div class="modal-profile-avatar">
+
+                <i class="fa-solid fa-user"></i>
+
+            </div>
+
+
+            <div class="modal-profile-name">
+
+                <h3 data-profile-name>
+                    Rahul Sharma
+                </h3>
+
+                <p>
+                    Patient ID:
+                    <strong data-profile-id>
+                        P1001
+                    </strong>
+                </p>
+
+            </div>
+
+
+            <span class="patient-status active">
+                Active
+            </span>
+
+        </div>
+
+
+        <!-- ==================================================
+             BASIC INFORMATION
+        =================================================== -->
+
+        <div class="patient-modal-section">
+
+            <div class="patient-modal-section-title">
+
+                <i class="fa-solid fa-user"></i>
+
+                <h3>
+                    Basic Information
+                </h3>
+
+            </div>
+
+
+            <div class="patient-info-grid">
+
+
+                <div class="patient-info-item">
+
+                    <span>
+                        Date of Birth / Age
+                    </span>
+
+                    <strong data-profile-age>
+                        12 May 1992 (34 Years)
+                    </strong>
+
+                </div>
+
+
+                <div class="patient-info-item">
+
+                    <span>
+                        Gender
+                    </span>
+
+                    <strong data-profile-gender>
+                        Male
+                    </strong>
+
+                </div>
+
+
+                <div class="patient-info-item">
+
+                    <span>
+                        Phone Number
+                    </span>
+
+                    <strong data-profile-phone>
+                        9876543210
+                    </strong>
+
+                </div>
+
+
+                <div class="patient-info-item">
+
+                    <span>
+                        Email Address
+                    </span>
+
+                    <strong data-profile-email>
+                        rahulsharma@email.com
+                    </strong>
+
+                </div>
+
+
+                <div class="patient-info-item full-width">
+
+                    <span>
+                        Address
+                    </span>
+
+                    <strong data-profile-address>
+                        123, Green Park, Sector 12
+                        <br>
+                        New Delhi - 110016
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==================================================
+             HEALTH INFORMATION
+        =================================================== -->
+
+        <div class="patient-modal-section">
+
+            <div class="patient-modal-section-title">
+
+                <i class="fa-solid fa-heart-pulse"></i>
+
+                <h3>
+                    Health Information
+                </h3>
+
+            </div>
+
+
+            <div class="patient-health-grid">
+
+
+                <div class="health-info-box">
+
+                    <span>
+                        Blood Group
+                    </span>
+
+                    <strong>
+                        B+
+                    </strong>
+
+                </div>
+
+
+                <div class="health-info-box">
+
+                    <span>
+                        Height
+                    </span>
+
+                    <strong>
+                        172 cm
+                    </strong>
+
+                </div>
+
+
+                <div class="health-info-box">
+
+                    <span>
+                        Weight
+                    </span>
+
+                    <strong>
+                        68 kg
+                    </strong>
+
+                </div>
+
+
+                <div class="health-info-box">
+
+                    <span>
+                        BMI
+                    </span>
+
+                    <strong>
+                        23.0
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==================================================
+             MEDICAL HISTORY
+        =================================================== -->
+
+        <div class="patient-modal-section">
+
+            <div class="patient-modal-section-title">
+
+                <i class="fa-solid fa-notes-medical"></i>
+
+                <h3>
+                    Medical History
+                </h3>
+
+            </div>
+
+
+            <div class="medical-history-list">
+
+
+                <div class="medical-history-item">
+
+                    <div class="history-icon">
+
+                        <i class="fa-solid fa-pills"></i>
+
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Hypertension
+                        </strong>
+
+                        <p>
+                            Under regular medication
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="medical-history-item">
+
+                    <div class="history-icon">
+
+                        <i class="fa-solid fa-heart"></i>
+
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Regular Check-up
+                        </strong>
+
+                        <p>
+                            Monthly health monitoring
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- ==================================================
+             MODAL FOOTER
+        =================================================== -->
+
+        <div class="patient-modal-footer">
+
+            <button
+                type="button"
+                class="patient-modal-secondary close-patient-modal">
+
+                Close
+
+            </button>
+
+
+            <button
+                type="button"
+                class="patient-modal-primary"
+                id="editPatientFromProfile">
+
+                <i class="fa-solid fa-pen"></i>
+
+                Edit Patient
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>

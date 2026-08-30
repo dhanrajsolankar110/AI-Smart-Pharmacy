@@ -1,0 +1,2113 @@
+{% extends "components/dashboard_layout.html" %}
+
+{% block title %}
+Prescriptions
+{% endblock %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+{% block extra_css %}
+
+<link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/prescriptions.css') }}"
+>
+
+{% endblock %}
+
+
+{% block content %}
+
+<div class="prescriptions-page">
+
+
+    <!-- ======================================================
+         PAGE HEADER
+    ======================================================= -->
+
+    <div class="prescriptions-page-header">
+
+        <div>
+
+            <h1>
+                Prescriptions
+            </h1>
+
+            <p>
+                Manage and track all patient prescriptions
+            </p>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="primary-page-button"
+            id="newPrescriptionBtn">
+
+            <i class="fa-solid fa-plus"></i>
+
+            New Prescription
+
+        </button>
+
+    </div>
+
+
+
+    <!-- ======================================================
+         SUMMARY CARDS
+    ======================================================= -->
+
+    <div class="prescription-summary-grid">
+
+
+        <!-- TOTAL PRESCRIPTIONS -->
+
+        <div class="prescription-summary-card">
+
+            <div class="summary-card-icon purple">
+
+                <i class="fa-solid fa-file-prescription"></i>
+
+            </div>
+
+            <div class="summary-card-content">
+
+                <span>
+                    Total Prescriptions
+                </span>
+
+                <h2 id="totalPrescriptions">
+                    {{ total_prescriptions | default(1245) }}
+                </h2>
+
+                <p>
+                    All time
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- DISPENSED TODAY -->
+
+        <div class="prescription-summary-card">
+
+            <div class="summary-card-icon green">
+
+                <i class="fa-solid fa-prescription-bottle-medical"></i>
+
+            </div>
+
+            <div class="summary-card-content">
+
+                <span>
+                    Dispensed Today
+                </span>
+
+                <h2 id="dispensedToday">
+                    {{ dispensed_today | default(48) }}
+                </h2>
+
+                <p>
+                    Prescriptions
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- PENDING -->
+
+        <div class="prescription-summary-card">
+
+            <div class="summary-card-icon orange">
+
+                <i class="fa-regular fa-clock"></i>
+
+            </div>
+
+            <div class="summary-card-content">
+
+                <span>
+                    Pending
+                </span>
+
+                <h2 id="pendingPrescriptions">
+                    {{ pending_prescriptions | default(15) }}
+                </h2>
+
+                <p>
+                    Awaiting fulfillment
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- COMPLETED TODAY -->
+
+        <div class="prescription-summary-card">
+
+            <div class="summary-card-icon blue">
+
+                <i class="fa-regular fa-circle-check"></i>
+
+            </div>
+
+            <div class="summary-card-content">
+
+                <span>
+                    Completed Today
+                </span>
+
+                <h2 id="completedToday">
+                    {{ completed_today | default(33) }}
+                </h2>
+
+                <p>
+                    Prescriptions
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ======================================================
+         MAIN CONTENT GRID
+    ======================================================= -->
+
+    <div class="prescriptions-main-grid">
+
+
+        <!-- ==================================================
+             LEFT SECTION
+        =================================================== -->
+
+        <div class="prescriptions-table-card">
+
+
+            <!-- FILTER BAR -->
+
+            <div class="prescription-filter-bar">
+
+
+                <!-- SEARCH -->
+
+                <div class="prescription-search">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input
+                        type="text"
+                        id="prescriptionSearch"
+                        placeholder="Search by patient name, ID or prescription ID..."
+                    >
+
+                </div>
+
+
+                <!-- STATUS -->
+
+                <div class="prescription-filter">
+
+                    <select id="prescriptionStatusFilter">
+
+                        <option value="all">
+                            All Status
+                        </option>
+
+                        <option value="Dispensed">
+                            Dispensed
+                        </option>
+
+                        <option value="Pending">
+                            Pending
+                        </option>
+
+                        <option value="Completed">
+                            Completed
+                        </option>
+
+                        <option value="Cancelled">
+                            Cancelled
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- DOCTOR -->
+
+                <div class="prescription-filter">
+
+                    <select id="prescriptionDoctorFilter">
+
+                        <option value="all">
+                            All Doctors
+                        </option>
+
+                        <option value="Dr. Amit Kumar">
+                            Dr. Amit Kumar
+                        </option>
+
+                        <option value="Dr. Neha Singh">
+                            Dr. Neha Singh
+                        </option>
+
+                        <option value="Dr. Rajesh Patel">
+                            Dr. Rajesh Patel
+                        </option>
+
+                        <option value="Dr. Priya Nair">
+                            Dr. Priya Nair
+                        </option>
+
+                        <option value="Dr. Sunil Joshi">
+                            Dr. Sunil Joshi
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- DATE -->
+
+                <div class="prescription-date-filter">
+
+                    <i class="fa-regular fa-calendar"></i>
+
+                    <span>
+                        01 Jul 2026 - 31 Jul 2026
+                    </span>
+
+                </div>
+
+
+                <!-- EXPORT -->
+
+                <button
+                    type="button"
+                    class="prescription-export-btn"
+                    id="exportPrescriptions">
+
+                    <i class="fa-solid fa-download"></i>
+
+                    Export
+
+                </button>
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 TABLE
+            =================================================== -->
+
+            <div class="prescription-table-wrapper">
+
+                <table class="prescription-table">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>
+                                Prescription ID
+                            </th>
+
+                            <th>
+                                Patient Name
+                            </th>
+
+                            <th>
+                                Doctor Name
+                            </th>
+
+                            <th>
+                                Date
+                            </th>
+
+                            <th>
+                                Medicines
+                            </th>
+
+                            <th>
+                                Status
+                            </th>
+
+                            <th>
+                                Total Amount
+                            </th>
+
+                            <th>
+                                Action
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody id="prescriptionsTableBody">
+
+                        {% for prescription in prescriptions | default([]) %}
+
+                        <tr
+                            class="prescription-row"
+                            data-id="{{ prescription.id }}"
+                            data-patient="{{ prescription.patient_name }}"
+                            data-status="{{ prescription.status }}"
+                            data-doctor="{{ prescription.doctor_name }}"
+                        >
+
+
+                            <!-- PRESCRIPTION ID -->
+
+                            <td>
+
+                                <div class="prescription-id-cell">
+
+                                    <div class="prescription-file-icon">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </div>
+
+                                    <span>
+                                        {{ prescription.id }}
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+
+                            <!-- PATIENT -->
+
+                            <td>
+
+                                <div class="prescription-patient">
+
+                                    <strong>
+                                        {{ prescription.patient_name }}
+                                    </strong>
+
+                                    <small>
+                                        {{ prescription.patient_id }}
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <!-- DOCTOR -->
+
+                            <td>
+
+                                <div class="prescription-doctor">
+
+                                    <strong>
+                                        {{ prescription.doctor_name }}
+                                    </strong>
+
+                                    <small>
+                                        {{ prescription.doctor_speciality }}
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <!-- DATE -->
+
+                            <td>
+
+                                <div class="prescription-date">
+
+                                    <strong>
+                                        {{ prescription.date }}
+                                    </strong>
+
+                                    <small>
+                                        {{ prescription.time }}
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <!-- MEDICINES -->
+
+                            <td>
+
+                                <span class="medicine-count">
+
+                                    {{ prescription.medicine_count }}
+
+                                    medicines
+
+                                </span>
+
+                            </td>
+
+
+                            <!-- STATUS -->
+
+                            <td>
+
+                                <span
+                                    class="prescription-status
+                                    {{ prescription.status | lower }}"
+                                >
+
+                                    {{ prescription.status }}
+
+                                </span>
+
+                            </td>
+
+
+                            <!-- AMOUNT -->
+
+                            <td>
+
+                                <strong class="prescription-amount">
+
+                                    ₹{{ prescription.amount }}
+
+                                </strong>
+
+                            </td>
+
+
+                            <!-- ACTION -->
+
+                            <td>
+
+                                <div class="prescription-actions">
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn view-prescription"
+                                        data-prescription-id="{{ prescription.id }}"
+                                        title="View Prescription">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </button>
+
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn prescription-menu"
+                                        data-prescription-id="{{ prescription.id }}"
+                                        title="More">
+
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                                    </button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+                        {% else %}
+
+                        <!-- DEMO ROWS -->
+
+                        <tr
+                            class="prescription-row"
+                            data-id="RX250731001"
+                            data-patient="Rahul Sharma"
+                            data-status="Dispensed"
+                            data-doctor="Dr. Amit Kumar"
+                        >
+
+                            <td>
+
+                                <div class="prescription-id-cell">
+
+                                    <div class="prescription-file-icon">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </div>
+
+                                    <span>
+                                        RX250731001
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-patient">
+
+                                    <strong>
+                                        Rahul Sharma
+                                    </strong>
+
+                                    <small>
+                                        P1001
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-doctor">
+
+                                    <strong>
+                                        Dr. Amit Kumar
+                                    </strong>
+
+                                    <small>
+                                        Cardiologist
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-date">
+
+                                    <strong>
+                                        31 Jul 2026
+                                    </strong>
+
+                                    <small>
+                                        10:30 AM
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+                                <span class="medicine-count">
+                                    4 medicines
+                                </span>
+                            </td>
+
+
+                            <td>
+
+                                <span class="prescription-status dispensed">
+                                    Dispensed
+                                </span>
+
+                            </td>
+
+
+                            <td>
+
+                                <strong class="prescription-amount">
+                                    ₹856.00
+                                </strong>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-actions">
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn view-prescription"
+                                        data-prescription-id="RX250731001">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn prescription-menu"
+                                        data-prescription-id="RX250731001">
+
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                                    </button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr
+                            class="prescription-row"
+                            data-id="RX250731002"
+                            data-patient="Priya Mehta"
+                            data-status="Pending"
+                            data-doctor="Dr. Neha Singh"
+                        >
+
+                            <td>
+
+                                <div class="prescription-id-cell">
+
+                                    <div class="prescription-file-icon">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </div>
+
+                                    <span>
+                                        RX250731002
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-patient">
+
+                                    <strong>
+                                        Priya Mehta
+                                    </strong>
+
+                                    <small>
+                                        P1002
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-doctor">
+
+                                    <strong>
+                                        Dr. Neha Singh
+                                    </strong>
+
+                                    <small>
+                                        Dermatologist
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-date">
+
+                                    <strong>
+                                        31 Jul 2026
+                                    </strong>
+
+                                    <small>
+                                        09:15 AM
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+                                <span class="medicine-count">
+                                    3 medicines
+                                </span>
+                            </td>
+
+
+                            <td>
+
+                                <span class="prescription-status pending">
+                                    Pending
+                                </span>
+
+                            </td>
+
+
+                            <td>
+
+                                <strong class="prescription-amount">
+                                    ₹542.50
+                                </strong>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-actions">
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn view-prescription"
+                                        data-prescription-id="RX250731002">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn prescription-menu"
+                                        data-prescription-id="RX250731002">
+
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                                    </button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr
+                            class="prescription-row"
+                            data-id="RX250730015"
+                            data-patient="Amit Verma"
+                            data-status="Dispensed"
+                            data-doctor="Dr. Rajesh Patel"
+                        >
+
+                            <td>
+
+                                <div class="prescription-id-cell">
+
+                                    <div class="prescription-file-icon">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </div>
+
+                                    <span>
+                                        RX250730015
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-patient">
+
+                                    <strong>
+                                        Amit Verma
+                                    </strong>
+
+                                    <small>
+                                        P1003
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-doctor">
+
+                                    <strong>
+                                        Dr. Rajesh Patel
+                                    </strong>
+
+                                    <small>
+                                        General Physician
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-date">
+
+                                    <strong>
+                                        30 Jul 2026
+                                    </strong>
+
+                                    <small>
+                                        06:45 PM
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+                                <span class="medicine-count">
+                                    5 medicines
+                                </span>
+                            </td>
+
+
+                            <td>
+
+                                <span class="prescription-status dispensed">
+                                    Dispensed
+                                </span>
+
+                            </td>
+
+
+                            <td>
+
+                                <strong class="prescription-amount">
+                                    ₹1,245.00
+                                </strong>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-actions">
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn view-prescription"
+                                        data-prescription-id="RX250730015">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn prescription-menu"
+                                        data-prescription-id="RX250730015">
+
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                                    </button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr
+                            class="prescription-row"
+                            data-id="RX250730014"
+                            data-patient="Sneha Patil"
+                            data-status="Pending"
+                            data-doctor="Dr. Priya Nair"
+                        >
+
+                            <td>
+
+                                <div class="prescription-id-cell">
+
+                                    <div class="prescription-file-icon">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </div>
+
+                                    <span>
+                                        RX250730014
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-patient">
+
+                                    <strong>
+                                        Sneha Patil
+                                    </strong>
+
+                                    <small>
+                                        P1004
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-doctor">
+
+                                    <strong>
+                                        Dr. Priya Nair
+                                    </strong>
+
+                                    <small>
+                                        Gynaecologist
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-date">
+
+                                    <strong>
+                                        30 Jul 2026
+                                    </strong>
+
+                                    <small>
+                                        04:20 PM
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+                                <span class="medicine-count">
+                                    2 medicines
+                                </span>
+                            </td>
+
+
+                            <td>
+
+                                <span class="prescription-status pending">
+                                    Pending
+                                </span>
+
+                            </td>
+
+
+                            <td>
+
+                                <strong class="prescription-amount">
+                                    ₹315.00
+                                </strong>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-actions">
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn view-prescription"
+                                        data-prescription-id="RX250730014">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn prescription-menu"
+                                        data-prescription-id="RX250730014">
+
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                                    </button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr
+                            class="prescription-row"
+                            data-id="RX250730013"
+                            data-patient="Vikram Singh"
+                            data-status="Completed"
+                            data-doctor="Dr. Amit Kumar"
+                        >
+
+                            <td>
+
+                                <div class="prescription-id-cell">
+
+                                    <div class="prescription-file-icon">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </div>
+
+                                    <span>
+                                        RX250730013
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-patient">
+
+                                    <strong>
+                                        Vikram Singh
+                                    </strong>
+
+                                    <small>
+                                        P1005
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-doctor">
+
+                                    <strong>
+                                        Dr. Amit Kumar
+                                    </strong>
+
+                                    <small>
+                                        Cardiologist
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-date">
+
+                                    <strong>
+                                        30 Jul 2026
+                                    </strong>
+
+                                    <small>
+                                        11:10 AM
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+                                <span class="medicine-count">
+                                    4 medicines
+                                </span>
+                            </td>
+
+
+                            <td>
+
+                                <span class="prescription-status completed">
+                                    Completed
+                                </span>
+
+                            </td>
+
+
+                            <td>
+
+                                <strong class="prescription-amount">
+                                    ₹978.00
+                                </strong>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-actions">
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn view-prescription"
+                                        data-prescription-id="RX250730013">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn prescription-menu"
+                                        data-prescription-id="RX250730013">
+
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                                    </button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr
+                            class="prescription-row"
+                            data-id="RX250729012"
+                            data-patient="Neha Gupta"
+                            data-status="Dispensed"
+                            data-doctor="Dr. Sunil Joshi"
+                        >
+
+                            <td>
+
+                                <div class="prescription-id-cell">
+
+                                    <div class="prescription-file-icon">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </div>
+
+                                    <span>
+                                        RX250729012
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-patient">
+
+                                    <strong>
+                                        Neha Gupta
+                                    </strong>
+
+                                    <small>
+                                        P1006
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-doctor">
+
+                                    <strong>
+                                        Dr. Sunil Joshi
+                                    </strong>
+
+                                    <small>
+                                        Orthopedic
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-date">
+
+                                    <strong>
+                                        29 Jul 2026
+                                    </strong>
+
+                                    <small>
+                                        07:30 PM
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+                                <span class="medicine-count">
+                                    3 medicines
+                                </span>
+                            </td>
+
+
+                            <td>
+
+                                <span class="prescription-status dispensed">
+                                    Dispensed
+                                </span>
+
+                            </td>
+
+
+                            <td>
+
+                                <strong class="prescription-amount">
+                                    ₹654.00
+                                </strong>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-actions">
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn view-prescription"
+                                        data-prescription-id="RX250729012">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn prescription-menu"
+                                        data-prescription-id="RX250729012">
+
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                                    </button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr
+                            class="prescription-row"
+                            data-id="RX250729011"
+                            data-patient="Sanjay Kumar"
+                            data-status="Completed"
+                            data-doctor="Dr. Rajesh Patel"
+                        >
+
+                            <td>
+
+                                <div class="prescription-id-cell">
+
+                                    <div class="prescription-file-icon">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </div>
+
+                                    <span>
+                                        RX250729011
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-patient">
+
+                                    <strong>
+                                        Sanjay Kumar
+                                    </strong>
+
+                                    <small>
+                                        P1007
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-doctor">
+
+                                    <strong>
+                                        Dr. Rajesh Patel
+                                    </strong>
+
+                                    <small>
+                                        General Physician
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-date">
+
+                                    <strong>
+                                        29 Jul 2026
+                                    </strong>
+
+                                    <small>
+                                        02:05 PM
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+                                <span class="medicine-count">
+                                    6 medicines
+                                </span>
+                            </td>
+
+
+                            <td>
+
+                                <span class="prescription-status completed">
+                                    Completed
+                                </span>
+
+                            </td>
+
+
+                            <td>
+
+                                <strong class="prescription-amount">
+                                    ₹1,520.50
+                                </strong>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-actions">
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn view-prescription"
+                                        data-prescription-id="RX250729011">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn prescription-menu"
+                                        data-prescription-id="RX250729011">
+
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                                    </button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+
+                        <tr
+                            class="prescription-row"
+                            data-id="RX250729010"
+                            data-patient="Anjali Desai"
+                            data-status="Dispensed"
+                            data-doctor="Dr. Priya Nair"
+                        >
+
+                            <td>
+
+                                <div class="prescription-id-cell">
+
+                                    <div class="prescription-file-icon">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </div>
+
+                                    <span>
+                                        RX250729010
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-patient">
+
+                                    <strong>
+                                        Anjali Desai
+                                    </strong>
+
+                                    <small>
+                                        P1008
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-doctor">
+
+                                    <strong>
+                                        Dr. Priya Nair
+                                    </strong>
+
+                                    <small>
+                                        Gynaecologist
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-date">
+
+                                    <strong>
+                                        29 Jul 2026
+                                    </strong>
+
+                                    <small>
+                                        10:25 AM
+                                    </small>
+
+                                </div>
+
+                            </td>
+
+
+                            <td>
+                                <span class="medicine-count">
+                                    2 medicines
+                                </span>
+                            </td>
+
+
+                            <td>
+
+                                <span class="prescription-status dispensed">
+                                    Dispensed
+                                </span>
+
+                            </td>
+
+
+                            <td>
+
+                                <strong class="prescription-amount">
+                                    ₹280.00
+                                </strong>
+
+                            </td>
+
+
+                            <td>
+
+                                <div class="prescription-actions">
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn view-prescription"
+                                        data-prescription-id="RX250729010">
+
+                                        <i class="fa-regular fa-file-lines"></i>
+
+                                    </button>
+
+                                    <button
+                                        type="button"
+                                        class="prescription-action-btn prescription-menu"
+                                        data-prescription-id="RX250729010">
+
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                                    </button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+
+            <!-- ==================================================
+     TABLE FOOTER
+=================================================== -->
+
+<div class="prescription-table-footer">
+
+    <span id="prescriptionResultCount">
+
+        Showing
+
+        <strong>
+            {{ start_index }}
+        </strong>
+
+        to
+
+        <strong>
+            {{ end_index }}
+        </strong>
+
+        of
+
+        <strong>
+            {{ total_prescription_results }}
+        </strong>
+
+        prescriptions
+
+    </span>
+
+
+    <div class="prescription-pagination">
+
+
+        <!-- PREVIOUS -->
+
+        {% if current_page > 1 %}
+
+        <a
+            href="{{ url_for(
+                'prescriptions.prescriptions',
+                page=current_page - 1
+            ) }}"
+            class="pagination-btn"
+        >
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </a>
+
+        {% else %}
+
+        <span class="pagination-btn disabled">
+
+            <i class="fa-solid fa-chevron-left"></i>
+
+        </span>
+
+        {% endif %}
+
+
+
+        <!-- PAGE NUMBERS -->
+
+        {% for page_num in range(
+            1,
+            total_pages + 1
+        ) %}
+
+            {% if
+
+                page_num == 1
+
+                or
+
+                page_num == total_pages
+
+                or
+
+                (
+                    page_num >= current_page - 1
+                    and
+                    page_num <= current_page + 1
+                )
+
+            %}
+
+                {% if page_num == current_page %}
+
+                <span
+                    class="pagination-btn active"
+                >
+                    {{ page_num }}
+                </span>
+
+                {% else %}
+
+                <a
+                    href="{{ url_for(
+                        'prescriptions.prescriptions',
+                        page=page_num
+                    ) }}"
+                    class="pagination-btn"
+                >
+                    {{ page_num }}
+                </a>
+
+                {% endif %}
+
+
+            {% elif
+
+                page_num == current_page - 2
+
+                or
+
+                page_num == current_page + 2
+
+            %}
+
+                <span class="pagination-dots">
+                    ...
+                </span>
+
+            {% endif %}
+
+        {% endfor %}
+
+
+
+        <!-- NEXT -->
+
+        {% if current_page < total_pages %}
+
+        <a
+            href="{{ url_for(
+                'prescriptions.prescriptions',
+                page=current_page + 1
+            ) }}"
+            class="pagination-btn"
+        >
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </a>
+
+        {% else %}
+
+        <span class="pagination-btn disabled">
+
+            <i class="fa-solid fa-chevron-right"></i>
+
+        </span>
+
+        {% endif %}
+
+
+    </div>
+
+</div>
+
+        </div>
+
+
+
+        <!-- ==================================================
+             RIGHT SIDEBAR
+        =================================================== -->
+
+        <aside class="prescriptions-sidebar">
+
+
+            <!-- ==================================================
+                 PRESCRIPTION OVERVIEW
+            =================================================== -->
+
+            <div class="prescription-side-card">
+
+                <div class="side-card-header">
+
+                    <h3>
+                        Prescription Overview
+                    </h3>
+
+                </div>
+
+
+                <div class="prescription-donut-container">
+
+                    <div class="prescription-donut">
+
+                        <div class="prescription-donut-center">
+
+                            <strong>
+                                {{ total_prescriptions | default(1245) }}
+                            </strong>
+
+                            <span>
+                                Total
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="prescription-legend">
+
+
+                    <div class="legend-item">
+
+                        <span class="legend-color purple"></span>
+
+                        <span>
+                            Dispensed
+                        </span>
+
+                        <strong>
+                            184 (36.8%)
+                        </strong>
+
+                    </div>
+
+
+                    <div class="legend-item">
+
+                        <span class="legend-color orange"></span>
+
+                        <span>
+                            Pending
+                        </span>
+
+                        <strong>
+                            146 (29.2%)
+                        </strong>
+
+                    </div>
+
+
+                    <div class="legend-item">
+
+                        <span class="legend-color blue"></span>
+
+                        <span>
+                            Completed
+                        </span>
+
+                        <strong>
+                            103 (20.6%)
+                        </strong>
+
+                    </div>
+
+
+                    <div class="legend-item">
+
+                        <span class="legend-color green"></span>
+
+                        <span>
+                            Cancelled
+                        </span>
+
+                        <strong>
+                            67 (13.4%)
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ==================================================
+                 RECENT PRESCRIPTIONS
+            =================================================== -->
+
+            <div class="prescription-side-card recent-prescriptions-card">
+
+                <div class="side-card-header">
+
+                    <h3>
+                        Recent Prescriptions
+                    </h3>
+
+                    <button
+                        type="button"
+                        class="side-card-link"
+                        id="viewAllPrescriptions">
+
+                        View All
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+                </div>
+
+
+                <div class="recent-prescriptions-list">
+
+
+                    <div class="recent-prescription-item">
+
+                        <div class="recent-prescription-icon">
+
+                            <i class="fa-solid fa-file-prescription"></i>
+
+                        </div>
+
+
+                        <div class="recent-prescription-info">
+
+                            <strong>
+                                RX250731001
+                            </strong>
+
+                            <span>
+                                Rahul Sharma
+                            </span>
+
+                            <small>
+                                31 Jul 2026 | 10:30 AM
+                            </small>
+
+                        </div>
+
+
+                        <span class="prescription-status dispensed">
+                            Dispensed
+                        </span>
+
+                    </div>
+
+
+                    <div class="recent-prescription-item">
+
+                        <div class="recent-prescription-icon">
+
+                            <i class="fa-solid fa-file-prescription"></i>
+
+                        </div>
+
+
+                        <div class="recent-prescription-info">
+
+                            <strong>
+                                RX250731002
+                            </strong>
+
+                            <span>
+                                Priya Mehta
+                            </span>
+
+                            <small>
+                                31 Jul 2026 | 09:15 AM
+                            </small>
+
+                        </div>
+
+
+                        <span class="prescription-status pending">
+                            Pending
+                        </span>
+
+                    </div>
+
+
+                    <div class="recent-prescription-item">
+
+                        <div class="recent-prescription-icon">
+
+                            <i class="fa-solid fa-file-prescription"></i>
+
+                        </div>
+
+
+                        <div class="recent-prescription-info">
+
+                            <strong>
+                                RX250730015
+                            </strong>
+
+                            <span>
+                                Amit Verma
+                            </span>
+
+                            <small>
+                                30 Jul 2026 | 06:45 PM
+                            </small>
+
+                        </div>
+
+
+                        <span class="prescription-status dispensed">
+                            Dispensed
+                        </span>
+
+                    </div>
+
+
+                    <div class="recent-prescription-item">
+
+                        <div class="recent-prescription-icon">
+
+                            <i class="fa-solid fa-file-prescription"></i>
+
+                        </div>
+
+
+                        <div class="recent-prescription-info">
+
+                            <strong>
+                                RX250730014
+                            </strong>
+
+                            <span>
+                                Sneha Patil
+                            </span>
+
+                            <small>
+                                30 Jul 2026 | 04:20 PM
+                            </small>
+
+                        </div>
+
+
+                        <span class="prescription-status pending">
+                            Pending
+                        </span>
+
+                    </div>
+
+
+                    <div class="recent-prescription-item">
+
+                        <div class="recent-prescription-icon">
+
+                            <i class="fa-solid fa-file-prescription"></i>
+
+                        </div>
+
+
+                        <div class="recent-prescription-info">
+
+                            <strong>
+                                RX250730013
+                            </strong>
+
+                            <span>
+                                Vikram Singh
+                            </span>
+
+                            <small>
+                                30 Jul 2026 | 11:10 AM
+                            </small>
+
+                        </div>
+
+
+                        <span class="prescription-status completed">
+                            Completed
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="view-all-prescriptions-btn"
+                    id="viewAllPrescriptionsBottom">
+
+                    View All Prescriptions
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </button>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+</div>
+
+
+<!-- ==========================================================
+     JAVASCRIPT
+========================================================== -->
+
+<script>
+
+    window.prescriptionData =
+        {{ prescriptions | default([]) | tojson }};
+
+</script>
+
+{% include "prescriptions/new_prescription_modal.html" %}
+
+<script
+    src="{{ url_for('static', filename='js/prescriptions.js') }}">
+</script>
+
+<script src="{{ url_for('static', filename='js/header.js') }}"></script>
+
+{% endblock %}

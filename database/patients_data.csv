@@ -1,0 +1,501 @@
+Patient_ID,Patient_Name,Age,Gender,Date_of_Birth,Phone,Email,Address,Blood_Group,Primary_Disease,Last_Visit,Status,Emergency_Contact
+P1001,Nikhil Joshi,77,Male,1948-09-02,9384443452,patient001@example.com,"424 MG Road, Pune",B+,Hypertension,2026-07-25,Active,9451535068
+P1002,Nisha Desai,80,Female,1945-10-20,9142342813,patient002@example.com,"580 Shivaji Nagar, Nagpur",AB+,Heart Disease,2026-07-02,Inactive,9941114937
+P1003,Nikhil Mishra,19,Male,2007-06-02,9140574697,patient003@example.com,"881 Shivaji Nagar, Mumbai",B-,Allergy,2026-07-21,Inactive,9872223246
+P1004,Nisha Pawar,62,Female,1963-11-30,9413390456,patient004@example.com,"673 MG Road, Thane",O-,Heart Disease,2026-07-15,Active,9795001686
+P1005,Amit Singh,40,Male,1985-09-24,9685932741,patient005@example.com,"529 Station Road, Mumbai",AB-,Hypertension,2026-07-03,Inactive,9292245204
+P1006,Anjali Jain,52,Female,1973-12-27,9519292087,patient006@example.com,"499 MG Road, Delhi",B+,Diabetes,2026-07-06,Inactive,9395171674
+P1007,Karan Yadav,22,Male,2004-07-04,9872459236,patient007@example.com,"652 Station Road, Navi Mumbai",AB-,Arthritis,2026-06-22,Active,9769629690
+P1008,Nisha Jain,45,Female,1980-11-30,9871526168,patient008@example.com,"875 MG Road, Nashik",O-,Allergy,2026-06-29,Active,9630328770
+P1009,Raj Sharma,68,Male,1957-11-18,9441722477,patient009@example.com,"707 Green Park, Kolhapur",B+,Asthma,2026-06-20,Inactive,9155697152
+P1010,Isha Singh,74,Female,1951-09-14,9486930664,patient010@example.com,"783 Station Road, Kolhapur",O-,Infection,2026-07-30,Active,9132893156
+P1011,Akash Mehta,28,Male,1997-11-03,9288878927,patient011@example.com,"807 Shivaji Nagar, Aurangabad",O+,Migraine,2026-07-14,Active,9662194976
+P1012,Riya Joshi,55,Female,1971-05-06,9250704133,patient012@example.com,"371 Shivaji Nagar, Nashik",B-,Fever,2026-07-06,Inactive,9947756854
+P1013,Karan Mishra,73,Male,1953-05-11,9686458547,patient013@example.com,"993 Green Park, Aurangabad",AB+,Fever,2026-07-17,Inactive,9185477308
+P1014,Shreya Kulkarni,76,Female,1950-05-16,9672347608,patient014@example.com,"789 Shivaji Nagar, Navi Mumbai",B+,Gastritis,2026-07-11,Inactive,9280044306
+P1015,Manish Verma,43,Male,1983-04-20,9845818581,patient015@example.com,"237 Shivaji Nagar, Delhi",O-,Hypertension,2026-06-24,Active,9641682614
+P1016,Sneha Kumar,63,Female,1963-02-08,9492779292,patient016@example.com,"36 Station Road, Delhi",O+,Arthritis,2026-07-06,Inactive,9116785175
+P1017,Manish Gupta,66,Male,1959-09-03,9408491125,patient017@example.com,"854 Shivaji Nagar, Nagpur",A+,Asthma,2026-06-30,Inactive,9774447039
+P1018,Nisha Mehta,74,Female,1951-11-30,9985116069,patient018@example.com,"600 Green Park, Pune",AB-,Heart Disease,2026-06-18,Inactive,9276968647
+P1019,Rahul Patil,51,Male,1975-02-24,9724893002,patient019@example.com,"251 Shivaji Nagar, Mumbai",A-,Gastritis,2026-06-16,Active,9523624169
+P1020,Pooja Mehta,38,Female,1987-12-21,9215451548,patient020@example.com,"344 Shivaji Nagar, Nagpur",A-,Asthma,2026-07-13,Active,9493107748
+P1021,Manish Jain,31,Male,1994-12-08,9881514034,patient021@example.com,"876 Green Park, Nagpur",AB+,Infection,2026-07-05,Inactive,9149168968
+P1022,Priya Shah,35,Female,1990-08-18,9790751043,patient022@example.com,"831 Green Park, Thane",A-,Diabetes,2026-07-22,Inactive,9290401000
+P1023,Aditya Desai,57,Male,1969-06-13,9847408994,patient023@example.com,"615 Station Road, Delhi",A+,Heart Disease,2026-06-28,Active,9913643760
+P1024,Simran Sharma,35,Female,1991-06-04,9352339994,patient024@example.com,"874 Shivaji Nagar, Kolhapur",B+,Fever,2026-07-08,Inactive,9698510766
+P1025,Ankit Jain,69,Male,1957-01-16,9162673405,patient025@example.com,"988 Shivaji Nagar, Bengaluru",AB+,Infection,2026-07-04,Inactive,9400151735
+P1026,Pooja Mishra,28,Female,1997-11-28,9858170874,patient026@example.com,"355 Shivaji Nagar, Thane",O-,Heart Disease,2026-07-23,Inactive,9490530383
+P1027,Ankit Mishra,38,Male,1987-09-30,9409272679,patient027@example.com,"192 MG Road, Thane",A-,Hypertension,2026-06-16,Inactive,9456798806
+P1028,Priya Verma,77,Female,1949-07-30,9146036613,patient028@example.com,"169 Shivaji Nagar, Aurangabad",B-,Heart Disease,2026-07-31,Active,9178112745
+P1029,Sanjay Verma,59,Male,1967-03-02,9440780867,patient029@example.com,"80 MG Road, Mumbai",O-,Gastritis,2026-07-24,Inactive,9136280985
+P1030,Asha Patil,58,Female,1968-01-10,9696513027,patient030@example.com,"765 MG Road, Pune",O+,Migraine,2026-06-21,Inactive,9658140676
+P1031,Nikhil Shah,42,Male,1983-10-15,9765679412,patient031@example.com,"743 Station Road, Nashik",AB-,Asthma,2026-07-07,Inactive,9582114758
+P1032,Swati Kulkarni,68,Female,1958-03-21,9790572323,patient032@example.com,"433 MG Road, Mumbai",B+,Gastritis,2026-07-03,Active,9496032862
+P1033,Rohit Patil,78,Male,1947-11-24,9334546697,patient033@example.com,"834 MG Road, Delhi",A-,Fever,2026-07-27,Active,9998011802
+P1034,Sneha Verma,30,Female,1996-05-26,9792722274,patient034@example.com,"17 Shivaji Nagar, Bengaluru",A-,Diabetes,2026-06-23,Inactive,9892739782
+P1035,Rahul Jain,23,Male,2003-04-03,9545997993,patient035@example.com,"278 Station Road, Nashik",B-,Allergy,2026-06-28,Inactive,9470448556
+P1036,Priya Kumar,28,Female,1998-01-13,9656929800,patient036@example.com,"733 Green Park, Navi Mumbai",B+,Fever,2026-07-01,Inactive,9615481523
+P1037,Aditya Gupta,34,Male,1991-10-26,9774024817,patient037@example.com,"282 Station Road, Nashik",AB+,Fever,2026-07-08,Active,9449432358
+P1038,Neha Shah,23,Female,2002-08-29,9896610501,patient038@example.com,"474 Station Road, Delhi",B-,Hypertension,2026-06-29,Inactive,9157011895
+P1039,Nikhil Mishra,29,Male,1996-12-25,9229847349,patient039@example.com,"670 Station Road, Nashik",A-,Infection,2026-06-16,Active,9312945757
+P1040,Simran Yadav,63,Female,1962-10-31,9803726191,patient040@example.com,"606 MG Road, Mumbai",O-,Fever,2026-07-18,Active,9266635767
+P1041,Manish Shah,76,Male,1950-05-02,9895636867,patient041@example.com,"431 MG Road, Pune",AB+,Gastritis,2026-06-22,Active,9787578647
+P1042,Pooja Patil,53,Female,1973-06-01,9353891323,patient042@example.com,"928 MG Road, Aurangabad",O-,Asthma,2026-06-26,Active,9443816109
+P1043,Nikhil Singh,35,Male,1991-06-08,9625170584,patient043@example.com,"752 Station Road, Navi Mumbai",B-,Fever,2026-07-05,Inactive,9411216329
+P1044,Anjali Sharma,54,Female,1972-04-02,9372619016,patient044@example.com,"601 Station Road, Bengaluru",A-,Fever,2026-07-10,Inactive,9748118531
+P1045,Deepak Mishra,73,Male,1953-01-06,9102886304,patient045@example.com,"201 MG Road, Navi Mumbai",A-,Fever,2026-06-24,Active,9455526363
+P1046,Anjali Kulkarni,75,Female,1950-12-23,9915770662,patient046@example.com,"549 Station Road, Pune",B-,Infection,2026-06-23,Inactive,9248472045
+P1047,Manish Kumar,78,Male,1948-04-17,9240304051,patient047@example.com,"162 Green Park, Pune",B+,Gastritis,2026-06-28,Inactive,9882975849
+P1048,Megha Pawar,73,Female,1952-11-11,9302336404,patient048@example.com,"187 Green Park, Mumbai",O+,Allergy,2026-07-28,Inactive,9751310272
+P1049,Ankit Kulkarni,74,Male,1951-11-27,9640586817,patient049@example.com,"528 Station Road, Aurangabad",B-,Gastritis,2026-07-02,Inactive,9298273092
+P1050,Anjali Kulkarni,52,Female,1974-07-13,9957589057,patient050@example.com,"867 Green Park, Nagpur",A+,Migraine,2026-07-06,Inactive,9353711592
+P1051,Pranav Desai,59,Male,1966-10-26,9952818027,patient051@example.com,"597 Shivaji Nagar, Pune",AB-,Hypertension,2026-07-26,Inactive,9996772075
+P1052,Divya Verma,79,Female,1946-11-01,9200469209,patient052@example.com,"33 MG Road, Bengaluru",B+,Heart Disease,2026-07-18,Inactive,9812973558
+P1053,Rahul Mehta,37,Male,1988-12-08,9397624249,patient053@example.com,"679 MG Road, Mumbai",B-,Diabetes,2026-07-19,Inactive,9604762395
+P1054,Sneha Patil,61,Female,1964-12-03,9199781992,patient054@example.com,"633 Green Park, Nashik",AB+,Diabetes,2026-06-24,Active,9885716415
+P1055,Vikram Mehta,31,Male,1995-06-09,9837430793,patient055@example.com,"956 Station Road, Kolhapur",AB-,Fever,2026-07-21,Active,9223658456
+P1056,Nisha Yadav,65,Female,1961-07-02,9224483073,patient056@example.com,"125 Station Road, Kolhapur",A-,Fever,2026-06-18,Active,9144937301
+P1057,Amit Shah,64,Male,1961-12-31,9246014686,patient057@example.com,"750 Shivaji Nagar, Delhi",AB-,Asthma,2026-07-29,Active,9768913252
+P1058,Isha Pawar,31,Female,1995-03-11,9714055603,patient058@example.com,"207 Station Road, Kolhapur",O-,Asthma,2026-07-29,Active,9809031694
+P1059,Vikram Joshi,59,Male,1967-03-14,9933920254,patient059@example.com,"543 Green Park, Nashik",O+,Fever,2026-06-19,Active,9196744637
+P1060,Pooja Sharma,68,Female,1957-09-02,9523895771,patient060@example.com,"650 MG Road, Aurangabad",A+,Heart Disease,2026-06-26,Inactive,9244562430
+P1061,Vikram Shah,36,Male,1990-06-05,9118376979,patient061@example.com,"870 MG Road, Aurangabad",O-,Arthritis,2026-07-07,Active,9970229749
+P1062,Isha Pawar,59,Female,1967-04-28,9868448390,patient062@example.com,"692 Shivaji Nagar, Nashik",AB-,Diabetes,2026-07-31,Active,9345740029
+P1063,Aditya Mehta,27,Male,1999-05-02,9555118480,patient063@example.com,"967 Shivaji Nagar, Delhi",O-,Allergy,2026-07-14,Inactive,9515934026
+P1064,Pooja Yadav,77,Female,1949-05-03,9129036288,patient064@example.com,"275 Green Park, Nashik",A+,Fever,2026-07-23,Inactive,9157783846
+P1065,Karan Mehta,41,Male,1985-05-20,9614655733,patient065@example.com,"246 Station Road, Thane",A+,Fever,2026-06-22,Active,9575790653
+P1066,Isha Pawar,79,Female,1947-01-12,9557627557,patient066@example.com,"892 Green Park, Kolhapur",B-,Fever,2026-07-26,Active,9402149641
+P1067,Nikhil Kulkarni,78,Male,1948-02-26,9442990898,patient067@example.com,"277 MG Road, Mumbai",B-,Migraine,2026-07-25,Active,9368110590
+P1068,Priya Mehta,19,Female,2007-02-01,9535445261,patient068@example.com,"989 Station Road, Bengaluru",AB-,Gastritis,2026-06-22,Inactive,9944862559
+P1069,Rohit Shah,22,Male,2003-12-23,9733639638,patient069@example.com,"703 Shivaji Nagar, Aurangabad",O+,Arthritis,2026-07-08,Active,9364245218
+P1070,Pooja Joshi,71,Female,1955-06-09,9998475164,patient070@example.com,"839 Shivaji Nagar, Navi Mumbai",AB+,Diabetes,2026-07-25,Active,9147377352
+P1071,Nikhil Sharma,67,Male,1958-11-27,9231680283,patient071@example.com,"49 MG Road, Mumbai",AB+,Allergy,2026-07-24,Active,9207779186
+P1072,Simran Desai,35,Female,1990-12-02,9273811268,patient072@example.com,"443 Green Park, Delhi",A+,Allergy,2026-07-26,Active,9972239317
+P1073,Raj Kulkarni,41,Male,1985-06-17,9259055675,patient073@example.com,"616 Green Park, Pune",O-,Diabetes,2026-07-03,Inactive,9190661379
+P1074,Anjali Kumar,20,Female,2005-12-17,9209163516,patient074@example.com,"262 Green Park, Navi Mumbai",B-,Gastritis,2026-07-05,Active,9151323124
+P1075,Deepak Mishra,36,Male,1989-11-11,9395867188,patient075@example.com,"513 Shivaji Nagar, Nagpur",AB+,Fever,2026-07-08,Active,9855983760
+P1076,Anjali Sharma,19,Female,2006-12-26,9295126657,patient076@example.com,"367 Shivaji Nagar, Navi Mumbai",AB+,Arthritis,2026-06-25,Inactive,9632762930
+P1077,Rahul Patil,25,Male,2001-08-04,9458374978,patient077@example.com,"213 MG Road, Bengaluru",AB+,Fever,2026-06-26,Inactive,9372967863
+P1078,Divya Desai,74,Female,1952-01-08,9983896833,patient078@example.com,"162 Green Park, Aurangabad",A-,Allergy,2026-07-06,Active,9991949861
+P1079,Vikram Pawar,72,Male,1954-08-09,9134450612,patient079@example.com,"68 Shivaji Nagar, Kolhapur",AB+,Arthritis,2026-07-01,Active,9433505590
+P1080,Kavita Kulkarni,55,Female,1971-07-11,9953735774,patient080@example.com,"129 Green Park, Navi Mumbai",AB-,Infection,2026-07-30,Active,9370922917
+P1081,Rahul Sharma,65,Male,1961-04-04,9728745204,patient081@example.com,"251 Green Park, Bengaluru",O+,Heart Disease,2026-06-20,Active,9438279112
+P1082,Anjali Kulkarni,63,Female,1963-03-07,9942305034,patient082@example.com,"186 Green Park, Thane",A+,Heart Disease,2026-07-27,Inactive,9794264349
+P1083,Deepak Shah,70,Male,1956-01-28,9941089739,patient083@example.com,"630 Station Road, Nagpur",A-,Asthma,2026-06-30,Inactive,9733848221
+P1084,Simran Kulkarni,25,Female,2001-01-23,9747452339,patient084@example.com,"579 Shivaji Nagar, Pune",AB+,Arthritis,2026-07-05,Active,9259386090
+P1085,Sanjay Joshi,36,Male,1989-12-04,9615279977,patient085@example.com,"594 Shivaji Nagar, Nagpur",B-,Fever,2026-07-28,Inactive,9569111042
+P1086,Neha Patil,65,Female,1960-11-26,9819118723,patient086@example.com,"615 Shivaji Nagar, Bengaluru",A-,Heart Disease,2026-06-17,Inactive,9966524048
+P1087,Rahul Mehta,63,Male,1963-05-24,9562554021,patient087@example.com,"878 MG Road, Mumbai",B-,Infection,2026-07-15,Active,9653590410
+P1088,Simran Mishra,75,Female,1951-05-24,9213485048,patient088@example.com,"101 Station Road, Mumbai",B+,Diabetes,2026-06-27,Inactive,9202089278
+P1089,Deepak Jain,75,Male,1951-07-08,9352555606,patient089@example.com,"388 Station Road, Nashik",A-,Hypertension,2026-06-27,Inactive,9124065944
+P1090,Isha Mishra,52,Female,1973-09-27,9730981589,patient090@example.com,"997 Shivaji Nagar, Delhi",A+,Hypertension,2026-06-29,Inactive,9379211235
+P1091,Rohit Kumar,26,Male,2000-06-06,9584570388,patient091@example.com,"979 Shivaji Nagar, Delhi",B-,Heart Disease,2026-07-21,Inactive,9644223887
+P1092,Kavita Joshi,77,Female,1948-11-16,9285301039,patient092@example.com,"73 Green Park, Thane",A+,Arthritis,2026-07-31,Inactive,9443810137
+P1093,Aditya Kulkarni,23,Male,2003-05-02,9508290225,patient093@example.com,"586 Green Park, Thane",AB+,Hypertension,2026-07-20,Active,9269469724
+P1094,Asha Jain,49,Female,1976-10-14,9390357088,patient094@example.com,"820 MG Road, Bengaluru",AB+,Allergy,2026-06-18,Active,9597528007
+P1095,Raj Yadav,43,Male,1982-09-02,9612320575,patient095@example.com,"690 Green Park, Thane",A+,Heart Disease,2026-06-24,Inactive,9346249012
+P1096,Isha Mehta,34,Female,1991-10-16,9554754137,patient096@example.com,"125 Shivaji Nagar, Kolhapur",A+,Infection,2026-07-26,Active,9290083749
+P1097,Aditya Singh,61,Male,1964-11-05,9699349393,patient097@example.com,"239 Shivaji Nagar, Kolhapur",O-,Hypertension,2026-06-17,Inactive,9723880239
+P1098,Megha Mishra,69,Female,1956-09-08,9788458461,patient098@example.com,"417 MG Road, Thane",A+,Heart Disease,2026-06-19,Inactive,9853778605
+P1099,Akash Singh,71,Male,1955-02-07,9512027676,patient099@example.com,"569 MG Road, Thane",AB+,Diabetes,2026-06-22,Inactive,9586469216
+P1100,Asha Singh,27,Female,1998-12-23,9112471777,patient100@example.com,"166 Shivaji Nagar, Pune",AB+,Fever,2026-07-27,Active,9481791843
+P1101,Manish Yadav,33,Male,1993-01-12,9395512253,patient101@example.com,"565 MG Road, Mumbai",B-,Migraine,2026-06-21,Inactive,9671985962
+P1102,Isha Kumar,32,Female,1994-07-18,9568052911,patient102@example.com,"150 Shivaji Nagar, Kolhapur",AB-,Fever,2026-06-22,Inactive,9746330798
+P1103,Manish Mehta,45,Male,1980-09-26,9994449085,patient103@example.com,"74 Green Park, Thane",A-,Asthma,2026-07-30,Active,9729747367
+P1104,Swati Yadav,64,Female,1962-02-14,9809937839,patient104@example.com,"783 MG Road, Nagpur",AB+,Hypertension,2026-07-16,Active,9329076155
+P1105,Aditya Pawar,44,Male,1982-02-18,9300339143,patient105@example.com,"264 Green Park, Thane",O-,Allergy,2026-07-31,Active,9530149880
+P1106,Kavita Yadav,71,Female,1955-08-07,9277783040,patient106@example.com,"378 Shivaji Nagar, Thane",AB-,Fever,2026-06-17,Inactive,9233755303
+P1107,Manish Mehta,45,Male,1980-09-13,9133893513,patient107@example.com,"903 MG Road, Thane",O+,Diabetes,2026-07-11,Inactive,9531713735
+P1108,Divya Mehta,48,Female,1978-07-10,9929358041,patient108@example.com,"538 MG Road, Thane",A+,Allergy,2026-07-01,Active,9530253315
+P1109,Aditya Mishra,53,Male,1973-06-25,9391519393,patient109@example.com,"91 Station Road, Thane",AB+,Allergy,2026-07-22,Active,9945332098
+P1110,Anjali Mishra,38,Female,1988-05-07,9523612240,patient110@example.com,"651 Station Road, Thane",AB+,Heart Disease,2026-06-22,Active,9850417486
+P1111,Manish Desai,62,Male,1963-11-08,9572818599,patient111@example.com,"329 Station Road, Bengaluru",O+,Hypertension,2026-06-22,Inactive,9465378226
+P1112,Nisha Singh,80,Female,1945-09-17,9152936042,patient112@example.com,"123 Green Park, Bengaluru",B+,Heart Disease,2026-07-11,Active,9162908464
+P1113,Deepak Kulkarni,67,Male,1959-02-14,9364566226,patient113@example.com,"723 Station Road, Mumbai",O-,Hypertension,2026-07-01,Active,9609469912
+P1114,Sneha Desai,61,Female,1965-04-21,9993915858,patient114@example.com,"620 Station Road, Nagpur",AB+,Gastritis,2026-07-28,Active,9541081964
+P1115,Raj Kulkarni,26,Male,1999-11-17,9721985193,patient115@example.com,"276 Shivaji Nagar, Aurangabad",A+,Arthritis,2026-07-25,Inactive,9108244549
+P1116,Priya Sharma,56,Female,1969-09-15,9714609661,patient116@example.com,"318 MG Road, Thane",O+,Fever,2026-06-20,Active,9414947114
+P1117,Pranav Desai,42,Male,1984-03-23,9943442595,patient117@example.com,"934 Station Road, Kolhapur",AB-,Arthritis,2026-06-18,Active,9450978803
+P1118,Megha Desai,34,Female,1992-08-01,9980673779,patient118@example.com,"819 Shivaji Nagar, Aurangabad",AB+,Gastritis,2026-07-21,Inactive,9912034755
+P1119,Aditya Gupta,52,Male,1973-10-25,9583850916,patient119@example.com,"811 Shivaji Nagar, Aurangabad",B-,Asthma,2026-07-30,Active,9556502904
+P1120,Neha Patil,72,Female,1954-04-08,9957844513,patient120@example.com,"424 Station Road, Nashik",B+,Arthritis,2026-07-08,Inactive,9852261831
+P1121,Rohit Sharma,24,Male,2001-09-17,9458632005,patient121@example.com,"628 Shivaji Nagar, Nagpur",A+,Diabetes,2026-07-06,Inactive,9272082305
+P1122,Divya Verma,25,Female,2001-05-21,9415800707,patient122@example.com,"195 Station Road, Kolhapur",AB-,Infection,2026-07-20,Inactive,9530823983
+P1123,Vikram Yadav,38,Male,1988-07-06,9518913409,patient123@example.com,"38 Green Park, Pune",B+,Migraine,2026-06-22,Active,9199106536
+P1124,Kavita Jain,80,Female,1946-04-14,9672743444,patient124@example.com,"826 Station Road, Mumbai",A+,Allergy,2026-06-29,Active,9216337617
+P1125,Aditya Shah,51,Male,1974-12-10,9863395059,patient125@example.com,"516 MG Road, Nagpur",A-,Fever,2026-07-06,Inactive,9576836223
+P1126,Swati Yadav,75,Female,1951-04-02,9579012732,patient126@example.com,"148 Station Road, Thane",B+,Arthritis,2026-07-31,Active,9258135051
+P1127,Raj Mehta,76,Male,1950-07-23,9318926239,patient127@example.com,"551 Shivaji Nagar, Nagpur",AB-,Gastritis,2026-07-21,Active,9561798876
+P1128,Kavita Pawar,55,Female,1970-11-15,9151640203,patient128@example.com,"482 Shivaji Nagar, Nashik",O-,Migraine,2026-07-07,Active,9432605434
+P1129,Vikram Mehta,60,Male,1965-08-25,9906571826,patient129@example.com,"248 Shivaji Nagar, Thane",O-,Migraine,2026-06-26,Active,9133753643
+P1130,Shreya Desai,34,Female,1991-09-09,9494521990,patient130@example.com,"302 Station Road, Aurangabad",B+,Asthma,2026-07-12,Active,9219618771
+P1131,Vikram Patil,27,Male,1998-12-21,9406516742,patient131@example.com,"798 Station Road, Bengaluru",A-,Infection,2026-06-16,Inactive,9930596908
+P1132,Riya Yadav,31,Female,1994-09-02,9415110824,patient132@example.com,"670 MG Road, Navi Mumbai",B+,Diabetes,2026-07-16,Active,9994001774
+P1133,Nikhil Kumar,42,Male,1984-05-16,9980090070,patient133@example.com,"84 Station Road, Aurangabad",A+,Allergy,2026-06-18,Active,9960277776
+P1134,Divya Mehta,56,Female,1970-04-10,9987664050,patient134@example.com,"52 Shivaji Nagar, Aurangabad",B-,Diabetes,2026-07-07,Inactive,9753780761
+P1135,Ankit Patil,38,Male,1987-11-26,9990930317,patient135@example.com,"158 Shivaji Nagar, Bengaluru",B-,Gastritis,2026-06-27,Active,9428117986
+P1136,Priya Sharma,72,Female,1953-09-28,9894897846,patient136@example.com,"116 Green Park, Kolhapur",AB-,Infection,2026-06-17,Inactive,9652105788
+P1137,Pranav Mehta,71,Male,1955-02-23,9284952000,patient137@example.com,"295 Shivaji Nagar, Thane",O-,Migraine,2026-07-04,Inactive,9559021927
+P1138,Priya Mishra,52,Female,1973-11-13,9488299146,patient138@example.com,"714 Green Park, Navi Mumbai",B-,Infection,2026-07-18,Active,9116717723
+P1139,Akash Kulkarni,59,Male,1967-03-04,9358689711,patient139@example.com,"669 Green Park, Nashik",AB-,Allergy,2026-06-19,Inactive,9678603686
+P1140,Isha Desai,69,Female,1956-10-31,9721996865,patient140@example.com,"445 MG Road, Bengaluru",A+,Migraine,2026-06-22,Inactive,9616728439
+P1141,Manish Pawar,26,Male,2000-06-14,9394463869,patient141@example.com,"869 Station Road, Nashik",O+,Arthritis,2026-07-01,Active,9139115538
+P1142,Megha Mehta,73,Female,1952-11-15,9902835673,patient142@example.com,"996 Station Road, Thane",B+,Migraine,2026-06-23,Active,9318758887
+P1143,Deepak Kumar,59,Male,1966-10-16,9582679659,patient143@example.com,"176 MG Road, Nagpur",A-,Fever,2026-07-17,Active,9793713830
+P1144,Shreya Kumar,49,Female,1977-01-24,9977151931,patient144@example.com,"170 MG Road, Nashik",A+,Heart Disease,2026-07-30,Active,9280155891
+P1145,Vikram Mehta,20,Male,2006-07-29,9298764939,patient145@example.com,"245 MG Road, Mumbai",A+,Hypertension,2026-07-24,Inactive,9595326907
+P1146,Riya Desai,25,Female,2001-07-22,9645378361,patient146@example.com,"871 Station Road, Kolhapur",A-,Diabetes,2026-07-29,Active,9978138128
+P1147,Rohit Patil,41,Male,1985-06-24,9410057868,patient147@example.com,"73 MG Road, Delhi",O+,Gastritis,2026-07-07,Active,9788433093
+P1148,Sneha Shah,50,Female,1975-12-09,9396743138,patient148@example.com,"441 MG Road, Nagpur",O-,Migraine,2026-07-28,Inactive,9732113521
+P1149,Arjun Mishra,61,Male,1965-07-29,9103919069,patient149@example.com,"213 Green Park, Navi Mumbai",AB+,Fever,2026-07-25,Active,9497347055
+P1150,Divya Mishra,35,Female,1990-10-12,9507151520,patient150@example.com,"458 Green Park, Aurangabad",A+,Diabetes,2026-07-10,Inactive,9564770044
+P1151,Pranav Kulkarni,42,Male,1984-03-26,9198813813,patient151@example.com,"85 Green Park, Kolhapur",O-,Migraine,2026-07-04,Active,9861238683
+P1152,Sneha Pawar,71,Female,1955-03-27,9101702569,patient152@example.com,"837 Station Road, Delhi",O-,Hypertension,2026-07-17,Inactive,9759404712
+P1153,Deepak Jain,76,Male,1950-04-04,9929386021,patient153@example.com,"643 Station Road, Mumbai",A+,Gastritis,2026-06-24,Active,9561597861
+P1154,Riya Kumar,30,Female,1995-10-29,9251211534,patient154@example.com,"396 Station Road, Nashik",AB+,Heart Disease,2026-07-13,Inactive,9942792459
+P1155,Rahul Kumar,32,Male,1993-12-30,9699180220,patient155@example.com,"578 Green Park, Navi Mumbai",AB-,Heart Disease,2026-06-27,Active,9490932614
+P1156,Priya Gupta,69,Female,1957-01-10,9293928606,patient156@example.com,"381 Station Road, Pune",AB-,Arthritis,2026-06-24,Active,9844332287
+P1157,Manish Patil,26,Male,2000-06-23,9242486665,patient157@example.com,"451 Shivaji Nagar, Navi Mumbai",B+,Arthritis,2026-07-30,Active,9425049214
+P1158,Sneha Kumar,72,Female,1953-10-30,9495720862,patient158@example.com,"966 MG Road, Pune",AB-,Gastritis,2026-07-31,Inactive,9648141721
+P1159,Arjun Mehta,47,Male,1978-12-22,9412230513,patient159@example.com,"733 Green Park, Nashik",AB-,Migraine,2026-06-30,Inactive,9746524846
+P1160,Neha Yadav,22,Female,2003-11-02,9822600617,patient160@example.com,"826 MG Road, Thane",A-,Heart Disease,2026-07-25,Inactive,9247930241
+P1161,Karan Singh,29,Male,1997-05-27,9747636547,patient161@example.com,"975 Station Road, Aurangabad",A-,Infection,2026-07-21,Active,9970979378
+P1162,Isha Jain,76,Female,1950-02-13,9386045942,patient162@example.com,"948 MG Road, Pune",O-,Migraine,2026-07-15,Inactive,9621952950
+P1163,Deepak Mishra,20,Male,2005-12-26,9936984208,patient163@example.com,"527 MG Road, Mumbai",B+,Fever,2026-07-11,Inactive,9633590589
+P1164,Divya Sharma,63,Female,1963-08-07,9888467237,patient164@example.com,"60 Green Park, Kolhapur",B-,Gastritis,2026-06-25,Inactive,9395396016
+P1165,Rahul Joshi,28,Male,1998-05-30,9398979248,patient165@example.com,"877 Station Road, Nashik",B+,Allergy,2026-07-18,Inactive,9874296165
+P1166,Swati Yadav,35,Female,1991-07-11,9195519439,patient166@example.com,"507 MG Road, Nashik",O+,Infection,2026-07-31,Active,9196732829
+P1167,Vikram Desai,22,Male,2003-11-02,9953454348,patient167@example.com,"800 Shivaji Nagar, Mumbai",AB-,Hypertension,2026-07-07,Active,9944284468
+P1168,Kavita Kumar,59,Female,1967-07-16,9198211758,patient168@example.com,"128 Shivaji Nagar, Mumbai",B+,Infection,2026-06-17,Active,9976475705
+P1169,Akash Mehta,38,Male,1988-01-04,9186834388,patient169@example.com,"775 Green Park, Aurangabad",B-,Infection,2026-07-20,Active,9981343937
+P1170,Nisha Verma,30,Female,1996-07-22,9596471866,patient170@example.com,"82 Station Road, Bengaluru",O-,Diabetes,2026-07-29,Active,9619548128
+P1171,Rohit Jain,62,Male,1964-07-02,9641359164,patient171@example.com,"597 Shivaji Nagar, Delhi",O-,Migraine,2026-06-20,Active,9970512742
+P1172,Shreya Verma,69,Female,1956-11-23,9602860372,patient172@example.com,"433 MG Road, Kolhapur",O-,Fever,2026-06-25,Inactive,9399604609
+P1173,Aditya Yadav,25,Male,2001-06-22,9770450000,patient173@example.com,"822 MG Road, Navi Mumbai",B-,Migraine,2026-07-05,Active,9328940430
+P1174,Swati Yadav,64,Female,1962-07-29,9376828821,patient174@example.com,"350 Green Park, Nashik",O-,Allergy,2026-07-27,Inactive,9338133430
+P1175,Akash Verma,22,Male,2004-03-07,9329067512,patient175@example.com,"912 Shivaji Nagar, Navi Mumbai",O+,Allergy,2026-07-02,Active,9462275233
+P1176,Divya Jain,27,Female,1998-11-09,9164935057,patient176@example.com,"425 Shivaji Nagar, Delhi",AB+,Diabetes,2026-07-05,Inactive,9580826586
+P1177,Sanjay Shah,53,Male,1973-04-07,9421666977,patient177@example.com,"963 MG Road, Delhi",O+,Fever,2026-07-17,Inactive,9959210287
+P1178,Anjali Desai,76,Female,1950-03-20,9535823416,patient178@example.com,"946 MG Road, Delhi",A+,Gastritis,2026-06-21,Inactive,9156986671
+P1179,Aditya Mishra,46,Male,1979-08-17,9153816964,patient179@example.com,"412 Shivaji Nagar, Navi Mumbai",O-,Gastritis,2026-07-14,Active,9491080478
+P1180,Riya Verma,31,Female,1995-05-07,9882958075,patient180@example.com,"854 Green Park, Bengaluru",A+,Allergy,2026-06-25,Inactive,9922120921
+P1181,Arjun Mehta,20,Male,2005-09-17,9851444440,patient181@example.com,"326 Green Park, Bengaluru",A-,Asthma,2026-06-30,Active,9189479909
+P1182,Sneha Joshi,67,Female,1959-01-31,9201742108,patient182@example.com,"625 Green Park, Nashik",O-,Migraine,2026-06-29,Inactive,9832267407
+P1183,Karan Sharma,61,Male,1965-05-17,9280592735,patient183@example.com,"659 Green Park, Kolhapur",O-,Asthma,2026-06-17,Inactive,9977861933
+P1184,Swati Jain,35,Female,1991-06-28,9832923209,patient184@example.com,"191 Green Park, Pune",B+,Fever,2026-06-17,Inactive,9436883282
+P1185,Ankit Yadav,75,Male,1951-02-18,9163910227,patient185@example.com,"20 MG Road, Kolhapur",A+,Hypertension,2026-06-25,Inactive,9219178680
+P1186,Kavita Patil,73,Female,1953-02-22,9956789742,patient186@example.com,"680 Shivaji Nagar, Navi Mumbai",O-,Diabetes,2026-07-20,Inactive,9403353059
+P1187,Rahul Mishra,49,Male,1976-12-29,9856112323,patient187@example.com,"205 MG Road, Navi Mumbai",A+,Gastritis,2026-07-25,Inactive,9791396646
+P1188,Priya Jain,32,Female,1994-07-06,9151694764,patient188@example.com,"19 Station Road, Thane",B-,Migraine,2026-06-19,Active,9318252453
+P1189,Raj Jain,55,Male,1971-08-13,9397892654,patient189@example.com,"366 MG Road, Mumbai",B-,Arthritis,2026-07-24,Active,9643831212
+P1190,Nisha Pawar,80,Female,1946-07-19,9177318698,patient190@example.com,"565 Shivaji Nagar, Bengaluru",A-,Asthma,2026-07-13,Inactive,9760752396
+P1191,Manish Jain,29,Male,1997-02-05,9471630823,patient191@example.com,"788 MG Road, Aurangabad",O-,Fever,2026-06-27,Active,9487992299
+P1192,Riya Mehta,20,Female,2006-01-09,9622797135,patient192@example.com,"593 Green Park, Mumbai",AB+,Heart Disease,2026-07-28,Inactive,9985029339
+P1193,Nikhil Sharma,22,Male,2004-01-20,9870011209,patient193@example.com,"459 Station Road, Thane",A+,Asthma,2026-06-27,Inactive,9637895095
+P1194,Pooja Pawar,61,Female,1965-04-26,9811045104,patient194@example.com,"208 Shivaji Nagar, Thane",O-,Asthma,2026-07-23,Active,9102984022
+P1195,Karan Joshi,47,Male,1979-05-24,9458816898,patient195@example.com,"345 Green Park, Nagpur",B+,Gastritis,2026-07-07,Active,9178252732
+P1196,Simran Patil,42,Female,1984-04-02,9239594898,patient196@example.com,"930 Station Road, Nashik",O+,Hypertension,2026-07-11,Inactive,9676855892
+P1197,Rohit Verma,55,Male,1970-09-27,9300542929,patient197@example.com,"687 MG Road, Nagpur",B-,Migraine,2026-07-28,Inactive,9202272739
+P1198,Sneha Sharma,65,Female,1960-10-28,9142771234,patient198@example.com,"668 Station Road, Mumbai",O-,Asthma,2026-07-29,Active,9784195511
+P1199,Ankit Kumar,53,Male,1972-11-25,9371953963,patient199@example.com,"258 Green Park, Nashik",A-,Hypertension,2026-07-05,Inactive,9521531792
+P1200,Simran Patil,68,Female,1957-10-06,9106974196,patient200@example.com,"298 Shivaji Nagar, Navi Mumbai",O-,Heart Disease,2026-07-23,Inactive,9447116699
+P1201,Deepak Shah,73,Male,1953-07-05,9283601178,patient201@example.com,"617 Station Road, Thane",B+,Arthritis,2026-07-20,Active,9347975484
+P1202,Divya Patil,44,Female,1982-05-12,9956136783,patient202@example.com,"18 MG Road, Navi Mumbai",O-,Gastritis,2026-06-19,Active,9183470204
+P1203,Rohit Joshi,80,Male,1946-08-08,9846146468,patient203@example.com,"620 MG Road, Mumbai",AB-,Hypertension,2026-07-02,Active,9960231593
+P1204,Kavita Mishra,28,Female,1997-10-30,9106570447,patient204@example.com,"195 MG Road, Kolhapur",B+,Hypertension,2026-07-17,Active,9172504595
+P1205,Arjun Jain,76,Male,1950-06-17,9660765929,patient205@example.com,"596 Station Road, Mumbai",O-,Heart Disease,2026-06-28,Active,9565719249
+P1206,Sneha Yadav,25,Female,2000-12-26,9327027678,patient206@example.com,"558 Shivaji Nagar, Aurangabad",A-,Heart Disease,2026-06-29,Inactive,9710932306
+P1207,Raj Joshi,62,Male,1964-05-22,9855890305,patient207@example.com,"717 Green Park, Kolhapur",A+,Diabetes,2026-07-01,Inactive,9353760819
+P1208,Simran Kumar,66,Female,1959-10-12,9331871569,patient208@example.com,"78 Station Road, Bengaluru",B+,Allergy,2026-06-17,Inactive,9285089731
+P1209,Ankit Kumar,35,Male,1991-03-03,9157359761,patient209@example.com,"683 Green Park, Delhi",B+,Fever,2026-07-10,Inactive,9274497626
+P1210,Priya Sharma,29,Female,1997-04-20,9760396220,patient210@example.com,"311 MG Road, Nagpur",B+,Fever,2026-06-26,Active,9370542162
+P1211,Amit Singh,35,Male,1991-03-20,9803122317,patient211@example.com,"226 MG Road, Delhi",A-,Hypertension,2026-06-30,Inactive,9486441343
+P1212,Nisha Shah,63,Female,1962-08-23,9110960630,patient212@example.com,"699 MG Road, Mumbai",B+,Diabetes,2026-07-19,Active,9154446946
+P1213,Rohit Jain,63,Male,1963-06-01,9335168266,patient213@example.com,"882 MG Road, Nashik",AB-,Infection,2026-06-17,Inactive,9236571491
+P1214,Isha Jain,24,Female,2002-01-28,9870788073,patient214@example.com,"208 Green Park, Nashik",A-,Arthritis,2026-07-16,Inactive,9150503264
+P1215,Karan Singh,43,Male,1983-08-10,9832487266,patient215@example.com,"854 Green Park, Aurangabad",B-,Infection,2026-07-19,Inactive,9593490527
+P1216,Kavita Desai,75,Female,1951-07-01,9756169258,patient216@example.com,"560 MG Road, Nashik",A-,Diabetes,2026-06-24,Active,9742328417
+P1217,Amit Desai,61,Male,1965-07-09,9604311256,patient217@example.com,"315 Station Road, Bengaluru",A+,Fever,2026-06-18,Active,9228131366
+P1218,Megha Sharma,34,Female,1991-11-05,9981733121,patient218@example.com,"292 Green Park, Bengaluru",AB+,Arthritis,2026-07-16,Active,9261958664
+P1219,Manish Mehta,69,Male,1957-06-18,9550756345,patient219@example.com,"508 Green Park, Delhi",A+,Gastritis,2026-07-19,Inactive,9698267518
+P1220,Swati Gupta,80,Female,1946-01-31,9594463016,patient220@example.com,"986 Green Park, Kolhapur",B-,Arthritis,2026-07-05,Active,9190315292
+P1221,Manish Kumar,69,Male,1957-02-13,9488340751,patient221@example.com,"71 Shivaji Nagar, Bengaluru",O+,Migraine,2026-07-06,Inactive,9804403721
+P1222,Priya Joshi,79,Female,1947-02-01,9310826170,patient222@example.com,"711 Shivaji Nagar, Bengaluru",B-,Asthma,2026-07-04,Inactive,9469141602
+P1223,Rahul Singh,59,Male,1967-02-04,9279609980,patient223@example.com,"474 MG Road, Nashik",B+,Arthritis,2026-06-23,Active,9565832017
+P1224,Swati Mishra,25,Female,2001-03-08,9257687636,patient224@example.com,"271 MG Road, Kolhapur",B+,Gastritis,2026-07-26,Inactive,9386211304
+P1225,Akash Verma,24,Male,2001-11-16,9651085229,patient225@example.com,"661 Green Park, Delhi",AB-,Heart Disease,2026-06-18,Active,9894467258
+P1226,Nisha Jain,44,Female,1981-09-18,9357807643,patient226@example.com,"751 Shivaji Nagar, Pune",AB+,Migraine,2026-07-22,Active,9315836278
+P1227,Nikhil Gupta,69,Male,1957-06-10,9873271730,patient227@example.com,"998 Shivaji Nagar, Navi Mumbai",B+,Gastritis,2026-07-16,Active,9491561974
+P1228,Asha Patil,32,Female,1994-03-28,9317225359,patient228@example.com,"982 Green Park, Nagpur",A-,Hypertension,2026-07-16,Inactive,9817754648
+P1229,Nikhil Joshi,43,Male,1983-02-01,9871771232,patient229@example.com,"283 Shivaji Nagar, Navi Mumbai",AB+,Heart Disease,2026-07-30,Inactive,9636204647
+P1230,Kavita Yadav,47,Female,1978-10-16,9864618363,patient230@example.com,"926 Shivaji Nagar, Aurangabad",B-,Gastritis,2026-07-06,Active,9568780797
+P1231,Arjun Shah,48,Male,1978-01-23,9515172178,patient231@example.com,"963 Station Road, Pune",AB+,Asthma,2026-07-14,Inactive,9235799523
+P1232,Sneha Verma,39,Female,1987-02-02,9123757620,patient232@example.com,"558 Green Park, Bengaluru",O-,Heart Disease,2026-07-13,Inactive,9645509776
+P1233,Amit Mishra,39,Male,1987-01-18,9739890586,patient233@example.com,"156 Shivaji Nagar, Aurangabad",AB+,Arthritis,2026-07-20,Inactive,9579623601
+P1234,Neha Mehta,72,Female,1954-08-12,9586620148,patient234@example.com,"900 Shivaji Nagar, Nashik",B-,Gastritis,2026-07-16,Active,9385287934
+P1235,Vikram Desai,25,Male,2001-07-11,9816935106,patient235@example.com,"986 Shivaji Nagar, Delhi",B-,Asthma,2026-07-13,Active,9546092601
+P1236,Divya Mehta,37,Female,1989-03-04,9329234183,patient236@example.com,"745 Green Park, Navi Mumbai",AB+,Asthma,2026-07-11,Inactive,9342671534
+P1237,Amit Jain,61,Male,1965-07-31,9673547682,patient237@example.com,"671 Green Park, Navi Mumbai",O-,Fever,2026-07-30,Active,9229114508
+P1238,Sneha Gupta,64,Female,1961-12-31,9199190212,patient238@example.com,"948 Shivaji Nagar, Aurangabad",B+,Asthma,2026-06-26,Inactive,9975792661
+P1239,Akash Singh,65,Male,1961-01-07,9642761406,patient239@example.com,"826 Station Road, Thane",O+,Infection,2026-07-20,Active,9220719310
+P1240,Simran Patil,59,Female,1966-09-18,9976031464,patient240@example.com,"702 Green Park, Delhi",AB+,Gastritis,2026-07-21,Active,9338976699
+P1241,Pranav Joshi,47,Male,1979-06-06,9719876220,patient241@example.com,"450 Station Road, Aurangabad",AB+,Asthma,2026-07-03,Active,9602544012
+P1242,Priya Mehta,35,Female,1990-09-13,9988430018,patient242@example.com,"57 Shivaji Nagar, Nashik",AB-,Allergy,2026-07-28,Active,9126399671
+P1243,Pranav Jain,41,Male,1984-09-12,9657426622,patient243@example.com,"684 Green Park, Mumbai",A+,Fever,2026-07-11,Inactive,9832741219
+P1244,Neha Pawar,26,Female,2000-03-01,9300047312,patient244@example.com,"337 Station Road, Nagpur",A-,Arthritis,2026-07-27,Active,9748771258
+P1245,Rohit Patil,79,Male,1946-08-31,9950146508,patient245@example.com,"136 MG Road, Kolhapur",A-,Infection,2026-06-25,Active,9137669367
+P1246,Anjali Mehta,30,Female,1995-09-24,9471367801,patient246@example.com,"369 MG Road, Delhi",AB+,Fever,2026-07-07,Active,9745246945
+P1247,Akash Verma,54,Male,1971-12-09,9941913481,patient247@example.com,"262 Shivaji Nagar, Nashik",O-,Heart Disease,2026-06-21,Inactive,9988249691
+P1248,Swati Mishra,60,Female,1966-04-28,9351933427,patient248@example.com,"161 MG Road, Nashik",AB-,Asthma,2026-06-18,Active,9660721366
+P1249,Manish Shah,29,Male,1997-03-13,9490402402,patient249@example.com,"883 Station Road, Nagpur",O-,Asthma,2026-07-31,Active,9343349813
+P1250,Riya Desai,23,Female,2003-02-08,9137321568,patient250@example.com,"490 Station Road, Pune",A+,Allergy,2026-06-29,Inactive,9148921479
+P1251,Nikhil Verma,42,Male,1983-11-30,9946014274,patient251@example.com,"992 Green Park, Delhi",B+,Asthma,2026-06-23,Inactive,9141418940
+P1252,Sneha Sharma,49,Female,1977-05-25,9525658880,patient252@example.com,"112 Shivaji Nagar, Delhi",B-,Allergy,2026-07-24,Active,9858155125
+P1253,Amit Mishra,49,Male,1976-09-24,9566800454,patient253@example.com,"955 Shivaji Nagar, Delhi",O+,Arthritis,2026-06-19,Inactive,9315074907
+P1254,Kavita Joshi,66,Female,1960-06-10,9255852135,patient254@example.com,"224 MG Road, Nashik",B+,Fever,2026-07-15,Active,9781547356
+P1255,Amit Yadav,56,Male,1970-04-07,9265322598,patient255@example.com,"364 MG Road, Nashik",B+,Gastritis,2026-07-13,Inactive,9161374984
+P1256,Riya Verma,70,Female,1956-02-27,9326627746,patient256@example.com,"390 Green Park, Kolhapur",B-,Infection,2026-06-22,Active,9171585392
+P1257,Deepak Kulkarni,25,Male,2001-07-09,9391581061,patient257@example.com,"416 Station Road, Thane",A-,Asthma,2026-06-27,Active,9621373414
+P1258,Shreya Gupta,32,Female,1994-03-05,9929111453,patient258@example.com,"134 Shivaji Nagar, Nashik",A+,Hypertension,2026-06-26,Active,9931901185
+P1259,Karan Verma,43,Male,1983-07-13,9646231770,patient259@example.com,"813 Shivaji Nagar, Kolhapur",B-,Heart Disease,2026-06-19,Inactive,9805288365
+P1260,Kavita Desai,22,Female,2004-03-17,9949065814,patient260@example.com,"497 Green Park, Aurangabad",O-,Migraine,2026-07-11,Active,9958222695
+P1261,Vikram Jain,58,Male,1968-07-11,9495445629,patient261@example.com,"98 Station Road, Thane",A-,Hypertension,2026-06-19,Inactive,9454279308
+P1262,Riya Singh,19,Female,2006-08-27,9198058376,patient262@example.com,"600 Station Road, Bengaluru",B-,Heart Disease,2026-06-25,Inactive,9584106465
+P1263,Nikhil Joshi,40,Male,1986-07-11,9612347052,patient263@example.com,"832 Green Park, Nashik",A+,Migraine,2026-07-20,Active,9566644744
+P1264,Neha Kulkarni,18,Female,2007-09-21,9800110782,patient264@example.com,"518 Green Park, Nashik",A-,Fever,2026-07-27,Inactive,9178696260
+P1265,Sanjay Shah,33,Male,1992-12-31,9766046560,patient265@example.com,"423 Station Road, Delhi",AB-,Arthritis,2026-06-16,Active,9708161666
+P1266,Asha Joshi,31,Female,1995-05-16,9557803192,patient266@example.com,"512 Station Road, Nagpur",A-,Heart Disease,2026-07-27,Active,9241574585
+P1267,Aditya Kulkarni,42,Male,1984-07-27,9594331680,patient267@example.com,"992 Shivaji Nagar, Bengaluru",AB-,Allergy,2026-06-18,Inactive,9478404740
+P1268,Anjali Mishra,58,Female,1967-09-26,9835446358,patient268@example.com,"595 Shivaji Nagar, Nagpur",A-,Heart Disease,2026-07-18,Active,9776420059
+P1269,Ankit Desai,39,Male,1987-05-06,9133154144,patient269@example.com,"986 Shivaji Nagar, Nashik",B-,Hypertension,2026-07-12,Active,9149049270
+P1270,Neha Mehta,55,Female,1971-02-15,9125253306,patient270@example.com,"803 Shivaji Nagar, Navi Mumbai",AB+,Migraine,2026-07-27,Inactive,9704559978
+P1271,Akash Joshi,69,Male,1956-12-15,9107395571,patient271@example.com,"738 Green Park, Mumbai",B+,Arthritis,2026-07-13,Inactive,9524818674
+P1272,Pooja Singh,52,Female,1974-01-03,9633018119,patient272@example.com,"420 Shivaji Nagar, Bengaluru",AB-,Heart Disease,2026-06-19,Inactive,9432333282
+P1273,Pranav Mehta,44,Male,1982-01-26,9473188349,patient273@example.com,"446 Green Park, Thane",O-,Diabetes,2026-07-19,Active,9536697290
+P1274,Anjali Gupta,38,Female,1988-04-19,9604937587,patient274@example.com,"213 Green Park, Bengaluru",AB+,Migraine,2026-06-17,Inactive,9761917495
+P1275,Vikram Joshi,46,Male,1980-06-16,9781815037,patient275@example.com,"589 Shivaji Nagar, Nashik",AB+,Asthma,2026-07-26,Inactive,9321071257
+P1276,Priya Pawar,41,Female,1984-12-15,9872037385,patient276@example.com,"18 MG Road, Aurangabad",O-,Hypertension,2026-06-24,Active,9668026820
+P1277,Vikram Joshi,44,Male,1982-04-28,9558022242,patient277@example.com,"316 MG Road, Pune",O-,Heart Disease,2026-06-18,Inactive,9663199344
+P1278,Nisha Mishra,53,Female,1973-02-23,9756833711,patient278@example.com,"412 Shivaji Nagar, Thane",AB+,Arthritis,2026-06-25,Active,9420551771
+P1279,Arjun Yadav,34,Male,1992-04-17,9430059164,patient279@example.com,"736 Shivaji Nagar, Pune",O+,Heart Disease,2026-07-13,Active,9524688436
+P1280,Nisha Jain,56,Female,1970-04-11,9908507722,patient280@example.com,"632 MG Road, Thane",O+,Heart Disease,2026-06-24,Inactive,9406111860
+P1281,Sanjay Shah,74,Male,1952-01-22,9383247039,patient281@example.com,"27 MG Road, Nashik",B-,Diabetes,2026-07-14,Inactive,9637412357
+P1282,Riya Verma,56,Female,1970-04-25,9718066721,patient282@example.com,"695 Shivaji Nagar, Pune",B-,Fever,2026-07-01,Active,9108564266
+P1283,Pranav Yadav,54,Male,1972-06-08,9165717230,patient283@example.com,"717 MG Road, Pune",AB-,Diabetes,2026-07-03,Inactive,9450924046
+P1284,Pooja Jain,72,Female,1954-02-21,9306927649,patient284@example.com,"303 Station Road, Aurangabad",O-,Infection,2026-06-28,Active,9935098427
+P1285,Vikram Sharma,33,Male,1993-07-18,9424024403,patient285@example.com,"294 Station Road, Thane",AB+,Hypertension,2026-07-31,Active,9876889251
+P1286,Nisha Patil,54,Female,1972-07-30,9251864824,patient286@example.com,"928 Shivaji Nagar, Pune",B+,Hypertension,2026-07-28,Active,9887953479
+P1287,Deepak Joshi,39,Male,1987-02-09,9667757106,patient287@example.com,"733 Station Road, Nagpur",O-,Heart Disease,2026-07-06,Inactive,9774314637
+P1288,Shreya Mishra,48,Female,1977-11-01,9561971098,patient288@example.com,"835 Green Park, Bengaluru",B-,Hypertension,2026-07-31,Inactive,9857864453
+P1289,Arjun Kumar,37,Male,1989-03-30,9847069786,patient289@example.com,"345 Station Road, Kolhapur",B-,Hypertension,2026-07-19,Active,9339253601
+P1290,Swati Kumar,53,Female,1973-07-20,9319798782,patient290@example.com,"313 MG Road, Nagpur",AB+,Fever,2026-07-08,Active,9135954751
+P1291,Deepak Patil,30,Male,1995-12-17,9414343389,patient291@example.com,"197 Shivaji Nagar, Kolhapur",B-,Hypertension,2026-07-12,Active,9423473126
+P1292,Anjali Kulkarni,46,Female,1979-10-20,9546338604,patient292@example.com,"526 Station Road, Delhi",A+,Diabetes,2026-06-16,Inactive,9863168039
+P1293,Raj Jain,27,Male,1999-03-17,9509556368,patient293@example.com,"781 Green Park, Nashik",A-,Infection,2026-06-25,Inactive,9407139956
+P1294,Sneha Joshi,34,Female,1992-07-20,9424375336,patient294@example.com,"222 Shivaji Nagar, Mumbai",B+,Asthma,2026-07-19,Inactive,9150392501
+P1295,Vikram Verma,70,Male,1955-10-10,9401003032,patient295@example.com,"442 Station Road, Aurangabad",B+,Infection,2026-06-26,Inactive,9883651906
+P1296,Divya Yadav,77,Female,1949-05-10,9315867040,patient296@example.com,"146 MG Road, Bengaluru",B-,Diabetes,2026-07-21,Active,9117439414
+P1297,Vikram Gupta,43,Male,1983-06-17,9331419540,patient297@example.com,"219 Green Park, Nagpur",A+,Asthma,2026-06-25,Active,9372342683
+P1298,Riya Joshi,46,Female,1979-08-23,9231915340,patient298@example.com,"696 Station Road, Navi Mumbai",O-,Diabetes,2026-07-27,Inactive,9558346197
+P1299,Vikram Yadav,48,Male,1977-10-04,9472989414,patient299@example.com,"778 Shivaji Nagar, Nagpur",A+,Fever,2026-06-22,Inactive,9789079125
+P1300,Kavita Patil,21,Female,2005-05-09,9347852194,patient300@example.com,"762 Shivaji Nagar, Navi Mumbai",B+,Asthma,2026-07-26,Active,9332770928
+P1301,Rohit Pawar,76,Male,1950-07-27,9236425121,patient301@example.com,"563 Shivaji Nagar, Navi Mumbai",A-,Heart Disease,2026-07-23,Active,9197567679
+P1302,Simran Pawar,28,Female,1997-09-03,9955845991,patient302@example.com,"145 Shivaji Nagar, Mumbai",O-,Diabetes,2026-07-21,Inactive,9974373959
+P1303,Pranav Pawar,44,Male,1981-09-07,9686761831,patient303@example.com,"483 Green Park, Navi Mumbai",AB-,Gastritis,2026-07-15,Inactive,9544443186
+P1304,Sneha Shah,68,Female,1958-05-16,9383156089,patient304@example.com,"61 Station Road, Aurangabad",B-,Allergy,2026-06-23,Inactive,9265448759
+P1305,Ankit Kulkarni,48,Male,1978-05-29,9464512159,patient305@example.com,"527 Green Park, Nashik",B+,Gastritis,2026-06-21,Active,9961854387
+P1306,Nisha Yadav,62,Female,1964-01-31,9523272165,patient306@example.com,"786 Shivaji Nagar, Thane",B+,Asthma,2026-07-10,Inactive,9367473138
+P1307,Akash Patil,46,Male,1980-07-03,9953011821,patient307@example.com,"200 Green Park, Nashik",A-,Hypertension,2026-06-25,Active,9228017741
+P1308,Asha Joshi,79,Female,1947-07-30,9353087594,patient308@example.com,"723 Shivaji Nagar, Delhi",AB+,Heart Disease,2026-06-29,Active,9818987870
+P1309,Pranav Jain,80,Male,1945-12-31,9153132768,patient309@example.com,"893 Station Road, Thane",A+,Asthma,2026-07-27,Active,9478517380
+P1310,Sneha Shah,80,Female,1945-10-08,9370388753,patient310@example.com,"721 Shivaji Nagar, Nashik",O-,Hypertension,2026-06-22,Inactive,9209547073
+P1311,Vikram Verma,27,Male,1999-01-21,9903629496,patient311@example.com,"270 MG Road, Nagpur",AB-,Fever,2026-06-30,Active,9123046811
+P1312,Kavita Mishra,36,Female,1990-05-28,9221318733,patient312@example.com,"394 MG Road, Kolhapur",O-,Migraine,2026-07-22,Inactive,9306542440
+P1313,Pranav Patil,65,Male,1960-08-27,9679367963,patient313@example.com,"846 MG Road, Nagpur",O+,Migraine,2026-07-31,Inactive,9575472865
+P1314,Swati Jain,71,Female,1955-03-15,9639236743,patient314@example.com,"870 Station Road, Delhi",O-,Diabetes,2026-07-30,Inactive,9598887226
+P1315,Rahul Yadav,28,Male,1998-01-28,9759116058,patient315@example.com,"709 Station Road, Delhi",O-,Hypertension,2026-07-31,Inactive,9303438093
+P1316,Megha Kulkarni,46,Female,1980-04-02,9769922606,patient316@example.com,"728 MG Road, Kolhapur",AB+,Asthma,2026-06-30,Active,9741810558
+P1317,Raj Gupta,44,Male,1982-03-27,9298627773,patient317@example.com,"473 Station Road, Navi Mumbai",O-,Fever,2026-07-17,Active,9485143378
+P1318,Nisha Verma,19,Female,2007-06-25,9528817558,patient318@example.com,"367 Green Park, Nashik",B+,Diabetes,2026-07-05,Inactive,9714936900
+P1319,Raj Jain,28,Male,1997-10-08,9406915716,patient319@example.com,"129 Green Park, Aurangabad",AB+,Asthma,2026-07-22,Active,9262816584
+P1320,Nisha Gupta,38,Female,1987-08-17,9724451362,patient320@example.com,"421 MG Road, Kolhapur",B-,Infection,2026-06-19,Active,9793371580
+P1321,Karan Verma,70,Male,1956-03-19,9813050798,patient321@example.com,"792 MG Road, Mumbai",AB+,Arthritis,2026-06-22,Active,9459944564
+P1322,Shreya Singh,57,Female,1969-08-01,9793966999,patient322@example.com,"694 Shivaji Nagar, Pune",B-,Asthma,2026-06-29,Active,9339482325
+P1323,Akash Kumar,66,Male,1960-07-25,9392714214,patient323@example.com,"597 MG Road, Nashik",A-,Hypertension,2026-07-29,Active,9263036971
+P1324,Sneha Mishra,29,Female,1997-01-29,9904429430,patient324@example.com,"313 Green Park, Aurangabad",B+,Arthritis,2026-07-27,Inactive,9675295261
+P1325,Aditya Desai,37,Male,1989-06-17,9919883399,patient325@example.com,"606 Green Park, Delhi",O-,Migraine,2026-07-31,Active,9518183156
+P1326,Pooja Singh,66,Female,1959-09-07,9101030786,patient326@example.com,"53 Station Road, Nashik",AB-,Infection,2026-07-23,Inactive,9362585662
+P1327,Deepak Gupta,51,Male,1975-01-27,9784838854,patient327@example.com,"421 Shivaji Nagar, Kolhapur",O+,Hypertension,2026-07-11,Inactive,9877625813
+P1328,Neha Patil,36,Female,1990-05-09,9220036881,patient328@example.com,"635 MG Road, Kolhapur",B+,Fever,2026-06-19,Active,9307562816
+P1329,Vikram Sharma,37,Male,1989-07-08,9148825334,patient329@example.com,"301 MG Road, Bengaluru",O+,Allergy,2026-06-17,Active,9954524200
+P1330,Sneha Singh,64,Female,1961-11-28,9710263266,patient330@example.com,"801 Green Park, Pune",AB-,Heart Disease,2026-06-30,Inactive,9264738025
+P1331,Deepak Yadav,44,Male,1981-10-03,9737868639,patient331@example.com,"637 Shivaji Nagar, Bengaluru",A-,Fever,2026-06-24,Active,9219071165
+P1332,Isha Kumar,19,Female,2007-04-15,9563846788,patient332@example.com,"442 Station Road, Mumbai",B+,Diabetes,2026-07-28,Active,9105779569
+P1333,Arjun Jain,30,Male,1995-11-05,9461486522,patient333@example.com,"208 Station Road, Nagpur",A-,Diabetes,2026-07-21,Inactive,9778399002
+P1334,Priya Gupta,69,Female,1957-04-01,9362284837,patient334@example.com,"917 MG Road, Delhi",A+,Gastritis,2026-07-20,Active,9548748753
+P1335,Deepak Yadav,57,Male,1968-09-11,9935750612,patient335@example.com,"588 Green Park, Mumbai",AB-,Arthritis,2026-07-21,Inactive,9276108792
+P1336,Divya Joshi,66,Female,1960-04-14,9343888017,patient336@example.com,"191 MG Road, Delhi",AB+,Asthma,2026-07-04,Active,9974624309
+P1337,Aditya Desai,75,Male,1950-12-04,9461016148,patient337@example.com,"660 Green Park, Delhi",AB+,Fever,2026-07-26,Inactive,9588419169
+P1338,Sneha Patil,45,Female,1981-03-08,9934266782,patient338@example.com,"121 Green Park, Pune",B-,Fever,2026-06-26,Active,9315956412
+P1339,Pranav Patil,63,Male,1963-05-30,9206460807,patient339@example.com,"699 MG Road, Aurangabad",B+,Infection,2026-06-23,Active,9667316833
+P1340,Simran Gupta,63,Female,1963-08-06,9536004269,patient340@example.com,"985 Station Road, Navi Mumbai",AB+,Hypertension,2026-06-17,Active,9553647257
+P1341,Ankit Kulkarni,64,Male,1961-10-23,9279366591,patient341@example.com,"16 Green Park, Thane",B-,Hypertension,2026-07-08,Active,9601532871
+P1342,Nisha Joshi,79,Female,1947-06-22,9594613062,patient342@example.com,"950 Green Park, Aurangabad",AB+,Heart Disease,2026-07-05,Active,9680913418
+P1343,Raj Singh,40,Male,1985-11-29,9291335505,patient343@example.com,"762 Green Park, Nashik",AB+,Arthritis,2026-06-19,Inactive,9847250398
+P1344,Divya Desai,52,Female,1974-05-18,9756738678,patient344@example.com,"900 Shivaji Nagar, Bengaluru",A-,Fever,2026-07-07,Inactive,9581269742
+P1345,Sanjay Singh,57,Male,1968-10-15,9707205726,patient345@example.com,"922 MG Road, Aurangabad",O-,Asthma,2026-06-29,Inactive,9820655221
+P1346,Riya Kulkarni,58,Female,1967-12-31,9892608419,patient346@example.com,"315 MG Road, Bengaluru",A+,Infection,2026-07-31,Inactive,9773667319
+P1347,Aditya Verma,66,Male,1960-01-19,9554247940,patient347@example.com,"614 Shivaji Nagar, Pune",AB-,Heart Disease,2026-06-22,Inactive,9620154061
+P1348,Priya Kumar,18,Female,2007-10-05,9591005307,patient348@example.com,"324 Station Road, Thane",O-,Heart Disease,2026-06-26,Inactive,9535539861
+P1349,Rohit Mehta,79,Male,1947-05-13,9961922308,patient349@example.com,"632 Shivaji Nagar, Pune",AB+,Infection,2026-06-29,Active,9410284823
+P1350,Divya Joshi,51,Female,1975-02-19,9321467715,patient350@example.com,"418 Green Park, Kolhapur",O+,Heart Disease,2026-06-21,Active,9384778990
+P1351,Rohit Gupta,18,Male,2008-05-11,9811763420,patient351@example.com,"665 Station Road, Mumbai",O-,Fever,2026-06-23,Active,9997319881
+P1352,Swati Sharma,28,Female,1998-05-28,9592504899,patient352@example.com,"50 Station Road, Kolhapur",O+,Allergy,2026-07-06,Active,9119411302
+P1353,Deepak Kumar,29,Male,1996-11-07,9995032341,patient353@example.com,"268 Shivaji Nagar, Delhi",A-,Asthma,2026-07-14,Active,9697303200
+P1354,Swati Kumar,54,Female,1972-05-08,9814817198,patient354@example.com,"833 Green Park, Aurangabad",AB-,Migraine,2026-06-26,Active,9764489816
+P1355,Manish Pawar,48,Male,1978-06-19,9694135942,patient355@example.com,"365 Station Road, Nagpur",A+,Fever,2026-07-15,Inactive,9946433675
+P1356,Kavita Jain,18,Female,2008-08-04,9328550315,patient356@example.com,"57 Shivaji Nagar, Kolhapur",AB+,Hypertension,2026-07-28,Inactive,9792616427
+P1357,Sanjay Sharma,76,Male,1950-02-02,9414374261,patient357@example.com,"109 Shivaji Nagar, Bengaluru",B-,Infection,2026-07-09,Inactive,9563849174
+P1358,Simran Shah,21,Female,2004-12-03,9874182210,patient358@example.com,"944 Green Park, Pune",AB-,Fever,2026-06-29,Inactive,9790135801
+P1359,Ankit Sharma,19,Male,2006-09-16,9905435464,patient359@example.com,"218 Station Road, Aurangabad",A-,Diabetes,2026-07-24,Active,9391395622
+P1360,Swati Singh,37,Female,1989-06-03,9745805220,patient360@example.com,"619 Green Park, Kolhapur",AB-,Migraine,2026-07-15,Inactive,9553054055
+P1361,Nikhil Jain,77,Male,1949-02-09,9276989901,patient361@example.com,"318 Green Park, Kolhapur",B+,Fever,2026-07-06,Active,9447470668
+P1362,Swati Gupta,57,Female,1969-01-03,9612912295,patient362@example.com,"150 Shivaji Nagar, Kolhapur",B+,Fever,2026-06-23,Active,9234093369
+P1363,Manish Sharma,39,Male,1987-04-22,9782043247,patient363@example.com,"673 Shivaji Nagar, Navi Mumbai",A+,Migraine,2026-07-16,Inactive,9429964279
+P1364,Simran Jain,42,Female,1983-11-07,9409853650,patient364@example.com,"711 Shivaji Nagar, Aurangabad",B-,Heart Disease,2026-07-12,Inactive,9450316416
+P1365,Vikram Mehta,72,Male,1953-11-18,9341832608,patient365@example.com,"330 Green Park, Navi Mumbai",A-,Fever,2026-07-17,Inactive,9457574208
+P1366,Isha Gupta,31,Female,1995-05-15,9853247905,patient366@example.com,"858 Green Park, Mumbai",B-,Arthritis,2026-07-25,Active,9806964540
+P1367,Vikram Mehta,77,Male,1948-12-21,9354292725,patient367@example.com,"955 MG Road, Navi Mumbai",AB-,Fever,2026-07-27,Inactive,9929359146
+P1368,Pooja Kumar,59,Female,1967-04-11,9763020012,patient368@example.com,"364 Shivaji Nagar, Aurangabad",O-,Fever,2026-06-27,Active,9727554783
+P1369,Akash Singh,28,Male,1998-02-11,9250262765,patient369@example.com,"739 Shivaji Nagar, Pune",AB+,Hypertension,2026-06-18,Inactive,9625331986
+P1370,Kavita Shah,23,Female,2003-07-03,9158775691,patient370@example.com,"354 Green Park, Delhi",A+,Gastritis,2026-07-03,Inactive,9743478813
+P1371,Amit Singh,46,Male,1980-03-07,9389099621,patient371@example.com,"492 MG Road, Aurangabad",B-,Gastritis,2026-07-02,Active,9419505958
+P1372,Simran Mishra,51,Female,1975-06-17,9994713443,patient372@example.com,"818 Station Road, Pune",O-,Heart Disease,2026-07-13,Inactive,9854118769
+P1373,Ankit Shah,47,Male,1979-04-01,9410724735,patient373@example.com,"877 MG Road, Mumbai",O-,Asthma,2026-07-19,Inactive,9648193635
+P1374,Asha Sharma,32,Female,1994-06-06,9668923329,patient374@example.com,"232 Station Road, Pune",A-,Asthma,2026-07-19,Active,9986372039
+P1375,Akash Kumar,76,Male,1950-05-18,9558620917,patient375@example.com,"968 Green Park, Delhi",AB-,Allergy,2026-06-23,Active,9971969694
+P1376,Swati Kumar,22,Female,2004-05-08,9615309123,patient376@example.com,"566 Station Road, Nagpur",A+,Migraine,2026-07-09,Inactive,9297519631
+P1377,Arjun Kulkarni,22,Male,2004-05-05,9231240385,patient377@example.com,"465 Shivaji Nagar, Kolhapur",O-,Asthma,2026-07-11,Inactive,9882691805
+P1378,Anjali Joshi,69,Female,1957-07-23,9209013966,patient378@example.com,"534 Green Park, Aurangabad",AB+,Infection,2026-06-29,Active,9414109605
+P1379,Rohit Mishra,42,Male,1984-06-27,9889437181,patient379@example.com,"500 Station Road, Kolhapur",B+,Heart Disease,2026-06-30,Inactive,9732273227
+P1380,Swati Mehta,37,Female,1989-04-24,9973631388,patient380@example.com,"415 MG Road, Bengaluru",O+,Arthritis,2026-07-17,Inactive,9381312969
+P1381,Pranav Gupta,21,Male,2004-10-09,9717525639,patient381@example.com,"609 Green Park, Mumbai",A-,Diabetes,2026-06-22,Inactive,9615063822
+P1382,Anjali Shah,19,Female,2007-04-08,9994062201,patient382@example.com,"963 Shivaji Nagar, Nashik",A-,Hypertension,2026-06-27,Inactive,9812504067
+P1383,Nikhil Singh,75,Male,1951-05-24,9798523925,patient383@example.com,"311 Station Road, Thane",O+,Heart Disease,2026-07-13,Inactive,9725818533
+P1384,Kavita Joshi,28,Female,1998-01-30,9984640015,patient384@example.com,"803 Station Road, Aurangabad",O-,Allergy,2026-06-26,Active,9656534054
+P1385,Raj Mehta,71,Male,1955-07-23,9292360970,patient385@example.com,"156 Green Park, Navi Mumbai",AB-,Allergy,2026-06-24,Active,9980470108
+P1386,Neha Singh,51,Female,1975-05-09,9786440732,patient386@example.com,"633 Station Road, Pune",AB-,Diabetes,2026-06-27,Inactive,9905964314
+P1387,Manish Kumar,37,Male,1989-02-22,9970681342,patient387@example.com,"111 Shivaji Nagar, Nagpur",AB+,Infection,2026-07-15,Active,9661644584
+P1388,Riya Kumar,24,Female,2002-05-05,9879664824,patient388@example.com,"232 Green Park, Nagpur",O-,Arthritis,2026-07-26,Active,9932537216
+P1389,Amit Shah,33,Male,1992-11-30,9995814380,patient389@example.com,"561 Green Park, Thane",O-,Heart Disease,2026-06-22,Active,9981613093
+P1390,Priya Pawar,68,Female,1957-09-15,9873239484,patient390@example.com,"596 MG Road, Pune",AB-,Infection,2026-06-22,Active,9497720983
+P1391,Arjun Verma,53,Male,1973-01-09,9728354912,patient391@example.com,"222 MG Road, Aurangabad",A-,Gastritis,2026-07-04,Active,9910185625
+P1392,Isha Joshi,79,Female,1946-09-12,9441897555,patient392@example.com,"209 MG Road, Kolhapur",A+,Hypertension,2026-07-31,Active,9718124470
+P1393,Sanjay Yadav,55,Male,1971-08-09,9366953462,patient393@example.com,"991 MG Road, Bengaluru",AB-,Migraine,2026-07-26,Active,9793978998
+P1394,Divya Gupta,40,Female,1986-04-08,9876859667,patient394@example.com,"446 Green Park, Bengaluru",A+,Allergy,2026-07-24,Inactive,9987288467
+P1395,Nikhil Yadav,24,Male,2002-06-05,9145866491,patient395@example.com,"300 Shivaji Nagar, Mumbai",B+,Migraine,2026-06-29,Active,9867332033
+P1396,Simran Patil,43,Female,1983-02-17,9848569845,patient396@example.com,"824 Station Road, Nagpur",AB+,Arthritis,2026-07-27,Active,9572307673
+P1397,Amit Patil,62,Male,1963-11-29,9873764645,patient397@example.com,"623 Station Road, Bengaluru",B-,Asthma,2026-07-09,Inactive,9359839605
+P1398,Megha Shah,21,Female,2005-08-02,9772840271,patient398@example.com,"351 Shivaji Nagar, Kolhapur",A-,Gastritis,2026-06-16,Inactive,9583573331
+P1399,Akash Patil,23,Male,2003-02-16,9514286093,patient399@example.com,"850 Station Road, Nagpur",AB-,Heart Disease,2026-06-20,Active,9483399227
+P1400,Kavita Yadav,74,Female,1952-06-28,9507840273,patient400@example.com,"307 MG Road, Kolhapur",A+,Fever,2026-07-24,Active,9606308772
+P1401,Aditya Verma,47,Male,1979-05-23,9684869609,patient401@example.com,"618 Station Road, Kolhapur",AB+,Diabetes,2026-07-30,Inactive,9367763303
+P1402,Pooja Verma,51,Female,1975-02-01,9966765128,patient402@example.com,"271 Shivaji Nagar, Pune",AB+,Hypertension,2026-07-26,Active,9212574430
+P1403,Manish Pawar,47,Male,1978-09-22,9319835447,patient403@example.com,"352 Shivaji Nagar, Kolhapur",O+,Diabetes,2026-07-11,Inactive,9233616139
+P1404,Priya Patil,60,Female,1965-11-09,9101312566,patient404@example.com,"148 Station Road, Nagpur",A+,Migraine,2026-06-26,Active,9622489642
+P1405,Karan Patil,45,Male,1980-11-24,9210003340,patient405@example.com,"279 Shivaji Nagar, Thane",AB-,Hypertension,2026-07-23,Active,9735631188
+P1406,Kavita Yadav,31,Female,1994-10-18,9542125483,patient406@example.com,"598 Green Park, Kolhapur",AB-,Arthritis,2026-07-30,Inactive,9846435811
+P1407,Ankit Mishra,76,Male,1949-10-13,9772909894,patient407@example.com,"998 Green Park, Bengaluru",B+,Fever,2026-06-19,Inactive,9758918948
+P1408,Asha Joshi,66,Female,1960-03-06,9910029537,patient408@example.com,"993 Shivaji Nagar, Pune",B-,Gastritis,2026-07-14,Inactive,9245797792
+P1409,Deepak Joshi,25,Male,2001-03-23,9311039652,patient409@example.com,"31 Station Road, Delhi",A-,Hypertension,2026-07-02,Inactive,9993461003
+P1410,Divya Singh,67,Female,1959-05-06,9427563057,patient410@example.com,"979 MG Road, Bengaluru",A-,Allergy,2026-07-29,Inactive,9320703798
+P1411,Nikhil Joshi,46,Male,1980-02-10,9649722837,patient411@example.com,"237 MG Road, Nagpur",AB+,Migraine,2026-06-20,Inactive,9582654600
+P1412,Priya Mishra,34,Female,1992-04-11,9870366950,patient412@example.com,"18 Green Park, Bengaluru",A-,Gastritis,2026-07-25,Active,9650454911
+P1413,Deepak Kulkarni,73,Male,1953-08-07,9300027050,patient413@example.com,"568 MG Road, Kolhapur",B+,Gastritis,2026-07-05,Inactive,9945597785
+P1414,Neha Sharma,77,Female,1949-07-16,9803525067,patient414@example.com,"877 MG Road, Nagpur",A-,Heart Disease,2026-07-15,Active,9877562137
+P1415,Akash Gupta,46,Male,1980-06-04,9107862802,patient415@example.com,"284 Shivaji Nagar, Pune",A+,Diabetes,2026-07-02,Inactive,9840309605
+P1416,Nisha Mishra,63,Female,1963-06-26,9706692213,patient416@example.com,"230 MG Road, Thane",O-,Asthma,2026-07-14,Active,9163884670
+P1417,Manish Joshi,63,Male,1963-03-11,9206075687,patient417@example.com,"987 MG Road, Nashik",O+,Allergy,2026-06-22,Inactive,9130237940
+P1418,Nisha Pawar,65,Female,1960-12-16,9262160092,patient418@example.com,"772 Station Road, Thane",AB+,Asthma,2026-06-26,Active,9290542002
+P1419,Arjun Mehta,49,Male,1977-05-31,9299202913,patient419@example.com,"306 Green Park, Thane",B-,Fever,2026-07-12,Inactive,9207029277
+P1420,Sneha Kumar,71,Female,1955-07-23,9138059895,patient420@example.com,"207 Shivaji Nagar, Kolhapur",AB+,Hypertension,2026-06-22,Inactive,9330975006
+P1421,Rahul Joshi,18,Male,2007-10-30,9528805552,patient421@example.com,"469 MG Road, Mumbai",B+,Diabetes,2026-07-22,Active,9738400523
+P1422,Kavita Yadav,68,Female,1958-01-29,9961771921,patient422@example.com,"434 MG Road, Pune",O-,Asthma,2026-07-16,Inactive,9683794890
+P1423,Manish Sharma,18,Male,2007-12-10,9610882151,patient423@example.com,"629 Shivaji Nagar, Mumbai",A+,Hypertension,2026-07-10,Inactive,9361343406
+P1424,Neha Gupta,79,Female,1947-08-14,9127913919,patient424@example.com,"827 Station Road, Nagpur",AB-,Hypertension,2026-06-25,Active,9908135928
+P1425,Ankit Sharma,59,Male,1967-05-20,9272064671,patient425@example.com,"105 Green Park, Nagpur",AB+,Heart Disease,2026-07-03,Active,9898052605
+P1426,Asha Joshi,74,Female,1951-09-18,9518595628,patient426@example.com,"517 MG Road, Nashik",A-,Diabetes,2026-07-27,Inactive,9439531501
+P1427,Deepak Jain,63,Male,1963-01-20,9950776308,patient427@example.com,"124 Station Road, Pune",B+,Allergy,2026-07-14,Active,9608911742
+P1428,Divya Sharma,47,Female,1979-03-09,9362936187,patient428@example.com,"426 Green Park, Nashik",B-,Migraine,2026-07-15,Inactive,9944517782
+P1429,Pranav Jain,26,Male,2000-02-04,9254860087,patient429@example.com,"105 Station Road, Mumbai",B+,Gastritis,2026-07-20,Active,9330504270
+P1430,Swati Shah,35,Female,1991-05-29,9886589310,patient430@example.com,"945 Green Park, Bengaluru",O+,Migraine,2026-07-26,Inactive,9956670202
+P1431,Deepak Joshi,74,Male,1952-02-08,9762524552,patient431@example.com,"33 MG Road, Nashik",AB+,Gastritis,2026-07-20,Inactive,9201332643
+P1432,Anjali Jain,26,Female,2000-01-10,9184721244,patient432@example.com,"677 Station Road, Bengaluru",O+,Allergy,2026-07-01,Active,9827059836
+P1433,Vikram Singh,78,Male,1947-08-31,9485570264,patient433@example.com,"608 Shivaji Nagar, Pune",AB+,Diabetes,2026-07-09,Active,9213568279
+P1434,Sneha Shah,60,Female,1966-03-05,9676625202,patient434@example.com,"605 Green Park, Nashik",AB+,Allergy,2026-07-24,Inactive,9913303658
+P1435,Raj Singh,64,Male,1961-11-15,9544125256,patient435@example.com,"271 Station Road, Delhi",AB+,Allergy,2026-06-23,Inactive,9236259676
+P1436,Anjali Joshi,42,Female,1984-08-06,9637085539,patient436@example.com,"548 Shivaji Nagar, Thane",AB-,Migraine,2026-07-28,Active,9648866587
+P1437,Raj Patil,46,Male,1979-10-31,9195102126,patient437@example.com,"588 Green Park, Bengaluru",A+,Infection,2026-06-19,Inactive,9765409860
+P1438,Divya Shah,26,Female,1999-12-27,9422955277,patient438@example.com,"54 Green Park, Kolhapur",B-,Arthritis,2026-07-26,Active,9995077335
+P1439,Sanjay Yadav,38,Male,1988-03-20,9680177541,patient439@example.com,"285 Station Road, Thane",AB-,Diabetes,2026-07-17,Active,9225915938
+P1440,Anjali Shah,79,Female,1947-01-22,9442052414,patient440@example.com,"290 Station Road, Nashik",B+,Diabetes,2026-06-28,Active,9170778982
+P1441,Vikram Patil,65,Male,1960-08-30,9897300155,patient441@example.com,"161 Green Park, Aurangabad",O-,Diabetes,2026-06-30,Active,9917506752
+P1442,Anjali Sharma,21,Female,2005-07-27,9688994359,patient442@example.com,"541 Station Road, Nagpur",O+,Arthritis,2026-07-30,Inactive,9356917100
+P1443,Manish Mehta,57,Male,1969-08-13,9654220401,patient443@example.com,"543 Green Park, Pune",O+,Hypertension,2026-07-31,Inactive,9957190886
+P1444,Priya Sharma,55,Female,1971-01-30,9709581924,patient444@example.com,"781 MG Road, Nagpur",B+,Infection,2026-07-26,Active,9590427635
+P1445,Raj Mishra,55,Male,1970-11-15,9930361458,patient445@example.com,"601 Station Road, Bengaluru",A+,Arthritis,2026-06-18,Active,9681728641
+P1446,Megha Pawar,39,Female,1986-11-05,9188262104,patient446@example.com,"975 Station Road, Navi Mumbai",O+,Arthritis,2026-07-12,Active,9143626628
+P1447,Rahul Sharma,76,Male,1949-10-22,9653030719,patient447@example.com,"293 MG Road, Nagpur",AB+,Hypertension,2026-06-23,Active,9876328776
+P1448,Divya Patil,78,Female,1948-07-08,9203209448,patient448@example.com,"545 Green Park, Aurangabad",A-,Heart Disease,2026-07-03,Inactive,9845502042
+P1449,Rohit Gupta,50,Male,1975-10-24,9964207402,patient449@example.com,"326 MG Road, Mumbai",B-,Migraine,2026-07-22,Active,9173458529
+P1450,Kavita Patil,38,Female,1988-03-20,9543318944,patient450@example.com,"430 Green Park, Navi Mumbai",O-,Arthritis,2026-07-16,Inactive,9404280775
+P1451,Manish Jain,63,Male,1963-01-21,9563794658,patient451@example.com,"462 MG Road, Mumbai",A-,Diabetes,2026-07-14,Active,9386685375
+P1452,Swati Kulkarni,64,Female,1962-06-06,9858426762,patient452@example.com,"798 Green Park, Delhi",B+,Fever,2026-07-30,Active,9651193479
+P1453,Aditya Shah,77,Male,1949-08-19,9260300857,patient453@example.com,"994 Station Road, Nashik",A+,Allergy,2026-07-13,Inactive,9637726803
+P1454,Swati Mehta,49,Female,1976-08-25,9448710186,patient454@example.com,"936 MG Road, Navi Mumbai",B-,Gastritis,2026-07-15,Active,9541936923
+P1455,Rohit Verma,78,Male,1948-02-25,9587944577,patient455@example.com,"27 Green Park, Thane",A-,Fever,2026-07-17,Active,9928487951
+P1456,Asha Verma,53,Female,1973-02-25,9215086733,patient456@example.com,"572 Green Park, Kolhapur",A-,Fever,2026-06-17,Inactive,9471462666
+P1457,Manish Sharma,36,Male,1990-01-18,9222859966,patient457@example.com,"914 Green Park, Mumbai",AB-,Heart Disease,2026-06-19,Active,9335217398
+P1458,Priya Singh,45,Female,1981-07-30,9157748100,patient458@example.com,"97 MG Road, Delhi",B-,Allergy,2026-07-05,Active,9592075731
+P1459,Amit Sharma,23,Male,2003-04-26,9236528704,patient459@example.com,"591 Station Road, Pune",O-,Hypertension,2026-07-20,Active,9131530503
+P1460,Shreya Jain,34,Female,1992-01-30,9112378468,patient460@example.com,"519 Station Road, Kolhapur",O-,Asthma,2026-06-27,Inactive,9435068180
+P1461,Karan Pawar,20,Male,2005-09-04,9290808599,patient461@example.com,"925 MG Road, Navi Mumbai",AB+,Asthma,2026-07-12,Inactive,9511049144
+P1462,Divya Sharma,24,Female,2002-06-22,9457444674,patient462@example.com,"252 Green Park, Aurangabad",AB-,Asthma,2026-06-22,Inactive,9628085654
+P1463,Deepak Verma,34,Male,1992-02-11,9699506853,patient463@example.com,"994 Station Road, Pune",AB-,Arthritis,2026-07-16,Active,9275215227
+P1464,Kavita Yadav,24,Female,2002-06-03,9986964603,patient464@example.com,"479 MG Road, Kolhapur",AB-,Diabetes,2026-06-18,Inactive,9549152157
+P1465,Raj Yadav,42,Male,1983-08-19,9940924182,patient465@example.com,"419 MG Road, Nashik",O+,Hypertension,2026-07-09,Inactive,9538913198
+P1466,Divya Kumar,46,Female,1980-03-26,9948370834,patient466@example.com,"648 Shivaji Nagar, Navi Mumbai",AB-,Hypertension,2026-06-29,Active,9720817231
+P1467,Rahul Kulkarni,31,Male,1995-08-01,9139190967,patient467@example.com,"432 Green Park, Delhi",O+,Allergy,2026-07-08,Inactive,9423558333
+P1468,Neha Verma,33,Female,1993-03-22,9971550901,patient468@example.com,"224 Shivaji Nagar, Mumbai",O+,Arthritis,2026-07-11,Inactive,9688070959
+P1469,Vikram Mehta,27,Male,1999-02-16,9948932397,patient469@example.com,"662 Station Road, Thane",O-,Fever,2026-07-26,Inactive,9375713180
+P1470,Nisha Yadav,29,Female,1997-01-15,9808588868,patient470@example.com,"717 Shivaji Nagar, Thane",A-,Hypertension,2026-07-30,Active,9820030449
+P1471,Raj Shah,49,Male,1976-11-06,9691021047,patient471@example.com,"92 MG Road, Navi Mumbai",B-,Diabetes,2026-07-19,Inactive,9350720568
+P1472,Pooja Patil,39,Female,1986-10-14,9947134005,patient472@example.com,"304 MG Road, Pune",O+,Heart Disease,2026-06-18,Inactive,9676427933
+P1473,Rahul Desai,43,Male,1983-08-02,9472928462,patient473@example.com,"877 Green Park, Pune",A+,Fever,2026-07-15,Active,9272870138
+P1474,Divya Jain,41,Female,1985-05-02,9804923873,patient474@example.com,"777 Shivaji Nagar, Pune",B+,Asthma,2026-07-12,Active,9227199606
+P1475,Raj Desai,21,Male,2004-09-27,9898836185,patient475@example.com,"983 Station Road, Mumbai",B-,Infection,2026-07-12,Active,9207889701
+P1476,Isha Pawar,59,Female,1967-01-30,9156770212,patient476@example.com,"69 MG Road, Nashik",A+,Asthma,2026-06-29,Active,9738526881
+P1477,Aditya Kumar,70,Male,1955-10-04,9748959710,patient477@example.com,"944 Green Park, Pune",A-,Migraine,2026-06-24,Active,9114180194
+P1478,Anjali Singh,76,Female,1950-06-21,9358451662,patient478@example.com,"119 Station Road, Pune",AB-,Allergy,2026-07-01,Inactive,9148948859
+P1479,Ankit Pawar,24,Male,2002-01-20,9267061425,patient479@example.com,"788 Shivaji Nagar, Bengaluru",A+,Allergy,2026-06-21,Inactive,9205787377
+P1480,Nisha Kulkarni,36,Female,1989-12-14,9982052713,patient480@example.com,"546 Shivaji Nagar, Aurangabad",A+,Hypertension,2026-06-21,Active,9321226278
+P1481,Aditya Gupta,32,Male,1993-11-10,9277863692,patient481@example.com,"733 Green Park, Mumbai",AB-,Fever,2026-07-10,Inactive,9661122703
+P1482,Isha Sharma,48,Female,1977-12-16,9742896798,patient482@example.com,"788 Green Park, Nagpur",AB-,Hypertension,2026-07-23,Inactive,9213584298
+P1483,Karan Sharma,53,Male,1972-11-24,9219258561,patient483@example.com,"807 Station Road, Nashik",B+,Asthma,2026-06-17,Inactive,9369846581
+P1484,Simran Joshi,67,Female,1958-11-16,9312563819,patient484@example.com,"506 Shivaji Nagar, Nagpur",A+,Infection,2026-07-24,Inactive,9700928410
+P1485,Deepak Mehta,75,Male,1951-05-18,9957134701,patient485@example.com,"303 Green Park, Delhi",O-,Gastritis,2026-07-31,Inactive,9637409177
+P1486,Priya Sharma,28,Female,1998-03-29,9818472514,patient486@example.com,"898 Shivaji Nagar, Nagpur",B+,Asthma,2026-06-20,Inactive,9299955363
+P1487,Vikram Mishra,25,Male,2000-10-11,9140857417,patient487@example.com,"818 Station Road, Bengaluru",AB+,Allergy,2026-07-06,Inactive,9589511294
+P1488,Pooja Desai,60,Female,1966-08-05,9517614209,patient488@example.com,"830 Station Road, Aurangabad",A-,Arthritis,2026-07-01,Active,9364041505
+P1489,Manish Mishra,80,Male,1945-08-29,9903768566,patient489@example.com,"972 MG Road, Pune",O-,Diabetes,2026-07-08,Active,9536553669
+P1490,Swati Singh,70,Female,1956-02-01,9178060639,patient490@example.com,"14 Station Road, Mumbai",B-,Asthma,2026-07-22,Inactive,9149843804
+P1491,Deepak Kulkarni,51,Male,1975-05-25,9402869605,patient491@example.com,"878 MG Road, Pune",B-,Heart Disease,2026-07-15,Active,9409837223
+P1492,Asha Mishra,36,Female,1990-07-07,9336642661,patient492@example.com,"34 Green Park, Thane",A-,Arthritis,2026-06-29,Active,9974076774
+P1493,Rahul Gupta,72,Male,1954-07-26,9258226709,patient493@example.com,"113 Shivaji Nagar, Pune",AB+,Infection,2026-07-17,Inactive,9919963657
+P1494,Megha Pawar,53,Female,1972-08-21,9412245889,patient494@example.com,"423 MG Road, Nagpur",O-,Asthma,2026-07-07,Inactive,9690504980
+P1495,Amit Mehta,18,Male,2008-07-27,9980667345,patient495@example.com,"131 Shivaji Nagar, Navi Mumbai",AB+,Migraine,2026-07-11,Active,9626760528
+P1496,Asha Mishra,69,Female,1957-01-12,9231296592,patient496@example.com,"337 Station Road, Nagpur",O-,Gastritis,2026-06-24,Active,9246904781
+P1497,Nikhil Yadav,22,Male,2003-11-27,9453814892,patient497@example.com,"836 Green Park, Nashik",B-,Heart Disease,2026-07-03,Inactive,9921495018
+P1498,Nisha Joshi,50,Female,1976-02-20,9488995820,patient498@example.com,"275 MG Road, Kolhapur",A+,Heart Disease,2026-07-25,Inactive,9272632082
+P1499,Sanjay Pawar,42,Male,1984-05-24,9417436521,patient499@example.com,"815 Shivaji Nagar, Kolhapur",O-,Migraine,2026-07-30,Inactive,9930178643
+P1500,Simran Joshi,27,Female,1999-02-05,9169425841,patient500@example.com,"462 Green Park, Mumbai",AB-,Asthma,2026-07-29,Active,9987887926

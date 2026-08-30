@@ -1,0 +1,1189 @@
+{% extends "components/dashboard_layout.html" %}
+
+{% block title %}
+Settings
+{% endblock %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+{% block extra_css %}
+
+<link rel="stylesheet"
+    href="{{ url_for('static', filename='css/settings.css') }}">
+
+{% endblock %}
+
+{% block content %}
+
+<div class="settings-page">
+
+    <!-- =====================================================
+         PAGE HEADER
+    ====================================================== -->
+
+    <div class="settings-page-header">
+
+        <div>
+
+            <h1>Settings</h1>
+
+            <p>
+                Manage your profile, system preferences and application settings
+            </p>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="settings-save-main"
+            id="saveProfileBtn"
+        >
+
+            <i class="fa-regular fa-floppy-disk"></i>
+
+            Save Changes
+
+        </button>
+
+    </div>
+
+
+    <!-- =====================================================
+         SETTINGS LAYOUT
+    ====================================================== -->
+
+    <div class="settings-layout">
+
+
+
+
+        <!-- =================================================
+             RIGHT SETTINGS CONTENT
+        ================================================== -->
+
+        <main class="settings-content">
+
+
+            <!-- =================================================
+                 PROFILE SETTINGS
+            ================================================== -->
+
+            <section
+                class="settings-section"
+                id="profileSection"
+                data-settings-section="profile"
+            >
+
+                <div class="settings-card profile-card">
+
+                    <div class="settings-card-header">
+
+                        <div>
+
+                            <h2>
+                                Profile Settings
+                            </h2>
+
+                            <p>
+                                Update your personal information and account details
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="profile-form">
+
+
+                        <!-- Avatar -->
+
+                        <div class="profile-avatar-area">
+
+                            <div class="profile-avatar">
+
+                                <i class="fa-solid fa-user-doctor"></i>
+
+                            </div>
+
+
+                            <button
+                                type="button"
+                                class="avatar-edit-btn"
+                                title="Change profile photo"
+                            >
+
+                                <i class="fa-solid fa-camera"></i>
+
+                            </button>
+
+                        </div>
+
+
+                        <!-- Profile fields -->
+
+                        <div class="profile-fields">
+
+
+                            <div class="settings-form-group">
+
+                                <label>
+                                    Full Name
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="fullName"
+                                    value="{{ profile.full_name }}"
+                                >
+
+                            </div>
+
+
+                            <div class="settings-form-group">
+
+                                <label>
+                                    Email Address
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="emailAddress"
+                                    value="{{ profile.email }}"
+                                >
+
+                            </div>
+
+
+                            <div class="settings-form-group">
+
+                                <label>
+                                    Phone Number
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="phoneNumber"
+                                    value="{{ profile.phone }}"
+                                >
+
+                            </div>
+
+
+                            <div class="settings-form-group">
+
+                                <label>
+                                    Username
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="username"
+                                    value="{{ profile.username }}"
+                                >
+
+                            </div>
+
+
+                            <div class="settings-form-group">
+
+                                <label>
+                                    Date of Birth
+                                </label>
+
+                                <div class="settings-input-icon">
+
+                                    <input
+                                        type="text"
+                                        id="dateOfBirth"
+                                        value="{{ profile.date_of_birth }}"
+                                    >
+
+                                    <i class="fa-regular fa-calendar"></i>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="settings-form-group">
+
+                                <label>
+                                    Gender
+                                </label>
+
+                                <select id="gender">
+
+                                    <option
+                                        value="Male"
+                                        {% if profile.gender == "Male" %}
+                                            selected
+                                        {% endif %}
+                                    >
+                                        Male
+                                    </option>
+
+                                    <option
+                                        value="Female"
+                                        {% if profile.gender == "Female" %}
+                                            selected
+                                        {% endif %}
+                                    >
+                                        Female
+                                    </option>
+
+                                    <option
+                                        value="Other"
+                                        {% if profile.gender == "Other" %}
+                                            selected
+                                        {% endif %}
+                                    >
+                                        Other
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="settings-form-group full-width">
+
+                                <label>
+                                    Address
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="address"
+                                    value="{{ profile.address }}"
+                                >
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     CHANGE PASSWORD
+                ================================================== -->
+
+                <div class="settings-card password-card">
+
+                    <div class="settings-card-header">
+
+                        <div>
+
+                            <h2>
+                                Change Password
+                            </h2>
+
+                            <p>
+                                Update your password regularly to keep your account secure
+                            </p>
+
+                        </div>
+
+
+                        <button
+                            type="button"
+                            class="outline-purple-btn"
+                            id="updatePasswordBtn"
+                        >
+
+                            <i class="fa-solid fa-lock"></i>
+
+                            Update Password
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="password-fields">
+
+
+                        <div class="settings-form-group">
+
+                            <label>
+                                Current Password
+                            </label>
+
+                            <div class="password-input">
+
+                                <input
+                                    type="password"
+                                    id="currentPassword"
+                                    placeholder="Enter current password"
+                                >
+
+                                <button
+                                    type="button"
+                                    class="password-eye"
+                                    data-target="currentPassword"
+                                >
+
+                                    <i class="fa-regular fa-eye"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="settings-form-group">
+
+                            <label>
+                                New Password
+                            </label>
+
+                            <div class="password-input">
+
+                                <input
+                                    type="password"
+                                    id="newPassword"
+                                    placeholder="Enter new password"
+                                >
+
+                                <button
+                                    type="button"
+                                    class="password-eye"
+                                    data-target="newPassword"
+                                >
+
+                                    <i class="fa-regular fa-eye"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="settings-form-group">
+
+                            <label>
+                                Confirm New Password
+                            </label>
+
+                            <div class="password-input">
+
+                                <input
+                                    type="password"
+                                    id="confirmPassword"
+                                    placeholder="Confirm new password"
+                                >
+
+                                <button
+                                    type="button"
+                                    class="password-eye"
+                                    data-target="confirmPassword"
+                                >
+
+                                    <i class="fa-regular fa-eye"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     BOTTOM SETTINGS GRID
+                ================================================== -->
+
+                <div class="settings-bottom-grid">
+
+
+                    <!-- System Preferences -->
+
+                    <div class="settings-card preferences-card">
+
+                        <div class="settings-card-header">
+
+                            <div>
+
+                                <h2>
+                                    System Preferences
+                                </h2>
+
+                                <p>
+                                    Configure general system preferences
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="preferences-grid">
+
+
+                            <div class="settings-form-group">
+
+                                <label>
+                                    Language
+                                </label>
+
+                                <select id="language">
+
+                                    <option
+                                        {% if system_preferences.language == "English" %}
+                                            selected
+                                        {% endif %}
+                                    >
+                                        English
+                                    </option>
+
+                                    <option>
+                                        Hindi
+                                    </option>
+
+                                    <option>
+                                        Marathi
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="settings-form-group">
+
+                                <label>
+                                    Date Format
+                                </label>
+
+                                <select id="dateFormat">
+
+                                    <option
+                                        {% if system_preferences.date_format == "dd/mm/yyyy" %}
+                                            selected
+                                        {% endif %}
+                                    >
+                                        dd/mm/yyyy
+                                    </option>
+
+                                    <option>
+                                        mm/dd/yyyy
+                                    </option>
+
+                                    <option>
+                                        yyyy-mm-dd
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="settings-form-group">
+
+                                <label>
+                                    Time Format
+                                </label>
+
+                                <select id="timeFormat">
+
+                                    <option
+                                        {% if system_preferences.time_format == "12 Hour (01:30 PM)" %}
+                                            selected
+                                        {% endif %}
+                                    >
+                                        12 Hour (01:30 PM)
+                                    </option>
+
+                                    <option>
+                                        24 Hour (13:30)
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="settings-form-group">
+
+                                <label>
+                                    Timezone
+                                </label>
+
+                                <select id="timezone">
+
+                                    <option
+                                        {% if system_preferences.timezone == "(GMT+05:30) Asia/Kolkata" %}
+                                            selected
+                                        {% endif %}
+                                    >
+                                        (GMT+05:30) Asia/Kolkata
+                                    </option>
+
+                                    <option>
+                                        (GMT+00:00) UTC
+                                    </option>
+
+                                    <option>
+                                        (GMT+01:00) Europe/London
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="card-button-row">
+
+                            <button
+                                type="button"
+                                class="outline-purple-btn"
+                                id="savePreferencesBtn"
+                            >
+
+                                <i class="fa-solid fa-gear"></i>
+
+                                Save Preferences
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- Application Settings -->
+
+                    <div class="settings-card application-card">
+
+                        <div class="settings-card-header">
+
+                            <div>
+
+                                <h2>
+                                    Application Settings
+                                </h2>
+
+                                <p>
+                                    Configure application specific settings
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="application-settings-list">
+
+
+                            <!-- Low Stock -->
+
+                            <div class="application-setting">
+
+                                <div>
+
+                                    <strong>
+                                        Low Stock Alerts
+                                    </strong>
+
+                                    <span>
+                                        Get notified when medicine stock is running low
+                                    </span>
+
+                                </div>
+
+
+                                <label class="settings-switch">
+
+                                    <input
+                                        type="checkbox"
+                                        id="lowStockAlerts"
+                                        {% if application_settings.low_stock_alerts %}
+                                            checked
+                                        {% endif %}
+                                    >
+
+                                    <span class="settings-slider"></span>
+
+                                </label>
+
+                            </div>
+
+
+                            <!-- Expiry -->
+
+                            <div class="application-setting">
+
+                                <div>
+
+                                    <strong>
+                                        Expiry Alerts
+                                    </strong>
+
+                                    <span>
+                                        Get notified before medicines expire
+                                    </span>
+
+                                </div>
+
+
+                                <label class="settings-switch">
+
+                                    <input
+                                        type="checkbox"
+                                        id="expiryAlerts"
+                                        {% if application_settings.expiry_alerts %}
+                                            checked
+                                        {% endif %}
+                                    >
+
+                                    <span class="settings-slider"></span>
+
+                                </label>
+
+                            </div>
+
+
+                            <!-- Email -->
+
+                            <div class="application-setting">
+
+                                <div>
+
+                                    <strong>
+                                        Email Notifications
+                                    </strong>
+
+                                    <span>
+                                        Receive email notifications for important updates
+                                    </span>
+
+                                </div>
+
+
+                                <label class="settings-switch">
+
+                                    <input
+                                        type="checkbox"
+                                        id="emailNotifications"
+                                        {% if application_settings.email_notifications %}
+                                            checked
+                                        {% endif %}
+                                    >
+
+                                    <span class="settings-slider"></span>
+
+                                </label>
+
+                            </div>
+
+
+                            <!-- Dark Mode -->
+
+                            <div class="application-setting">
+
+                                <div>
+
+                                    <strong>
+                                        Dark Mode
+                                    </strong>
+
+                                    <span>
+                                        Enable dark mode for better experience
+                                    </span>
+
+                                </div>
+
+
+                                <label class="settings-switch">
+
+                                    <input
+                                        type="checkbox"
+                                        id="darkMode"
+                                        {% if application_settings.dark_mode %}
+                                            checked
+                                        {% endif %}
+                                    >
+
+                                    <span class="settings-slider"></span>
+
+                                </label>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="card-button-row">
+
+                            <button
+                                type="button"
+                                class="outline-purple-btn"
+                                id="saveApplicationSettingsBtn"
+                            >
+
+                                <i class="fa-solid fa-gear"></i>
+
+                                Save Settings
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     DANGER ZONE
+                ================================================== -->
+
+                <div class="danger-zone-card">
+
+                    <div class="danger-zone-info">
+
+                        <div class="danger-zone-icon">
+
+                            <i class="fa-solid fa-shield-halved"></i>
+
+                        </div>
+
+
+                        <div>
+
+                            <h2>
+                                Danger Zone
+                            </h2>
+
+                            <p>
+                                These actions are irreversible. Please be careful.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="danger-zone-actions">
+
+                        <button
+                            type="button"
+                            class="danger-outline-btn"
+                            id="backupDataBtn"
+                        >
+
+                            <i class="fa-solid fa-cloud-arrow-up"></i>
+
+                            Backup Data
+
+                        </button>
+
+
+                        <button
+                            type="button"
+                            class="danger-outline-btn"
+                            id="resetSystemBtn"
+                        >
+
+                            <i class="fa-solid fa-rotate-right"></i>
+
+                            Reset System
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- =================================================
+                 PLACEHOLDER SECTIONS
+            ================================================== -->
+
+            <section
+                class="settings-placeholder-section"
+                data-settings-section="pharmacy"
+            >
+
+                <div class="settings-card placeholder-card">
+
+                    <i class="fa-solid fa-store"></i>
+
+                    <h2>
+                        Pharmacy Settings
+                    </h2>
+
+                    <p>
+                        Pharmacy configuration settings will be available here.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <section
+                class="settings-placeholder-section"
+                data-settings-section="users"
+            >
+
+                <div class="settings-card placeholder-card">
+
+                    <i class="fa-solid fa-users"></i>
+
+                    <h2>
+                        User Management
+                    </h2>
+
+                    <p>
+                        Manage pharmacy staff and system users here.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <section
+                class="settings-placeholder-section"
+                data-settings-section="roles"
+            >
+
+                <div class="settings-card placeholder-card">
+
+                    <i class="fa-solid fa-shield-halved"></i>
+
+                    <h2>
+                        Roles &amp; Permissions
+                    </h2>
+
+                    <p>
+                        Configure roles and permissions here.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <section
+                class="settings-placeholder-section"
+                data-settings-section="notifications"
+            >
+
+                <div class="settings-card placeholder-card">
+
+                    <i class="fa-regular fa-bell"></i>
+
+                    <h2>
+                        Notification Settings
+                    </h2>
+
+                    <p>
+                        Notification preferences will be managed here.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <section
+                class="settings-placeholder-section"
+                data-settings-section="system"
+            >
+
+                <div class="settings-card placeholder-card">
+
+                    <i class="fa-solid fa-sliders"></i>
+
+                    <h2>
+                        System Preferences
+                    </h2>
+
+                    <p>
+                        Configure system-wide preferences here.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <section
+                class="settings-placeholder-section"
+                data-settings-section="backup"
+            >
+
+                <div class="settings-card placeholder-card">
+
+                    <i class="fa-solid fa-cloud-arrow-up"></i>
+
+                    <h2>
+                        Backup &amp; Restore
+                    </h2>
+
+                    <p>
+                        Backup and restore options will be available here.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <section
+                class="settings-placeholder-section"
+                data-settings-section="security"
+            >
+
+                <div class="settings-card placeholder-card">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    <h2>
+                        Security Settings
+                    </h2>
+
+                    <p>
+                        Security and account protection settings will be available here.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <section
+                class="settings-placeholder-section"
+                data-settings-section="audit"
+            >
+
+                <div class="settings-card placeholder-card">
+
+                    <i class="fa-regular fa-file-lines"></i>
+
+                    <h2>
+                        Audit Logs
+                    </h2>
+
+                    <p>
+                        System activity and audit logs will be displayed here.
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <section
+                class="settings-placeholder-section"
+                data-settings-section="about"
+            >
+
+                <div class="settings-card placeholder-card">
+
+                    <i class="fa-solid fa-circle-info"></i>
+
+                    <h2>
+                        About System
+                    </h2>
+
+                    <p>
+                        AI Smart Pharmacy Healthcare Management System.
+                    </p>
+
+                    <span>
+                        Version 1.0.0 (Beta)
+                    </span>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     PASSWORD CONFIRMATION MODAL
+========================================================= -->
+
+<div
+    id="passwordConfirmModal"
+    class="settings-modal"
+    style="display: none;"
+>
+
+    <div class="settings-modal-overlay"></div>
+
+    <div class="settings-modal-box">
+
+        <div class="settings-modal-header">
+
+            <h2>
+                Update Password
+            </h2>
+
+            <button
+                type="button"
+                class="settings-modal-close"
+                id="closePasswordModal"
+            >
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+
+        <div class="settings-modal-body">
+
+            <div class="settings-modal-warning">
+
+                <i class="fa-solid fa-lock"></i>
+
+                <p>
+                    Please make sure your new password is secure and
+                    different from your previous password.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="settings-modal-footer">
+
+            <button
+                type="button"
+                class="modal-cancel-btn"
+                id="cancelPasswordModal"
+            >
+                Cancel
+            </button>
+
+            <button
+                type="button"
+                class="modal-confirm-btn"
+                id="confirmPasswordUpdate"
+            >
+                Update Password
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     RESET CONFIRMATION MODAL
+========================================================= -->
+
+<div
+    id="resetSystemModal"
+    class="settings-modal"
+    style="display: none;"
+>
+
+    <div class="settings-modal-overlay"></div>
+
+    <div class="settings-modal-box">
+
+        <div class="settings-modal-header">
+
+            <h2>
+                Reset System
+            </h2>
+
+            <button
+                type="button"
+                class="settings-modal-close"
+                id="closeResetModal"
+            >
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+
+        <div class="settings-modal-body">
+
+            <div class="reset-warning">
+
+                <div class="reset-warning-icon">
+
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+
+                </div>
+
+                <div>
+
+                    <strong>
+                        Are you sure?
+                    </strong>
+
+                    <p>
+                        Resetting the system may remove application
+                        data and restore default settings.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="settings-modal-footer">
+
+            <button
+                type="button"
+                class="modal-cancel-btn"
+                id="cancelResetModal"
+            >
+                Cancel
+            </button>
+
+            <button
+                type="button"
+                class="modal-danger-btn"
+                id="confirmSystemReset"
+            >
+                Reset System
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="{{ url_for('static', filename='js/settings.js') }}"></script>
+
+{% endblock %}

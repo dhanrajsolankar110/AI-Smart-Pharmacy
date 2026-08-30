@@ -1,0 +1,1069 @@
+{% extends "components/dashboard_layout.html" %}
+
+{% block title %}
+Notifications
+{% endblock %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+{% block extra_css %}
+
+<link rel="stylesheet"
+    href="{{ url_for('static', filename='css/notifications.css') }}">
+
+{% endblock %}
+
+{% block content %}
+
+<div class="notifications-page">
+
+    <!-- =====================================================
+         PAGE HEADER
+    ====================================================== -->
+
+    <div class="notifications-page-header">
+
+        <div>
+
+            <h1>Notifications</h1>
+
+            <p>
+                Stay updated with important alerts and system notifications
+            </p>
+
+        </div>
+
+
+        <button
+            type="button"
+            class="mark-all-read-btn"
+            id="markAllReadBtn"
+        >
+
+            <i class="fa-solid fa-check"></i>
+
+            Mark all as read
+
+        </button>
+
+    </div>
+
+
+    <!-- =====================================================
+         SUMMARY CARDS
+    ====================================================== -->
+
+    <div class="notification-summary-grid">
+
+
+        <!-- All Notifications -->
+
+        <div class="notification-summary-card">
+
+            <div class="summary-icon summary-purple">
+
+                <i class="fa-regular fa-bell"></i>
+
+            </div>
+
+            <div class="summary-content">
+
+                <span class="summary-label">
+                    All Notifications
+                </span>
+
+                <strong>
+                    {{ total_notifications }}
+                </strong>
+
+                <small>
+                    Total notifications
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <!-- High Priority -->
+
+        <div class="notification-summary-card">
+
+            <div class="summary-icon summary-red">
+
+                <i class="fa-solid fa-triangle-exclamation"></i>
+
+            </div>
+
+            <div class="summary-content">
+
+                <span class="summary-label">
+                    High Priority
+                </span>
+
+                <strong>
+                    {{ high_priority }}
+                </strong>
+
+                <small>
+                    Requires immediate action
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <!-- Pending -->
+
+        <div class="notification-summary-card">
+
+            <div class="summary-icon summary-orange">
+
+                <i class="fa-regular fa-clock"></i>
+
+            </div>
+
+            <div class="summary-content">
+
+                <span class="summary-label">
+                    Pending
+                </span>
+
+                <strong>
+                    {{ pending_notifications }}
+                </strong>
+
+                <small>
+                    Action pending
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <!-- Information -->
+
+        <div class="notification-summary-card">
+
+            <div class="summary-icon summary-blue">
+
+                <i class="fa-solid fa-circle-info"></i>
+
+            </div>
+
+            <div class="summary-content">
+
+                <span class="summary-label">
+                    Information
+                </span>
+
+                <strong>
+                    {{ information_notifications }}
+                </strong>
+
+                <small>
+                    General updates
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <!-- Read -->
+
+        <div class="notification-summary-card">
+
+            <div class="summary-icon summary-green">
+
+                <i class="fa-solid fa-circle-check"></i>
+
+            </div>
+
+            <div class="summary-content">
+
+                <span class="summary-label">
+                    Read
+                </span>
+
+                <strong>
+                    {{ read_notifications }}
+                </strong>
+
+                <small>
+                    Already read
+                </small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <div class="notifications-main-layout">
+
+
+        <!-- =================================================
+             LEFT NOTIFICATION CONTENT
+        ================================================== -->
+
+        <div class="notifications-content-card">
+
+
+            <!-- Tabs + Filters -->
+
+            <div class="notifications-toolbar">
+
+
+                <!-- Tabs -->
+
+                <div class="notification-tabs">
+
+                    <button
+                        type="button"
+                        class="notification-tab active"
+                        data-tab="all"
+                    >
+                        All
+                    </button>
+
+                    <button
+                        type="button"
+                        class="notification-tab"
+                        data-tab="unread"
+                    >
+                        Unread
+                        <span>
+                            ({{ unread_count }})
+                        </span>
+                    </button>
+
+                    <button
+                        type="button"
+                        class="notification-tab"
+                        data-tab="high"
+                    >
+                        High Priority
+                        <span>
+                            ({{ high_priority_count }})
+                        </span>
+                    </button>
+
+                </div>
+
+
+                <!-- Filters -->
+
+                <div class="notification-filters">
+
+                    <select
+                        id="notificationTypeFilter"
+                        class="notification-filter"
+                    >
+
+                        <option value="all">
+                            All Types
+                        </option>
+
+                        <option value="Expiry Alert">
+                            Expiry Alert
+                        </option>
+
+                        <option value="Stock Alert">
+                            Stock Alert
+                        </option>
+
+                        <option value="Prescription">
+                            Prescription
+                        </option>
+
+                        <option value="Appointment">
+                            Appointment
+                        </option>
+
+                        <option value="System">
+                            System
+                        </option>
+
+                        <option value="Report">
+                            Report
+                        </option>
+
+                        <option value="Fraud Alert">
+                            Fraud Alert
+                        </option>
+
+                    </select>
+
+
+                    <select
+                        id="notificationStatusFilter"
+                        class="notification-filter"
+                    >
+
+                        <option value="all">
+                            All Status
+                        </option>
+
+                        <option value="Unread">
+                            Unread
+                        </option>
+
+                        <option value="Read">
+                            Read
+                        </option>
+
+                    </select>
+
+
+                    <button
+                        type="button"
+                        class="date-filter-btn"
+                        id="notificationDateBtn"
+                    >
+
+                        <span>
+                            Select Date
+                        </span>
+
+                        <i class="fa-regular fa-calendar"></i>
+
+                    </button>
+
+                    <input
+                        type="date"
+                        id="notificationDateFilter"
+                        class="hidden-date-input"
+                    >
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 TABLE
+            ================================================== -->
+
+            <div class="notifications-table-wrapper">
+
+                <table class="notifications-table">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>
+                                Notification
+                            </th>
+
+                            <th>
+                                Type
+                            </th>
+
+                            <th>
+                                Priority
+                            </th>
+
+                            <th>
+                                Date &amp; Time
+                            </th>
+
+                            <th>
+                                Status
+                            </th>
+
+                            <th>
+                                Action
+                            </th>
+
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody id="notificationsTableBody">
+
+                        {% for notification in notifications %}
+
+                        <tr
+                            class="notification-row
+                            {% if notification.status == 'Unread' %}
+                                notification-unread
+                            {% endif %}"
+                            data-id="{{ notification.id }}"
+                            data-type="{{ notification.type }}"
+                            data-priority="{{ notification.priority }}"
+                            data-status="{{ notification.status }}"
+                        >
+
+
+                            <!-- Notification -->
+
+                            <td>
+
+                                <div class="notification-info">
+
+                                    <div
+                                        class="
+                                            notification-row-icon
+                                            {% if notification.priority == 'High' %}
+                                                row-icon-red
+                                            {% elif notification.priority == 'Medium' %}
+                                                row-icon-orange
+                                            {% elif notification.type == 'Stock Alert' %}
+                                                row-icon-blue
+                                            {% elif notification.type == 'Prescription' %}
+                                                row-icon-green
+                                            {% elif notification.type == 'Appointment' %}
+                                                row-icon-purple
+                                            {% elif notification.type == 'System' %}
+                                                row-icon-blue
+                                            {% elif notification.type == 'Report' %}
+                                                row-icon-orange
+                                            {% else %}
+                                                row-icon-purple
+                                            {% endif %}
+                                        "
+                                    >
+
+                                        <i
+                                            class="fa-solid {{ notification.icon }}"
+                                        ></i>
+
+                                    </div>
+
+
+                                    <div class="notification-text">
+
+                                        <strong>
+                                            {{ notification.title }}
+                                        </strong>
+
+                                        <span>
+                                            {{ notification.description }}
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </td>
+
+
+                            <!-- Type -->
+
+                            <td>
+
+                                <span
+                                    class="
+                                        notification-type-badge
+                                        {% if notification.type == 'Expiry Alert' %}
+                                            type-expiry
+                                        {% elif notification.type == 'Stock Alert' %}
+                                            type-stock
+                                        {% elif notification.type == 'Prescription' %}
+                                            type-prescription
+                                        {% elif notification.type == 'Appointment' %}
+                                            type-appointment
+                                        {% elif notification.type == 'System' %}
+                                            type-system
+                                        {% elif notification.type == 'Report' %}
+                                            type-report
+                                        {% elif notification.type == 'Fraud Alert' %}
+                                            type-fraud
+                                        {% endif %}
+                                    "
+                                >
+
+                                    {{ notification.type }}
+
+                                </span>
+
+                            </td>
+
+
+                            <!-- Priority -->
+
+                            <td>
+
+                                <span
+                                    class="
+                                        notification-priority-badge
+                                        priority-{{ notification.priority|lower }}
+                                    "
+                                >
+
+                                    {{ notification.priority }}
+
+                                </span>
+
+                            </td>
+
+
+                            <!-- Date -->
+
+                            <td>
+
+                                <div class="notification-date">
+
+                                    <strong>
+                                        {{ notification.date }}
+                                    </strong>
+
+                                    <span>
+                                        {{ notification.time }}
+                                    </span>
+
+                                </div>
+
+                            </td>
+
+
+                            <!-- Status -->
+
+                            <td>
+
+                                <span
+                                    class="
+                                        notification-status-badge
+                                        status-{{ notification.status|lower }}
+                                    "
+                                >
+
+                                    {{ notification.status }}
+
+                                </span>
+
+                            </td>
+
+
+                            <!-- Actions -->
+
+                            <td>
+
+                                <div class="notification-actions">
+
+                                    <button
+                                        type="button"
+                                        class="notification-action-btn view-notification-btn"
+                                        data-id="{{ notification.id }}"
+                                        title="View notification"
+                                    >
+
+                                        <i class="fa-regular fa-eye"></i>
+
+                                    </button>
+
+
+                                    <button
+                                        type="button"
+                                        class="notification-action-btn delete-notification-btn"
+                                        data-id="{{ notification.id }}"
+                                        title="Delete notification"
+                                    >
+
+                                        <i class="fa-regular fa-trash-can"></i>
+
+                                    </button>
+
+                                </div>
+
+                            </td>
+
+                        </tr>
+
+                        {% endfor %}
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+            <!-- =====================================================
+     TABLE FOOTER / PAGINATION
+====================================================== -->
+
+<div class="notifications-table-footer">
+
+    <!-- RESULT COUNT -->
+
+    <div class="notifications-count">
+
+        Showing
+
+        <strong>
+            {{ start_index }}
+        </strong>
+
+        to
+
+        <strong>
+            {{ end_index }}
+        </strong>
+
+        of
+
+        <strong>
+            {{ total_notifications }}
+        </strong>
+
+        notifications
+
+    </div>
+
+
+    <!-- PAGINATION -->
+
+    <div class="notification-pagination">
+
+        <!-- PREVIOUS -->
+
+        {% if current_page > 1 %}
+
+        <a
+            href="{{ url_for(
+                'notifications.notifications',
+                page=current_page - 1
+            ) }}"
+            class="pagination-btn"
+            title="Previous page"
+        >
+            <i class="fa-solid fa-chevron-left"></i>
+        </a>
+
+        {% else %}
+
+        <span
+            class="pagination-btn disabled"
+            title="Previous page"
+        >
+            <i class="fa-solid fa-chevron-left"></i>
+        </span>
+
+        {% endif %}
+
+
+        <!-- PAGE NUMBERS -->
+
+        {% for page_num in range(1, total_pages + 1) %}
+
+            {% if
+                page_num == 1
+                or
+                page_num == total_pages
+                or
+                (
+                    page_num >= current_page - 1
+                    and
+                    page_num <= current_page + 1
+                )
+            %}
+
+                {% if page_num == current_page %}
+
+                <span
+                    class="pagination-btn active"
+                >
+                    {{ page_num }}
+                </span>
+
+                {% else %}
+
+                <a
+                    href="{{ url_for(
+                        'notifications.notifications',
+                        page=page_num
+                    ) }}"
+                    class="pagination-btn"
+                >
+                    {{ page_num }}
+                </a>
+
+                {% endif %}
+
+
+            {% elif
+                page_num == current_page - 2
+                or
+                page_num == current_page + 2
+            %}
+
+                <span class="pagination-dots">
+                    ...
+                </span>
+
+            {% endif %}
+
+        {% endfor %}
+
+
+        <!-- NEXT -->
+
+        {% if current_page < total_pages %}
+
+        <a
+            href="{{ url_for(
+                'notifications.notifications',
+                page=current_page + 1
+            ) }}"
+            class="pagination-btn"
+            title="Next page"
+        >
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+
+        {% else %}
+
+        <span
+            class="pagination-btn disabled"
+            title="Next page"
+        >
+            <i class="fa-solid fa-chevron-right"></i>
+        </span>
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+        </div>
+
+
+        <!-- =================================================
+             RIGHT SETTINGS PANEL
+        ================================================== -->
+
+        <aside class="notification-settings-card">
+
+
+            <div class="notification-settings-header">
+
+                <div class="notification-settings-title">
+
+                    <i class="fa-solid fa-gear"></i>
+
+                    <span>
+                        Notification Settings
+                    </span>
+
+                </div>
+
+                <p>
+                    Manage what notifications you receive
+                </p>
+
+            </div>
+
+
+            <!-- Expiry Alerts -->
+
+            <div class="notification-setting-item">
+
+                <div class="notification-setting-text">
+
+                    <strong>
+                        Expiry Alerts
+                    </strong>
+
+                    <span>
+                        Get notified for expired or
+                        expiring medicines
+                    </span>
+
+                </div>
+
+
+                <label class="notification-switch">
+
+                    <input
+                        type="checkbox"
+                        data-setting="expiry_alerts"
+                        {% if notification_settings.expiry_alerts %}
+                            checked
+                        {% endif %}
+                    >
+
+                    <span class="notification-slider"></span>
+
+                </label>
+
+            </div>
+
+
+            <!-- Stock Alerts -->
+
+            <div class="notification-setting-item">
+
+                <div class="notification-setting-text">
+
+                    <strong>
+                        Stock Alerts
+                    </strong>
+
+                    <span>
+                        Get notified for low stock
+                        medicines
+                    </span>
+
+                </div>
+
+
+                <label class="notification-switch">
+
+                    <input
+                        type="checkbox"
+                        data-setting="stock_alerts"
+                        {% if notification_settings.stock_alerts %}
+                            checked
+                        {% endif %}
+                    >
+
+                    <span class="notification-slider"></span>
+
+                </label>
+
+            </div>
+
+
+            <!-- Prescription Alerts -->
+
+            <div class="notification-setting-item">
+
+                <div class="notification-setting-text">
+
+                    <strong>
+                        Prescription Alerts
+                    </strong>
+
+                    <span>
+                        Get notified for new
+                        prescriptions
+                    </span>
+
+                </div>
+
+
+                <label class="notification-switch">
+
+                    <input
+                        type="checkbox"
+                        data-setting="prescription_alerts"
+                        {% if notification_settings.prescription_alerts %}
+                            checked
+                        {% endif %}
+                    >
+
+                    <span class="notification-slider"></span>
+
+                </label>
+
+            </div>
+
+
+            <!-- Appointment Reminders -->
+
+            <div class="notification-setting-item">
+
+                <div class="notification-setting-text">
+
+                    <strong>
+                        Appointment Reminders
+                    </strong>
+
+                    <span>
+                        Get reminded for patient
+                        appointments
+                    </span>
+
+                </div>
+
+
+                <label class="notification-switch">
+
+                    <input
+                        type="checkbox"
+                        data-setting="appointment_reminders"
+                        {% if notification_settings.appointment_reminders %}
+                            checked
+                        {% endif %}
+                    >
+
+                    <span class="notification-slider"></span>
+
+                </label>
+
+            </div>
+
+
+            <!-- System Updates -->
+
+            <div class="notification-setting-item">
+
+                <div class="notification-setting-text">
+
+                    <strong>
+                        System Updates
+                    </strong>
+
+                    <span>
+                        Get notified about system
+                        updates and maintenance
+                    </span>
+
+                </div>
+
+
+                <label class="notification-switch">
+
+                    <input
+                        type="checkbox"
+                        data-setting="system_updates"
+                        {% if notification_settings.system_updates %}
+                            checked
+                        {% endif %}
+                    >
+
+                    <span class="notification-slider"></span>
+
+                </label>
+
+            </div>
+
+
+            <!-- Reports -->
+
+            <div class="notification-setting-item">
+
+                <div class="notification-setting-text">
+
+                    <strong>
+                        Reports &amp; Analytics
+                    </strong>
+
+                    <span>
+                        Get notified for new
+                        reports and insights
+                    </span>
+
+                </div>
+
+
+                <label class="notification-switch">
+
+                    <input
+                        type="checkbox"
+                        data-setting="reports_analytics"
+                        {% if notification_settings.reports_analytics %}
+                            checked
+                        {% endif %}
+                    >
+
+                    <span class="notification-slider"></span>
+
+                </label>
+
+            </div>
+
+
+            <!-- Save -->
+
+            <button
+                type="button"
+                class="save-notification-settings-btn"
+                id="saveNotificationSettings"
+            >
+
+                <i class="fa-solid fa-gear"></i>
+
+                Save Preferences
+
+            </button>
+
+        </aside>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     NOTIFICATION DETAILS MODAL
+========================================================= -->
+
+<div
+    id="notificationDetailsModal"
+    class="notification-details-modal"
+    style="display: none;"
+>
+
+    <div class="notification-details-overlay"></div>
+
+    <div class="notification-details-container">
+
+        <div class="notification-details-header">
+
+            <h2>
+                Notification Details
+            </h2>
+
+            <button
+                type="button"
+                id="closeNotificationDetails"
+                class="notification-details-close"
+            >
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+
+        <div
+            id="notificationDetailsContent"
+            class="notification-details-content"
+        >
+
+            <!-- JavaScript inserts details here -->
+
+        </div>
+
+
+        <div class="notification-details-footer">
+
+            <button
+                type="button"
+                id="closeNotificationDetailsBtn"
+                class="notification-details-close-btn"
+            >
+                Close
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     JAVASCRIPT
+========================================================= -->
+
+<script src="{{ url_for('static', filename='js/notifications.js') }}"></script>
+
+{% endblock %}

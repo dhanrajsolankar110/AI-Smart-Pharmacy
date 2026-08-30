@@ -1,0 +1,296 @@
+<aside
+    class="sidebar"
+    id="sidebar">
+
+
+    <!-- ==================================================
+         LOGO
+    =================================================== -->
+
+    <div class="logo-area">
+
+        <div class="logo-icon">
+
+            <i class="fa-solid fa-briefcase-medical"></i>
+
+        </div>
+
+
+        <div class="logo-text">
+
+            <h2>
+                AI Smart Pharmacy
+            </h2>
+
+            <p>
+                Healthcare Management System
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==================================================
+         MAIN MENU
+    =================================================== -->
+
+    <ul class="menu">
+
+
+        <!-- Dashboard -->
+
+        <li class="{% if request.endpoint=='dashboard.dashboard' %}active{% endif %}">
+
+            <a href="{{ url_for('dashboard.dashboard') }}">
+
+                <i class="fa-solid fa-house"></i>
+
+                <span>
+                    Dashboard
+                </span>
+
+            </a>
+
+        </li>
+
+
+        <!-- Medicines -->
+
+        <li class="{% if request.endpoint=='medicine.medicines' %}active{% endif %}">
+
+            <a href="{{ url_for('medicine.medicines') }}">
+
+                <i class="fa-solid fa-pills"></i>
+
+                <span>
+                    Medicines
+                </span>
+
+            </a>
+
+        </li>
+
+
+        <!-- Stock Management -->
+
+        <li class="{% if request.endpoint=='stock.stock' %}active{% endif %}">
+
+            <a href="{{ url_for('stock.stock') }}">
+
+                <i class="fa-solid fa-boxes-stacked"></i>
+
+                <span>
+                    Stock Management
+                </span>
+
+            </a>
+
+        </li>
+
+
+        <!-- Expiry Intelligence -->
+
+        <li class="{% if request.endpoint=='expiry.expiry' %}active{% endif %}">
+
+            <a href="{{ url_for('expiry.expiry') }}">
+
+                <i class="fa-regular fa-calendar"></i>
+
+                <span>
+                    Expiry Intelligence
+                </span>
+
+            </a>
+
+        </li>
+
+
+        <!-- Reports -->
+
+        <li class="{% if request.endpoint=='reports.reports' %}active{% endif %}">
+
+            <a href="{{ url_for('reports.reports') }}">
+
+                <i class="fa-solid fa-chart-column"></i>
+
+                <span>
+                    Reports & Analytics
+                </span>
+
+            </a>
+
+        </li>
+
+
+        <!-- Patient Care -->
+
+        <li class="{% if request.endpoint=='patients.patients' %}active{% endif %}">
+
+            <a href="{{ url_for('patients.patients') }}">
+
+                <i class="fa-solid fa-user-doctor"></i>
+
+                <span>
+                    Patient Care
+                </span>
+
+            </a>
+
+        </li>
+
+
+        <!-- Prescriptions -->
+
+        <li class="{% if request.endpoint=='prescriptions.prescriptions' %}active{% endif %}">
+
+            <a href="{{ url_for('prescriptions.prescriptions') }}">
+
+                <i class="fa-solid fa-file-prescription"></i>
+
+                <span>
+                    Prescriptions
+                </span>
+
+            </a>
+
+        </li>
+
+
+        <!-- Notifications -->
+
+        <li class="{% if request.endpoint=='notifications.notifications' %}active{% endif %}">
+
+            <a href="{{ url_for('notifications.notifications') }}">
+
+                <i class="fa-solid fa-bell"></i>
+
+                <span>
+                    Notifications
+                </span>
+
+                <span class="badge">
+                    6
+                </span>
+
+            </a>
+
+        </li>
+
+
+        <!-- Settings -->
+
+        <li class="{% if request.endpoint=='settings.settings' %}active{% endif %}">
+
+            <a href="{{ url_for('settings.settings') }}">
+
+                <i class="fa-solid fa-gear"></i>
+
+                <span>
+                    Settings
+                </span>
+
+            </a>
+
+        </li>
+
+
+    </ul>
+
+
+    <!-- ==================================================
+         QUICK ACTIONS
+    =================================================== -->
+
+    <div class="quick-action">
+
+        <h3>
+            Quick Actions
+        </h3>
+
+
+        <!-- Add Medicine -->
+
+        <button
+            type="button"
+            class="purple"
+            id="addMedicineBtn"
+            onclick="window.location.href='{{ url_for('medicine.medicines') }}'">
+
+            <i class="fa-solid fa-plus"></i>
+
+            Add Medicine
+
+        </button>
+
+
+        <!-- Add Patient -->
+
+        <button
+            type="button"
+            class="green"
+            id="addPatientBtn"
+            onclick="window.location.href='{{ url_for('patients.patients') }}'">
+
+            <i class="fa-solid fa-user-plus"></i>
+
+            Add Patient
+
+        </button>
+
+    </div>
+
+
+    <!-- ==================================================
+         USER / VERSION
+    =================================================== -->
+
+    <div class="version">
+
+        <div class="user-box">
+
+            <div class="user-avatar">
+
+                {{ session.get('user_name', 'P')[0]|upper }}
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    {{ session.get('user_name', 'Pharmacist') }}
+                </strong>
+
+                <br>
+
+                <small>
+                    Pharmacist
+                </small>
+
+            </div>
+
+            <a
+        href="{{ url_for('logout') }}"
+        class="sidebar-logout-button"
+        title="Logout"
+    >
+        <i class="fa-solid fa-right-from-bracket"></i>
+    </a>
+
+        </div>
+
+
+        <hr>
+
+
+        © 2026 AI Smart Pharmacy
+
+        <br>
+
+        v1.0.0 (Beta)
+
+    </div>
+
+
+</aside>

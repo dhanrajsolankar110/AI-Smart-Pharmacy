@@ -1,0 +1,1254 @@
+/* =========================================================
+   AI SMART PHARMACY
+   MODULE 3 — STOCK MANAGEMENT
+   SAME COMPACT DESIGN AS MODULE 2
+   ========================================================= */
+
+:root {
+    --primary: #5525d9;
+    --primary-dark: #451bb8;
+    --primary-light: #eee9ff;
+
+    --green: #16b978;
+    --green-light: #e5f8ef;
+
+    --orange: #ff9417;
+    --orange-light: #fff0dc;
+
+    --red: #f04444;
+    --red-light: #ffe7e7;
+
+    --blue: #2384e8;
+    --blue-light: #e7f2ff;
+
+    --text: #111827;
+    --text-secondary: #5f6b7a;
+    --text-light: #8791a1;
+
+    --border: #e5e8ee;
+    --background: #f7f8fb;
+    --white: #ffffff;
+
+    --radius: 12px;
+    --shadow: 0 2px 8px rgba(17, 24, 39, 0.045);
+}
+
+
+/* =========================================================
+   PAGE
+   ========================================================= */
+
+.stock-page {
+    width: 100%;
+
+    padding: 10px;
+
+    background: var(--background);
+
+    min-height: calc(100vh - 72px);
+
+    box-sizing: border-box;
+
+    font-family: "Inter", sans-serif;
+
+}
+
+
+/* =========================================================
+   PAGE HEADER
+   ========================================================= */
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.page-title h1 {
+    margin: 0;
+
+    color: var(--text);
+
+    font-size: 27px;
+    line-height: 1.2;
+
+    font-weight: 700;
+
+    letter-spacing: -0.4px;
+}
+
+.page-title p {
+    margin: 5px 0 0;
+
+    color: var(--text-secondary);
+
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   SUMMARY GRID
+   ========================================================= */
+
+.summary-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 14px;
+
+    margin-bottom: 16px;
+}
+
+
+/* =========================================================
+   SUMMARY CARDS
+   SAME COMPACT HEIGHT AS MODULE 2
+   ========================================================= */
+
+.summary-card {
+    height: 112px;
+    min-height: 112px;
+    max-height: 112px;
+
+    box-sizing: border-box;
+
+    background: var(--white);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    padding: 18px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 14px;
+
+    box-shadow: var(--shadow);
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   SUMMARY ICONS
+   ========================================================= */
+
+.summary-icon {
+    width: 48px;
+    height: 48px;
+
+    min-width: 48px;
+
+    border-radius: 11px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+}
+
+.summary-icon.purple {
+    background: var(--primary-light);
+    color: var(--primary);
+}
+
+.summary-icon.green {
+    background: var(--green-light);
+    color: var(--green);
+}
+
+.summary-icon.orange {
+    background: var(--orange-light);
+    color: var(--orange);
+}
+
+.summary-icon.red {
+    background: var(--red-light);
+    color: var(--red);
+}
+
+.summary-icon.blue {
+    background: var(--blue-light);
+    color: var(--blue);
+}
+
+
+/* =========================================================
+   SUMMARY CONTENT
+   ========================================================= */
+
+.summary-content {
+    min-width: 0;
+}
+
+.summary-content h5 {
+    margin: 0 0 4px;
+
+    color: var(--text-secondary);
+
+    font-size: 12px;
+
+    font-weight: 500;
+
+    white-space: nowrap;
+}
+
+.summary-content h2 {
+    margin: 0 0 4px;
+
+    color: var(--text);
+
+    font-size: 25px;
+
+    line-height: 1;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+}
+
+.summary-content span {
+    color: var(--text-light);
+
+    font-size: 11px;
+
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   MAIN STOCK CARD
+   ========================================================= */
+
+.stock-card {
+    width: 100%;
+
+    background: var(--white);
+
+    border: 1px solid var(--border);
+
+    border-radius: var(--radius);
+
+    box-shadow: var(--shadow);
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   STOCK TABS
+   ========================================================= */
+
+.stock-tabs {
+    min-height: 54px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 4px;
+
+    padding: 0 14px;
+
+    border-bottom: 1px solid var(--border);
+
+    background: #ffffff;
+}
+
+.tab-btn {
+    height: 54px;
+
+    padding: 0 15px;
+
+    border: none;
+
+    border-bottom: 2px solid transparent;
+
+    background: transparent;
+
+    color: #6b7585;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.tab-btn:hover {
+    color: var(--primary);
+}
+
+.tab-btn.active {
+    color: var(--primary);
+
+    border-bottom-color: var(--primary);
+}
+
+
+/* =========================================================
+   TOOLBAR
+   ========================================================= */
+
+.stock-toolbar {
+    min-height: 62px;
+
+    padding: 10px 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 12px;
+
+    background: #ffffff;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.toolbar-left,
+.toolbar-right {
+    display: flex;
+    align-items: center;
+
+    gap: 9px;
+}
+
+
+/* =========================================================
+   SEARCH BOX
+   ========================================================= */
+
+.search-box {
+    width: 290px;
+    height: 38px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+}
+
+.search-box i {
+    position: absolute;
+
+    left: 12px;
+
+    color: #8b95a5;
+
+    font-size: 13px;
+
+    pointer-events: none;
+}
+
+.search-box input {
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+
+    padding: 0 12px 0 34px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 7px;
+
+    background: #ffffff;
+
+    color: var(--text);
+
+    font-size: 12px;
+
+    outline: none;
+
+    transition:
+        border 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.search-box input::placeholder {
+    color: #9aa3b1;
+}
+
+.search-box input:focus {
+    border-color: var(--primary);
+
+    box-shadow:
+        0 0 0 3px rgba(85, 37, 217, 0.08);
+}
+
+
+/* =========================================================
+   FILTER SELECTS
+   ========================================================= */
+
+.stock-toolbar select {
+    height: 38px;
+
+    min-width: 135px;
+
+    padding: 0 30px 0 11px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 7px;
+
+    background: #ffffff;
+
+    color: var(--text);
+
+    font-size: 12px;
+
+    outline: none;
+
+    cursor: pointer;
+}
+
+.stock-toolbar select:focus {
+    border-color: var(--primary);
+}
+
+
+/* =========================================================
+   ADD STOCK BUTTON
+   ========================================================= */
+
+.add-stock-btn {
+    height: 38px;
+
+    padding: 0 15px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 7px;
+
+    border: none;
+
+    border-radius: 7px;
+
+    background: var(--primary);
+
+    color: #ffffff;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.add-stock-btn:hover {
+    background: var(--primary-dark);
+
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 4px 12px rgba(85, 37, 217, 0.2);
+}
+
+.add-stock-btn i {
+    font-size: 13px;
+}
+
+
+/* =========================================================
+   TABLE RESPONSIVE
+   ========================================================= */
+
+.table-responsive {
+    width: 100%;
+
+    overflow-x: auto;
+}
+
+
+/* =========================================================
+   STOCK TABLE
+   ========================================================= */
+
+.stock-table {
+    width: 100%;
+
+    min-width: 900px;
+
+    border-collapse: collapse;
+
+    table-layout: auto;
+}
+
+.stock-table thead {
+    background: #fbfcfe;
+}
+
+.stock-table th {
+    height: 44px;
+
+    padding: 0 14px;
+
+    border-bottom: 1px solid var(--border);
+
+    color: #657084;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+    text-align: left;
+
+    white-space: nowrap;
+}
+
+.stock-table td {
+    height: 63px;
+
+    padding: 8px 14px;
+
+    border-bottom: 1px solid #edf0f4;
+
+    color: #4f5b6c;
+
+    font-size: 12px;
+
+    vertical-align: middle;
+
+    white-space: nowrap;
+}
+
+.stock-table tbody tr {
+    transition: background 0.15s ease;
+}
+
+.stock-table tbody tr:hover {
+    background: #faf9ff;
+}
+
+.stock-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+
+/* =========================================================
+   MEDICINE INFORMATION
+   ========================================================= */
+
+.medicine-info {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.medicine-image {
+    width: 38px;
+    height: 38px;
+
+    min-width: 38px;
+
+    border-radius: 8px;
+
+    overflow: hidden;
+
+    background: #f5f6f8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.medicine-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.medicine-details {
+    display: flex;
+    flex-direction: column;
+
+    gap: 3px;
+}
+
+.medicine-details h4 {
+    margin: 0;
+
+    color: var(--text);
+
+    font-size: 12px;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   STOCK NUMBER
+   ========================================================= */
+
+.stock-table td:nth-child(4) {
+    color: var(--text);
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   STATUS BADGES
+   ========================================================= */
+
+.status {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 70px;
+
+    height: 26px;
+
+    padding: 0 9px;
+
+    border-radius: 6px;
+
+    font-size: 10px;
+
+    font-weight: 600;
+}
+
+.status.success {
+    color: #14945f;
+
+    background: #e8f8f0;
+}
+
+.status.warning {
+    color: #d97b00;
+
+    background: #fff1dc;
+}
+
+.status.danger {
+    color: #dc3e3e;
+
+    background: #ffe8e8;
+}
+
+
+/* =========================================================
+   TABLE ACTIONS
+   ========================================================= */
+
+.table-actions {
+    display: flex;
+    align-items: center;
+
+    gap: 5px;
+}
+
+.action-btn {
+    width: 31px;
+    height: 31px;
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--border);
+
+    border-radius: 6px;
+
+    background: #ffffff;
+
+    color: #667085;
+
+    font-size: 12px;
+
+    cursor: pointer;
+
+    text-decoration: none;
+
+    transition: all 0.18s ease;
+}
+
+.action-btn:hover {
+    background: #f8f7ff;
+
+    border-color: #d9d1ff;
+
+    color: var(--primary);
+}
+
+.action-btn.edit:hover {
+    background: var(--primary-light);
+
+    border-color: #d8ccff;
+
+    color: var(--primary);
+}
+
+.action-btn.more:hover {
+    background: #f4f5f7;
+
+    color: var(--text);
+}
+
+
+/* =========================================================
+   TABLE FOOTER
+   ========================================================= */
+
+.table-footer {
+    min-height: 58px;
+
+    padding: 0 14px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #ffffff;
+
+    border-top: 1px solid var(--border);
+}
+
+.table-info {
+    color: #7a8494;
+
+    font-size: 11px;
+}
+
+.table-info strong {
+    color: var(--text);
+}
+
+
+/* =========================================================
+   PAGINATION
+   ========================================================= */
+
+.pagination {
+    display: flex;
+
+    align-items: center;
+
+    gap: 5px;
+}
+
+.pagination button {
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid var(--border);
+
+    border-radius: 6px;
+
+    background: #ffffff;
+
+    color: #5f6978;
+
+    font-size: 11px;
+
+    cursor: pointer;
+
+    transition: all 0.18s ease;
+}
+
+.pagination button:hover {
+    border-color: #cfc5ff;
+
+    color: var(--primary);
+}
+
+.pagination button.active {
+    border-color: var(--primary);
+
+    background: var(--primary);
+
+    color: #ffffff;
+}
+
+.pagination .dots {
+    width: 25px;
+
+    text-align: center;
+
+    color: #8a94a4;
+
+    font-size: 12px;
+}
+
+
+/* =========================================================
+   MODALS
+   SAME COMPACT STYLE AS MODULE 2
+   ========================================================= */
+
+.modal {
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 9999;
+
+    display: none;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    background: rgba(15, 23, 42, 0.48);
+
+    backdrop-filter: blur(3px);
+}
+
+.modal.show {
+    display: flex;
+}
+
+.modal-content {
+    width: min(760px, 100%);
+
+    max-height: 90vh;
+
+    overflow-y: auto;
+
+    background: #ffffff;
+
+    border: 1px solid var(--border);
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 20px 60px rgba(15, 23, 42, 0.18);
+}
+
+
+/* =========================================================
+   MODAL HEADER
+   ========================================================= */
+
+.modal-header {
+    min-height: 66px;
+
+    padding: 14px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.modal-header h2 {
+    margin: 0;
+
+    color: var(--text);
+
+    font-size: 18px;
+
+    font-weight: 700;
+}
+
+.modal-header p {
+    margin: 4px 0 0;
+
+    color: var(--text-secondary);
+
+    font-size: 11px;
+}
+
+.modal-close {
+    width: 34px;
+    height: 34px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 7px;
+
+    background: #ffffff;
+
+    color: #6b7280;
+
+    cursor: pointer;
+}
+
+.modal-close:hover {
+    background: #fff0f0;
+
+    color: var(--red);
+}
+
+
+/* =========================================================
+   MODAL BODY
+   ========================================================= */
+
+.modal-body {
+    padding: 20px;
+}
+
+.section-title {
+    margin: 0 0 12px;
+
+    color: var(--text);
+
+    font-size: 13px;
+
+    font-weight: 700;
+}
+
+.section-title:not(:first-child) {
+    margin-top: 20px;
+}
+
+
+/* =========================================================
+   FORM GRID
+   ========================================================= */
+
+.form-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 13px;
+}
+
+.form-group {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 6px;
+}
+
+.form-group.full {
+    grid-column: 1 / -1;
+}
+
+.form-group label {
+    color: #4b5563;
+
+    font-size: 11px;
+
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    border: 1px solid var(--border);
+
+    border-radius: 7px;
+
+    background: #ffffff;
+
+    color: var(--text);
+
+    font-size: 12px;
+
+    outline: none;
+
+    transition:
+        border 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.form-group input,
+.form-group select {
+    height: 38px;
+
+    padding: 0 11px;
+}
+
+.form-group textarea {
+    min-height: 90px;
+
+    padding: 10px;
+
+    resize: vertical;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: var(--primary);
+
+    box-shadow:
+        0 0 0 3px rgba(85, 37, 217, 0.08);
+}
+
+
+/* =========================================================
+   IMAGE PREVIEW
+   ========================================================= */
+
+.image-preview {
+    width: 90px;
+    height: 90px;
+
+    border: 1px dashed #d9dde5;
+
+    border-radius: 9px;
+
+    background: #fafbfc;
+
+    overflow: hidden;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.image-preview img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   VIEW STOCK MODAL
+   ========================================================= */
+
+.view-stock-header {
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    margin-bottom: 20px;
+
+    padding: 14px;
+
+    background: #faf9ff;
+
+    border: 1px solid #ece8ff;
+
+    border-radius: 10px;
+}
+
+.view-stock-image {
+    width: 64px;
+    height: 64px;
+
+    min-width: 64px;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    background: #ffffff;
+
+    border: 1px solid var(--border);
+}
+
+.view-stock-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+.view-stock-info h2 {
+    margin: 0 0 3px;
+
+    color: var(--text);
+
+    font-size: 17px;
+
+    font-weight: 700;
+}
+
+.view-stock-info p {
+    margin: 0 0 7px;
+
+    color: var(--text-secondary);
+
+    font-size: 11px;
+}
+
+
+/* =========================================================
+   MODAL FOOTER
+   ========================================================= */
+
+.modal-footer {
+    min-height: 64px;
+
+    padding: 12px 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: flex-end;
+
+    gap: 8px;
+
+    border-top: 1px solid var(--border);
+}
+
+.cancel-btn,
+.save-btn {
+    height: 38px;
+
+    padding: 0 15px;
+
+    border-radius: 7px;
+
+    font-size: 12px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 7px;
+}
+
+.cancel-btn {
+    border: 1px solid var(--border);
+
+    background: #ffffff;
+
+    color: #667085;
+}
+
+.cancel-btn:hover {
+    background: #f8f9fb;
+}
+
+.save-btn {
+    border: none;
+
+    background: var(--primary);
+
+    color: #ffffff;
+}
+
+.save-btn:hover {
+    background: var(--primary-dark);
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 1200px) {
+
+    .summary-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .search-box {
+        width: 240px;
+    }
+}
+
+
+@media (max-width: 900px) {
+
+    .stock-page {
+        padding: 18px;
+    }
+
+    .stock-toolbar {
+        align-items: stretch;
+
+        flex-direction: column;
+    }
+
+    .toolbar-left,
+    .toolbar-right {
+        width: 100%;
+
+        flex-wrap: wrap;
+    }
+
+    .search-box {
+        flex: 1;
+
+        width: auto;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .summary-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .summary-card {
+        height: 100px;
+
+        min-height: 100px;
+
+        max-height: 100px;
+    }
+
+    .stock-tabs {
+        overflow-x: auto;
+    }
+
+    .tab-btn {
+        flex-shrink: 0;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-group.full {
+        grid-column: auto;
+    }
+
+    .modal-content {
+        max-height: 94vh;
+    }
+
+    .table-footer {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 10px;
+
+        padding: 12px 14px;
+    }
+}

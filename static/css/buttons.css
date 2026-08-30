@@ -1,0 +1,49 @@
+.primary-btn{
+
+background:var(--primary);
+
+color:white;
+
+border:none;
+
+padding:14px 28px;
+
+border-radius:12px;
+
+cursor:pointer;
+
+}
+
+.primary-btn:hover{
+
+background:var(--primary-dark);
+
+}
+
+.secondary-btn{
+
+background:white;
+
+border:1px solid var(--border);
+
+padding:14px 24px;
+
+border-radius:12px;
+
+cursor:pointer;
+
+}
+
+.danger-btn{
+
+background:var(--danger);
+
+color:white;
+
+border:none;
+
+padding:14px 24px;
+
+border-radius:12px;
+
+}

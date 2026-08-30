@@ -1,0 +1,808 @@
+{% extends "components/dashboard_layout.html" %}
+
+{% block title %}
+
+Medicines
+
+{% endblock %}
+
+{% block page_title %}
+
+Medicines
+
+{% endblock %}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+{% block extra_css %}
+
+<link
+rel="stylesheet"
+href="{{ url_for('static', filename='css/medicines.css') }}">
+
+{% endblock %}
+
+{% block content %}
+
+<div class="medicines-page">
+
+    <!-- ==========================================
+         PAGE HEADER
+    =========================================== -->
+
+    <div class="page-header">
+
+        <div class="page-title">
+
+            <h1>
+
+                Medicines
+
+            </h1>
+
+            <p>
+
+                Manage your medicine inventory and categories
+
+            </p>
+
+        </div>
+
+        <div class="page-actions">
+
+            <button
+
+                class="add-btn"
+
+                id="openAddMedicine">
+
+                <i class="fa-solid fa-plus"></i>
+
+                Add Medicine
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================================
+         SUMMARY CARDS
+    =========================================== -->
+
+    <div class="summary-grid">
+
+        <!-- Card -->
+
+        <div class="summary-card">
+
+            <div class="summary-icon purple">
+
+                <i class="fa-solid fa-capsules"></i>
+
+            </div>
+
+            <div>
+
+                <h5>
+
+                    Total Medicines
+
+                </h5>
+
+                <h2>
+
+                    {{ total_medicines }}
+
+                </h2>
+
+                <span>
+
+                    All medicines
+
+                </span>
+
+            </div>
+
+        </div>
+
+        <!-- Card -->
+
+        <div class="summary-card">
+
+            <div class="summary-icon green">
+
+                <i class="fa-solid fa-box-open"></i>
+
+            </div>
+
+            <div>
+
+                <h5>
+
+                    Active Medicines
+
+                </h5>
+
+                <h2>
+
+                    {{ active_medicines }}
+
+                </h2>
+
+                <span>
+
+                    Available for sale
+
+                </span>
+
+            </div>
+
+        </div>
+
+        <!-- Card -->
+
+        <div class="summary-card">
+
+            <div class="summary-icon orange">
+
+                <i class="fa-solid fa-triangle-exclamation"></i>
+
+            </div>
+
+            <div>
+
+                <h5>
+
+                    Low Stock
+
+                </h5>
+
+                <h2>
+
+                    {{ low_stock }}
+
+                </h2>
+
+                <span>
+
+                    Needs reordering
+
+                </span>
+
+            </div>
+
+        </div>
+
+        <!-- Card -->
+
+        <div class="summary-card">
+
+            <div class="summary-icon red">
+
+                <i class="fa-solid fa-circle-xmark"></i>
+
+            </div>
+
+            <div>
+
+                <h5>
+
+                    Out of Stock
+
+                </h5>
+
+                <h2>
+
+                    {{ out_of_stock }}
+
+                </h2>
+
+                <span>
+
+                    Currently unavailable
+
+                </span>
+
+            </div>
+
+        </div>
+
+        <!-- Card -->
+
+        <div class="summary-card">
+
+            <div class="summary-icon blue">
+
+                <i class="fa-solid fa-layer-group"></i>
+
+            </div>
+
+            <div>
+
+                <h5>
+
+                    Total Categories
+
+                </h5>
+
+                <h2>
+
+                    {{ total_categories }}
+
+                </h2>
+
+                <span>
+
+                    Medicine categories
+
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================================
+         FILTER BAR
+    =========================================== -->
+
+    <div class="medicine-toolbar">
+
+        <div class="toolbar-left">
+
+            <div class="search-box">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+
+                    type="text"
+
+                    id="medicineSearch"
+
+                    placeholder="Search medicines by name, generic name..."
+
+                >
+
+            </div>
+
+            <select id="categoryFilter">
+
+                <option>
+
+                    All Categories
+
+                </option>
+
+                {% for category in categories %}
+
+                <option>
+
+                    {{ category[0] }}
+
+                </option>
+
+                {% endfor %}
+
+            </select>
+
+            <select id="statusFilter">
+
+                <option>
+
+                    All Status
+
+                </option>
+
+                <option>
+
+                    In Stock
+
+                </option>
+
+                <option>
+
+                    Low Stock
+
+                </option>
+
+                <option>
+
+                    Out of Stock
+
+                </option>
+
+            </select>
+
+            <select id="manufacturerFilter">
+
+                <option>
+
+                    All Manufacturers
+
+                </option>
+
+                {% for manufacturer in manufacturers %}
+
+                <option>
+
+                    {{ manufacturer[0] }}
+
+                </option>
+
+                {% endfor %}
+
+            </select>
+
+        </div>
+
+        <div class="toolbar-right">
+
+            <button
+
+                class="export-btn"
+
+                id="exportMedicines">
+
+                <i class="fa-solid fa-download"></i>
+
+                Export
+
+            </button>
+
+            <button
+
+                class="filter-btn">
+
+                <i class="fa-solid fa-filter"></i>
+
+                Filter
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================================
+         MEDICINES TABLE
+    =========================================== -->
+
+    <div class="table-card">
+
+        <div class="table-responsive">
+
+            <table class="medicine-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+
+                            Medicine
+
+                        </th>
+
+                        <th>
+
+                            Generic Name
+
+                        </th>
+
+                        <th>
+
+                            Category
+
+                        </th>
+
+                        <th>
+
+                            Manufacturer
+
+                        </th>
+
+                        <th>
+
+                            Price (MRP)
+
+                        </th>
+
+                        <th>
+
+                            Stock
+
+                        </th>
+
+                        <th>
+
+                            Status
+
+                        </th>
+
+                        <th>
+
+                            Expiry Date
+
+                        </th>
+
+                        <th>
+
+                            Action
+
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                                    {% for medicine in medicines %}
+
+                <tr>
+
+                    <!-- =====================================
+                         MEDICINE
+                    ====================================== -->
+
+                    <td>
+
+                        <div class="medicine-info">
+
+                            <div class="medicine-image">
+
+                                {% if medicine.image %}
+
+                                <img
+
+                                    src="{{ url_for('static', filename='uploads/medicines/' + medicine.image) }}"
+
+                                    alt="{{ medicine.medicine_name }}"
+
+                                >
+
+                                {% else %}
+
+                                <img
+
+                                    src="{{ url_for('static', filename='images/default_medicine.png') }}"
+
+                                    alt="Medicine"
+
+                                >
+
+                                {% endif %}
+
+                            </div>
+
+                            <div class="medicine-details">
+
+                                <h4>
+
+                                    {{ medicine.medicine_name }}
+
+                                </h4>
+
+                                <span>
+
+                                    {{ medicine.medicine_code }}
+
+                                </span>
+
+                            </div>
+
+                        </div>
+
+                    </td>
+
+                    <!-- =====================================
+                         GENERIC NAME
+                    ====================================== -->
+
+                    <td>
+
+                        {{ medicine.generic_name }}
+
+                    </td>
+
+                    <!-- =====================================
+                         CATEGORY
+                    ====================================== -->
+
+                    <td>
+
+                        {{ medicine.category }}
+
+                    </td>
+
+                    <!-- =====================================
+                         MANUFACTURER
+                    ====================================== -->
+
+                    <td>
+
+                        {{ medicine.manufacturer }}
+
+                    </td>
+
+                    <!-- =====================================
+                         PRICE
+                    ====================================== -->
+
+                    <td>
+
+                        ₹{{ "%.2f"|format(medicine.selling_price) }}
+
+                    </td>
+
+                    <!-- =====================================
+                         STOCK
+                    ====================================== -->
+
+                    <td>
+
+                        <strong>
+
+                            {{ medicine.quantity }}
+
+                        </strong>
+
+                        {{ medicine.unit }}
+
+                    </td>
+
+                    <!-- =====================================
+                         STATUS
+                    ====================================== -->
+
+                    <td>
+
+                        {% if medicine.status=="In Stock" %}
+
+                        <span class="status success">
+
+                            In Stock
+
+                        </span>
+
+                        {% elif medicine.status=="Low Stock" %}
+
+                        <span class="status warning">
+
+                            Low Stock
+
+                        </span>
+
+                        {% else %}
+
+                        <span class="status danger">
+
+                            Out of Stock
+
+                        </span>
+
+                        {% endif %}
+
+                    </td>
+
+                    <!-- =====================================
+                         EXPIRY
+                    ====================================== -->
+
+                    <td>
+
+                        {{ medicine.expiry_date }}
+
+                    </td>
+
+                    <!-- =====================================
+                         ACTIONS
+                    ====================================== -->
+
+                    <td>
+
+                        <div class="table-actions">
+
+                            <button
+
+                                class="action-btn edit"
+
+                                data-id="{{ medicine.id }}"
+
+                                title="Edit">
+
+                                <i class="fa-solid fa-pen-to-square"></i>
+
+                            </button>
+
+                            <a
+
+                                href="{{ url_for('medicine.delete_medicine', id=medicine.id) }}"
+
+                                class="action-btn delete"
+
+                                onclick="return confirm('Delete this medicine?')"
+
+                                title="Delete"
+
+                            >
+
+                                <i class="fa-solid fa-trash"></i>
+
+                            </a>
+
+                            <button
+
+                                class="action-btn more"
+
+                                title="More">
+
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                            </button>
+
+                        </div>
+
+                    </td>
+
+                </tr>
+
+                {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+    <!-- ==========================================
+         PAGINATION
+    =========================================== -->
+
+    <div class="table-footer">
+
+    <div class="table-info">
+
+        Showing
+
+        <strong>
+            {{ pagination.first or 0 }}
+        </strong>
+
+        to
+
+        <strong>
+            {{ pagination.last or 0 }}
+        </strong>
+
+        of
+
+        <strong>
+            {{ pagination.total }}
+        </strong>
+
+        medicines
+
+    </div>
+
+
+    <div class="pagination">
+
+        <!-- PREVIOUS -->
+
+        {% if pagination.has_prev %}
+
+        <a
+            href="{{ url_for(
+                'medicine.medicines',
+                page=pagination.prev_num
+            ) }}"
+            class="pagination-btn"
+        >
+            <i class="fa-solid fa-angle-left"></i>
+        </a>
+
+        {% else %}
+
+        <span class="pagination-btn disabled">
+            <i class="fa-solid fa-angle-left"></i>
+        </span>
+
+        {% endif %}
+
+
+
+        <!-- PAGE NUMBERS -->
+
+        {% for page_num in pagination.iter_pages(
+            left_edge=1,
+            left_current=1,
+            right_current=1,
+            right_edge=1
+        ) %}
+
+            {% if page_num %}
+
+                {% if page_num == pagination.page %}
+
+                <span class="pagination-btn active">
+                    {{ page_num }}
+                </span>
+
+                {% else %}
+
+                <a
+                    href="{{ url_for(
+                        'medicine.medicines',
+                        page=page_num
+                    ) }}"
+                    class="pagination-btn"
+                >
+                    {{ page_num }}
+                </a>
+
+                {% endif %}
+
+            {% else %}
+
+                <span class="pagination-dots">
+                    ...
+                </span>
+
+            {% endif %}
+
+        {% endfor %}
+
+
+
+        <!-- NEXT -->
+
+        {% if pagination.has_next %}
+
+        <a
+            href="{{ url_for(
+                'medicine.medicines',
+                page=pagination.next_num
+            ) }}"
+            class="pagination-btn"
+        >
+            <i class="fa-solid fa-angle-right"></i>
+        </a>
+
+        {% else %}
+
+        <span class="pagination-btn disabled">
+            <i class="fa-solid fa-angle-right"></i>
+        </span>
+
+        {% endif %}
+
+    </div>
+
+</div>
+
+    <!-- ==========================================
+         MODALS
+    =========================================== -->
+
+    {% include "medicines/add_medicine_modal.html" %}
+
+    {% include "medicines/edit_medicine_modal.html" %}
+
+</div>
+
+{% endblock %}
+
+{% block extra_js %}
+
+<script src="{{ url_for('static', filename='js/medicines.js') }}"></script>
+
+{% endblock %}

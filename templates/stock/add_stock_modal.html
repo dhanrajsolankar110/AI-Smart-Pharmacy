@@ -1,0 +1,514 @@
+<!-- ==========================================================
+     ADD STOCK MODAL
+========================================================== -->
+
+<div
+    class="modal"
+    id="addStockModal">
+
+    <div class="modal-content">
+
+        <!-- ==================================================
+             HEADER
+        =================================================== -->
+
+        <div class="modal-header">
+
+            <div>
+
+                <h2>
+
+                    Add Stock
+
+                </h2>
+
+                <p>
+
+                    Add a new medicine into inventory.
+
+                </p>
+
+            </div>
+
+            <button
+                class="modal-close"
+                id="closeAddStockModal">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+        <!-- ==================================================
+             FORM
+        =================================================== -->
+
+        <form
+            action="{{ url_for('stock.add_stock') }}"
+            method="POST"
+            enctype="multipart/form-data">
+
+            <div class="modal-body">
+
+                <!-- ==========================================
+                     BASIC INFORMATION
+                =========================================== -->
+
+                <h3 class="section-title">
+
+                    Basic Information
+
+                </h3>
+
+                <div class="form-grid">
+
+                    <!-- Medicine Code -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Medicine Code
+
+                        </label>
+
+                        <input
+                            type="text"
+                            name="medicine_code"
+                            required>
+
+                    </div>
+
+                    <!-- Barcode -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Barcode
+
+                        </label>
+
+                        <input
+                            type="text"
+                            name="barcode">
+
+                    </div>
+
+                    <!-- Medicine Name -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Medicine Name
+
+                        </label>
+
+                        <input
+                            type="text"
+                            name="medicine_name"
+                            required>
+
+                    </div>
+
+                    <!-- Generic Name -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Generic Name
+
+                        </label>
+
+                        <input
+                            type="text"
+                            name="generic_name">
+
+                    </div>
+
+                    <!-- Category -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Category
+
+                        </label>
+
+                        <select
+                            name="category"
+                            required>
+
+                            <option value="">
+
+                                Select Category
+
+                            </option>
+
+                            {% for category in categories %}
+
+                            <option value="{{ category[0] }}">
+
+                                {{ category[0] }}
+
+                            </option>
+
+                            {% endfor %}
+
+                        </select>
+
+                    </div>
+
+                    <!-- Supplier -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Supplier
+
+                        </label>
+
+                        <input
+                            type="text"
+                            name="supplier">
+
+                    </div>
+
+                </div>
+
+                                <!-- ==========================================
+                     STOCK INFORMATION
+                =========================================== -->
+
+                <h3 class="section-title">
+
+                    Stock Information
+
+                </h3>
+
+                <div class="form-grid">
+
+                    <!-- Manufacturer -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Manufacturer
+
+                        </label>
+
+                        <input
+                            type="text"
+                            name="manufacturer"
+                            required>
+
+                    </div>
+
+                    <!-- Batch Number -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Batch Number
+
+                        </label>
+
+                        <input
+                            type="text"
+                            name="batch_number"
+                            required>
+
+                    </div>
+
+                    <!-- Purchase Price -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Purchase Price (₹)
+
+                        </label>
+
+                        <input
+                            type="number"
+                            step="0.01"
+                            min="0"
+                            name="purchase_price"
+                            required>
+
+                    </div>
+
+                    <!-- Selling Price -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Selling Price (₹)
+
+                        </label>
+
+                        <input
+                            type="number"
+                            step="0.01"
+                            min="0"
+                            name="selling_price"
+                            required>
+
+                    </div>
+
+                    <!-- Quantity -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Quantity
+
+                        </label>
+
+                        <input
+                            type="number"
+                            min="0"
+                            name="quantity"
+                            required>
+
+                    </div>
+
+                    <!-- Reorder Level -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Reorder Level
+
+                        </label>
+
+                        <input
+                            type="number"
+                            min="0"
+                            name="reorder_level"
+                            required>
+
+                    </div>
+
+                    <!-- Unit -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Unit
+
+                        </label>
+
+                        <select
+                            name="unit"
+                            required>
+
+                            <option value="">
+
+                                Select Unit
+
+                            </option>
+
+                            <option>
+
+                                Tablets
+
+                            </option>
+
+                            <option>
+
+                                Capsules
+
+                            </option>
+
+                            <option>
+
+                                Bottles
+
+                            </option>
+
+                            <option>
+
+                                Strips
+
+                            </option>
+
+                            <option>
+
+                                Vials
+
+                            </option>
+
+                            <option>
+
+                                Boxes
+
+                            </option>
+
+                            <option>
+
+                                Syrup
+
+                            </option>
+
+                            <option>
+
+                                Injection
+
+                            </option>
+
+                        </select>
+
+                    </div>
+
+                    <!-- Manufacture Date -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Manufacture Date
+
+                        </label>
+
+                        <input
+                            type="date"
+                            name="manufacture_date">
+
+                    </div>
+
+                    <!-- Expiry Date -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Expiry Date
+
+                        </label>
+
+                        <input
+                            type="date"
+                            name="expiry_date"
+                            required>
+
+                    </div>
+
+                </div>
+
+                                <!-- ==========================================
+                     IMAGE & DESCRIPTION
+                =========================================== -->
+
+                <h3 class="section-title">
+
+                    Additional Information
+
+                </h3>
+
+                <div class="form-grid">
+
+                    <!-- Medicine Image -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Medicine Image
+
+                        </label>
+
+                        <input
+                            type="file"
+                            name="image"
+                            accept="image/*"
+                            id="stockImage">
+
+                    </div>
+
+                    <!-- Image Preview -->
+
+                    <div class="form-group">
+
+                        <label>
+
+                            Image Preview
+
+                        </label>
+
+                        <div class="image-preview">
+
+                            <img
+                                id="stockPreview"
+                                src="{{ url_for('static', filename='images/default-medicine.png') }}"
+                                alt="Medicine Preview">
+
+                        </div>
+
+                    </div>
+
+                    <!-- Description -->
+
+                    <div class="form-group full">
+
+                        <label>
+
+                            Description
+
+                        </label>
+
+                        <textarea
+                            name="description"
+                            rows="5"
+                            placeholder="Enter medicine description..."></textarea>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ==========================================
+                 MODAL FOOTER
+            =========================================== -->
+
+            <div class="modal-footer">
+
+                <button
+                    type="button"
+                    class="cancel-btn"
+                    id="cancelAddStock">
+
+                    Cancel
+
+                </button>
+
+                <button
+                    type="submit"
+                    class="save-btn">
+
+                    <i class="fa-solid fa-floppy-disk"></i>
+
+                    Save Stock
+
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
