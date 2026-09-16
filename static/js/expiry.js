@@ -87,6 +87,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     /* ======================================================
+       EXPIRED ITEM STATUS
+    ====================================================== */
+
+    updateExpiredItemStatus();
+
+
+    /* ======================================================
        ALERT SETTINGS
     ====================================================== */
 
@@ -331,6 +338,10 @@ function getStatusClass(status) {
 
     switch ((status || "").toLowerCase()) {
 
+        case "unsafe":
+
+            return "unsafe";
+
         case "critical":
 
             return "danger";
@@ -356,6 +367,46 @@ function getStatusClass(status) {
             return "warning";
 
     }
+
+}
+
+
+/* ==========================================================
+   UPDATE EXPIRED ITEMS AS UNSAFE
+========================================================== */
+
+function updateExpiredItemStatus() {
+
+    const rows =
+        document.querySelectorAll(
+            ".expiry-table tbody tr[data-name]"
+        );
+
+    rows.forEach(row => {
+
+        const days =
+            parseInt(
+                row.dataset.days || "0",
+                10
+            );
+
+        if (Number.isNaN(days) || days >= 0) {
+            return;
+        }
+
+        row.dataset.status = "Unsafe";
+
+        const statusElement =
+            row.querySelector(".status");
+
+        if (!statusElement) {
+            return;
+        }
+
+        statusElement.textContent = "Unsafe";
+        statusElement.className = "status unsafe";
+
+    });
 
 }
 

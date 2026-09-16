@@ -783,6 +783,12 @@
     background: var(--red-light);
 }
 
+.status.unsafe {
+    color: #b42318;
+
+    background: #fee4e2;
+}
+
 .status.warning {
     color: #d97b00;
 
